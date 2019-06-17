@@ -1,0 +1,571 @@
+
+{
+    "logo": "https://i.imgur.com/KQr8AKr.png",
+    "yetee_link": "sgdq",
+    "gdq_link": "sgdq2019",
+    "google_link": "",
+    "3720": {
+        "tw": "Preshow",
+        "sr": ""
+    },
+    "3721": {
+        "tw": "Spyro Reignited Trilogy: Spyro the Dragon",
+        "sr": ""
+    },
+    "3722": {
+        "tw": "Portal 2",
+        "sr": ""
+    },
+    "3723": {
+        "tw": "Teenage Mutant Ninja Turtles III: The Manhattan Project",
+        "sr": ""
+    },
+    "3724": {
+        "tw": "Super Mario Bros. 2",
+        "sr": ""
+    },
+    "3725": {
+        "tw": "Donkey Kong Country 2: Diddy's Kong Quest",
+        "sr": ""
+    },
+    "3726": {
+        "tw": "Kirby Nightmare in Dream Land",
+        "sr": ""
+    },
+    "3727": {
+        "tw": "Sonic Generations",
+        "sr": ""
+    },
+    "3728": {
+        "tw": "The Legend of Zelda: The Minish Cap",
+        "sr": ""
+    },
+    "3729": {
+        "tw": "Devil May Cry",
+        "sr": ""
+    },
+    "3730": {
+        "tw": "Streets of Rage",
+        "sr": ""
+    },
+    "3731": {
+        "tw": "Final Doom",
+        "sr": ""
+    },
+    "3732": {
+        "tw": "Outland",
+        "sr": ""
+    },
+    "3733": {
+        "tw": "The Hobbit",
+        "sr": ""
+    },
+    "3734": {
+        "tw": "Tony Hawk's Underground 2",
+        "sr": ""
+    },
+    "3735": {
+        "tw": "Zombies Ate My Neighbors",
+        "sr": ""
+    },
+    "3736": {
+        "tw": "Blaster Master",
+        "sr": ""
+    },
+    "3737": {
+        "tw": "Solomon's Key",
+        "sr": ""
+    },
+    "3738": {
+        "tw": "Metroid",
+        "sr": ""
+    },
+    "3739": {
+        "tw": "Rygar",
+        "sr": ""
+    },
+    "3740": {
+        "tw": "DuckTales 2",
+        "sr": ""
+    },
+    "3741": {
+        "tw": "Marble Madness",
+        "sr": ""
+    },
+    "3742": {
+        "tw": "Jackal",
+        "sr": ""
+    },
+    "3743": {
+        "tw": "Contra",
+        "sr": ""
+    },
+    "3744": {
+        "tw": "Contra III: The Alien Wars",
+        "sr": ""
+    },
+    "3745": {
+        "tw": "Alien Soldier",
+        "sr": ""
+    },
+    "3746": {
+        "tw": "Ranger-X",
+        "sr": ""
+    },
+    "3747": {
+        "tw": "Ninja Spirit",
+        "sr": ""
+    },
+    "3748": {
+        "tw": "Super Time Force Ultra",
+        "sr": ""
+    },
+    "3749": {
+        "tw": "Half-Minute Hero",
+        "sr": ""
+    },
+    "3750": {
+        "tw": "Timespinner",
+        "sr": ""
+    },
+    "3751": {
+        "tw": "Castlevania",
+        "sr": ""
+    },
+    "3752": {
+        "tw": "Bloodstained: Curse of the Moon",
+        "sr": ""
+    },
+    "3753": {
+        "tw": "Castlevania: Symphony of the Night",
+        "sr": ""
+    },
+    "3754": {
+        "tw": "Castlevania: Portrait of Ruin",
+        "sr": ""
+    },
+    "3755": {
+        "tw": "Prey",
+        "sr": ""
+    },
+    "3756": {
+        "tw": "Titanfall 2",
+        "sr": ""
+    },
+    "3757": {
+        "tw": "Bonus Game 1",
+        "sr": ""
+    },
+    "3758": {
+        "tw": "Borderlands 2",
+        "sr": ""
+    },
+    "3759": {
+        "tw": "Metroid Prime",
+        "sr": ""
+    },
+    "3760": {
+        "tw": "Metroid Prime 2: Echoes",
+        "sr": ""
+    },
+    "3761": {
+        "tw": "Uncharted: Drake's Fortune",
+        "sr": ""
+    },
+    "3762": {
+        "tw": "Chasm: The Rift",
+        "sr": ""
+    },
+    "3763": {
+        "tw": "Monster Boy in the Cursed Kingdom",
+        "sr": ""
+    },
+    "3764": {
+        "tw": "The Textorcist",
+        "sr": ""
+    },
+    "3765": {
+        "tw": "Skylar & Plux: Adventure On Clover Island",
+        "sr": ""
+    },
+    "3766": {
+        "tw": "Slot Car Rivals",
+        "sr": ""
+    },
+    "3767": {
+        "tw": "Slipstream",
+        "sr": ""
+    },
+    "3768": {
+        "tw": "Split/Second",
+        "sr": ""
+    },
+    "3769": {
+        "tw": "Kirby Air Ride",
+        "sr": ""
+    },
+    "3770": {
+        "tw": "Kirby 64: The Crystal Shards",
+        "sr": ""
+    },
+    "3771": {
+        "tw": "Ape Escape",
+        "sr": ""
+    },
+    "3772": {
+        "tw": "Crash Bandicoot: N. Sane Trilogy",
+        "sr": ""
+    },
+    "3773": {
+        "tw": "Punch-Out!! (Arcade)",
+        "sr": ""
+    },
+    "3774": {
+        "tw": "Punch-Out!! (Wii)",
+        "sr": ""
+    },
+    "3775": {
+        "tw": "Pokemon Crystal",
+        "sr": ""
+    },
+    "3776": {
+        "tw": "The Legend of Zelda Randomizer",
+        "sr": ""
+    },
+    "3777": {
+        "tw": "Bonus Game 2",
+        "sr": ""
+    },
+    "3778": {
+        "tw": "Super Mario Sunshine",
+        "sr": ""
+    },
+    "3779": {
+        "tw": "Resident Evil 2 (2019)",
+        "sr": ""
+    },
+    "3780": {
+        "tw": "Silent Hill 3",
+        "sr": ""
+    },
+    "3781": {
+        "tw": "Sonic Adventure DX: Director's Cut",
+        "sr": ""
+    },
+    "3782": {
+        "tw": "Divekick",
+        "sr": ""
+    },
+    "3783": {
+        "tw": "We Love Katamari",
+        "sr": ""
+    },
+    "3784": {
+        "tw": "Shrek Extra Large",
+        "sr": ""
+    },
+    "3785": {
+        "tw": "Mort the Chicken",
+        "sr": ""
+    },
+    "3786": {
+        "tw": "Catlateral Damage",
+        "sr": ""
+    },
+    "3787": {
+        "tw": "Hylics",
+        "sr": ""
+    },
+    "3788": {
+        "tw": "Laffy Taffy 3D Pyramid Challenge",
+        "sr": ""
+    },
+    "3789": {
+        "tw": "Glover",
+        "sr": ""
+    },
+    "3790": {
+        "tw": "Castlevania (DOS)",
+        "sr": ""
+    },
+    "3791": {
+        "tw": "Last Action Hero",
+        "sr": ""
+    },
+    "3792": {
+        "tw": "Splatterhouse: Wanpaku Graffiti",
+        "sr": ""
+    },
+    "3793": {
+        "tw": "Sylvester and Tweety in Cagey Capers",
+        "sr": ""
+    },
+    "3794": {
+        "tw": "Boogerman: A Pick and Flick Adventure",
+        "sr": ""
+    },
+    "3795": {
+        "tw": "T.R.A.G.",
+        "sr": ""
+    },
+    "3796": {
+        "tw": "Clustertruck",
+        "sr": ""
+    },
+    "3797": {
+        "tw": "Nex Machina",
+        "sr": ""
+    },
+    "3798": {
+        "tw": "Furi",
+        "sr": ""
+    },
+    "3799": {
+        "tw": "Nuclear Throne",
+        "sr": ""
+    },
+    "3800": {
+        "tw": "Mega Man X2",
+        "sr": ""
+    },
+    "3801": {
+        "tw": "Command & Conquer: Red Alert 3",
+        "sr": ""
+    },
+    "3802": {
+        "tw": "Bonus Game 3",
+        "sr": ""
+    },
+    "3803": {
+        "tw": "The Legend of Zelda: A Link Between Worlds",
+        "sr": ""
+    },
+    "3804": {
+        "tw": "Dark Souls II",
+        "sr": ""
+    },
+    "3805": {
+        "tw": "Dead Rising",
+        "sr": ""
+    },
+    "3806": {
+        "tw": "Remnants of Naezith",
+        "sr": ""
+    },
+    "3807": {
+        "tw": "Super Benbo Quest: Turbo Deluxe",
+        "sr": ""
+    },
+    "3808": {
+        "tw": "Looney Tunes",
+        "sr": ""
+    },
+    "3809": {
+        "tw": "Rhino Rumble",
+        "sr": ""
+    },
+    "3810": {
+        "tw": "Jumper: Griffin's Story",
+        "sr": ""
+    },
+    "3811": {
+        "tw": "Aero the Acro-Bat 2",
+        "sr": ""
+    },
+    "3812": {
+        "tw": "Super Bomberman 2",
+        "sr": ""
+    },
+    "3813": {
+        "tw": "Bomberman 64: The Second Attack",
+        "sr": ""
+    },
+    "3814": {
+        "tw": "Gauntlet",
+        "sr": ""
+    },
+    "3815": {
+        "tw": "Chip 'N Dale: Rescue Rangers",
+        "sr": ""
+    },
+    "3816": {
+        "tw": "Teenage Mutant Ninja Turtles IV: Turtles In Time",
+        "sr": ""
+    },
+    "3817": {
+        "tw": "Ristar",
+        "sr": ""
+    },
+    "3818": {
+        "tw": "Sonic 3D Blast",
+        "sr": ""
+    },
+    "3820": {
+        "tw": "Cave Story",
+        "sr": ""
+    },
+    "3821": {
+        "tw": "Koumajou Densetsu II: Yougen no Chingonka",
+        "sr": ""
+    },
+    "3822": {
+        "tw": "Fire Emblem Fates",
+        "sr": ""
+    },
+    "3823": {
+        "tw": "Kingdom Hearts III",
+        "sr": ""
+    },
+    "3824": {
+        "tw": "Banjo-Kazooie",
+        "sr": ""
+    },
+    "3825": {
+        "tw": "Invictus",
+        "sr": ""
+    },
+    "3826": {
+        "tw": "Grand Poo World 2",
+        "sr": ""
+    },
+    "3827": {
+        "tw": "Bonus Game 4",
+        "sr": ""
+    },
+    "3828": {
+        "tw": "Super Mario World",
+        "sr": ""
+    },
+    "3829": {
+        "tw": "Mario Kart: Double Dash!!",
+        "sr": ""
+    },
+    "3830": {
+        "tw": "Super Mario Galaxy 2",
+        "sr": ""
+    },
+    "3831": {
+        "tw": "Pac-Man World",
+        "sr": ""
+    },
+    "3832": {
+        "tw": "Sly Cooper and the Thievius Raccoonus",
+        "sr": ""
+    },
+    "3833": {
+        "tw": "Star Fox 64",
+        "sr": ""
+    },
+    "3834": {
+        "tw": "Diablo 2: Lord Of Destruction",
+        "sr": ""
+    },
+    "3835": {
+        "tw": "Quake",
+        "sr": ""
+    },
+    "3836": {
+        "tw": "Half-Life",
+        "sr": ""
+    },
+    "3837": {
+        "tw": "Half-Life 2",
+        "sr": ""
+    },
+    "3838": {
+        "tw": "Minecraft",
+        "sr": ""
+    },
+    "3839": {
+        "tw": "Octopath Traveler",
+        "sr": ""
+    },
+    "3840": {
+        "tw": "Rockman 4 Minus Infinity",
+        "sr": ""
+    },
+    "3841": {
+        "tw": "Mega Man 3",
+        "sr": ""
+    },
+    "3842": {
+        "tw": "Mega Man 11",
+        "sr": ""
+    },
+    "3843": {
+        "tw": "Tetris Effect",
+        "sr": ""
+    },
+    "3844": {
+        "tw": "TASBot plays Tetris",
+        "sr": ""
+    },
+    "3845": {
+        "tw": "TASBot plays Mario Kart Wii",
+        "sr": ""
+    },
+    "3846": {
+        "tw": "Bonus Game 5",
+        "sr": ""
+    },
+    "3847": {
+        "tw": "Dark Souls",
+        "sr": ""
+    },
+    "3848": {
+        "tw": "The Legend of Zelda: Breath of the Wild",
+        "sr": ""
+    },
+    "3849": {
+        "tw": "The Legend of Zelda: Majora's Mask",
+        "sr": ""
+    },
+    "3850": {
+        "tw": "Metal Slug X",
+        "sr": ""
+    },
+    "3851": {
+        "tw": "Metal Slug 3",
+        "sr": ""
+    },
+    "3852": {
+        "tw": "Cannon Spike",
+        "sr": ""
+    },
+    "3853": {
+        "tw": "Lara Croft Tomb Raider: Legend",
+        "sr": ""
+    },
+    "3854": {
+        "tw": "Transistor",
+        "sr": ""
+    },
+    "3855": {
+        "tw": "The Elder Scrolls V: Skyrim",
+        "sr": ""
+    },
+    "3856": {
+        "tw": "Pokemon Let's Go, Pikachu/Eevee!",
+        "sr": ""
+    },
+    "3857": {
+        "tw": "Super Mario World",
+        "sr": ""
+    },
+    "3858": {
+        "tw": "Bonus Game 6",
+        "sr": ""
+    },
+    "3859": {
+        "tw": "Link to the Past + Super Metroid Combo Randomizer",
+        "sr": ""
+    },
+    "3860": {
+        "tw": "Chrono Trigger",
+        "sr": ""
+    },
+    "3861": {
+        "tw": "Finale",
+        "sr": ""
+    }
+}
