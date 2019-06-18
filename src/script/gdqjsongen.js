@@ -11,7 +11,10 @@ request(gdqrun, function (error, response, body) {
     body.forEach((element)=>{
         output[element.pk]={
             "tw": element.fields.name,
-            "sr": ""
+            "sr": "",
+            "vod": "",
+            "yt": "",
+            "gm": "",
         }
     });
     output['logo'] = "";

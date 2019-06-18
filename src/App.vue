@@ -239,11 +239,19 @@
                 <v-flex class="sbl" xs1>
                   <div>{{i.starttime.getHours().toString().padStart(2,0)}}:{{i.starttime.getMinutes().toString().padStart(2,0)}}</div>
                 </v-flex>
-                <v-flex class="sbl" xs4>
+                <v-flex class="sbl py-1" xs4>
                   <div>{{i.name}}</div>
                 </v-flex>
-                <v-flex class="sbl" xs4>
-                  <div>{{i.runners}}</div>
+                <v-flex class="sbl justify-space-around" xs4>
+                  <a v-if="i.tw.vod!=''" :href="'https://www.twitch.tv/videos/'+i.tw.vod" target="_blank">
+                    <v-icon>fab fa-twitch</v-icon>
+                  </a>
+                  <a v-if="i.tw.yt!=''" :href="'https://www.youtube.com/watch?v='+i.tw.yt" target="_blank">
+                    <v-icon>fab fa-youtube</v-icon>
+                  </a>
+                  <a v-if="i.tw.gm!=''" :href="i.tw.gm" target="_blank">
+                    <v-icon>fab fa-steam</v-icon>
+                  </a>
                 </v-flex>
                 <v-flex class="sbl" xs1>
                   <div>{{i.run_time}}</div>
@@ -261,8 +269,8 @@
                   <v-layout row wrap justify-space-around>
                     <v-flex xs6 v-for="j in i.runnersArr" :key="'runner'+index+j">
                       {{rnList[j].name}}:
-                      <a :href="rnList[j].stream" target="_blank"><v-icon v-if="rnList[j].stream!=''">fab fa-twitch</v-icon></a>
-                      <a :href="'https://twitter.com/'+rnList[j].twitter" target="_blank"><v-icon v-if="rnList[j].twitter!=''">fab fa-twitter</v-icon></a>
+                      <a class="px-1" :href="rnList[j].stream" target="_blank"><v-icon v-if="rnList[j].stream!=''">fab fa-twitch</v-icon></a>
+                      <a class="px-1" :href="'https://twitter.com/'+rnList[j].twitter" target="_blank"><v-icon v-if="rnList[j].twitter!=''">fab fa-twitter</v-icon></a>
                     </v-flex>
                   </v-layout>
                 </v-flex>
@@ -478,7 +486,7 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss">
 @import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
 * {
     font-family: 'Noto Sans TC';
@@ -500,44 +508,55 @@ body{
   padding-bottom:2%;
   background-color: #B2DFDB;
 }
-.slayout:nth-child(odd) {
+.slayout{
+  &:nth-child(odd) {
     background-color: #B2DFDB;
     color:#303030;
-}
-.slayout:nth-child(even) {
+    &.end {
+      background-color: #CCCCCC !important;
+      color:#303030 !important;
+    }
+  }
+  &:nth-child(even) {
     background-color: #E0F2F1;
     color:#303030;
-}
-.slayout > .stl{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #009688;
-  padding:5px 0 5px 0;
-  color:#E0F2F1;
-  border:#80CBC4;
-  border-right-style: solid;
-  border-top-style: solid;
-}
-.slayout > .sbl {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border:#80CBC4;
-  border-right-style: solid;
-  border-top-style: solid;
-  vertical-align: middle;
-}
-.slayout:nth-child(odd).end {
-  background-color: #CCCCCC !important;
-  color:#303030 !important;
-}
-.slayout:nth-child(even).end{
-  background-color: #DDDDDD !important;
-  color:#303030 !important;
-}
-.slayout > .slast{
-  border-right-style: none;
+    &.end{
+      background-color: #DDDDDD !important;
+      color:#303030 !important;
+    }
+  }
+  .stl{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #009688;
+    padding:5px 0 5px 0;
+    color:#E0F2F1;
+    border:#80CBC4;
+    border-right-style: solid;
+    border-top-style: solid;
+  }
+  .sbl {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border:#80CBC4;
+    border-right-style: solid;
+    border-top-style: solid;
+    vertical-align: middle;
+    &.justify-space-around{
+      justify-content: space-around;
+    }
+  }
+  .slast{
+    border-right-style: none;
+  }
+  &.now{
+    &.end{
+      background-color: #FAFAFA !important;
+    }
+    background-color: #FAFAFA !important;
+  }
 }
 .cardbg{
   background-color: #E0F2F1 !important;
@@ -545,12 +564,6 @@ body{
 .Ctitle{
   padding:1%;
   background: rgba(80, 80, 80, 0.5);
-}
-.slayout.end.now{
-  background-color: #FAFAFA !important;
-}
-.slayout.now{
-  background-color: #FAFAFA !important;
 }
 .sticky{
   position: sticky;
