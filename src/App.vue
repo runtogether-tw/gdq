@@ -54,14 +54,14 @@
                       <v-container fill-height fluid>
                         <v-layout fill-height>
                           <v-flex xs12 align-start flexbox>
-                            <span class="Ctitle headline white--text">UP Next</span>
+                            <span class="Ctitle headline white--text">Now Playing</span>
                           </v-flex>
                         </v-layout>
                       </v-container>
                     </v-img>
                     <v-card-title primary-title>
                       <v-layout row wrap justify-space-around>
-                        <v-flex xs12 class="headline">{{sdList[nowplaying].name}}</v-flex>
+                        <v-flex xs12 class="twolines">{{sdList[nowplaying].name}}</v-flex>
                         <v-flex xs12>{{sdList[nowplaying].tw.tw}}<a v-if="sdList[nowplaying].tw.sr!=''" :href="'https://www.speedrun.com/'+sdList[nowplaying].tw.sr"><span>&ensp;</span><v-icon>fas fa-trophy</v-icon></a></v-flex>
                         <v-flex xs12 class="grey--text">準備時間: {{sdList[nowplaying].setup_time}}</v-flex>
                         <v-flex xs12 class="grey--text">預計時間: {{sdList[nowplaying].run_time}}</v-flex>
@@ -75,13 +75,6 @@
                       :src="twJSON['logo']"
                       height="300px"
                     >
-                      <v-container fill-height fluid>
-                        <v-layout fill-height>
-                          <v-flex xs12 align-start flexbox>
-                            <span class="Ctitle headline white--text">UP Next</span>
-                          </v-flex>
-                        </v-layout>
-                      </v-container>
                     </v-img>
                     <v-card-title primary-title pa-3>
                       <v-layout row wrap justify-space-around>
@@ -108,7 +101,7 @@
                     </v-img>
                     <v-card-title primary-title>
                       <v-layout row wrap justify-space-around>
-                        <v-flex xs12 class="headline">{{sdList[nowplaying+1].name}}</v-flex>
+                        <v-flex xs12 class="twolines">{{sdList[nowplaying+1].name}}</v-flex>
                         <v-flex xs12>{{sdList[nowplaying+1].tw.tw}}<a v-if="sdList[nowplaying+1].tw.sr!=''" :href="'https://www.speedrun.com/'+sdList[nowplaying+1].tw.sr"><span>&ensp;</span><v-icon>fas fa-trophy</v-icon></a></v-flex>
                         <v-flex xs12 class="grey--text">準備時間: {{sdList[nowplaying+1].setup_time}}</v-flex>
                         <v-flex xs12 class="grey--text">開始時間: {{(sdList[nowplaying+1].starttime.getMonth()+1).toString().padStart(2,0)}}/{{sdList[nowplaying+1].starttime.getDate().toString().padStart(2,0)}} {{sdList[nowplaying+1].starttime.getHours().toString().padStart(2,0)}}:{{sdList[nowplaying+1].starttime.getMinutes().toString().padStart(2,0)}}</v-flex>
@@ -129,7 +122,7 @@
                   <div>請依照自己喜好調整通知系統強度。</div>
                   <div>使用提醒功能時，建議將此頁面獨立成一個視窗，放置於背景分頁會因為瀏覽器節省資源而不播放背景音效。</div>
                 </v-flex>
-                <v-flex xs3>
+                <v-flex xs4>
                   <v-select
                   :items="alertitem"
                   v-model="alertselect"
@@ -139,6 +132,9 @@
                   item-value="alerttext"
                   append-icon="fas fa-sort-down"
                   ></v-select>
+                </v-flex>
+                <v-flex v-if="sysNotiSupport" xs4>
+                  <v-switch v-model="sysNoti" label="啟用系統桌面通知"></v-switch>
                 </v-flex>
                 <v-flex xs12>
                   <div>- 提醒清單 -</div>
@@ -182,7 +178,7 @@
               <v-flex xs12>彩學台:</v-flex>
               <v-flex xs12>
                 <v-btn title="Twitch頻道" color="teal" href="https://www.twitch.tv/tetristhegrandmaster3" target="_blank"><v-icon style="color:#E0F2F1">fab fa-twitch</v-icon></v-btn>
-                <v-btn title="Google節目表單" color="teal" :href="twJSON['google_link']" target="_blank"><v-icon style="color:#E0F2F1">fas fa-th-list</v-icon></v-btn>
+                <v-btn title="Google節目表單" color="teal" v-if="twJSON['google_link']" :href="twJSON['google_link']" target="_blank"><v-icon style="color:#E0F2F1">fas fa-th-list</v-icon></v-btn>
               </v-flex>
               <v-flex xs12>GDQ官方:</v-flex>
               <v-flex xs12>
@@ -201,6 +197,10 @@
                 <v-btn title="The Yetee紀念T恤" color="teal" :href="'https://theyetee.com/collections/'+this.twJSON['yetee_link']" target="_blank"><v-icon style="color:#E0F2F1">fas fa-tshirt</v-icon></v-btn>
                 <v-btn title="Fangamer紀念品商店" color="teal" href="https://www.fangamer.com/collections/games-done-quick" target="_blank"><v-icon style="color:#E0F2F1">fas fa-gift</v-icon></v-btn>
               </v-flex>
+              <v-flex xs12>功能測試:</v-flex>
+              <v-flex xs12>
+                <v-btn color="teal" title="測試鬧鈴" v-on:click="test()"><v-icon style="color:#E0F2F1">fas fa-volume-up</v-icon></v-btn>
+              </v-flex>              
             </v-card>
           </v-tab-item>
         </v-tabs>
@@ -275,8 +275,10 @@
                   </v-layout>
                 </v-flex>
                 <v-flex class="sbl slast" xs2>
-                  <v-btn v-on:click="InsertNotification(sdList.indexOf(i))" color="teal" v-if="(!i.notification)&&((i.starttime.getTime() > nowdate.getTime()))"><v-icon style="color:#E0F2F1">far fa-bell</v-icon></v-btn>
-                  <v-btn v-on:click="DeleteNotification(sdList.indexOf(i))" color="pink darken-3" v-if="(i.notification)&&((i.starttime.getTime() > nowdate.getTime()))"><v-icon style="color:#E0F2F1">far fa-bell-slash</v-icon></v-btn>
+                  <template v-if="sdList.indexOf(i)!==0">
+                    <v-btn v-on:click="InsertNotification(sdList.indexOf(i))" color="teal" v-if="(!i.notification)&&((i.starttime.getTime() > nowdate.getTime()))"><v-icon style="color:#E0F2F1">far fa-bell</v-icon></v-btn>
+                    <v-btn v-on:click="DeleteNotification(sdList.indexOf(i))" color="pink darken-3" v-if="(i.notification)&&((i.starttime.getTime() > nowdate.getTime()))"><v-icon style="color:#E0F2F1">far fa-bell-slash</v-icon></v-btn>                    
+                  </template>
                 </v-flex>
               </v-layout>  
             </template>
@@ -309,10 +311,12 @@ export default {
       sdList: [],
       rnList: [],
       notification: [],
-      alertitem: [{"state":"弱","alerttext":"節目快開始了骯骯骯骯骯骯骯骯骯骯"},
-                  {"state":"中","alerttext":"節目快開始了骯骯骯骯骯骯骯骯骯骯骯骯骯骯骯骯骯骯骯骯"},
-                  {"state":"強","alerttext":"節目快開始了骯骯骯骯骯骯骯骯骯骯骯骯骯骯骯骯骯骯骯骯骯骯骯骯骯骯骯骯骯骯"}],
-      alertselect: "節目快開始了骯骯骯骯骯骯骯骯骯骯",
+      sysNotiSupport: false,
+      sysNoti: true,
+      alertitem: [{'state':'弱','alerttext':'節目快開始了骯骯骯骯骯骯骯骯骯骯'},
+                  {'state':'中','alerttext':'節目快開始了骯骯骯骯骯骯骯骯骯骯骯骯骯骯骯骯骯骯骯骯'},
+                  {'state':'強','alerttext':'節目快開始了骯骯骯骯骯骯骯骯骯骯骯骯骯骯骯骯骯骯骯骯骯骯骯骯骯骯骯骯骯骯'}],
+      alertselect: '節目快開始了骯骯骯骯骯骯骯骯骯骯',
       nowdate: null,
       loading: true,
       nowplaying: 0,
@@ -324,8 +328,38 @@ export default {
         //Clear old notification from list
         this.notification = this.notification.filter(element => element >= val);
         this.DeleteNotification(val);
-        document.getElementById("BaoAlert").load();
-        document.getElementById("BaoAlert").play();
+        if(this.sysNotiSupport && this.sysNoti){
+          let gameNotification = new Notification('GDQ中文節目表',{
+              badge: 'https://i.imgur.com/3HF5L7V.png',
+              body: `'${this.twJSON[this.sdList[val].pk].tw}'快開始了！`,
+              icon: this.twJSON['logo'],
+          });
+        }
+        document.getElementById('BaoAlert').load();
+        document.getElementById('BaoAlert').play();
+      }
+    },
+    sysNoti: function (val) {
+      if (val){
+        if(Notification.permission !== 'granted'){
+          Notification.requestPermission().then((permission) => {
+            if (permission === 'granted') {
+              let firstNotification = new Notification('GDQ中文節目表',{
+                  badge: 'https://i.imgur.com/3HF5L7V.png',
+                  body: '您已開啟桌面通知功能',
+                  icon: this.twJSON['logo'],
+              });
+            } else {
+              this.sysNoti = false;
+            }
+          });
+        } else {
+          let notification = new Notification('GDQ中文節目表',{
+              badge: 'https://i.imgur.com/3HF5L7V.png',
+              body: '您已開啟桌面通知功能',
+              icon: this.twJSON['logo'],
+          });
+        }
       }
     }
   },
@@ -339,14 +373,14 @@ export default {
       return this.sdList.filter(e => e.starttime.getDate() === this.dateArr[index].date.getDate());
     },
     getPic(gname){
-      if((gname === "Pre-Show")||(gname === "Preshow")
-        ||(gname === "FINALE")||(gname === "Finale")){
-        return this.twJSON["logo"];
+      if((gname === 'Pre-Show')||(gname === 'Preshow')
+        ||(gname === 'FINALE')||(gname === 'Finale')){
+        return this.twJSON['logo'];
       }
-      return "https://static-cdn.jtvnw.net/ttv-boxart/"+gname+"-285x380.jpg";
+      return 'https://static-cdn.jtvnw.net/ttv-boxart/'+gname+'-285x380.jpg';
     },
     async getRequest (url) {
-      let Jdata = await (await (fetch(url, {cache: "no-cache"})
+      let Jdata = await (await (fetch(url, {cache: 'no-cache'})
         .then(res => {
           return res.json();
         })
@@ -387,11 +421,11 @@ export default {
     },
     setNotification(){
       //init
-      if(!localStorage.getItem("notification")){
+      if(!localStorage.getItem('notification')){
         this.notification = [];
-        localStorage.setItem("notification", JSON.stringify(this.notification));
+        localStorage.setItem('notification', JSON.stringify(this.notification));
       }else{
-        this.notification = JSON.parse(localStorage.getItem("notification"));
+        this.notification = JSON.parse(localStorage.getItem('notification'));
       }
     },
     InsertNotification(id){
@@ -400,12 +434,12 @@ export default {
       this.notification.sort(function(a, b) {
         return a - b;
       });
-      localStorage.setItem("notification", JSON.stringify(this.notification));
+      localStorage.setItem('notification', JSON.stringify(this.notification));
     },
     DeleteNotification(id){
       this.notification = this.notification.filter(item => item !== id);
       this.sdList[id].notification = false;
-      localStorage.setItem("notification", JSON.stringify(this.notification));
+      localStorage.setItem('notification', JSON.stringify(this.notification));
     },
     getCurrentGame(){
       for(let i=this.nowplaying;i<this.sdList.length;i++){
@@ -430,23 +464,23 @@ export default {
       ListJSON.forEach((element,index) => {
         let s = new Date(element.fields.starttime);
         this.sdList.push({
-          "pk": element.pk,
-          "name":element.fields.name,
-          "console":element.fields.console,
-          "category":element.fields.category.replace("any%","Any%"),
-          "setup_time": element.fields.setup_time,
-          "starttime": s,
-          "run_time": element.fields.run_time,
-          "endtime": new Date(element.fields.endtime),
-          "runners":element.fields.deprecated_runners,
-          "runnersArr":element.fields.runners,
-          "notification":this.notification.includes(index),
-          "tw": this.twJSON[element.pk] || "",
+          'pk': element.pk,
+          'name':element.fields.name,
+          'console':element.fields.console,
+          'category':element.fields.category.replace('any%','Any%'),
+          'setup_time': element.fields.setup_time,
+          'starttime': s,
+          'run_time': element.fields.run_time,
+          'endtime': new Date(element.fields.endtime),
+          'runners':element.fields.deprecated_runners,
+          'runnersArr':element.fields.runners,
+          'notification':this.notification.includes(index),
+          'tw': this.twJSON[element.pk] || '',
         });
         if(!this.dateArr.find(e => e.date.getDate() === s.getDate())){
           this.dateArr.push({
-            "date":s,
-            "time":s.getTime()
+            'date':s,
+            'time':s.getTime()
           });
         }
       });
@@ -472,16 +506,35 @@ export default {
       }
       this.opentwitch=!this.opentwitch;
       if(this.opentwitch){
-        document.body.classList.add("scrolllock");
+        document.body.classList.add('scrolllock');
       }
       else{
-        document.body.classList.remove("scrolllock");
+        document.body.classList.remove('scrolllock');
       }
     },
+    test(){
+      if(this.sysNotiSupport && this.sysNoti){
+        let gameNotification = new Notification('GDQ中文節目表',{
+            badge: 'https://i.imgur.com/3HF5L7V.png',
+            body: '這是一則系統桌面通知測試！',
+            icon: this.twJSON['logo'],
+        });
+      }
+      document.getElementById('BaoAlert').load();
+      document.getElementById('BaoAlert').play();
+    }
   },
-  mounted(){
+  created(){
     this.setNotification();
     this.getJSON();
+    // system notification support
+    if(Notification){
+      this.sysNotiSupport = true;
+      // user accept system notification
+      if (Notification.permission !== 'granted'){
+        this.sysNoti = false;
+      }
+    }
   }
 }
 </script>
@@ -609,5 +662,14 @@ body {
 .scrolllock{
   position: fixed;
   overflow: hidden !important;
+}
+.twolines {
+  max-height: 2.66em;
+  overflow: hidden;
+  font-size: 24px !important;
+  font-weight: 400;
+  line-height: 1.33em !important;
+  letter-spacing: normal !important;
+  font-family: 'Roboto', sans-serif !important;
 }
 </style>
