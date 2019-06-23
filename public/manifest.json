@@ -14,7 +14,7 @@
         }
     ],
     "start_url": "/gdq/?source=pwa",
-    "background_color": "#6CABA5",
+    "background_color": "#008931",
     "display": "standalone",
     "scope": "/gdq/",
     "theme_color": "#6CABA5"
