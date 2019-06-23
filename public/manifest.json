@@ -1,0 +1,21 @@
+{
+    "short_name": "GDQ時程表",
+    "name": "GDQ中文時程表",
+    "icons": [
+        {
+            "src": "./pic/touch-icon-192.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "/pic/touch-icon-512.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ],
+    "start_url": "/?source=pwa",
+    "background_color": "#6CABA5",
+    "display": "standalone",
+    "scope": "/",
+    "theme_color": "#6CABA5"
+}
