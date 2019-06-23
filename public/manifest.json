@@ -13,9 +13,9 @@
             "sizes": "512x512"
         }
     ],
-    "start_url": "/?source=pwa",
+    "start_url": "/gdq/?source=pwa",
     "background_color": "#6CABA5",
     "display": "standalone",
-    "scope": "/",
+    "scope": "/gdq/",
     "theme_color": "#6CABA5"
 }
