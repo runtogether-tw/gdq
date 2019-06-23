@@ -354,7 +354,7 @@
         "gm": ""
     },
     "3771": {
-        "tw": "捉阿翔啦",
+        "tw": "捉猴啦",
         "sr": "ae1",
         "vod": "",
         "yt": "",
@@ -928,11 +928,11 @@
         "gm": "https://store.steampowered.com/app/237930/Transistor/"
     },
     "3855": {
-        "tw": "The Elder Scrolls V: Skyrim",
+        "tw": "上古卷軸V：無界天際",
         "sr": "skyrim",
         "vod": "",
         "yt": "",
-        "gm": "上古卷軸V：無界天際"
+        "gm": "https://store.steampowered.com/app/489830/The_Elder_Scrolls_V_Skyrim_Special_Edition/"
     },
     "3856": {
         "tw": "精靈寶可夢 Let's Go！皮卡丘／伊布",
@@ -982,5 +982,12 @@
         "vod": "",
         "yt": "",
         "gm": "https://store.steampowered.com/app/553310/Lethal_League_Blaze/"
+    },
+    "3863": {
+        "tw": "海綿寶寶：Battle for Bikini Bottom",
+        "sr": "bfbb",
+        "vod": "",
+        "yt": "",
+        "gm": ""
     }
 }
