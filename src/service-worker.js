@@ -1,8 +1,11 @@
+/* global workbox */
 workbox.setConfig({
   debug: false,
 });
 
-workbox.precaching.precacheAndRoute([]);
+if (workbox) {
+  workbox.precaching.precacheAndRoute(self.__precacheManifest);
+}
 
 workbox.routing.registerRoute(
   new RegExp('https://fonts.(?:googleapis|gstatic).com/(.*)'),
