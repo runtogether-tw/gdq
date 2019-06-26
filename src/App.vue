@@ -288,18 +288,18 @@
                     'pa-1': $vuetify.breakpoint.mdAndUp,
                     'pa-3': $vuetify.breakpoint.smAndDown
                   }">
-                  <div>{{i.name}}</div>
+                  <div>
+                    {{i.name}}
+                  <a class="ml-1" v-if="i.tw.sr!=''" :href="'https://www.speedrun.com/'+i.tw.sr">
+                    <v-icon>fas fa-trophy</v-icon>
+                  </a>
+                    <a class="ml-1" v-if="i.tw.gm!=''" :href="i.tw.gm" target="_blank">
+                      <v-icon>fab fa-steam</v-icon>
+                    </a>
+                  </div>
                 </v-flex>
                 <v-flex class="sbl justify-space-around" hidden-xs-only sm4>
-                  <a v-if="i.tw.vod!=''" :href="'https://www.twitch.tv/videos/'+i.tw.vod" target="_blank">
-                    <v-icon>fab fa-twitch</v-icon>
-                  </a>
-                  <a v-if="i.tw.yt!=''" :href="'https://www.youtube.com/watch?v='+i.tw.yt" target="_blank">
-                    <v-icon>fab fa-youtube</v-icon>
-                  </a>
-                  <a v-if="i.tw.gm!=''" :href="i.tw.gm" target="_blank">
-                    <v-icon>fab fa-steam</v-icon>
-                  </a>
+                  {{i.runners}}
                 </v-flex>
                 <v-flex class="sbl" hidden-xs-only sm1>
                   <div>{{i.run_time}}</div>
@@ -315,11 +315,15 @@
                     'pa-1': $vuetify.breakpoint.mdAndUp,
                     'pa-3': $vuetify.breakpoint.smAndDown
                   }">
-                  <div>{{i.tw.tw}}</div>
-                  <a v-if="i.tw.sr!=''" :href="'https://www.speedrun.com/'+i.tw.sr">
-                    <span>&ensp;</span>
-                    <v-icon>fas fa-trophy</v-icon>
-                  </a>
+                  <div>
+                    {{i.tw.tw}}
+                    <a class="ml-1" v-if="i.tw.vod!=''" :href="'https://www.twitch.tv/videos/'+i.tw.vod" target="_blank">
+                      <v-icon>fab fa-twitch</v-icon>
+                    </a>
+                    <a class="ml-1" v-if="i.tw.yt!=''" :href="'https://www.youtube.com/watch?v='+i.tw.yt" target="_blank">
+                      <v-icon>fab fa-youtube</v-icon>
+                    </a>
+                  </div>
                 </v-flex>
                 <v-flex align-center class="sbl" hidden-xs-only sm5>
                   <v-layout row wrap justify-space-around>
@@ -689,7 +693,7 @@ body{
   @media (max-width:600px){
     height: auto;
     min-height: 200px;
-    width: 200px;
+    width: 170px;
   }
 }
 .card__title{
