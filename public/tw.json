@@ -748,21 +748,21 @@
     "3829": {
         "tw": "瑪利歐賽車：雙重衝刺！！",
         "sr": "mkdd",
-        "vod": "",
+        "vod": "444832581?t=21h01m22s",
         "yt": "",
         "gm": ""
     },
     "3830": {
         "tw": "超級瑪利歐銀河2",
         "sr": "smgalaxy2",
-        "vod": "",
+        "vod": "444832581?t=22h14m33s",
         "yt": "",
         "gm": ""
     },
     "3831": {
         "tw": "パックマンワールド",
         "sr": "pmw",
-        "vod": "",
+        "vod": "444832581?t=25h41m18s",
         "yt": "",
         "gm": ""
     },
@@ -989,5 +989,12 @@
         "vod": "",
         "yt": "",
         "gm": "https://store.steampowered.com/app/363440/Mega_Man_Legacy_Collection/"
+    },
+    "3863": {
+        "tw": "光明旅者",
+        "sr": "hld",
+        "vod": "",
+        "yt": "",
+        "gm": "https://store.steampowered.com/app/257850/Hyper_Light_Drifter/"
     }
 }
