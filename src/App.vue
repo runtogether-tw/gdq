@@ -34,7 +34,7 @@
             Next
             <v-icon>fas fa-gamepad</v-icon>
           </v-tab>
-          <v-tab href="#menu-2">
+          <v-tab :disabled="!showNotification" href="#menu-2">
             Notification
             <v-icon>fas fa-bell</v-icon>
           </v-tab>
@@ -138,10 +138,21 @@
                   </v-card>
                 </v-flex>
               </v-layout>
-              <v-btn color="teal" title="重新整理資訊" v-on:click="refresh()">
-                <v-icon style="color:#E0F2F1">fas fa-sync-alt</v-icon>
-              </v-btn>
-              <v-btn color="teal" title="Youtube頻道" href="https://www.youtube.com/user/gamesdonequick/videos" target="_blank"><v-icon style="color:#E0F2F1">fab fa-youtube</v-icon></v-btn>
+              <v-layout row justify-center align-center>
+                <v-flex xs5>
+                  <v-select
+                  :items="eventItem"
+                  v-model="eventID"
+                  label="活動選擇"
+                  item-text="text"
+                  item-value="id"
+                  append-icon="fas fa-sort-down"
+                  ></v-select>
+                </v-flex>
+                <v-btn color="teal" title="重新整理資訊" v-on:click="refresh()">
+                  <v-icon style="color:#E0F2F1">fas fa-sync-alt</v-icon>
+                </v-btn>
+              </v-layout>
             </v-card>
           </v-tab-item>
           <v-tab-item value="menu-2">
@@ -221,6 +232,7 @@
               <v-flex xs12>GDQ官方:</v-flex>
               <v-flex xs12>
                 <v-btn title="Twitch頻道" color="teal" href="https://www.twitch.tv/gamesdonequick" target="_blank"><v-icon style="color:#E0F2F1">fab fa-twitch</v-icon></v-btn>
+                <v-btn color="teal" title="Youtube頻道" href="https://www.youtube.com/user/gamesdonequick/videos" target="_blank"><v-icon style="color:#E0F2F1">fab fa-youtube</v-icon></v-btn>
                 <v-btn title="官方網站" color="teal" href="https://gamesdonequick.com/" target="_blank"><v-icon style="color:#E0F2F1">fas fa-gamepad</v-icon></v-btn>
                 <v-btn title="節目表" color="teal" href="https://gamesdonequick.com/schedule/" target="_blank"><v-icon style="color:#E0F2F1">far fa-calendar-alt</v-icon></v-btn>
                 <v-btn title="捐款系統" color="teal" :href="'https://gamesdonequick.com/tracker/index/'+twJSON['gdq_link']" target="_blank"><v-icon style="color:#E0F2F1">fas fa-money-check-alt</v-icon></v-btn>
@@ -290,10 +302,10 @@
                   }">
                   <div>
                     {{i.name}}
-                  <a class="ml-1" v-if="i.tw.sr!=''" :href="'https://www.speedrun.com/'+i.tw.sr">
+                  <a class="ml-1" v-if="!!i.tw.sr" :href="'https://www.speedrun.com/'+i.tw.sr">
                     <v-icon>fas fa-trophy</v-icon>
                   </a>
-                    <a class="ml-1" v-if="i.tw.gm!=''" :href="i.tw.gm" target="_blank">
+                    <a class="ml-1" v-if="!!i.tw.gm" :href="i.tw.gm" target="_blank">
                       <v-icon>fab fa-steam</v-icon>
                     </a>
                   </div>
@@ -317,10 +329,10 @@
                   }">
                   <div>
                     {{i.tw.tw}}
-                    <a class="ml-1" v-if="i.tw.vod!=''" :href="'https://www.twitch.tv/videos/'+i.tw.vod" target="_blank">
+                    <a class="ml-1" v-if="!!i.tw.vod" :href="'https://www.twitch.tv/videos/'+i.tw.vod" target="_blank">
                       <v-icon>fab fa-twitch</v-icon>
                     </a>
-                    <a class="ml-1" v-if="i.tw.yt!=''" :href="'https://www.youtube.com/watch?v='+i.tw.yt" target="_blank">
+                    <a class="ml-1" v-if="!!i.tw.yt" :href="'https://www.youtube.com/watch?v='+i.tw.yt" target="_blank">
                       <v-icon>fab fa-youtube</v-icon>
                     </a>
                   </div>
@@ -330,10 +342,10 @@
                     <v-flex xs6 v-for="j in i.runnersArr" :key="'runner'+index+j">
                       {{rnList[j].name}}:
                       <a class="px-1" :href="rnList[j].stream" target="_blank">
-                        <v-icon v-if="rnList[j].stream!=''">fab fa-twitch</v-icon>
+                        <v-icon v-if="!!rnList[j].stream">fab fa-twitch</v-icon>
                       </a>
                       <a class="px-1" :href="'https://twitter.com/'+rnList[j].twitter" target="_blank">
-                        <v-icon v-if="rnList[j].twitter!=''">fab fa-twitter</v-icon>
+                        <v-icon v-if="!!rnList[j].twitter">fab fa-twitter</v-icon>
                       </a>
                     </v-flex>
                   </v-layout>
@@ -369,6 +381,7 @@
 </template>
 
 <script>
+import { LATEST_EVENT, EVENT_LIST } from './js/constant';
 
 export default {
   name: 'App',
@@ -377,6 +390,8 @@ export default {
       tabs: 0,
       rendertwitch: false,
       opentwitch: false,
+      eventID: null,
+      eventItem: [],
       twJSON: [],
       dateArr: [],
       sdList: [],
@@ -394,7 +409,19 @@ export default {
     };
   },
   watch: {
+    eventID(val, oldVal) {
+      if (!oldVal) {
+        return;
+      }
+      if (val && EVENT_LIST[val]) {
+        window.history.pushState(null, null, `#${val}-${EVENT_LIST[val]}`);
+        this.refresh();
+      }
+    },
     nowplaying(val) {
+      if (this.eventID !== LATEST_EVENT) {
+        return;
+      }
       if (this.notification.includes(val)) {
         // Clear old notification from list
         this.notification = this.notification.filter(element => element >= val);
@@ -437,6 +464,11 @@ export default {
       }
     },
   },
+  computed: {
+    showNotification() {
+      return this.eventID === LATEST_EVENT;
+    },
+  },
   filters: {
     timeformat(val) {
       return `${val.getHours().toString().padStart(2, 0)}:${val.getMinutes().toString().padStart(2, 0)}`;
@@ -454,7 +486,7 @@ export default {
     },
     getPic(gname) {
       if ((gname === 'Pre-Show') || (gname === 'Preshow')
-        || (gname === 'FINALE') || (gname === 'Finale')) {
+        || (gname === 'FINALE') || (gname === 'Finale') || (gname === 'Finale!')) {
         return this.twJSON.logo;
       }
       return `https://static-cdn.jtvnw.net/ttv-boxart/${gname}-285x380.jpg`;
@@ -497,6 +529,9 @@ export default {
       }, timeWait);
     },
     setNotification() {
+      if (this.eventID !== LATEST_EVENT) {
+        return;
+      }
       // init
       if (!localStorage.getItem('notification')) {
         this.notification = [];
@@ -564,13 +599,23 @@ export default {
       this.loading = false;
     },
     async getJSON() {
-      this.twJSON = await this.getRequest('./tw.json');
-      const RequestJSON = await this.getRequest('//crs-dlbot.herokuapp.com/gdq');
+      let RequestJSON;
+      if (!this.eventID || !EVENT_LIST[this.eventID]) {
+        this.eventID = LATEST_EVENT;
+      }
+      if (this.eventID === LATEST_EVENT) {
+        RequestJSON = await this.getRequest('//crs-dlbot.herokuapp.com/gdq');
+      } else {
+        RequestJSON = await this.getRequest(`./event/${this.eventID}.json`);
+      }
+      this.twJSON = await this.getRequest(`./lang/${this.eventID}.json`);
       this.getList(RequestJSON);
       this.setclock();
     },
     refresh() {
       this.loading = true;
+      this.nowplaying = 0;
+      this.dateArr.length = 0;
       this.sdList.length = 0;
       this.getJSON();
     },
@@ -599,6 +644,13 @@ export default {
     },
   },
   created() {
+    Object.keys(EVENT_LIST).forEach((key) => {
+      this.eventItem.push({
+        text: EVENT_LIST[key],
+        id: parseInt(key, 10),
+      });
+    });
+    this.eventID = parseInt(window.location.hash.substr(1), 10) || LATEST_EVENT;
     this.setNotification();
     this.getJSON();
     // system notification support

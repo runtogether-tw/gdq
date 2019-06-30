@@ -3,9 +3,10 @@ module.exports = {
     ? './'
     : '/',
   pwa: {
+    iconPaths: {},
     workboxPluginMode: 'InjectManifest',
     workboxOptions: {
-      swSrc: 'src/service-worker.js',
+      swSrc: 'src/js/service-worker.js',
       exclude: [/\.map$/, /^manifest.*\.js$/, /\.json$/, /\.txt$/],
     },
   },

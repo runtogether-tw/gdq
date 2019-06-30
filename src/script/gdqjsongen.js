@@ -1,8 +1,9 @@
 const request = require('request');
 const fs = require('fs');
 
+const eventID = 26;
 const gdqrun = {
-  url: 'https://gamesdonequick.com/tracker/search/?type=run&event=26',
+  url: `https://gamesdonequick.com/tracker/search/?type=run&event=${eventID}`,
   method: 'GET',
   json: true,
 };
@@ -22,11 +23,8 @@ request(gdqrun, (error, response, body) => {
   output.gdq_link = '';
   const data = JSON.stringify(output, null, 4);
 
-  fs.writeFile('tw.json', data, (err) => {
-    // throws an error, you could also catch it here
+  fs.writeFile(`${eventID}.json`, data, (err) => {
     if (err) throw err;
-
-    // success case, the file was saved
     console.log('saved!');
   });
 });
