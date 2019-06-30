@@ -138,10 +138,11 @@
                   </v-card>
                 </v-flex>
               </v-layout>
-              <v-layout row justify-center align-center>
+              <v-layout row justify-center align-center mt-3>
                 <v-flex xs5>
                   <v-select
                   :items="eventItem"
+                  ref="eventSelect"
                   v-model="eventID"
                   label="活動選擇"
                   item-text="text"
@@ -257,6 +258,7 @@
           </v-tab-item>
         </v-tabs>
         <v-tabs grow icons-and-text centered dark color="teal"
+          class="sticky sticky--tab"
           show-arrows
           v-model="tabs"
           prev-icon="fas fa-arrow-circle-left"
@@ -267,7 +269,8 @@
             <v-icon>far fa-calendar-alt</v-icon>
           </v-tab>
         </v-tabs>
-        <v-layout v-if="!loading" class="sticky slayout" row wrap>
+        <v-layout v-if="!loading" class="sticky sticky--time slayout" row wrap
+          :class="{'reverse': $vuetify.breakpoint.xsOnly}">
           <v-flex class="stl" xs4 sm1>
             開始時間
           </v-flex>
@@ -285,12 +288,18 @@
           </v-flex>
         </v-layout>
         <v-tabs-items v-model="tabs">
-          <v-tab-item v-for="(i,index) in dateArr" :key="'tab-'+index" :value="'tab-'+index">
+          <v-tab-item
+            :transition="false"
+            :reverse-transition="false"
+            v-for="(i,index) in dateArr"
+            :key="'tab-'+index"
+            :value="'tab-'+index">
             <template v-if="!loading">
               <v-layout class="slayout" row wrap v-for="i in SliceList(index)" :key="i.pk"
                 :class="{
-                  end: (i.starttime.getTime() < nowdate.getTime()),
-                  now:(i.pk === sdList[nowplaying].pk),
+                  'reverse': $vuetify.breakpoint.xsOnly,
+                  'end': (i.starttime.getTime() < nowdate.getTime()),
+                  'now':(i.pk === sdList[nowplaying].pk),
                   }">
                 <v-flex class="sbl" xs4 sm1>
                   <div>{{ i.starttime | timeformat }}</div>
@@ -320,7 +329,11 @@
                   <div>{{i.category}}</div>
                 </v-flex>
                 <v-flex class="sbl" xs4 sm1>
-                  <div>{{i.console}}</div>
+                  <div class="hidden-xs-only">{{i.console}}</div>
+                  <v-btn icon class="hidden-sm-and-up" @click="i.mobileExpand=!i.mobileExpand">
+                    <v-icon v-if="!i.mobileExpand">fas fa-chevron-down</v-icon>
+                    <v-icon v-if="i.mobileExpand">fas fa-chevron-up</v-icon>
+                  </v-btn>
                 </v-flex>
                 <v-flex class="sbl" xs8 sm4
                   :class="{
@@ -362,6 +375,29 @@
                     </v-btn>
                   </template>
                 </v-flex>
+                <transition name="fade">
+                  <v-flex v-if="i.mobileExpand"
+                    xs12 class="sbl slast hidden-sm-and-up text-xs-left">
+                    <v-flex xs12 pa-3>
+                      <div class="font-weight-bold">跑者</div>
+                      <div class="pl-3" v-for="j in i.runnersArr" :key="'runner'+index+j">
+                        {{rnList[j].name}}:
+                        <a class="px-1" :href="rnList[j].stream" target="_blank">
+                          <v-icon v-if="!!rnList[j].stream">fab fa-twitch</v-icon>
+                        </a>
+                        <a class="px-1" :href="'https://twitter.com/'+rnList[j].twitter" target="_blank">
+                          <v-icon v-if="!!rnList[j].twitter">fab fa-twitter</v-icon>
+                        </a>
+                      </div>
+                      <div class="font-weight-bold">預估時間</div>
+                      <div class="pl-3">{{i.run_time}}</div>
+                      <div class="font-weight-bold">規則</div>
+                      <div class="pl-3">{{i.category}}</div>
+                      <div class="font-weight-bold">遊戲平台</div>
+                      <div class="pl-3">{{i.console}}</div>
+                    </v-flex>
+                  </v-flex>
+                </transition>
               </v-layout>
             </template>
           </v-tab-item>
@@ -414,6 +450,8 @@ export default {
         return;
       }
       if (val && EVENT_LIST[val]) {
+        this.$refs.eventSelect.blur();
+        window.scrollTo(0, 0);
         window.history.pushState(null, null, `#${val}-${EVENT_LIST[val]}`);
         this.refresh();
       }
@@ -585,6 +623,7 @@ export default {
           runnersArr: element.fields.runners,
           notification: this.notification.includes(index),
           tw: this.twJSON[element.pk] || '',
+          mobileExpand: false,
         });
         if (!this.dateArr.find(e => e.date.getDate() === s.getDate())) {
           this.dateArr.push({
@@ -754,8 +793,13 @@ body{
 }
 .sticky{
   position: sticky;
-  top:-3px;
   z-index:2;
+  &--tab {
+    top: 0px;
+  }
+  &--time {
+    top: 69px;
+  }
 }
 a:link,a:visited,a:hover,a:active{
     text-decoration: none;
@@ -805,5 +849,14 @@ body {
   line-height: 1.33em !important;
   letter-spacing: normal !important;
   font-family: 'Roboto', sans-serif !important;
+}
+.fade-enter-active, .fade-leave-active {
+  transition: all .5s;
+}
+.fade-enter, .fade-leave-to {
+  opacity: 0;
+}
+.fade-enter {
+  transform: translateY(-10px);
 }
 </style>
