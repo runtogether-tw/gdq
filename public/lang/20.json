@@ -1,0 +1,979 @@
+{
+    "logo": "https://i.imgur.com/4HyVEzG.png",
+    "yetee_link": "",
+    "gdq_link": "sgdq2017",
+    "google_link": "",
+    "2131": {
+        "tw": "NieR: Automata",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "2132": {
+        "tw": "Halo: Combat Evolved",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "2133": {
+        "tw": "Metroid Prime",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "2134": {
+        "tw": "Azure Striker Gunvolt 2",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "2135": {
+        "tw": "Battle Kid: Fortress of Peril",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "2136": {
+        "tw": "Diddy Kong Racing",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "2137": {
+        "tw": "Luigi's Mansion",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "2138": {
+        "tw": "Castlevania: Symphony of the Night",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "2139": {
+        "tw": "Guacamelee! Gold Edition",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "2140": {
+        "tw": "Okami HD",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "2141": {
+        "tw": "Strider (2014)",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "2142": {
+        "tw": "Assault Android Cactus",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "2143": {
+        "tw": "MDK",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "2144": {
+        "tw": "Marathon Infinity",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "2145": {
+        "tw": "Knytt Stories",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "2147": {
+        "tw": "Super Adventure Island 2",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "2148": {
+        "tw": "ActRaiser",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "2149": {
+        "tw": "E.V.O.: Search for Eden",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "2150": {
+        "tw": "Tiny Toon Adventures: Buster Busts Loose!",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "2151": {
+        "tw": "The Lion King",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "2152": {
+        "tw": "Castle of Illusion Starring Mickey Mouse",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "2153": {
+        "tw": "Crash Bandicoot",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "2154": {
+        "tw": "Spyro: Year of the Dragon",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "2155": {
+        "tw": "Ape Escape",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "2156": {
+        "tw": "Super Monkey Ball Deluxe",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "2157": {
+        "tw": "Freedom Planet",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "2158": {
+        "tw": "Sonic CD 2011",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "2159": {
+        "tw": "Sonic Generations",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "2160": {
+        "tw": "Sonic Colours",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "2161": {
+        "tw": "Mirror's Edge",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "2162": {
+        "tw": "Mirror's Edge Catalyst",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "2163": {
+        "tw": "Donkey Kong 64",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "2164": {
+        "tw": "Castlevania: Legacy of Darkness",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "2165": {
+        "tw": "JSRF: Jet Set Radio Future",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "2166": {
+        "tw": "Astal",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "2167": {
+        "tw": "Tryrush Deppy",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "2168": {
+        "tw": "Clustertruck",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "2169": {
+        "tw": "Defunct",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "2170": {
+        "tw": "OmniBus",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "2171": {
+        "tw": "Poi",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "2172": {
+        "tw": "Tony Hawk's Pro Skater 2",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "2173": {
+        "tw": "Tony Hawks Pro Skater 4",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "2174": {
+        "tw": "I Am Bread",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "2175": {
+        "tw": "Hollow Knight",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "2176": {
+        "tw": "Shovel Knight: Specter of Torment",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "2177": {
+        "tw": "Brothers: A Tale of Two Sons",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "2178": {
+        "tw": "Banjo-Kazooie",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "2179": {
+        "tw": "Pokemon Puzzle League",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "2180": {
+        "tw": "Pokémon HeartGold/SoulSilver",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "2181": {
+        "tw": "The Wheel of Time",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "2182": {
+        "tw": "Half-Life",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "2183": {
+        "tw": "Half-Life 2",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "2184": {
+        "tw": "Dishonored 2",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "2185": {
+        "tw": "Doom (2016)",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "2186": {
+        "tw": "Silent Hill 2",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "2187": {
+        "tw": "Resident Evil",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "2188": {
+        "tw": "Resident Evil: Code: Veronica X",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "2189": {
+        "tw": "Onimusha: Warlords",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "2190": {
+        "tw": "Shuriken",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "2191": {
+        "tw": "Alex Kidd in Shinobi World",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "2192": {
+        "tw": "Ninja Gaiden (Sega Master System)",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "2193": {
+        "tw": "Ninja Gaiden 3",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "2194": {
+        "tw": "Kyatto Ninden Teyandee",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "2195": {
+        "tw": "Marble Madness",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "2196": {
+        "tw": "Bucky O'Hare",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "2197": {
+        "tw": "Jackal",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "2198": {
+        "tw": "G.I. Joe: The Atlantis Factor",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "2199": {
+        "tw": "Startropics",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "2200": {
+        "tw": "Castlevania III: Dracula's Curse",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "2201": {
+        "tw": "Castlevania: Rondo of Blood",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "2202": {
+        "tw": "1001 Spikes",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "2203": {
+        "tw": "Super Meat Boy",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "2204": {
+        "tw": "VVVVVV",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "2205": {
+        "tw": "Kirby's Dream Land 2",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "2206": {
+        "tw": "Kirby: Planet Robobot",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "2207": {
+        "tw": "Mega Man X6",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "2208": {
+        "tw": "Mega Man X",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "2209": {
+        "tw": "Mega Man X2",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "2210": {
+        "tw": "Mega Man X3",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "2211": {
+        "tw": "The Legend of Zelda: Twilight Princess HD",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "2212": {
+        "tw": "The Elder Scrolls IV: Oblivion",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "2213": {
+        "tw": "Divinity: Original Sin",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "2214": {
+        "tw": "Might and Magic VI: The Mandate of Heaven",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "2215": {
+        "tw": "Ys Origin",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "2216": {
+        "tw": "Ghosts'n Demons",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "2217": {
+        "tw": "Kero Blaster",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "2218": {
+        "tw": "Bleed 2",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "2219": {
+        "tw": "The Addams Family: Pugsley's Scavenger Hunt",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "2220": {
+        "tw": "The Firemen",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "2221": {
+        "tw": "Plok",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "2222": {
+        "tw": "Ratchet & Clank",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "2223": {
+        "tw": "Jak II",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "2224": {
+        "tw": "Shadow of The Colossus",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "2225": {
+        "tw": "Prince of Persia: The Sands of Time",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "2226": {
+        "tw": "The Talos Principle",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "2227": {
+        "tw": "Portal",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "2229": {
+        "tw": "Bionic Commando Rearmed",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "2230": {
+        "tw": "Chrono Trigger",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "2231": {
+        "tw": "Mario Kart 64",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "2232": {
+        "tw": "Mario Kart Wii",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "2233": {
+        "tw": "Tetris: The Grand Master",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "2234": {
+        "tw": "Tetris: The Grand Master",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "2235": {
+        "tw": "Tetris The Grand Master 3: Terror Instinct",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "2236": {
+        "tw": "The Legend of Zelda: A Link to the Past",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "2237": {
+        "tw": "Zelda 2: The Adventure of Link",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "2238": {
+        "tw": "The Legend of Zelda: Link's Awakening DX",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "2239": {
+        "tw": "Crypt of the NecroDancer: AMPLIFIED",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "2240": {
+        "tw": "Shantae: Half-Genie Hero",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "2241": {
+        "tw": "Alwa's Awakening",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "2242": {
+        "tw": "Splasher",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "2243": {
+        "tw": "Super Win The Game",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "2244": {
+        "tw": "Shadow Complex Remastered",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "2245": {
+        "tw": "Rosenkreuzstilette Freudenstachel",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "2246": {
+        "tw": "Hammerin' Harry",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "2247": {
+        "tw": "Mega Man 4",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "2248": {
+        "tw": "Avenging Spirit",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "2250": {
+        "tw": "Teenage Mutant Ninja Turtles III: Radical Rescue",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "2251": {
+        "tw": "X-Men: Mutant Apocalypse",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "2252": {
+        "tw": "Star Wars Jedi Knight II: Jedi Outcast",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "2253": {
+        "tw": "Kingdom Hearts II Final Mix",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "2254": {
+        "tw": "Kingdom Hearts II Final Mix",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "2255": {
+        "tw": "Super Mario Series Warpless Relay Race",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "2256": {
+        "tw": "Metroid Fusion",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "2257": {
+        "tw": "Super Metroid",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "2258": {
+        "tw": "Final Fantasy VII",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "2259": {
+        "tw": "The Maitre D",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "2260": {
+        "tw": "Rise of The Triad",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "2261": {
+        "tw": "SUPERHOT",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "2262": {
+        "tw": "Titanfall 2",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "2263": {
+        "tw": "Diablo 2: Lord of Destruction",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "2264": {
+        "tw": "Dark Souls III",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "2265": {
+        "tw": "Dark Souls",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "2266": {
+        "tw": "Super Panga World",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "2267": {
+        "tw": "Super Mario 64",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "2268": {
+        "tw": "The Legend of Zelda: Majora's Mask",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "2269": {
+        "tw": "The Legend of Zelda: Breath of the Wild",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "2270": {
+        "tw": "Earthbound",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "2274": {
+        "tw": "Pre-Show",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "2275": {
+        "tw": "Portal 2",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    }
+}
