@@ -1,34 +1,15 @@
 <template>
   <div id="app">
     <v-app>
-      <v-btn
-        dark
-        fab
-        color="#212121"
-        class="twitchbtn hidden-xs-only"
-        v-on:click="twitchopen()"
-        title="觀看直播"
-      >
-        <v-icon>fab fa-twitch</v-icon>
-      </v-btn>
-      <v-layout v-if="rendertwitch" row class="twitchlayout" :class="{twitchshow: opentwitch}">
-        <v-flex class="twitchvideo">
-          <iframe id="twitchvideo" width="100%" height="100%" frameborder="0" framespacing="0" src="https://player.twitch.tv/?channel=gamesdonequick&autoplay=false">
-          </iframe>
-        </v-flex>
-        <v-flex class="twitchchat">
-          <iframe id="twitchchat" frameborder="0" scrolling="no" src="https://www.twitch.tv/embed/tetristhegrandmaster3/chat?darkpopout" height="100%" width="340px">
-          </iframe>
-        </v-flex>
-      </v-layout>
+      <twitchPlayer></twitchPlayer>
       <v-container class="mb-4">
         <audio id="BaoAlert">
           <source :src="'https://code.responsivevoice.org/getvoice.php?t=\''+alertselect+'\'&tl=zh-CN'" type="audio/mpeg">
         </audio>
         <v-tabs icons-and-text centered dark color="teal"
-        show-arrows
-        prev-icon="fas fa-arrow-circle-left"
-        next-icon="fas fa-arrow-circle-right">
+          show-arrows
+          prev-icon="fas fa-arrow-circle-left"
+          next-icon="fas fa-arrow-circle-right">
           <v-tabs-slider color="teal lighten-5"></v-tabs-slider>
           <v-tab href="#menu-1">
             Next
@@ -418,14 +399,16 @@
 
 <script>
 import { LATEST_EVENT, EVENT_LIST } from './js/constant';
+import twitchPlayer from './components/TwitchPlayer.vue';
 
 export default {
   name: 'App',
+  components: {
+    twitchPlayer,
+  },
   data() {
     return {
       tabs: 0,
-      rendertwitch: false,
-      opentwitch: false,
       eventID: null,
       eventItem: [],
       twJSON: [],
@@ -658,17 +641,6 @@ export default {
       this.sdList.length = 0;
       this.getJSON();
     },
-    twitchopen() {
-      if (!this.rendertwitch) {
-        this.rendertwitch = true;
-      }
-      this.opentwitch = !this.opentwitch;
-      if (this.opentwitch) {
-        document.body.classList.add('scrolllock');
-      } else {
-        document.body.classList.remove('scrolllock');
-      }
-    },
     test() {
       if (this.sysNotiSupport && this.sysNoti) {
         // eslint-disable-next-line no-unused-vars
@@ -709,7 +681,7 @@ export default {
 * {
     font-family: 'Noto Sans TC';
 }
-body{
+body {
   margin:0;
   background-color: #6CABA5;
 }
@@ -721,12 +693,12 @@ body{
   color: #2c3e50;
   background-color: #6CABA5;
 }
-.sarea{
+.sarea {
   padding-top:2%;
   padding-bottom:2%;
   background-color: #B2DFDB;
 }
-.slayout{
+.slayout {
   &:nth-child(odd) {
     background-color: #B2DFDB;
     color:#303030;
@@ -738,12 +710,12 @@ body{
   &:nth-child(even) {
     background-color: #E0F2F1;
     color:#303030;
-    &.end{
+    &.end {
       background-color: #DDDDDD !important;
       color:#303030 !important;
     }
   }
-  .stl{
+  .stl {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -762,24 +734,24 @@ body{
     border-right-style: solid;
     border-top-style: solid;
     vertical-align: middle;
-    &.justify-space-around{
+    &.justify-space-around {
       justify-content: space-around;
     }
   }
-  .slast{
+  .slast {
     border-right-style: none;
   }
-  &.now{
-    &.end{
+  &.now {
+    &.end {
       background-color: #FAFAFA !important;
     }
     background-color: #FAFAFA !important;
   }
 }
-.cardbg{
+.cardbg {
   background-color: #E0F2F1 !important;
 }
-.card__pic{
+.card__pic {
   height: 300px;
   @media (max-width:600px){
     height: auto;
@@ -787,11 +759,11 @@ body{
     width: 170px;
   }
 }
-.card__title{
+.card__title {
   padding:1%;
   background: rgba(80, 80, 80, 0.5);
 }
-.sticky{
+.sticky {
   position: sticky;
   z-index:2;
   &--tab {
@@ -801,43 +773,14 @@ body{
     top: 69px;
   }
 }
-a:link,a:visited,a:hover,a:active{
+a:link, a:visited, a:hover, a:active {
     text-decoration: none;
-}
-.twitchbtn{
-  position:fixed !important;
-  top:0px;
-  right:0px;
-  z-index: 30;
-}
-.twitchshow{
-  z-index:25 !important;
-}
-.twitchlayout{
-  z-index:-1;
-  position:fixed;
-  width:100%;
-  height:100%;
-}
-.twitchvideo{
-  height:100%;
-  width: 100%;
-  flex-grow:1;
-  flex-shrink: 1;
-}
-#twitchvideo{
-  height:100%;
-  width:100%;
-}
-.twitchchat,#twitchchat{
-  height:100%;
-  width: 22vw;
 }
 body {
   width:100%;
   height:100%;
 }
-.scrolllock{
+.scrolllock {
   position: fixed;
   overflow: hidden !important;
 }
