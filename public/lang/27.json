@@ -1,360 +1,374 @@
 {
-    "logo": "https://i.imgur.com/AjzFotB.png",
+    "logo": "https://i.imgur.com/EzZUntF.png",
     "yetee_link": "",
-    "gdq_link": "GDQX2018",
+    "gdq_link": "GDQX2019",
     "google_link": "",
-    "3121": {
+    "3906": {
         "tw": "Pre-Show",
         "sr": "",
         "vod": "",
         "yt": "",
         "gm": ""
     },
-    "3122": {
-        "tw": "Sonic Mania",
+    "3907": {
+        "tw": "Bloodstained: Ritual of the Night",
         "sr": "",
         "vod": "",
         "yt": "",
         "gm": ""
     },
-    "3123": {
-        "tw": "Super Monkey Ball 1",
+    "3908": {
+        "tw": "Luigi's Mansion",
         "sr": "",
         "vod": "",
         "yt": "",
         "gm": ""
     },
-    "3124": {
-        "tw": "Donkey Kong Country: Tropical Freeze",
+    "3909": {
+        "tw": "Crash Team Racing: Nitro-Fueled",
         "sr": "",
         "vod": "",
         "yt": "",
         "gm": ""
     },
-    "3125": {
-        "tw": "Mike Tyson's Punch-Out!!",
+    "3910": {
+        "tw": "Marvel's Spider-Man",
         "sr": "",
         "vod": "",
         "yt": "",
         "gm": ""
     },
-    "3126": {
-        "tw": "Mega Man 9 vs Mega Man 10",
+    "3911": {
+        "tw": "Devil May Cry 3: Special Edition",
         "sr": "",
         "vod": "",
         "yt": "",
         "gm": ""
     },
-    "3127": {
-        "tw": "The Legend of Zelda: Ocarina of Time 3D",
+    "3912": {
+        "tw": "Super Mario World",
         "sr": "",
         "vod": "",
         "yt": "",
         "gm": ""
     },
-    "3128": {
-        "tw": "Super Mario Odyssey",
+    "3913": {
+        "tw": "Bonus Game 1",
         "sr": "",
         "vod": "",
         "yt": "",
         "gm": ""
     },
-    "3129": {
-        "tw": "Grand Theft Auto III vs Grand Theft Auto: Vice City",
+    "3914": {
+        "tw": "Cadence of Hyrule",
         "sr": "",
         "vod": "",
         "yt": "",
         "gm": ""
     },
-    "3130": {
-        "tw": "F-Zero GX",
+    "3915": {
+        "tw": "Streets of Rage 2",
         "sr": "",
         "vod": "",
         "yt": "",
         "gm": ""
     },
-    "3131": {
-        "tw": "Silent Hill 2",
+    "3916": {
+        "tw": "Rage 2",
         "sr": "",
         "vod": "",
         "yt": "",
         "gm": ""
     },
-    "3132": {
-        "tw": "Ratchet & Clank Future: A Crack in Time",
+    "3917": {
+        "tw": "Shogo: Mobile Armor Division",
         "sr": "",
         "vod": "",
         "yt": "",
         "gm": ""
     },
-    "3133": {
-        "tw": "Turok: Dinosaur Hunter",
+    "3918": {
+        "tw": "Resident Evil 3: Nemesis",
         "sr": "",
         "vod": "",
         "yt": "",
         "gm": ""
     },
-    "3134": {
-        "tw": "BeyBlade VForce: Ultimate Blader Jam",
+    "3919": {
+        "tw": "Silent Hill: Homecoming",
         "sr": "",
         "vod": "",
         "yt": "",
         "gm": ""
     },
-    "3135": {
-        "tw": "Star Wars NES",
+    "3920": {
+        "tw": "Lara Croft Tomb Raider: Anniversary",
         "sr": "",
         "vod": "",
         "yt": "",
         "gm": ""
     },
-    "3136": {
-        "tw": "Chip 'N Dale: Rescue Rangers",
+    "3921": {
+        "tw": "Flashback: The Quest for Identity",
         "sr": "",
         "vod": "",
         "yt": "",
         "gm": ""
     },
-    "3137": {
-        "tw": "Metal Storm",
+    "3922": {
+        "tw": "Jurassic Park",
         "sr": "",
         "vod": "",
         "yt": "",
         "gm": ""
     },
-    "3139": {
-        "tw": "The Cowlitz Gamers' 2nd Adventure",
+    "3923": {
+        "tw": "Rambo",
         "sr": "",
         "vod": "",
         "yt": "",
         "gm": ""
     },
-    "3140": {
-        "tw": "Super Adventure Island",
+    "3924": {
+        "tw": "The Last Ninja",
         "sr": "",
         "vod": "",
         "yt": "",
         "gm": ""
     },
-    "3141": {
-        "tw": "Donkey Kong 5: The Journey of Over Time and Space",
+    "3925": {
+        "tw": "Fester's Quest",
         "sr": "",
         "vod": "",
         "yt": "",
         "gm": ""
     },
-    "3142": {
-        "tw": "Minit",
+    "3926": {
+        "tw": "Castlevania: Circle of the Moon",
         "sr": "",
         "vod": "",
         "yt": "",
         "gm": ""
     },
-    "3143": {
-        "tw": "The Girl and The Robot",
+    "3927": {
+        "tw": "Katana Zero",
         "sr": "",
         "vod": "",
         "yt": "",
         "gm": ""
     },
-    "3144": {
-        "tw": "Environmental Station Alpha",
+    "3928": {
+        "tw": "Bonus Game 2",
         "sr": "",
         "vod": "",
         "yt": "",
         "gm": ""
     },
-    "3145": {
-        "tw": "Spelunky HD",
-        "sr": "",
-        "vod": "",
-        "yt": "",
-        "gm": ""
-    },
-    "3146": {
-        "tw": "Shantae",
-        "sr": "",
-        "vod": "",
-        "yt": "",
-        "gm": ""
-    },
-    "3147": {
-        "tw": "STRAFE: Millennium Edition",
-        "sr": "",
-        "vod": "",
-        "yt": "",
-        "gm": ""
-    },
-    "3148": {
-        "tw": "Titanfall 2",
-        "sr": "",
-        "vod": "",
-        "yt": "",
-        "gm": ""
-    },
-    "3149": {
-        "tw": "Kirby Super Star",
-        "sr": "",
-        "vod": "",
-        "yt": "",
-        "gm": ""
-    },
-    "3150": {
-        "tw": "Sonic Advance",
-        "sr": "",
-        "vod": "",
-        "yt": "",
-        "gm": ""
-    },
-    "3151": {
-        "tw": "Mega Man 5",
-        "sr": "",
-        "vod": "",
-        "yt": "",
-        "gm": ""
-    },
-    "3152": {
-        "tw": "Mega Man X",
-        "sr": "",
-        "vod": "",
-        "yt": "",
-        "gm": ""
-    },
-    "3153": {
-        "tw": "Mega Man X2",
-        "sr": "",
-        "vod": "",
-        "yt": "",
-        "gm": ""
-    },
-    "3154": {
-        "tw": "The Legend of Zelda: A Link Between Worlds",
-        "sr": "",
-        "vod": "",
-        "yt": "",
-        "gm": ""
-    },
-    "3155": {
-        "tw": "Castlevania: Symphony of the Night",
-        "sr": "",
-        "vod": "",
-        "yt": "",
-        "gm": ""
-    },
-    "3156": {
-        "tw": "Dark Souls III",
-        "sr": "",
-        "vod": "",
-        "yt": "",
-        "gm": ""
-    },
-    "3157": {
-        "tw": "Diablo 2: Lord of Destruction",
-        "sr": "",
-        "vod": "",
-        "yt": "",
-        "gm": ""
-    },
-    "3158": {
-        "tw": "Resident Evil 2",
-        "sr": "",
-        "vod": "",
-        "yt": "",
-        "gm": ""
-    },
-    "3159": {
-        "tw": "RIVE",
-        "sr": "",
-        "vod": "",
-        "yt": "",
-        "gm": ""
-    },
-    "3160": {
-        "tw": "Kingdom Hearts 0.2 Birth by Sleep",
-        "sr": "",
-        "vod": "",
-        "yt": "",
-        "gm": ""
-    },
-    "3161": {
-        "tw": "Spyro the Dragon",
-        "sr": "",
-        "vod": "",
-        "yt": "",
-        "gm": ""
-    },
-    "3162": {
-        "tw": "EarthBound",
-        "sr": "",
-        "vod": "",
-        "yt": "",
-        "gm": ""
-    },
-    "3163": {
-        "tw": "Super Metroid/A Link to the Past Combo Randomizer",
-        "sr": "",
-        "vod": "",
-        "yt": "",
-        "gm": ""
-    },
-    "3164": {
-        "tw": "TASBot plays Super Mario 64",
-        "sr": "",
-        "vod": "",
-        "yt": "",
-        "gm": ""
-    },
-    "3165": {
-        "tw": "TASBot plays Hyper Princess Pitch by Tseralith",
-        "sr": "",
-        "vod": "",
-        "yt": "",
-        "gm": ""
-    },
-    "3166": {
-        "tw": "TASBot plays Pokemon Yellow",
-        "sr": "",
-        "vod": "",
-        "yt": "",
-        "gm": ""
-    },
-    "3167": {
-        "tw": "TASBot plays Kaizo Mario World 3",
-        "sr": "",
-        "vod": "",
-        "yt": "",
-        "gm": ""
-    },
-    "3168": {
-        "tw": "TASBot plays Item Abuse 3 by PangaeaPanga",
-        "sr": "",
-        "vod": "",
-        "yt": "",
-        "gm": ""
-    },
-    "3169": {
+    "3929": {
         "tw": "Super Mario Bros.: The Lost Levels",
         "sr": "",
         "vod": "",
         "yt": "",
         "gm": ""
     },
-    "3170": {
-        "tw": "Super Mario Bros. 3",
+    "3930": {
+        "tw": "Pokemon White 2",
         "sr": "",
         "vod": "",
         "yt": "",
         "gm": ""
     },
-    "3171": {
-        "tw": "Super Mario 64",
+    "3931": {
+        "tw": "Bloodborne",
         "sr": "",
         "vod": "",
         "yt": "",
         "gm": ""
     },
-    "3172": {
+    "3932": {
+        "tw": "Bonus Game 3",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "3933": {
+        "tw": "Paper Mario: The Thousand-Year Door",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "3934": {
+        "tw": "NiGHTS into Dreams HD",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "3935": {
+        "tw": "Spark The Electric Jester 2",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "3936": {
+        "tw": "Tony Hawk's Pro Skater HD",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "3937": {
+        "tw": "Shrek 2",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "3938": {
+        "tw": "Return to Zork",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "3939": {
+        "tw": "Human: Fall Flat",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "3940": {
+        "tw": "Katamari Damacy: Reroll",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "3941": {
+        "tw": "Irritating Stick",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "3942": {
+        "tw": "Mawaza",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "3943": {
+        "tw": "Muscle March",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "3944": {
+        "tw": "The Legend of Zelda: Breath of the Wild",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "3945": {
+        "tw": "Tetris Attack",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "3946": {
+        "tw": "Bonus Game 4",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "3947": {
         "tw": "Finale",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "3948": {
+        "tw": "Shovel Knight: Treasure Trove",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "3949": {
+        "tw": "Legend of Hero Tonma",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "3950": {
+        "tw": "Zelda II: The Adventure of Link",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "3951": {
+        "tw": "Celeste",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "3952": {
+        "tw": "The Legend of Zelda",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "3953": {
+        "tw": "Super Mario Bros.",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "3954": {
+        "tw": "The Legend of Zelda: The Wind Waker",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "3955": {
+        "tw": "Dead Cells",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "3956": {
+        "tw": "Super Punch-Out!!",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "3957": {
+        "tw": "Super Mario 64 Randomizer",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "3958": {
+        "tw": "Resident Evil 2 (2019)",
         "sr": "",
         "vod": "",
         "yt": "",
