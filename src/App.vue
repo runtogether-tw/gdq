@@ -112,7 +112,7 @@
                           準備時間: {{sdList[nowplaying+1].setup_time}}
                         </v-flex>
                         <v-flex xs12 class="grey--text">
-                          開始時間: {{ nowdate | dateformat }} {{ nowdate | timeformat }}
+                          開始時間: {{ sdList[nowplaying+1].starttime | dateformat }} {{ sdList[nowplaying+1].starttime | timeformat }}
                         </v-flex>
                       </v-layout>
                     </v-card-title>

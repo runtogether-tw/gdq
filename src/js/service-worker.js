@@ -33,5 +33,3 @@ self.addEventListener('message', (e) => {
       break;
   }
 });
-
-workbox.clientsClaim();
