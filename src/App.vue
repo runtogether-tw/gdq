@@ -393,6 +393,7 @@
           </v-flex>
         </v-layout>
       </v-container>
+      <updateModal></updateModal>
     </v-app>
   </div>
 </template>
@@ -400,11 +401,13 @@
 <script>
 import { LATEST_EVENT, EVENT_LIST } from './js/constant';
 import twitchPlayer from './components/TwitchPlayer.vue';
+import updateModal from './components/UpdateModal.vue';
 
 export default {
   name: 'App',
   components: {
     twitchPlayer,
+    updateModal,
   },
   data() {
     return {
