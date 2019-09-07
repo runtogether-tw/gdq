@@ -70,8 +70,6 @@ export default {
   .twitchvideo {
     height:100%;
     width: 100%;
-    flex-grow:1;
-    flex-shrink: 1;
   }
   #twitchvideo {
     height:100%;
@@ -79,6 +77,7 @@ export default {
   }
   .twitchchat, #twitchchat {
     height:100%;
-    width: 22vw;
+    width: 340px;
+    flex-shrink: 1;
   }
 </style>
