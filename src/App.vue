@@ -112,7 +112,7 @@
                           準備時間: {{sdList[nowplaying+1].setup_time}}
                         </v-flex>
                         <v-flex xs12 class="grey--text">
-                          開始時間: {{ sdList[nowplaying+1].starttime | dateformat }} {{ sdList[nowplaying+1].starttime | timeformat }}
+                          開始時間: {{ sdList[nowplaying+1].starttime | dateformat }}{{ sdList[nowplaying+1].starttime | timeformat }}
                         </v-flex>
                       </v-layout>
                     </v-card-title>
@@ -276,51 +276,41 @@
             :key="'tab-'+index"
             :value="'tab-'+index">
             <template v-if="!loading">
-              <v-layout class="slayout" row wrap v-for="i in SliceList(index)" :key="i.pk"
+              <TableRow v-for="i in SliceList(index)" :key="i.pk"
                 :class="{
                   'reverse': $vuetify.breakpoint.xsOnly,
                   'end': (i.starttime.getTime() < nowdate.getTime()),
                   'now':(i.pk === sdList[nowplaying].pk),
                   }">
-                <v-flex class="sbl" xs4 sm1>
+                <template v-slot:startTime>
                   <div>{{ i.starttime | timeformat }}</div>
-                </v-flex>
-                <v-flex class="sbl" xs8 sm4
-                  :class="{
-                    'pa-1': $vuetify.breakpoint.mdAndUp,
-                    'pa-3': $vuetify.breakpoint.smAndDown
-                  }">
-                  <div>
+                </template>
+                <template v-slot:gameName>
                     {{i.name}}
-                  <a class="ml-1" v-if="!!i.tw.sr" :href="'https://www.speedrun.com/'+i.tw.sr">
-                    <v-icon>fas fa-trophy</v-icon>
-                  </a>
+                    <a class="ml-1" v-if="!!i.tw.sr" :href="'https://www.speedrun.com/'+i.tw.sr">
+                      <v-icon>fas fa-trophy</v-icon>
+                    </a>
                     <a class="ml-1" v-if="!!i.tw.gm" :href="i.tw.gm" target="_blank">
                       <v-icon>fab fa-steam</v-icon>
                     </a>
-                  </div>
-                </v-flex>
-                <v-flex class="sbl justify-space-around" hidden-xs-only sm4>
+                </template>
+                <template v-slot:runner>
                   {{i.runners}}
-                </v-flex>
-                <v-flex class="sbl" hidden-xs-only sm1>
-                  <div>{{i.run_time}}</div>
-                </v-flex>
-                <v-flex class="sbl slast" hidden-xs-only sm2>
-                  <div>{{i.category}}</div>
-                </v-flex>
-                <v-flex class="sbl" xs4 sm1>
+                </template>
+                <template v-slot:runTime>
+                  {{i.run_time}}
+                </template>
+                <template v-slot:category>
+                  {{i.category}}
+                </template>
+                <template v-slot:console>
                   <div class="hidden-xs-only">{{i.console}}</div>
                   <v-btn icon class="hidden-sm-and-up" @click="i.mobileExpand=!i.mobileExpand">
                     <v-icon v-if="!i.mobileExpand">fas fa-chevron-down</v-icon>
                     <v-icon v-if="i.mobileExpand">fas fa-chevron-up</v-icon>
                   </v-btn>
-                </v-flex>
-                <v-flex class="sbl" xs8 sm4
-                  :class="{
-                    'pa-1': $vuetify.breakpoint.mdAndUp,
-                    'pa-3': $vuetify.breakpoint.smAndDown
-                  }">
+                </template>
+                <template v-slot:tw>
                   <div>
                     {{i.tw.tw}}
                     <a class="ml-1" v-if="!!i.tw.vod" :href="'https://www.twitch.tv/videos/'+i.tw.vod" target="_blank">
@@ -330,21 +320,23 @@
                       <v-icon>fab fa-youtube</v-icon>
                     </a>
                   </div>
-                </v-flex>
-                <v-flex align-center class="sbl" hidden-xs-only sm5>
+                </template>
+                <template v-slot:runnerList>
                   <v-layout row wrap justify-space-around>
                     <v-flex xs6 v-for="j in i.runnersArr" :key="'runner'+index+j">
-                      {{rnList[j].name}}:
-                      <a class="px-1" :href="rnList[j].stream" target="_blank">
-                        <v-icon v-if="!!rnList[j].stream">fab fa-twitch</v-icon>
+                      <template v-if="(!!rnList[j].stream)||(!!rnList[j].twitter)">
+                        {{rnList[j].name}}:
+                      </template>
+                      <a v-if="!!rnList[j].stream" class="px-1" :href="rnList[j].stream" target="_blank">
+                        <v-icon>fab fa-twitch</v-icon>
                       </a>
-                      <a class="px-1" :href="'https://twitter.com/'+rnList[j].twitter" target="_blank">
-                        <v-icon v-if="!!rnList[j].twitter">fab fa-twitter</v-icon>
+                      <a v-if="!!rnList[j].twitter" class="px-1" :href="'https://twitter.com/'+rnList[j].twitter" target="_blank">
+                        <v-icon>fab fa-twitter</v-icon>
                       </a>
                     </v-flex>
                   </v-layout>
-                </v-flex>
-                <v-flex class="sbl slast" hidden-xs-only sm2>
+                </template>
+                <template v-slot:notification>
                   <template v-if="sdList.indexOf(i)!==0">
                     <v-btn v-on:click="InsertNotification(sdList.indexOf(i))" color="teal"
                       v-if="(!i.notification)&&((i.starttime.getTime() > nowdate.getTime()))">
@@ -355,19 +347,19 @@
                       <v-icon style="color:#E0F2F1">far fa-bell-slash</v-icon>
                     </v-btn>
                   </template>
-                </v-flex>
-                <transition name="fade">
+                </template>
+                <template v-slot:mobile>
                   <v-flex v-if="i.mobileExpand"
                     xs12 class="sbl slast hidden-sm-and-up text-xs-left">
                     <v-flex xs12 pa-3>
                       <div class="font-weight-bold">跑者</div>
                       <div class="pl-3" v-for="j in i.runnersArr" :key="'runner'+index+j">
                         {{rnList[j].name}}:
-                        <a class="px-1" :href="rnList[j].stream" target="_blank">
-                          <v-icon v-if="!!rnList[j].stream">fab fa-twitch</v-icon>
+                        <a v-if="!!rnList[j].stream" class="px-1" :href="rnList[j].stream" target="_blank">
+                          <v-icon>fab fa-twitch</v-icon>
                         </a>
-                        <a class="px-1" :href="'https://twitter.com/'+rnList[j].twitter" target="_blank">
-                          <v-icon v-if="!!rnList[j].twitter">fab fa-twitter</v-icon>
+                        <a v-if="!!rnList[j].twitter" class="px-1" :href="'https://twitter.com/'+rnList[j].twitter" target="_blank">
+                          <v-icon>fab fa-twitter</v-icon>
                         </a>
                       </div>
                       <div class="font-weight-bold">預估時間</div>
@@ -378,8 +370,8 @@
                       <div class="pl-3">{{i.console}}</div>
                     </v-flex>
                   </v-flex>
-                </transition>
-              </v-layout>
+                </template>
+              </TableRow>
             </template>
           </v-tab-item>
         </v-tabs-items>
@@ -393,21 +385,26 @@
           </v-flex>
         </v-layout>
       </v-container>
+      <div class="scrollTop" @click.stop="scrollToTop()">
+        <v-icon style="color:#E0F2F1">fas fa-chevron-up</v-icon>
+      </div>
       <updateModal></updateModal>
     </v-app>
   </div>
 </template>
 
 <script>
-import { LATEST_EVENT, EVENT_LIST } from './js/constant';
+import { LATEST_EVENT, EVENT_LIST, CONSOLE_LIST } from './js/constant';
 import twitchPlayer from './components/TwitchPlayer.vue';
 import updateModal from './components/UpdateModal.vue';
+import TableRow from './components/TableRow.vue';
 
 export default {
   name: 'App',
   components: {
     twitchPlayer,
     updateModal,
+    TableRow,
   },
   data() {
     return {
@@ -599,7 +596,7 @@ export default {
         this.sdList.push({
           pk: element.pk,
           name: element.fields.name,
-          console: element.fields.console,
+          console: CONSOLE_LIST[element.fields.console] ? CONSOLE_LIST[element.fields.console] : element.fields.console,
           category: element.fields.category.replace('any%', 'Any%'),
           setup_time: element.fields.setup_time,
           starttime: s,
@@ -643,6 +640,12 @@ export default {
       this.dateArr.length = 0;
       this.sdList.length = 0;
       this.getJSON();
+    },
+    scrollToTop() {
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth',
+      });
     },
     test() {
       if (this.sysNotiSupport && this.sysNoti) {
@@ -701,56 +704,6 @@ body {
   padding-bottom:2%;
   background-color: #B2DFDB;
 }
-.slayout {
-  &:nth-child(odd) {
-    background-color: #B2DFDB;
-    color:#303030;
-    &.end {
-      background-color: #CCCCCC !important;
-      color:#303030 !important;
-    }
-  }
-  &:nth-child(even) {
-    background-color: #E0F2F1;
-    color:#303030;
-    &.end {
-      background-color: #DDDDDD !important;
-      color:#303030 !important;
-    }
-  }
-  .stl {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #009688;
-    padding:5px 0 5px 0;
-    color:#E0F2F1;
-    border:#80CBC4;
-    border-right-style: solid;
-    border-top-style: solid;
-  }
-  .sbl {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border:#80CBC4;
-    border-right-style: solid;
-    border-top-style: solid;
-    vertical-align: middle;
-    &.justify-space-around {
-      justify-content: space-around;
-    }
-  }
-  .slast {
-    border-right-style: none;
-  }
-  &.now {
-    &.end {
-      background-color: #FAFAFA !important;
-    }
-    background-color: #FAFAFA !important;
-  }
-}
 .cardbg {
   background-color: #E0F2F1 !important;
 }
@@ -804,5 +757,16 @@ body {
 }
 .fade-enter {
   transform: translateY(-10px);
+}
+
+.scrollTop {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  padding: 10px;
+  z-index: 20;
+  background: rgba(80, 80, 80, 0.5);
+  border-radius: 5px;
+  cursor: pointer;
 }
 </style>
