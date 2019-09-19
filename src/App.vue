@@ -713,6 +713,7 @@ body {
     height: auto;
     min-height: 200px;
     width: 170px;
+    margin: 0 auto;
   }
 }
 .card__title {
