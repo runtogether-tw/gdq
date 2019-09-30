@@ -324,8 +324,9 @@
                 <template v-slot:runnerList>
                   <v-layout row wrap justify-space-around>
                     <v-flex xs6 v-for="j in i.runnersArr" :key="'runner'+index+j">
+                      {{rnList[j].name}}
                       <template v-if="(!!rnList[j].stream)||(!!rnList[j].twitter)">
-                        {{rnList[j].name}}:
+                        :
                       </template>
                       <a v-if="!!rnList[j].stream" class="px-1" :href="rnList[j].stream" target="_blank">
                         <v-icon>fab fa-twitch</v-icon>

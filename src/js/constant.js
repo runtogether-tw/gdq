@@ -1,7 +1,7 @@
 export const LATEST_EVENT = 27;
 export const EVENT_LIST = {
   18: 'SGDQ2016',
-  19: 'AGDQ2016',
+  19: 'AGDQ2017',
   20: 'SGDQ2017',
   22: 'AGDQ2018',
   23: 'SGDQ2018',
