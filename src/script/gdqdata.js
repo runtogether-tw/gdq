@@ -1,7 +1,7 @@
 const request = require('request');
 const fs = require('fs');
 
-const eventID = 25;
+const eventID = process.argv[2];
 const gdqrun = {
   url: `https://gamesdonequick.com/tracker/search/?type=run&event=${eventID}`,
   method: 'GET',
