@@ -13,6 +13,7 @@ const EVENT_LIST = {
   24: 'gdqx',
   25: 'agdq-2019',
   26: 'sgdq-2019',
+  27: 'gdqx-2019',
 };
 const gameToPk = {};
 EVENT.run.forEach((element) => {

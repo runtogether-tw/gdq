@@ -1,0 +1,971 @@
+{
+    "logo": "",
+    "yetee_link": "",
+    "gdq_link": "agdq2020",
+    "3960": {
+        "tw": "Pre-Show",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "3961": {
+        "tw": "A Hat in Time",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "3962": {
+        "tw": "Metroid: Zero Mission",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "3963": {
+        "tw": "Mega Man 7",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "3964": {
+        "tw": "Ratchet & Clank Future: Tools of Destruction",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "3965": {
+        "tw": "Star Wars - Escape from Yavin 4: The Lost Maps",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "3966": {
+        "tw": "The Binding Of Isaac Afterbirth+",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "3967": {
+        "tw": "Super Mario Bros. 3",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "3968": {
+        "tw": "The Legend of Zelda: Skyward Sword",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "3969": {
+        "tw": "Dino Crisis 2",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "3970": {
+        "tw": "realMyst: Masterpiece Edition",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "3971": {
+        "tw": "Riven: The Sequel to Myst",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "3972": {
+        "tw": "Myst III: Exile",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "3973": {
+        "tw": "Bomberman Hero",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "3974": {
+        "tw": "Chameleon Twist 2",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "3975": {
+        "tw": "Razor Freestyle Scooter",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "3976": {
+        "tw": "Tetrisphere",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "3977": {
+        "tw": "Skyblazer",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "3978": {
+        "tw": "The Legend of the Mystical Ninja",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "3979": {
+        "tw": "ActRaiser",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "3980": {
+        "tw": "The Great Circus Mystery Starring Mickey & Minnie",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "3981": {
+        "tw": "Donkey Kong Country 3",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "3982": {
+        "tw": "Sonic Colours",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "3983": {
+        "tw": "Sonic CD (2011)",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "3984": {
+        "tw": "Sonic 3 & Knuckles",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "3985": {
+        "tw": "Bonus Game 1",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "3986": {
+        "tw": "Fallout Anthology",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "3987": {
+        "tw": "Doom: SIGIL",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "3988": {
+        "tw": "AMID EVIL",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "3989": {
+        "tw": "DOOM (2016)",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "3990": {
+        "tw": "Bayonetta 2",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "3991": {
+        "tw": "Grand Theft Auto: San Andreas",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "3992": {
+        "tw": "Tron: Evolution",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "3993": {
+        "tw": "Eagle Island",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "3994": {
+        "tw": "The Mummy Demastered",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "3995": {
+        "tw": "Hotline Miami",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "3996": {
+        "tw": "Crowtel Renovations",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "3997": {
+        "tw": "Chippy",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "3998": {
+        "tw": "Adventures of Lolo",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "3999": {
+        "tw": "Adventure Island II",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "4000": {
+        "tw": "Hebereke",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "4001": {
+        "tw": "Ninja Gaiden II: The Dark Sword of Chaos",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "4002": {
+        "tw": "Super Castlevania IV",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "4003": {
+        "tw": "Pokémon Sapphire",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "4004": {
+        "tw": "Bonus Game 2",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "4005": {
+        "tw": "Terraria",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "4006": {
+        "tw": "The Legend of Zelda series",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "4007": {
+        "tw": "Final Fantasy VIII",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "4008": {
+        "tw": "Vectorman 2",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "4009": {
+        "tw": "Shadow Dancer",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "4010": {
+        "tw": "Shinobi III: Return of the Ninja Master",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "4011": {
+        "tw": "Mystic Defender",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "4012": {
+        "tw": "Garfield: Caught in the Act",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "4013": {
+        "tw": "Contra: Hard Corps",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "4015": {
+        "tw": "Blazing Chrome",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "4016": {
+        "tw": "Cybernator",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "4017": {
+        "tw": "Super Monkey Ball",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "4018": {
+        "tw": "Teenage Mutant Ninja Turtles (arcade)",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "4019": {
+        "tw": "Mushihimesama Futari 1.01",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "4020": {
+        "tw": "Metal Gear Solid 3: Snake Eater",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "4021": {
+        "tw": "The Legend of Zelda: Ocarina of Time",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "4022": {
+        "tw": "Cadence of Hyrule",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "4023": {
+        "tw": "Bonus Game 3",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "4024": {
+        "tw": "Super Hydlide",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "4025": {
+        "tw": "Hoshi wo Miru Hito",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "4026": {
+        "tw": "Sword of the Black Stone",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "4027": {
+        "tw": "Castle of Dragon",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "4028": {
+        "tw": "Wild Animal Sports Day",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "4029": {
+        "tw": "The Adventures of Rocky and Bullwinkle and Friends",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "4030": {
+        "tw": "Jurassic Park III: Dino Defender",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "4031": {
+        "tw": "Cybergenic Ranger: Secret of the Seventh Planet",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "4032": {
+        "tw": "Mega Man 3 (DOS)",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "4033": {
+        "tw": "Miracle Ropit's Adventure in 2100",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "4034": {
+        "tw": "Normy's BeachBabe-O-Rama",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "4035": {
+        "tw": "Doctor Hauzer",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "4036": {
+        "tw": "Nightcry",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "4037": {
+        "tw": "Fatal Frame",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "4038": {
+        "tw": "Resident Evil 4",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "4039": {
+        "tw": "The Last of Us: Left Behind",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "4040": {
+        "tw": "Jak 2",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "4041": {
+        "tw": "Marvel's Spider-Man",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "4042": {
+        "tw": "Devil May Cry 5",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "4043": {
+        "tw": "Fire Emblem: Three Houses",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "4044": {
+        "tw": "Bonus Game 4",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "4045": {
+        "tw": "BioShock",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "4046": {
+        "tw": "Wolfenstein: Youngblood",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "4047": {
+        "tw": "Subnautica",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "4049": {
+        "tw": "The Sun And Moon",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "4050": {
+        "tw": "140",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "4051": {
+        "tw": "Action Henk",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "4052": {
+        "tw": "Super Fancy Pants Adventure",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "4053": {
+        "tw": "Vampire: The Masquerade - Bloodlines",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "4054": {
+        "tw": "Gato Roboto",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "4055": {
+        "tw": "Darkened Skye",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "4056": {
+        "tw": "Touhou Luna Nights",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "4057": {
+        "tw": "VVVVVV",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "4058": {
+        "tw": "PAC-MAN Championship Edition DX+",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "4059": {
+        "tw": "Pac-Man Arrangement",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "4060": {
+        "tw": "Pokémon X/Y",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "4061": {
+        "tw": "Mega Man X4",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "4062": {
+        "tw": "Mega Man X",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "4063": {
+        "tw": "The Legend of Zelda: The Wind Waker",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "4064": {
+        "tw": "TASBot plays Super Mario Bros. 3",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "4065": {
+        "tw": "TASBot plays Super Mario Bros. 2",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "4066": {
+        "tw": "Super Mario 64 Randomizer",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "4067": {
+        "tw": "Super Mario World",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "4068": {
+        "tw": "Dark Souls",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "4069": {
+        "tw": "Trauma Center New Blood",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "4070": {
+        "tw": "Tony Hawk's Project 8",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "4071": {
+        "tw": "Jumping Flash!",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "4072": {
+        "tw": "Kuru Kuru Kururin",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "4073": {
+        "tw": "Super Cat Bros",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "4074": {
+        "tw": "Battletoads Super Gameboy",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "4075": {
+        "tw": "Bonk's Adventure",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "4076": {
+        "tw": "Castlevania The Dracula X Chronicles",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "4077": {
+        "tw": "Clone Hero (Guitar Hero)",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "4078": {
+        "tw": "Sekiro",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "4079": {
+        "tw": "Katana Zero",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "4080": {
+        "tw": "The Legend of Zelda: A Link to the Past Randomizer",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "4081": {
+        "tw": "Super Mario Maker 2",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "4082": {
+        "tw": "Finale",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "4083": {
+        "tw": "Mario & Luigi: Superstar Saga",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "4084": {
+        "tw": "Mega Man 4-6",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "4085": {
+        "tw": "Destiny 2",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "4086": {
+        "tw": "Bonus Game 5",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "4087": {
+        "tw": "Super Metroid Impossible",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "4088": {
+        "tw": "Barbie",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "4089": {
+        "tw": "Ghouls 'n Ghosts",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "4090": {
+        "tw": "Earth Defense Force 5",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "4091": {
+        "tw": "Squidlit",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "4092": {
+        "tw": "Battletoads & Double Dragon",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "4094": {
+        "tw": "Celeste",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "4095": {
+        "tw": "Control",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "4096": {
+        "tw": "Manifold Garden",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "4097": {
+        "tw": "Bonus Game 6",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "4098": {
+        "tw": "The Outer Worlds",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "4099": {
+        "tw": "Untitled Goose Game",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "4100": {
+        "tw": "Blasphemous",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    }
+}
