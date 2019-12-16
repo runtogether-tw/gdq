@@ -1,5 +1,5 @@
 <template>
-  <v-layout row justify-center>
+  <v-layout justify-center>
     <v-dialog v-model="updateExists" persistent max-width="290">
       <v-card>
         <v-card-title class="headline">發現更新</v-card-title>

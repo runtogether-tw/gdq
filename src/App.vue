@@ -6,7 +6,7 @@
         <audio id="BaoAlert">
           <source :src="'https://code.responsivevoice.org/getvoice.php?t=\''+alertselect+'\'&tl=zh-CN'" type="audio/mpeg">
         </audio>
-        <v-tabs icons-and-text centered dark color="teal"
+        <v-tabs icons-and-text centered dark background-color="teal"
           show-arrows
           prev-icon="fas fa-arrow-circle-left"
           next-icon="fas fa-arrow-circle-right">
@@ -25,7 +25,7 @@
           </v-tab>
           <v-tab-item value="menu-1">
             <v-card class="cardbg pa-2" flat>
-              <v-layout v-if="!loading" row wrap justify-space-around align-center
+              <v-layout v-if="!loading" wrap justify-space-around align-center
                 :class="{
                   'column': $vuetify.breakpoint.xsOnly,
                 }">
@@ -36,7 +36,6 @@
                   <v-card
                   :class="{
                     'layout': $vuetify.breakpoint.xsOnly,
-                    'row': $vuetify.breakpoint.xsOnly,
                   }">
                     <v-img
                       :src="getPic(sdList[nowplaying].name)"
@@ -51,13 +50,13 @@
                       </v-container>
                     </v-img>
                     <v-card-title primary-title>
-                      <v-layout row wrap justify-space-around>
+                      <v-layout wrap justify-space-around>
                         <v-flex xs12 class="twolines">{{sdList[nowplaying].name}}</v-flex>
                         <v-flex xs12>{{sdList[nowplaying].tw.tw}}<a v-if="sdList[nowplaying].tw.sr!=''" :href="'https://www.speedrun.com/'+sdList[nowplaying].tw.sr"><span>&ensp;</span><v-icon>fas fa-trophy</v-icon></a></v-flex>
-                        <v-flex xs12 class="grey--text">
+                        <v-flex xs12 class="grey--text time--small">
                           準備時間: {{sdList[nowplaying].setup_time}}
                         </v-flex>
-                        <v-flex xs12 class="grey--text">
+                        <v-flex xs12 class="grey--text time--small">
                           預計時間: {{sdList[nowplaying].run_time}}
                         </v-flex>
                       </v-layout>
@@ -72,7 +71,7 @@
                     >
                     </v-img>
                     <v-card-title primary-title pa-3>
-                      <v-layout row wrap justify-space-around>
+                      <v-layout wrap justify-space-around>
                         <v-flex xs12 class="grey--text">現在時間</v-flex>
                         <v-flex xs12 class="headline">
                           {{ nowdate | timeformat }}
@@ -90,7 +89,6 @@
                     v-if="(nowplaying+1)<=(sdList.length-1)"
                     :class="{
                       'layout': $vuetify.breakpoint.xsOnly,
-                      'row': $vuetify.breakpoint.xsOnly,
                     }">
                     <v-img
                       :src="getPic(sdList[nowplaying+1].name)"
@@ -105,21 +103,21 @@
                       </v-container>
                     </v-img>
                     <v-card-title primary-title>
-                      <v-layout row wrap justify-space-around>
+                      <v-layout wrap justify-space-around>
                         <v-flex xs12 class="twolines">{{sdList[nowplaying+1].name}}</v-flex>
                         <v-flex xs12>{{sdList[nowplaying+1].tw.tw}}<a v-if="sdList[nowplaying+1].tw.sr!=''" :href="'https://www.speedrun.com/'+sdList[nowplaying+1].tw.sr"><span>&ensp;</span><v-icon>fas fa-trophy</v-icon></a></v-flex>
-                        <v-flex xs12 class="grey--text">
+                        <v-flex xs12 class="grey--text time--small">
                           準備時間: {{sdList[nowplaying+1].setup_time}}
                         </v-flex>
-                        <v-flex xs12 class="grey--text">
-                          開始時間: {{ sdList[nowplaying+1].starttime | dateformat }}{{ sdList[nowplaying+1].starttime | timeformat }}
+                        <v-flex xs12 class="grey--text time--small">
+                          開始時間: {{ sdList[nowplaying+1].starttime | dateformat }} {{ sdList[nowplaying+1].starttime | timeformat }}
                         </v-flex>
                       </v-layout>
                     </v-card-title>
                   </v-card>
                 </v-flex>
               </v-layout>
-              <v-layout row justify-center align-center mt-3>
+              <v-layout justify-center align-center mt-3>
                 <v-flex xs5>
                   <v-select
                   :items="eventItem"
@@ -139,7 +137,7 @@
           </v-tab-item>
           <v-tab-item value="menu-2">
             <v-card class="cardbg pa-2" flat>
-              <v-layout row wrap justify-space-around>
+              <v-layout wrap justify-space-around>
                 <v-flex xs12>
                   <div v-if="notification.length === 0">你可以點擊節目表上的鬧鐘按鈕來加入提醒清單，我們將在節目開始時提醒您。</div>
                   <div>請依照自己喜好調整通知系統強度。</div>
@@ -164,7 +162,7 @@
                 </v-flex>
               </v-layout>
               <template v-if="!loading">
-                <v-layout class="slayout" row wrap
+                <v-layout class="slayout" wrap
                   v-for="i in notification" :key="i"
                   :class="{end: (sdList[i].starttime.getTime() < nowdate.getTime())}">
                   <v-flex class="sbl" xs1>
@@ -238,7 +236,7 @@
             </v-card>
           </v-tab-item>
         </v-tabs>
-        <v-tabs grow icons-and-text centered dark color="teal"
+        <v-tabs grow icons-and-text centered dark background-color="teal"
           class="sticky sticky--tab"
           show-arrows
           v-model="tabs"
@@ -250,7 +248,7 @@
             <v-icon>far fa-calendar-alt</v-icon>
           </v-tab>
         </v-tabs>
-        <v-layout v-if="!loading" class="sticky sticky--time slayout" row wrap
+        <v-layout v-if="!loading" class="sticky sticky--time slayout" wrap
           :class="{'reverse': $vuetify.breakpoint.xsOnly}">
           <v-flex class="stl" xs4 sm1>
             開始時間
@@ -322,7 +320,7 @@
                   </div>
                 </template>
                 <template v-slot:runnerList>
-                  <v-layout row wrap justify-space-around>
+                  <v-layout wrap justify-space-around>
                     <v-flex xs6 v-for="j in i.runnersArr" :key="'runner'+index+j">
                       {{rnList[j].name}}
                       <template v-if="(!!rnList[j].stream)||(!!rnList[j].twitter)">
@@ -696,9 +694,12 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   color: #2c3e50;
   background-color: #6CABA5;
+  .v-btn {
+    margin: 6px 8px !important;
+  }
 }
 .sarea {
   padding-top:2%;
@@ -720,6 +721,9 @@ body {
 .card__title {
   padding:1%;
   background: rgba(80, 80, 80, 0.5);
+}
+.time--small {
+  font-size: 16px;
 }
 .sticky {
   position: sticky;

@@ -1,5 +1,5 @@
 <template>
-  <v-layout class="slayout" row wrap>
+  <v-layout class="slayout" wrap>
     <v-flex class="sbl" xs4 sm1>
       <slot name="startTime"></slot>
     </v-flex>
