@@ -1,24 +1,27 @@
-# tgm3gdq
+# GDQ Schedule [![Build Status](https://travis-ci.org/runtogether-tw/gdq.svg?branch=master)](https://travis-ci.org/runtogether-tw/gdq) 
+GDQ schedule for Taiwan viewers.  
+https://runtogether-tw.github.io/gdq/
 
-## Project setup
-```
-npm install
-```
+## GDQ中文時程表
+為台灣喜愛觀賞speedrun活動的觀眾所寫的中文時程表
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## Roadmap
+### SGDQ2018
+- Schedule/Runner API串接
+- 節目名稱中文翻譯
+- 鈴聲式提醒通知
 
-### Compiles and minifies for production
-```
-npm run build
-```
+### GDQX2018
+- 可於頁面開啟twitch+中文聊天室
 
-### Lints and fixes files
-```
-npm run lint
-```
+### SGDQ2019
+- 遷移原有Google表單，顯示Vod/youtube等新資訊
+- 支援手機板RWD
+- 支援手機APP安裝 (PWA)
+- 增強鬧鈴強度
+- 支援系統推播
+- 新增回顧舊有活動功能
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Credits
+- Developer: [Crs](https://github.com/crs38c28)
+- Translator/Content writer: [id9000](https://github.com/id9000)
