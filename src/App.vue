@@ -322,16 +322,18 @@
                 <template v-slot:runnerList>
                   <v-layout wrap justify-space-around>
                     <v-flex xs6 v-for="j in i.runnersArr" :key="'runner'+index+j">
-                      {{rnList[j].name}}
-                      <template v-if="(!!rnList[j].stream)||(!!rnList[j].twitter)">
-                        :
+                      <template v-if="rnList[j]">
+                        {{rnList[j].name}}
+                        <template v-if="(!!rnList[j].stream)||(!!rnList[j].twitter)">
+                          :
+                        </template>
+                        <a v-if="!!rnList[j].stream" class="px-1" :href="rnList[j].stream" target="_blank">
+                          <v-icon>fab fa-twitch</v-icon>
+                        </a>
+                        <a v-if="!!rnList[j].twitter" class="px-1" :href="'https://twitter.com/'+rnList[j].twitter" target="_blank">
+                          <v-icon>fab fa-twitter</v-icon>
+                        </a>
                       </template>
-                      <a v-if="!!rnList[j].stream" class="px-1" :href="rnList[j].stream" target="_blank">
-                        <v-icon>fab fa-twitch</v-icon>
-                      </a>
-                      <a v-if="!!rnList[j].twitter" class="px-1" :href="'https://twitter.com/'+rnList[j].twitter" target="_blank">
-                        <v-icon>fab fa-twitter</v-icon>
-                      </a>
                     </v-flex>
                   </v-layout>
                 </template>
@@ -353,13 +355,15 @@
                     <v-flex xs12 pa-3>
                       <div class="font-weight-bold">跑者</div>
                       <div class="pl-3" v-for="j in i.runnersArr" :key="'runner'+index+j">
-                        {{rnList[j].name}}:
-                        <a v-if="!!rnList[j].stream" class="px-1" :href="rnList[j].stream" target="_blank">
-                          <v-icon>fab fa-twitch</v-icon>
-                        </a>
-                        <a v-if="!!rnList[j].twitter" class="px-1" :href="'https://twitter.com/'+rnList[j].twitter" target="_blank">
-                          <v-icon>fab fa-twitter</v-icon>
-                        </a>
+                        <template v-if="rnList[j]">
+                          {{rnList[j].name}}:
+                          <a v-if="!!rnList[j].stream" class="px-1" :href="rnList[j].stream" target="_blank">
+                            <v-icon>fab fa-twitch</v-icon>
+                          </a>
+                          <a v-if="!!rnList[j].twitter" class="px-1" :href="'https://twitter.com/'+rnList[j].twitter" target="_blank">
+                            <v-icon>fab fa-twitter</v-icon>
+                          </a>
+                        </template>
                       </div>
                       <div class="font-weight-bold">預估時間</div>
                       <div class="pl-3">{{i.run_time}}</div>
