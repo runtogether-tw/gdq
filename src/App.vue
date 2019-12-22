@@ -15,7 +15,7 @@
             Next
             <v-icon>fas fa-gamepad</v-icon>
           </v-tab>
-          <v-tab :disabled="!showNotification" href="#menu-2">
+          <v-tab :disabled="!isLatestEvent" href="#menu-2">
             Notification
             <v-icon>fas fa-bell</v-icon>
           </v-tab>
@@ -232,6 +232,10 @@
                 <v-btn color="teal" title="測試鬧鈴" v-on:click="test()">
                   <v-icon style="color:#E0F2F1">fas fa-volume-up</v-icon>
                 </v-btn>
+                <v-btn v-if="!authState" hidden-xs-only title="Twitch登入" color="#6441a5" href="https://crs-dlbot.herokuapp.com/auth/twitch/" target="_self">
+                  <v-icon style="color:#E0F2F1">fab fa-twitch</v-icon>
+                  <span style="margin-left:5px;color:#E0F2F1">Connect with Twitch</span>
+                </v-btn>
               </v-flex>
             </v-card>
           </v-tab-item>
@@ -293,7 +297,21 @@
                     </a>
                 </template>
                 <template v-slot:runner>
-                  {{i.runners}}
+                  <div v-if="isLatestEvent" class="flex wrap">
+                    <v-btn v-for="e in emoteList" x-small
+                      depressed
+                      :color="(userEmoteObj[i.pk] && (userEmoteObj[i.pk] === e)) ? 'rgba(50, 50, 100, 0.5)' : 'rgba(50, 50, 60, 0.3)'"
+                      :key="`${i.pk}-emote-${e}`"
+                      @click.stop="vote(i.pk, e)">
+                      <img class="emote" :src="`https://static-cdn.jtvnw.net/emoticons/v1/${e}/1.0`">
+                      <span class="emote__count">
+                        {{ getEmoteCount(i.pk, e) }}
+                      </span>
+                    </v-btn>
+                  </div>
+                  <template v-else>
+                    {{ i.runners }}
+                  </template>
                 </template>
                 <template v-slot:runTime>
                   {{i.run_time}}
@@ -302,7 +320,7 @@
                   {{i.category}}
                 </template>
                 <template v-slot:console>
-                  <div class="hidden-xs-only">{{i.console}}</div>
+                  <div class="hidden-xs-only word-break">{{i.console}}</div>
                   <v-btn icon class="hidden-sm-and-up" @click="i.mobileExpand=!i.mobileExpand">
                     <v-icon v-if="!i.mobileExpand">fas fa-chevron-down</v-icon>
                     <v-icon v-if="i.mobileExpand">fas fa-chevron-up</v-icon>
@@ -351,7 +369,7 @@
                 </template>
                 <template v-slot:mobile>
                   <v-flex v-if="i.mobileExpand"
-                    xs12 class="sbl slast hidden-sm-and-up text-xs-left">
+                    xs12 class="sbl slast hidden-sm-and-up text-left">
                     <v-flex xs12 pa-3>
                       <div class="font-weight-bold">跑者</div>
                       <div class="pl-3" v-for="j in i.runnersArr" :key="'runner'+index+j">
@@ -371,6 +389,19 @@
                       <div class="pl-3">{{i.category}}</div>
                       <div class="font-weight-bold">遊戲平台</div>
                       <div class="pl-3">{{i.console}}</div>
+                      <div v-if="isLatestEvent" class="font-weight-bold">感想</div>
+                      <div v-if="isLatestEvent" class="flex wrap">
+                        <v-btn v-for="e in emoteList" x-small
+                          depressed
+                          color="rgba(50, 50, 100, 0.5)"
+                          :key="`${i.pk}-mobile-emote-${e}`"
+                          @click.stop="">
+                          <img class="emote" :src="`https://static-cdn.jtvnw.net/emoticons/v1/${e}/1.0`">
+                          <span class="emote__count">
+                            {{ getEmoteCount(i.pk, e) }}
+                          </span>
+                        </v-btn>
+                      </div>
                     </v-flex>
                   </v-flex>
                 </template>
@@ -389,15 +420,28 @@
         </v-layout>
       </v-container>
       <div class="scrollTop" @click.stop="scrollToTop()">
-        <v-icon style="color:#E0F2F1">fas fa-chevron-up</v-icon>
+        <v-icon style="color:#E0F2F1">fas fa-angle-up</v-icon>
       </div>
       <updateModal></updateModal>
+      <v-snackbar
+        v-model="snackbar"
+        left
+        :timeout="3000"
+      >
+        請至"INFO -> 功能測試"，連接Twitch帳號來使用此功能
+      </v-snackbar>
     </v-app>
   </div>
 </template>
 
 <script>
-import { LATEST_EVENT, EVENT_LIST, CONSOLE_LIST } from './js/constant';
+import axios from 'axios';
+import {
+  LATEST_EVENT,
+  EVENT_LIST,
+  CONSOLE_LIST,
+  EMOTE_LIST,
+} from './js/constant';
 import twitchPlayer from './components/TwitchPlayer.vue';
 import updateModal from './components/UpdateModal.vue';
 import TableRow from './components/TableRow.vue';
@@ -418,6 +462,11 @@ export default {
       dateArr: [],
       sdList: [],
       rnList: [],
+      authState: null,
+      emoteList: EMOTE_LIST,
+      emoteCountObj: {},
+      userEmoteObj: {},
+      voteWaiting: false,
       notification: [],
       sysNotiSupport: false,
       sysNoti: true,
@@ -428,6 +477,7 @@ export default {
       nowdate: null,
       loading: true,
       nowplaying: 0,
+      snackbar: false,
     };
   },
   watch: {
@@ -489,7 +539,7 @@ export default {
     },
   },
   computed: {
-    showNotification() {
+    isLatestEvent() {
       return this.eventID === LATEST_EVENT;
     },
   },
@@ -623,7 +673,48 @@ export default {
       });
       this.loading = false;
     },
+    async getAuthandEmote() {
+      // get auth
+      await axios.get('https://crs-dlbot.herokuapp.com/auth/twitch/check', {
+        withCredentials: true,
+      })
+        .then((res) => {
+          this.authState = res.data.user;
+        })
+        .catch(() => {
+          this.authState = null;
+        });
+      // get emote count
+      await axios.get('https://crs-dlbot.herokuapp.com/vote/list').then((res) => {
+        this.emoteCountObj = res.data.data.reduce((result, element) => {
+          result[element.gid] = {  // eslint-disable-line
+            ...result[element.gid],
+            [element.emote]: parseInt(element.ct, 10),
+          };
+          return result;
+        }, {});
+      });
+      // get user vote list
+      if (this.authState) {
+        await axios.get('https://crs-dlbot.herokuapp.com/vote/user', {
+          withCredentials: true,
+        })
+          .then((res) => {
+            this.userEmoteObj = res.data.data.reduce((result, element) => {
+              result[element.gid] = element.emote; // eslint-disable-line
+              return result;
+            }, {});
+          })
+          .catch(() => {
+            this.authState = null;
+          });
+      }
+    },
     async getJSON() {
+      if (this.isLatestEvent) {
+        this.getAuthandEmote();
+      }
+      // get list
       let RequestJSON;
       if (!this.eventID || !EVENT_LIST[this.eventID]) {
         this.eventID = LATEST_EVENT;
@@ -636,6 +727,46 @@ export default {
       this.twJSON = await this.getRequest(`./lang/${this.eventID}.json`);
       this.getList(RequestJSON);
       this.setclock();
+    },
+    vote(game, emote) {
+      if (!this.authState) {
+        this.snackbar = true;
+      }
+      if (this.userEmoteObj[game] === emote) {
+        return;
+      }
+      this.voteWaiting = true;
+      axios.post('https://crs-dlbot.herokuapp.com/vote/emote', {
+        game,
+        emote,
+      }, {
+        withCredentials: true,
+      })
+        .then(() => {
+          if (!this.emoteCountObj[game]) {
+            this.$set(this.emoteCountObj, game, {});
+          }
+          if (!this.emoteCountObj[game][emote]) {
+            this.$set(this.emoteCountObj[game], emote, 0);
+          }
+          if (this.userEmoteObj[game]) {
+            this.$set(this.emoteCountObj[game], this.userEmoteObj[game], this.emoteCountObj[game][this.userEmoteObj[game]] - 1);
+          }
+          this.$set(this.emoteCountObj[game], emote, this.emoteCountObj[game][emote] + 1);
+          this.$set(this.userEmoteObj, game, emote);
+        })
+        .catch(() => {
+          this.authState = null;
+        })
+        .finally(() => {
+          this.voteWaiting = false;
+        });
+    },
+    getEmoteCount(game, emote) {
+      if (!this.emoteCountObj[game] || !this.emoteCountObj[game][emote]) {
+        return 0;
+      }
+      return this.emoteCountObj[game][emote];
     },
     refresh() {
       this.loading = true;
@@ -773,10 +904,29 @@ body {
   position: fixed;
   right: 10px;
   bottom: 10px;
-  padding: 10px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   z-index: 20;
   background: rgba(80, 80, 80, 0.5);
   border-radius: 5px;
   cursor: pointer;
+}
+.emote {
+  height: 16px;
+  &__btn {
+    &--disable {
+      pointer-events: none;
+    }
+  }
+  &__count {
+    color:#2c3e50;
+    margin-left: 5px;
+  }
+}
+.word-break {
+  word-break: break-word;
 }
 </style>
