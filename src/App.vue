@@ -234,7 +234,11 @@
                 </v-btn>
                 <v-btn v-if="!authState" hidden-xs-only title="Twitch登入" color="#6441a5" href="https://crs-dlbot.herokuapp.com/auth/twitch/" target="_self">
                   <v-icon style="color:#E0F2F1">fab fa-twitch</v-icon>
-                  <span style="margin-left:5px;color:#E0F2F1">Connect with Twitch</span>
+                  <span style="margin-left:5px;color:#E0F2F1">連接Twitch帳號</span>
+                </v-btn>
+                <v-btn v-if="authState" hidden-xs-only title="Twitch登入" color="#6441a5" href="https://crs-dlbot.herokuapp.com/auth/twitch/logout" target="_self">
+                  <v-icon style="color:#E0F2F1">fab fa-twitch</v-icon>
+                  <span style="margin-left:5px;color:#E0F2F1">登出</span>
                 </v-btn>
               </v-flex>
             </v-card>
