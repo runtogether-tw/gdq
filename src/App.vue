@@ -685,8 +685,9 @@ export default {
         .then((res) => {
           this.authState = res.data.user;
         })
-        .catch(() => {
+        .catch((error) => {
           this.authState = null;
+          return error;
         });
       // get emote count
       await axios.get('https://crs-dlbot.herokuapp.com/vote/list').then((res) => {
@@ -736,7 +737,7 @@ export default {
       if (!this.authState) {
         this.snackbar = true;
       }
-      if (this.userEmoteObj[game] === emote) {
+      if ((this.userEmoteObj[game] === emote) || this.voteWaiting) {
         return;
       }
       this.voteWaiting = true;
