@@ -3,7 +3,7 @@
     "yetee_link": "agdq",
     "gdq_link": "agdq2020",
     "3960": {
-        "tw": "開場",
+        "tw": "開幕",
         "sr": "",
         "vod": "",
         "yt": "",
@@ -248,64 +248,64 @@
         "gm": "https://store.steampowered.com/app/630310/The_Mummy_Demastered/"
     },
     "3995": {
-        "tw": "Hotline Miami",
-        "sr": "",
+        "tw": "火線邁阿密",
+        "sr": "hotline_miami",
         "vod": "",
         "yt": "",
-        "gm": ""
+        "gm": "https://store.steampowered.com/app/219150/Hotline_Miami/"
     },
     "3996": {
         "tw": "Crowtel Renovations",
-        "sr": "",
+        "sr": "crowtel_renovations",
         "vod": "",
         "yt": "",
-        "gm": ""
+        "gm": "https://store.steampowered.com/app/573520/Crowtel_Renovations/"
     },
     "3997": {
         "tw": "Chippy",
-        "sr": "",
+        "sr": "chippy",
         "vod": "",
         "yt": "",
-        "gm": ""
+        "gm": "https://store.steampowered.com/app/602700/Chippy/"
     },
     "3998": {
-        "tw": "Adventures of Lolo",
-        "sr": "",
+        "tw": "アドベンチャーズ オブ ロロ",
+        "sr": "lolo1",
         "vod": "",
         "yt": "",
         "gm": ""
     },
     "3999": {
-        "tw": "Adventure Island II",
-        "sr": "",
+        "tw": "冒險島II",
+        "sr": "ai2",
         "vod": "",
         "yt": "",
         "gm": ""
     },
     "4000": {
-        "tw": "Hebereke",
-        "sr": "",
+        "tw": "へべれけ",
+        "sr": "hebereke",
         "vod": "",
         "yt": "",
         "gm": ""
     },
     "4001": {
-        "tw": "Ninja Gaiden II: The Dark Sword of Chaos",
-        "sr": "",
+        "tw": "忍者龍劍傳II：暗黑的邪神劍",
+        "sr": "ng2nes",
         "vod": "",
         "yt": "",
         "gm": ""
     },
     "4002": {
-        "tw": "Super Castlevania IV",
-        "sr": "",
+        "tw": "超級惡魔城IV",
+        "sr": "scv4",
         "vod": "",
         "yt": "",
         "gm": ""
     },
     "4003": {
-        "tw": "Pokémon Sapphire",
-        "sr": "",
+        "tw": "精靈寶可夢：藍寶石",
+        "sr": "pkmnrubysapphire",
         "vod": "",
         "yt": "",
         "gm": ""
@@ -319,119 +319,119 @@
     },
     "4005": {
         "tw": "Terraria",
-        "sr": "",
+        "sr": "terraria",
         "vod": "",
         "yt": "",
-        "gm": ""
+        "gm": "https://store.steampowered.com/app/105600/Terraria/"
     },
     "4006": {
-        "tw": "The Legend of Zelda series",
+        "tw": "薩爾達傳說系列接力賽(1~3)",
         "sr": "",
         "vod": "",
         "yt": "",
         "gm": ""
     },
     "4007": {
-        "tw": "Final Fantasy VIII",
-        "sr": "",
+        "tw": "太空戰士8",
+        "sr": "ff8",
         "vod": "",
         "yt": "",
-        "gm": ""
+        "gm": "https://store.steampowered.com/app/1026680/FINAL_FANTASY_VIII__REMASTERED/"
     },
     "4008": {
         "tw": "Vectorman 2",
-        "sr": "",
+        "sr": "vman2",
         "vod": "",
         "yt": "",
-        "gm": ""
+        "gm": "https://store.steampowered.com/app/211208/VectorMan_2/"
     },
     "4009": {
-        "tw": "Shadow Dancer",
-        "sr": "",
+        "tw": "影武者",
+        "sr": "shadow_dancer",
         "vod": "",
         "yt": "",
-        "gm": ""
+        "gm": "https://store.steampowered.com/app/34282/Shadow_Dancer/"
     },
     "4010": {
         "tw": "Shinobi III: Return of the Ninja Master",
-        "sr": "",
+        "sr": "shinobi3",
         "vod": "",
         "yt": "",
-        "gm": ""
+        "gm": "https://store.steampowered.com/app/34277/Shinobi_III_Return_of_the_Ninja_Master/"
     },
     "4011": {
-        "tw": "Mystic Defender",
-        "sr": "",
+        "tw": "孔雀王2 幻影城",
+        "sr": "mystic_defender",
         "vod": "",
         "yt": "",
         "gm": ""
     },
     "4012": {
-        "tw": "Garfield: Caught in the Act",
-        "sr": "",
+        "tw": "加菲貓：Caught in the Act",
+        "sr": "gcita",
         "vod": "",
         "yt": "",
         "gm": ""
     },
     "4013": {
-        "tw": "Contra: Hard Corps",
-        "sr": "",
+        "tw": "魂斗羅：鐵血兵團",
+        "sr": "contra_hard_corps",
         "vod": "",
         "yt": "",
         "gm": ""
     },
     "4015": {
         "tw": "Blazing Chrome",
-        "sr": "",
+        "sr": "blazing_chrome",
         "vod": "",
         "yt": "",
-        "gm": ""
+        "gm": "https://store.steampowered.com/app/609110/Blazing_Chrome/"
     },
     "4016": {
-        "tw": "Cybernator",
-        "sr": "",
+        "tw": "重装機兵ヴァルケン",
+        "sr": "cybernator",
         "vod": "",
         "yt": "",
         "gm": ""
     },
     "4017": {
-        "tw": "Super Monkey Ball",
-        "sr": "",
+        "tw": "超級猴子球",
+        "sr": "supermonkeyball",
         "vod": "",
         "yt": "",
         "gm": ""
     },
     "4018": {
-        "tw": "Teenage Mutant Ninja Turtles (arcade)",
-        "sr": "",
+        "tw": "忍者龜 (Arcade)",
+        "sr": "tmnt1989arcade",
         "vod": "",
         "yt": "",
         "gm": ""
     },
     "4019": {
-        "tw": "Mushihimesama Futari 1.01",
-        "sr": "",
+        "tw": "虫姫さまふたり 1.01",
+        "sr": "mf",
         "vod": "",
         "yt": "",
         "gm": ""
     },
     "4020": {
-        "tw": "Metal Gear Solid 3: Snake Eater",
-        "sr": "",
+        "tw": "潛龍諜影3：食蛇者",
+        "sr": "mgs3",
         "vod": "",
         "yt": "",
         "gm": ""
     },
     "4021": {
-        "tw": "The Legend of Zelda: Ocarina of Time",
-        "sr": "",
+        "tw": "薩爾達傳說：時之笛",
+        "sr": "oot",
         "vod": "",
         "yt": "",
         "gm": ""
     },
     "4022": {
-        "tw": "Cadence of Hyrule",
-        "sr": "",
+        "tw": "節奏海拉魯",
+        "sr": "coh",
         "vod": "",
         "yt": "",
         "gm": ""
@@ -445,140 +445,140 @@
     },
     "4024": {
         "tw": "Super Hydlide",
-        "sr": "",
+        "sr": "super_hydlide",
         "vod": "",
         "yt": "",
         "gm": ""
     },
     "4025": {
-        "tw": "Hoshi wo Miru Hito",
-        "sr": "",
+        "tw": "星をみるひと",
+        "sr": "hoshi_wo_miru_hito",
         "vod": "",
         "yt": "",
         "gm": ""
     },
     "4026": {
         "tw": "Sword of the Black Stone",
-        "sr": "",
+        "sr": "sotbs",
         "vod": "",
         "yt": "",
-        "gm": ""
+        "gm": "https://store.steampowered.com/app/847590/Sword_of_the_Black_Stone/"
     },
     "4027": {
         "tw": "Castle of Dragon",
-        "sr": "",
+        "sr": "castle_of_dragon",
         "vod": "",
         "yt": "",
         "gm": ""
     },
     "4028": {
-        "tw": "Wild Animal Sports Day",
-        "sr": "",
+        "tw": "野生動物運動會",
+        "sr": "wasd",
         "vod": "",
         "yt": "",
-        "gm": ""
+        "gm": "https://store.steampowered.com/app/741990/Wild_Animal_Sports_Day/"
     },
     "4029": {
         "tw": "The Adventures of Rocky and Bullwinkle and Friends",
-        "sr": "",
+        "sr": "rockyandbullwinklenes",
         "vod": "",
         "yt": "",
         "gm": ""
     },
     "4030": {
-        "tw": "Jurassic Park III: Dino Defender",
-        "sr": "",
+        "tw": "侏羅紀公園3：Dino Defender",
+        "sr": "jp3dd",
         "vod": "",
         "yt": "",
         "gm": ""
     },
     "4031": {
         "tw": "Cybergenic Ranger: Secret of the Seventh Planet",
-        "sr": "",
+        "sr": "cybergenic_ranger_secret_of_the_seventh_planet",
         "vod": "",
         "yt": "",
-        "gm": ""
+        "gm": "https://www.myabandonware.com/game/cybergenic-ranger-secret-of-the-seventh-planet-v7"
     },
     "4032": {
-        "tw": "Mega Man 3 (DOS)",
-        "sr": "",
+        "tw": "洛克人3 (DOS)",
+        "sr": "mega_man_3_dos",
         "vod": "",
         "yt": "",
-        "gm": ""
+        "gm": "https://www.myabandonware.com/game/mega-man-3-the-robots-are-revolting-12o"
     },
     "4033": {
-        "tw": "Miracle Ropit's Adventure in 2100",
-        "sr": "",
+        "tw": "ミラクルロピット 〜2100年の大冒険〜",
+        "sr": "ropit",
         "vod": "",
         "yt": "",
         "gm": ""
     },
     "4034": {
         "tw": "Normy's BeachBabe-O-Rama",
-        "sr": "",
+        "sr": "normys_beach_babe-o-rama",
         "vod": "",
         "yt": "",
         "gm": ""
     },
     "4035": {
-        "tw": "Doctor Hauzer",
-        "sr": "",
+        "tw": "ドクターハウザー",
+        "sr": "doctor_hauzer",
         "vod": "",
         "yt": "",
         "gm": ""
     },
     "4036": {
-        "tw": "Nightcry",
-        "sr": "",
+        "tw": "夜啼",
+        "sr": "nightcry",
         "vod": "",
         "yt": "",
-        "gm": ""
+        "gm": "https://store.steampowered.com/app/427660/NightCry/"
     },
     "4037": {
-        "tw": "Fatal Frame",
-        "sr": "",
+        "tw": "零〜zero〜",
+        "sr": "fatal_frame",
         "vod": "",
         "yt": "",
         "gm": ""
     },
     "4038": {
-        "tw": "Resident Evil 4",
-        "sr": "",
+        "tw": "惡靈古堡4",
+        "sr": "re4steam",
         "vod": "",
         "yt": "",
-        "gm": ""
+        "gm": "https://store.steampowered.com/agecheck/app/254700/"
     },
     "4039": {
-        "tw": "The Last of Us: Left Behind",
-        "sr": "",
+        "tw": "最後生還者：Left Behind (DLC)",
+        "sr": "tloulb",
         "vod": "",
         "yt": "",
         "gm": ""
     },
     "4040": {
         "tw": "Jak 2",
-        "sr": "",
+        "sr": "jak2",
         "vod": "",
         "yt": "",
         "gm": ""
     },
     "4041": {
-        "tw": "Marvel's Spider-Man",
-        "sr": "",
+        "tw": "漫威蜘蛛人",
+        "sr": "sm2018",
         "vod": "",
         "yt": "",
         "gm": ""
     },
     "4042": {
-        "tw": "Devil May Cry 5",
-        "sr": "",
+        "tw": "惡魔獵人5",
+        "sr": "dmc5",
         "vod": "",
         "yt": "",
-        "gm": ""
+        "gm": "https://store.steampowered.com/app/601150/Devil_May_Cry_5/"
     },
     "4043": {
-        "tw": "Fire Emblem: Three Houses",
-        "sr": "",
+        "tw": "聖火降魔錄：風花雪月",
+        "sr": "fe3h",
         "vod": "",
         "yt": "",
         "gm": ""
@@ -591,284 +591,284 @@
         "gm": ""
     },
     "4045": {
-        "tw": "BioShock",
-        "sr": "",
+        "tw": "生化奇兵",
+        "sr": "bs1",
         "vod": "",
         "yt": "",
-        "gm": ""
+        "gm": "https://store.steampowered.com/app/7670/BioShock/"
     },
     "4046": {
-        "tw": "Wolfenstein: Youngblood",
-        "sr": "",
+        "tw": "德軍總部：血氣方剛",
+        "sr": "youngblood",
         "vod": "",
         "yt": "",
-        "gm": ""
+        "gm": "https://store.steampowered.com/app/1056960/Wolfenstein_Youngblood/"
     },
     "4047": {
-        "tw": "Subnautica",
-        "sr": "",
+        "tw": "深海迷航",
+        "sr": "subnautica",
         "vod": "",
         "yt": "",
-        "gm": ""
+        "gm": "https://store.steampowered.com/app/264710/Subnautica/"
     },
     "4049": {
         "tw": "The Sun And Moon",
-        "sr": "",
+        "sr": "tsam",
         "vod": "",
         "yt": "",
-        "gm": ""
+        "gm": "https://managore.itch.io/sunandmoon"
     },
     "4050": {
         "tw": "140",
-        "sr": "",
+        "sr": "140",
         "vod": "",
         "yt": "",
-        "gm": ""
+        "gm": "https://store.steampowered.com/app/242820/140/"
     },
     "4051": {
         "tw": "Action Henk",
-        "sr": "",
+        "sr": "henk",
         "vod": "",
         "yt": "",
-        "gm": ""
+        "gm": "https://store.steampowered.com/app/285820/Action_Henk/"
     },
     "4052": {
         "tw": "Super Fancy Pants Adventure",
-        "sr": "",
+        "sr": "sfpa",
         "vod": "",
         "yt": "",
-        "gm": ""
+        "gm": "https://store.steampowered.com/app/668210/Super_Fancy_Pants_Adventure/"
     },
     "4053": {
         "tw": "Vampire: The Masquerade - Bloodlines",
-        "sr": "",
+        "sr": "vtmb",
         "vod": "",
         "yt": "",
-        "gm": ""
+        "gm": "https://store.steampowered.com/app/2600/Vampire_The_Masquerade__Bloodlines/"
     },
     "4054": {
         "tw": "Gato Roboto",
-        "sr": "",
+        "sr": "gato_roboto",
         "vod": "",
         "yt": "",
-        "gm": ""
+        "gm": "https://store.steampowered.com/app/916730/Gato_Roboto/"
     },
     "4055": {
         "tw": "Darkened Skye",
-        "sr": "",
+        "sr": "darkenedskye",
         "vod": "",
         "yt": "",
         "gm": ""
     },
     "4056": {
-        "tw": "Touhou Luna Nights",
-        "sr": "",
+        "tw": "東方月神夜",
+        "sr": "tln",
         "vod": "",
         "yt": "",
-        "gm": ""
+        "gm": "https://store.steampowered.com/app/851100/Touhou_Luna_Nights/"
     },
     "4057": {
         "tw": "VVVVVV",
-        "sr": "",
+        "sr": "VVVVVV",
         "vod": "",
         "yt": "",
-        "gm": ""
+        "gm": "https://store.steampowered.com/app/70300/VVVVVV/"
     },
     "4058": {
-        "tw": "PAC-MAN Championship Edition DX+",
-        "sr": "",
+        "tw": "吃豆人 Championship Edition DX+",
+        "sr": "pmcedx",
         "vod": "",
         "yt": "",
-        "gm": ""
+        "gm": "https://store.steampowered.com/app/236450/PACMAN_Championship_Edition_DX/"
     },
     "4059": {
-        "tw": "Pac-Man Arrangement",
-        "sr": "",
+        "tw": "吃豆人 Arrangement",
+        "sr": "arrangement",
         "vod": "",
         "yt": "",
         "gm": ""
     },
     "4060": {
-        "tw": "Pokémon X/Y",
+        "tw": "精靈寶可夢：X/Y",
         "sr": "",
         "vod": "",
         "yt": "",
         "gm": ""
     },
     "4061": {
-        "tw": "Mega Man X4",
-        "sr": "",
+        "tw": "洛克人X4",
+        "sr": "mmx4",
         "vod": "",
         "yt": "",
-        "gm": ""
+        "gm": "https://store.steampowered.com/app/743890/Mega_Man_X_Legacy_Collection__X/"
     },
     "4062": {
-        "tw": "Mega Man X",
-        "sr": "",
+        "tw": "洛克人X",
+        "sr": "mmx",
         "vod": "",
         "yt": "",
-        "gm": ""
+        "gm": "https://store.steampowered.com/app/743890/Mega_Man_X_Legacy_Collection__X/"
     },
     "4063": {
-        "tw": "The Legend of Zelda: The Wind Waker",
-        "sr": "",
+        "tw": "薩爾達傳說：風之律動",
+        "sr": "tww",
         "vod": "",
         "yt": "",
         "gm": ""
     },
     "4064": {
-        "tw": "TASBot plays Super Mario Bros. 3",
-        "sr": "",
+        "tw": "TASBot & 超級瑪利歐兄弟3",
+        "sr": "smb3",
         "vod": "",
         "yt": "",
-        "gm": ""
+        "gm": "http://tasvideos.org/3922M.html"
     },
     "4065": {
-        "tw": "TASBot plays Super Mario Bros. 2",
-        "sr": "",
+        "tw": "TASBot & 超級瑪利歐兄弟2",
+        "sr": "smb2",
         "vod": "",
         "yt": "",
-        "gm": ""
+        "gm": "http://tasvideos.org/1746M.html"
     },
     "4066": {
-        "tw": "Super Mario 64 Randomizer",
-        "sr": "",
+        "tw": "超級瑪利歐64 Randomizer",
+        "sr": "sm64rando",
         "vod": "",
         "yt": "",
-        "gm": ""
+        "gm": "https://andrelikesdogs.github.io/sm64-randomizer/"
     },
     "4067": {
-        "tw": "Super Mario World",
-        "sr": "",
+        "tw": "超級瑪利歐世界 (二位一體)",
+        "sr": "SMW_One_Mind",
         "vod": "",
         "yt": "",
-        "gm": ""
+        "gm": "http://www.dotsarecool.com/twitch/hacks.html"
     },
     "4068": {
-        "tw": "Dark Souls",
-        "sr": "",
+        "tw": "黑暗靈魂",
+        "sr": "darksouls",
         "vod": "",
         "yt": "",
-        "gm": ""
+        "gm": "https://store.steampowered.com/app/570940/DARK_SOULS_REMASTERED/"
     },
     "4069": {
-        "tw": "Trauma Center New Blood",
-        "sr": "",
+        "tw": "神使之杖：新血",
+        "sr": "tcnb",
         "vod": "",
         "yt": "",
         "gm": ""
     },
     "4070": {
         "tw": "Tony Hawk's Project 8",
-        "sr": "",
+        "sr": "thp8",
         "vod": "",
         "yt": "",
         "gm": ""
     },
     "4071": {
-        "tw": "Jumping Flash!",
-        "sr": "",
+        "tw": "跳閃！阿羅哈男爵驚恐大作戰之卷",
+        "sr": "jumping_flash",
         "vod": "",
         "yt": "",
         "gm": ""
     },
     "4072": {
-        "tw": "Kuru Kuru Kururin",
-        "sr": "",
+        "tw": "滾滾歡樂球",
+        "sr": "kuru_kuru_kururin",
         "vod": "",
         "yt": "",
         "gm": ""
     },
     "4073": {
-        "tw": "Super Cat Bros",
-        "sr": "",
+        "tw": "超級貓兄弟",
+        "sr": "scbros",
         "vod": "",
         "yt": "",
         "gm": ""
     },
     "4074": {
-        "tw": "Battletoads Super Gameboy",
-        "sr": "",
+        "tw": "忍者蛙",
+        "sr": "battletoads_gb",
         "vod": "",
         "yt": "",
         "gm": ""
     },
     "4075": {
-        "tw": "Bonk's Adventure",
-        "sr": "",
+        "tw": "PC原人",
+        "sr": "bonksadventure",
         "vod": "",
         "yt": "",
         "gm": ""
     },
     "4076": {
-        "tw": "Castlevania The Dracula X Chronicles",
-        "sr": "",
+        "tw": "惡魔城：X年代記",
+        "sr": "dracxc",
         "vod": "",
         "yt": "",
         "gm": ""
     },
     "4077": {
-        "tw": "Clone Hero (Guitar Hero)",
+        "tw": "吉他英雄 (Clone Hero)",
         "sr": "",
         "vod": "",
         "yt": "",
-        "gm": ""
+        "gm": "https://clonehero.net/"
     },
     "4078": {
-        "tw": "Sekiro",
-        "sr": "",
+        "tw": "隻狼：暗影雙死",
+        "sr": "sekiro",
         "vod": "",
         "yt": "",
-        "gm": ""
+        "gm": "https://store.steampowered.com/app/814380/Sekiro_Shadows_Die_Twice/"
     },
     "4079": {
-        "tw": "Katana Zero",
-        "sr": "",
+        "tw": "Katana ZERO",
+        "sr": "katana_zero",
         "vod": "",
         "yt": "",
-        "gm": ""
+        "gm": "https://store.steampowered.com/app/460950/Katana_ZERO/"
     },
     "4080": {
-        "tw": "The Legend of Zelda: A Link to the Past Randomizer",
+        "tw": "薩爾達傳說：眾神的三角神力 Randomizer (群眾控制)",
         "sr": "",
         "vod": "",
         "yt": "",
-        "gm": ""
+        "gm": "https://alttpr.com/en"
     },
     "4081": {
-        "tw": "Super Mario Maker 2",
+        "tw": "超級瑪利歐創作家2初見接力賽",
         "sr": "",
         "vod": "",
         "yt": "",
         "gm": ""
     },
     "4082": {
-        "tw": "Finale",
+        "tw": "閉幕",
         "sr": "",
         "vod": "",
         "yt": "",
         "gm": ""
     },
     "4083": {
-        "tw": "Mario & Luigi: Superstar Saga",
-        "sr": "",
+        "tw": "瑪利歐與路易吉RPG",
+        "sr": "mlss",
         "vod": "",
         "yt": "",
         "gm": ""
     },
     "4084": {
-        "tw": "Mega Man 4-6",
+        "tw": "洛克人4~6接力賽",
         "sr": "",
         "vod": "",
         "yt": "",
-        "gm": ""
+        "gm": "https://store.steampowered.com/app/363440/Mega_Man_Legacy_Collection/"
     },
     "4085": {
-        "tw": "Destiny 2",
-        "sr": "",
+        "tw": "天命2",
+        "sr": "destiny2",
         "vod": "",
         "yt": "",
-        "gm": ""
+        "gm": "https://store.steampowered.com/app/1085660/Destiny_2/"
     },
     "4086": {
         "tw": "Bonus Game 5",
@@ -878,67 +878,67 @@
         "gm": ""
     },
     "4087": {
-        "tw": "Super Metroid Impossible",
-        "sr": "",
+        "tw": "超級銀河戰士 Impossible (MOD)",
+        "sr": "supermetroidhacks/full_game#2006_Impossible",
         "vod": "",
         "yt": "",
-        "gm": ""
+        "gm": "https://www.romhacking.net/hacks/316/"
     },
     "4088": {
-        "tw": "Barbie",
-        "sr": "",
+        "tw": "芭比",
+        "sr": "barbienes",
         "vod": "",
         "yt": "",
         "gm": ""
     },
     "4089": {
-        "tw": "Ghouls 'n Ghosts",
-        "sr": "",
+        "tw": "大魔界村",
+        "sr": "ghouls_n_ghosts",
         "vod": "",
         "yt": "",
         "gm": ""
     },
     "4090": {
-        "tw": "Earth Defense Force 5",
-        "sr": "",
+        "tw": "地球防衛軍5",
+        "sr": "edf5",
         "vod": "",
         "yt": "",
-        "gm": ""
+        "gm": "https://store.steampowered.com/agecheck/app/1007040/"
     },
     "4091": {
         "tw": "Squidlit",
-        "sr": "",
+        "sr": "squidlit",
         "vod": "",
         "yt": "",
-        "gm": ""
+        "gm": "https://store.steampowered.com/app/799510/Squidlit/"
     },
     "4092": {
-        "tw": "Battletoads & Double Dragon",
-        "sr": "",
+        "tw": "忍者蛙與雙截龍",
+        "sr": "battletoads_and_double_dragon_snes",
         "vod": "",
         "yt": "",
         "gm": ""
     },
     "4094": {
         "tw": "Celeste",
-        "sr": "",
+        "sr": "Celeste",
         "vod": "",
         "yt": "",
-        "gm": ""
+        "gm": "https://store.steampowered.com/app/504230/Celeste/"
     },
     "4095": {
-        "tw": "Control",
-        "sr": "",
+        "tw": "控制",
+        "sr": "control",
         "vod": "",
         "yt": "",
-        "gm": ""
+        "gm": "https://store.steampowered.com/app/870780/Control/"
     },
     "4096": {
         "tw": "Manifold Garden",
-        "sr": "",
+        "sr": "manifold_garden",
         "vod": "",
         "yt": "",
-        "gm": ""
+        "gm": "https://store.steampowered.com/app/473950/Manifold_Garden/"
     },
     "4097": {
         "tw": "Bonus Game 6",
@@ -948,24 +948,24 @@
         "gm": ""
     },
     "4098": {
-        "tw": "The Outer Worlds",
-        "sr": "",
+        "tw": "天外世界",
+        "sr": "the_outer_worlds",
         "vod": "",
         "yt": "",
-        "gm": ""
+        "gm": "https://www.microsoft.com/zh-tw/p/the-outer-worlds/bvtkn6cq8w5f?activetab=pivot:overviewtab"
     },
     "4099": {
-        "tw": "Untitled Goose Game",
-        "sr": "",
+        "tw": "鵝鵝鵝鵝鵝",
+        "sr": "goose",
         "vod": "",
         "yt": "",
-        "gm": ""
+        "gm": "https://goose.game/"
     },
     "4100": {
-        "tw": "Blasphemous",
-        "sr": "",
+        "tw": "褻瀆神明",
+        "sr": "blasphemous",
         "vod": "",
         "yt": "",
-        "gm": ""
+        "gm": "https://store.steampowered.com/app/774361/Blasphemous/"
     }
 }
