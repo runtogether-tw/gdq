@@ -956,7 +956,7 @@ $console-list: '32x','3do','3ds','arcade','dc','dos','fc','famicomdisk','gb','gb
       width: 32px;
       height: 32px;
       margin: 4px;
-      background-image: url('./pic/console/#{$console}.gif');
+      background-image: url('../pic/console/#{$console}.gif');
     }
   }
 }
