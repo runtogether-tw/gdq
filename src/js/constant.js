@@ -34,7 +34,7 @@ export const CONSOLE_LIST = {
   'Super Gameboy 2': 'SGB',
   'Game Boy': 'GB',
   'Game Boy Color': 'GBC',
-  'Game Boy Player': 'GBP',
+  'Game Boy Player': 'GBPlayer',
   'Game Boy Advance': 'GBA',
   'Neo-Geo': 'Neo Geo',
   'Nintendo Gamecube': 'NGC',

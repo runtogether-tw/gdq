@@ -939,7 +939,7 @@ body {
 .word-break {
   word-break: break-word;
 }
-$console-list: '32x','3do','3ds','arcade','dc','dos','fc','famicomdisk','gb','gba','gbc','gbp','genesis','gg','jaguar',
+$console-list: '32x','3do','3ds','arcade','dc','dos','fc','famicomdisk','gb','gba','gbc','gbplayer','genesis','gg','jaguar',
   'lynx','md','n64','nds','neogeo','nes','nesclassic','ngc','pc','pce','ps1','ps2','ps3','psp',
   'saturn','segamaster','sfc','sgb','snes','snesclassic','tg-16','wii','wiivc','xbox','xbox360';
 .icon-console {
