@@ -324,7 +324,12 @@
                   {{i.category}}
                 </template>
                 <template v-slot:console>
-                  <div class="hidden-xs-only word-break">{{i.console}}</div>
+                  <div
+                    class="hidden-xs-only word-break icon-console"
+                    :class="`icon-console-${i.console.replace(' ','').toLowerCase()}`"
+                  >
+                    {{i.console}}
+                  </div>
                   <v-btn icon class="hidden-sm-and-up" @click="i.mobileExpand=!i.mobileExpand">
                     <v-icon v-if="!i.mobileExpand">fas fa-chevron-down</v-icon>
                     <v-icon v-if="i.mobileExpand">fas fa-chevron-up</v-icon>
@@ -933,5 +938,26 @@ body {
 }
 .word-break {
   word-break: break-word;
+}
+$console-list: '32x','3do','3ds','arcade','dc','dos','fc','famicomdisk','gb','gba','gbc','gbp','genesis','gg','jaguar',
+  'lynx','md','n64','nds','neogeo','nes','nesclassic','ngc','pc','pce','ps1','ps2','ps3','psp',
+  'saturn','segamaster','sfc','sgb','snes','snesclassic','tg-16','wii','wiivc','xbox','xbox360';
+.icon-console {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  &::before{
+    display: block;
+    content: '';
+  }
+  @each $console in $console-list {
+    &-#{$console}::before {
+      width: 32px;
+      height: 32px;
+      margin: 4px;
+      background-image: url('./pic/console/#{$console}.gif');
+    }
+  }
 }
 </style>

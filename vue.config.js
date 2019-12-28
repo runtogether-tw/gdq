@@ -13,4 +13,11 @@ module.exports = {
       exclude: [/\.map$/, /^manifest.*\.js$/, /\.json$/, /\.txt$/],
     },
   },
+  css: {
+    loaderOptions: {
+      css: {
+        url: false,
+      },
+    },
+  },
 };
