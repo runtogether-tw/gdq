@@ -335,9 +335,9 @@
                   >
                     {{i.console}}
                   </div>
-                  <v-btn icon class="hidden-sm-and-up" @click="i.mobileExpand=!i.mobileExpand">
+                  <v-btn icon class="hidden-sm-and-up" @click="i.mobileExpand=!i.mobileExpand" :key="`${i.pk}-expand-${i.mobileExpand}`">
                     <v-icon v-if="!i.mobileExpand">fas fa-chevron-down</v-icon>
-                    <v-icon v-if="i.mobileExpand">fas fa-chevron-up</v-icon>
+                    <v-icon v-else>fas fa-chevron-up</v-icon>
                   </v-btn>
                 </template>
                 <template v-slot:tw>
