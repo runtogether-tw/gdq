@@ -52,7 +52,7 @@
                     <v-card-title primary-title>
                       <v-layout wrap justify-space-around>
                         <v-flex xs12 class="twolines">{{sdList[nowplaying].name}}</v-flex>
-                        <v-flex xs12>{{sdList[nowplaying].tw.tw}}<a v-if="sdList[nowplaying].tw.sr!=''" aria-label="Speedrun.com" :href="'https://www.speedrun.com/'+sdList[nowplaying].tw.sr"><span>&ensp;</span><v-icon>fas fa-trophy</v-icon></a></v-flex>
+                        <v-flex xs12>{{sdList[nowplaying].tw.tw}}<a v-if="sdList[nowplaying].tw.sr!=''" aria-label="Speedrun.com" :href="'https://www.speedrun.com/'+sdList[nowplaying].tw.sr" target="_blank"><span>&ensp;</span><v-icon>fas fa-trophy</v-icon></a></v-flex>
                         <v-flex xs12 class="grey--text time--small">
                           準備時間: {{sdList[nowplaying].setup_time}}
                         </v-flex>
@@ -105,7 +105,7 @@
                     <v-card-title primary-title>
                       <v-layout wrap justify-space-around>
                         <v-flex xs12 class="twolines">{{sdList[nowplaying+1].name}}</v-flex>
-                        <v-flex xs12>{{sdList[nowplaying+1].tw.tw}}<a v-if="sdList[nowplaying+1].tw.sr!=''" aria-label="Speedrun.com" :href="'https://www.speedrun.com/'+sdList[nowplaying+1].tw.sr"><span>&ensp;</span><v-icon>fas fa-trophy</v-icon></a></v-flex>
+                        <v-flex xs12>{{sdList[nowplaying+1].tw.tw}}<a v-if="sdList[nowplaying+1].tw.sr!=''" aria-label="Speedrun.com" :href="'https://www.speedrun.com/'+sdList[nowplaying+1].tw.sr" target="_blank"><span>&ensp;</span><v-icon>fas fa-trophy</v-icon></a></v-flex>
                         <v-flex xs12 class="grey--text time--small">
                           準備時間: {{sdList[nowplaying+1].setup_time}}
                         </v-flex>
@@ -187,7 +187,7 @@
                     <div>{{sdList[i].console}}</div>
                   </v-flex>
                   <v-flex class="sbl" xs4>
-                    <div>{{sdList[i].tw.tw}}</div><a v-if="sdList[i].tw.sr!=''" :href="'https://www.speedrun.com/'+sdList[i].tw.sr"><span>&ensp;</span><v-icon>fas fa-trophy</v-icon></a>
+                    <div>{{sdList[i].tw.tw}}</div><a v-if="sdList[i].tw.sr!=''" :href="'https://www.speedrun.com/'+sdList[i].tw.sr" target="_blank"><span>&ensp;</span><v-icon>fas fa-trophy</v-icon></a>
                   </v-flex>
                   <v-flex align-center class="sbl" xs5>
                     <div></div>
@@ -297,7 +297,7 @@
                 </template>
                 <template v-slot:gameName>
                     {{i.name}}
-                    <a class="ml-1" v-if="!!i.tw.sr" :href="'https://www.speedrun.com/'+i.tw.sr" aria-label="Speedrun.com">
+                    <a class="ml-1" v-if="!!i.tw.sr" :href="'https://www.speedrun.com/'+i.tw.sr" aria-label="Speedrun.com" target="_blank">
                       <v-icon>fas fa-trophy</v-icon>
                     </a>
                     <a class="ml-1" v-if="!!i.tw.gm" :href="i.tw.gm" target="_blank" aria-label="Steam" rel="noreferrer">
