@@ -143,6 +143,9 @@
                   <div>請依照自己喜好調整通知系統強度。</div>
                   <div>使用提醒功能時，建議將此頁面獨立成一個視窗，放置於背景分頁會因為瀏覽器節省資源而不播放背景音效。</div>
                 </v-flex>
+                <v-flex xs12>
+                  <v-btn href="https://github.com/runtogether-tw/ical/blob/master/README.md#%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95" target="_blank">匯入Google日曆教學</v-btn>
+                </v-flex>
                 <v-flex xs4>
                   <v-select
                   :items="alertitem"
