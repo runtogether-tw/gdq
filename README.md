@@ -22,6 +22,13 @@ https://runtogether-tw.github.io/gdq/
 - 支援系統推播
 - 新增回顧舊有活動功能
 
+### AGDQ2020
+- 將所有dependencies更新
+- 網頁讀取最佳化
+- 新增主機平台icon、統一平台名稱
+- 新增twitch登入驗證、觀眾心得票選功能
+- 新增iCal格式、加入Google日曆教學
+
 ## Credits
 - Developer: [Crs](https://github.com/crs38c28)
 - Translator/Content writer: [id9000](https://github.com/id9000)
