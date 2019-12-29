@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div>
     <v-app>
       <twitchPlayer></twitchPlayer>
       <v-container class="mb-4">
@@ -52,7 +52,7 @@
                     <v-card-title primary-title>
                       <v-layout wrap justify-space-around>
                         <v-flex xs12 class="twolines">{{sdList[nowplaying].name}}</v-flex>
-                        <v-flex xs12>{{sdList[nowplaying].tw.tw}}<a v-if="sdList[nowplaying].tw.sr!=''" :href="'https://www.speedrun.com/'+sdList[nowplaying].tw.sr"><span>&ensp;</span><v-icon>fas fa-trophy</v-icon></a></v-flex>
+                        <v-flex xs12>{{sdList[nowplaying].tw.tw}}<a v-if="sdList[nowplaying].tw.sr!=''" aria-label="Speedrun.com" :href="'https://www.speedrun.com/'+sdList[nowplaying].tw.sr"><span>&ensp;</span><v-icon>fas fa-trophy</v-icon></a></v-flex>
                         <v-flex xs12 class="grey--text time--small">
                           準備時間: {{sdList[nowplaying].setup_time}}
                         </v-flex>
@@ -105,7 +105,7 @@
                     <v-card-title primary-title>
                       <v-layout wrap justify-space-around>
                         <v-flex xs12 class="twolines">{{sdList[nowplaying+1].name}}</v-flex>
-                        <v-flex xs12>{{sdList[nowplaying+1].tw.tw}}<a v-if="sdList[nowplaying+1].tw.sr!=''" :href="'https://www.speedrun.com/'+sdList[nowplaying+1].tw.sr"><span>&ensp;</span><v-icon>fas fa-trophy</v-icon></a></v-flex>
+                        <v-flex xs12>{{sdList[nowplaying+1].tw.tw}}<a v-if="sdList[nowplaying+1].tw.sr!=''" aria-label="Speedrun.com" :href="'https://www.speedrun.com/'+sdList[nowplaying+1].tw.sr"><span>&ensp;</span><v-icon>fas fa-trophy</v-icon></a></v-flex>
                         <v-flex xs12 class="grey--text time--small">
                           準備時間: {{sdList[nowplaying+1].setup_time}}
                         </v-flex>
@@ -244,6 +244,7 @@
             </v-card>
           </v-tab-item>
         </v-tabs>
+        <div id="scroll-anchor"></div>
         <v-tabs grow icons-and-text centered dark background-color="teal"
           class="sticky sticky--tab"
           show-arrows
@@ -279,7 +280,7 @@
             :transition="false"
             :reverse-transition="false"
             v-for="(i,index) in dateArr"
-            :key="'tab-'+index"
+            :key="`tab-${eventID}-${index}`"
             :value="'tab-'+index">
             <template v-if="!loading">
               <TableRow v-for="i in SliceList(index)" :key="i.pk"
@@ -293,21 +294,22 @@
                 </template>
                 <template v-slot:gameName>
                     {{i.name}}
-                    <a class="ml-1" v-if="!!i.tw.sr" :href="'https://www.speedrun.com/'+i.tw.sr">
+                    <a class="ml-1" v-if="!!i.tw.sr" :href="'https://www.speedrun.com/'+i.tw.sr" aria-label="Speedrun.com">
                       <v-icon>fas fa-trophy</v-icon>
                     </a>
-                    <a class="ml-1" v-if="!!i.tw.gm" :href="i.tw.gm" target="_blank">
+                    <a class="ml-1" v-if="!!i.tw.gm" :href="i.tw.gm" target="_blank" aria-label="Steam" rel="noreferrer">
                       <v-icon>fab fa-steam</v-icon>
                     </a>
                 </template>
                 <template v-slot:runner>
                   <div v-if="isLatestEvent" class="flex wrap">
                     <v-btn v-for="e in emoteList" x-small
+                      role="button"
                       depressed
                       :color="(userEmoteObj[i.pk] && (userEmoteObj[i.pk] === e)) ? 'rgba(50, 50, 100, 0.5)' : 'rgba(50, 50, 60, 0.3)'"
                       :key="`${i.pk}-emote-${e}`"
                       @click.stop="vote(i.pk, e)">
-                      <img class="emote" :src="`https://static-cdn.jtvnw.net/emoticons/v1/${e}/1.0`">
+                      <img class="emote" :src="`https://static-cdn.jtvnw.net/emoticons/v1/${e}/1.0`" alt="twitch emote">
                       <span class="emote__count">
                         {{ getEmoteCount(i.pk, e) }}
                       </span>
@@ -338,10 +340,10 @@
                 <template v-slot:tw>
                   <div>
                     {{i.tw.tw}}
-                    <a class="ml-1" v-if="!!i.tw.vod" :href="'https://www.twitch.tv/videos/'+i.tw.vod" target="_blank">
+                    <a class="ml-1" v-if="!!i.tw.vod" :href="'https://www.twitch.tv/videos/'+i.tw.vod" target="_blank" aria-label="Twitch VODs" rel="noreferrer">
                       <v-icon>fab fa-twitch</v-icon>
                     </a>
-                    <a class="ml-1" v-if="!!i.tw.yt" :href="'https://www.youtube.com/watch?v='+i.tw.yt" target="_blank">
+                    <a class="ml-1" v-if="!!i.tw.yt" :href="'https://www.youtube.com/watch?v='+i.tw.yt" target="_blank" aria-label="Youtube VODs" rel="noreferrer">
                       <v-icon>fab fa-youtube</v-icon>
                     </a>
                   </div>
@@ -354,10 +356,10 @@
                         <template v-if="(!!rnList[j].stream)||(!!rnList[j].twitter)">
                           :
                         </template>
-                        <a v-if="!!rnList[j].stream" class="px-1" :href="rnList[j].stream" target="_blank">
+                        <a v-if="!!rnList[j].stream" class="px-1" :href="rnList[j].stream" target="_blank" aria-label="Twitch channel" rel="noreferrer">
                           <v-icon>fab fa-twitch</v-icon>
                         </a>
-                        <a v-if="!!rnList[j].twitter" class="px-1" :href="'https://twitter.com/'+rnList[j].twitter" target="_blank">
+                        <a v-if="!!rnList[j].twitter" class="px-1" :href="'https://twitter.com/'+rnList[j].twitter" target="_blank" aria-label="Twitter" rel="noreferrer">
                           <v-icon>fab fa-twitter</v-icon>
                         </a>
                       </template>
@@ -366,11 +368,11 @@
                 </template>
                 <template v-slot:notification>
                   <template v-if="sdList.indexOf(i)!==0">
-                    <v-btn v-on:click="InsertNotification(sdList.indexOf(i))" color="teal"
+                    <v-btn aria-label="enable notification" v-on:click="InsertNotification(sdList.indexOf(i))" color="teal"
                       v-if="(!i.notification)&&((i.starttime.getTime() > nowdate.getTime()))">
                       <v-icon style="color:#E0F2F1">far fa-bell</v-icon>
                     </v-btn>
-                    <v-btn v-on:click="DeleteNotification(sdList.indexOf(i))" color="pink darken-3"
+                    <v-btn aria-label="disable notification" v-on:click="DeleteNotification(sdList.indexOf(i))" color="pink darken-3"
                       v-if="(i.notification)&&((i.starttime.getTime() > nowdate.getTime()))">
                       <v-icon style="color:#E0F2F1">far fa-bell-slash</v-icon>
                     </v-btn>
@@ -451,16 +453,13 @@ import {
   CONSOLE_LIST,
   EMOTE_LIST,
 } from './js/constant';
-import twitchPlayer from './components/TwitchPlayer.vue';
-import updateModal from './components/UpdateModal.vue';
-import TableRow from './components/TableRow.vue';
 
 export default {
   name: 'App',
   components: {
-    twitchPlayer,
-    updateModal,
-    TableRow,
+    twitchPlayer: () => import('./components/TwitchPlayer.vue'),
+    updateModal: () => import('./components/UpdateModal.vue'),
+    TableRow: () => import('./components/TableRow.vue'),
   },
   data() {
     return {
@@ -545,6 +544,9 @@ export default {
           });
         }
       }
+    },
+    tabs() {
+      document.getElementById('scroll-anchor').scrollIntoView({ behavior: 'smooth' });
     },
   },
   computed: {
@@ -690,9 +692,8 @@ export default {
         .then((res) => {
           this.authState = res.data.user;
         })
-        .catch((error) => {
+        .catch(() => {
           this.authState = null;
-          return error;
         });
       // get emote count
       await axios.get('https://crs-dlbot.herokuapp.com/vote/list').then((res) => {
@@ -827,9 +828,9 @@ export default {
 </script>
 
 <style lang="scss">
-@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+TC:400,500,700&display=swap&subset=chinese-traditional');
 * {
-    font-family: 'Noto Sans TC';
+    font-family: 'Noto Sans TC', sans-serif;;
 }
 body {
   margin:0;
