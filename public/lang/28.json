@@ -690,7 +690,7 @@
     },
     "4060": {
         "tw": "精靈寶可夢：X/Y",
-        "sr": "",
+        "sr": "pkmnxy",
         "vod": "",
         "yt": "",
         "gm": ""
@@ -815,11 +815,11 @@
         "gm": "https://clonehero.net/"
     },
     "4078": {
-        "tw": "隻狼：暗影雙死",
-        "sr": "sekiro",
+        "tw": "王國之心：夢中降生 Final Mix HD",
+        "sr": "khbbsfmhd",
         "vod": "",
         "yt": "",
-        "gm": "https://store.steampowered.com/app/814380/Sekiro_Shadows_Die_Twice/"
+        "gm": ""
     },
     "4079": {
         "tw": "Katana ZERO",
@@ -973,6 +973,6 @@
         "sr": "mmx3",
         "vod": "",
         "yt": "",
-        "gm": ""
+        "gm": "https://store.steampowered.com/app/743890/Mega_Man_X_Legacy_Collection__X/"
     }
 }
