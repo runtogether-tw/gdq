@@ -218,7 +218,7 @@
                 <v-btn color="teal" title="Youtube頻道" href="https://www.youtube.com/user/gamesdonequick/videos" target="_blank"><v-icon style="color:#E0F2F1">fab fa-youtube</v-icon></v-btn>
                 <v-btn title="官方網站" color="teal" href="https://gamesdonequick.com/" target="_blank"><v-icon style="color:#E0F2F1">fas fa-gamepad</v-icon></v-btn>
                 <v-btn title="節目表" color="teal" href="https://gamesdonequick.com/schedule/" target="_blank"><v-icon style="color:#E0F2F1">far fa-calendar-alt</v-icon></v-btn>
-                <v-btn title="捐款系統" color="teal" :href="'https://gamesdonequick.com/tracker/index/'+twJSON['gdq_link']" target="_blank"><v-icon style="color:#E0F2F1">fas fa-money-check-alt</v-icon></v-btn>
+                <v-btn title="捐款系統" color="teal" :href="'https://gamesdonequick.com/tracker/event/'+twJSON['gdq_link']" target="_blank"><v-icon style="color:#E0F2F1">fas fa-money-check-alt</v-icon></v-btn>
                 <v-btn title="抽獎獎品" color="teal" :href="'https://gamesdonequick.com/tracker/prizes/'+twJSON['gdq_link']" target="_blank"><v-icon style="color:#E0F2F1">fas fa-trophy</v-icon></v-btn>
                 <v-btn title="解禁項目" color="teal" :href="'https://gamesdonequick.com/tracker/bids/'+twJSON['gdq_link']" target="_blank"><v-icon style="color:#E0F2F1">fas fa-gavel</v-icon></v-btn>
               </v-flex>
