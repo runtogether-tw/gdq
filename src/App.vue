@@ -257,6 +257,7 @@
           <v-tabs-slider color="teal lighten-5"></v-tabs-slider>
           <v-tab v-for="(i,index) in dateArr" :key="'slide-'+index" :href="'#tab-'+index">
             {{ i.date | dateformat }}
+            <template v-if="i.date.getDate() === 11">投票日</template>
             <v-icon>far fa-calendar-alt</v-icon>
           </v-tab>
         </v-tabs>
