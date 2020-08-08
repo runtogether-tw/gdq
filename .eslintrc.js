@@ -11,6 +11,18 @@ module.exports = {
     'no-console': 'off',
     'no-debugger': 'off',
     'max-len': 0,
+    'indent': [
+      'error',
+      2,
+      {
+        'ignoredNodes': [
+          'TemplateLiteral'
+        ],
+      },
+    ],
+    'template-curly-spacing': [
+      'off',
+    ],
   },
   parserOptions: {
     parser: 'babel-eslint',
