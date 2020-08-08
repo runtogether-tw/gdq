@@ -4,7 +4,7 @@
       <twitchPlayer></twitchPlayer>
       <v-container class="mb-4">
         <audio id="BaoAlert">
-          <source :src="`/sound/${alertselect}.mp3`" type="audio/mpeg">
+          <source :src="`https://raw.githubusercontent.com/runtogether-tw/gdq/gh-pages/sound/${alertselect}.mp3`" type="audio/mpeg">
         </audio>
         <v-tabs icons-and-text centered dark background-color="teal"
           show-arrows
