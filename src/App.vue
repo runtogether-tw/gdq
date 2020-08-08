@@ -4,7 +4,7 @@
       <twitchPlayer></twitchPlayer>
       <v-container class="mb-4">
         <audio id="BaoAlert">
-          <source :src="'https://code.responsivevoice.org/getvoice.php?t=\''+alertselect+'\'&tl=zh-CN'" type="audio/mpeg">
+          <source :src="`/sound/${alertselect}.mp3`" type="audio/mpeg">
         </audio>
         <v-tabs icons-and-text centered dark background-color="teal"
           show-arrows
@@ -481,10 +481,10 @@ export default {
       notification: [],
       sysNotiSupport: false,
       sysNoti: true,
-      alertitem: [{ state: '弱', alerttext: '節目快開始了骯骯骯骯骯骯骯骯骯骯' },
-        { state: '中', alerttext: '節目快開始了骯骯骯骯骯骯骯骯骯骯骯骯骯骯骯骯骯骯骯骯骯骯骯骯骯' },
-        { state: '強', alerttext: '節目快開始了骯骯骯骯骯骯骯骯骯骯骯骯骯骯骯骯骯骯骯骯骯骯骯骯骯骯骯骯骯骯骯骯骯骯骯骯骯骯骯骯' }],
-      alertselect: '節目快開始了骯骯骯骯骯骯骯骯骯骯',
+      alertitem: [{ state: '弱', alerttext: 'weak' },
+        { state: '中', alerttext: 'medium' },
+        { state: '強', alerttext: 'strong' }],
+      alertselect: 'weak',
       nowdate: null,
       loading: true,
       nowplaying: 0,
@@ -509,7 +509,7 @@ export default {
       }
       if (this.notification.includes(val)) {
         // Clear old notification from list
-        this.notification = this.notification.filter(element => element >= val);
+        this.notification = this.notification.filter((element) => element >= val);
         this.DeleteNotification(val);
         if (this.sysNotiSupport && this.sysNoti) {
           // eslint-disable-next-line no-unused-vars
@@ -570,7 +570,7 @@ export default {
   },
   methods: {
     SliceList(index) {
-      return this.sdList.filter(e => e.starttime.getDate() === this.dateArr[index].date.getDate());
+      return this.sdList.filter((e) => e.starttime.getDate() === this.dateArr[index].date.getDate());
     },
     getPic(gname) {
       if ((gname === 'Pre-Show') || (gname === 'Preshow')
@@ -581,7 +581,7 @@ export default {
     },
     async getRequest(url) {
       const Jdata = await (await (fetch(url, { cache: 'no-cache' })
-        .then(res => res.json())
+        .then((res) => res.json())
         .catch((err) => {
           console.log('Error: ', err);
         })
@@ -635,7 +635,7 @@ export default {
       localStorage.setItem('notification', JSON.stringify(this.notification));
     },
     DeleteNotification(id) {
-      this.notification = this.notification.filter(item => item !== id);
+      this.notification = this.notification.filter((item) => item !== id);
       this.sdList[id].notification = false;
       localStorage.setItem('notification', JSON.stringify(this.notification));
     },
@@ -675,7 +675,7 @@ export default {
           tw: this.twJSON[element.pk] || '',
           mobileExpand: false,
         });
-        if (!this.dateArr.find(e => e.date.getDate() === s.getDate())) {
+        if (!this.dateArr.find((e) => e.date.getDate() === s.getDate())) {
           this.dateArr.push({
             date: s,
             time: s.getTime(),

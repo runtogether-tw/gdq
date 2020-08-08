@@ -11,5 +11,5 @@ Vue.use(Plugin);
 
 new Vue({
   vuetify,
-  render: h => h(App),
+  render: (h) => h(App),
 }).$mount('#app');

@@ -1,4 +1,4 @@
-export const LATEST_EVENT = 28;
+export const LATEST_EVENT = 30;
 export const EVENT_LIST = {
   18: 'SGDQ2016',
   19: 'AGDQ2017',
@@ -10,38 +10,49 @@ export const EVENT_LIST = {
   26: 'SGDQ2019',
   27: 'GDQX2019',
   28: 'AGDQ2020',
+  30: 'SGDQ2020',
 };
 
 export const EMOTE_LIST = [
-  25, // Kappa
+  78084, // tgm3AMON
   88, // PogChamp
   245, // ResidentSleeper
   28087, // WutFace
   425618, // LUL
   86, // BibleThump
+  69, // BloodTrail
 ];
 
 export const CONSOLE_LIST = {
+  'MS-DOS': 'DOS',
   Famicom: 'FC',
   'Nintendo Entertainment System': 'NES',
   'Super Nintendo': 'SNES',
+  'Super Famicom': 'SNES',
   'Sega Genesis': 'Genesis',
   MegaDrive: 'MD',
+  'Sega Saturn': 'Saturn',
   Dreamcast: 'DC',
   'Game Gear': 'GG',
   TG16: 'TG-16',
   'TurboGrafx-16': 'TG-16',
   'Super Gameboy 2': 'SGB',
+  Gameboy: 'GB',
   'Game Boy': 'GB',
   'Game Boy Color': 'GBC',
   'Game Boy Player': 'GBPlayer',
+  'Gameboy Player (GBI)': 'GBPlayer',
   'Game Boy Advance': 'GBA',
   'Neo-Geo': 'Neo Geo',
+  'Nintendo 64': 'N64',
+  'Nintendo GameCube': 'NGC',
   'Nintendo Gamecube': 'NGC',
   Gamecube: 'NGC',
   GC: 'NGC',
   'Nintendo Wii': 'Wii',
+  'Wii U Virtual Console': 'Wii U (VC)',
   'Nintendo DS': 'NDS',
+  'Nintendo 3DS': '3DS',
   'Nintendo New 3DS': '3DS',
   DS: 'NDS',
   'PC Engine': 'PCE',
@@ -52,6 +63,8 @@ export const CONSOLE_LIST = {
   'Playstation 3': 'PS3',
   'Playstation 4': 'PS4',
   'PlayStation 4 Pro': 'PS4',
+  'Playstation 4 Pro': 'PS4',
   Switch: 'NS',
   'Nintendo Switch': 'NS',
+  'Arcade Cabinet (PIU LX Model)': 'Arcade',
 };
