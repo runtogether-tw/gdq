@@ -1,4 +1,4 @@
-# GDQ Schedule [![Build Status](https://travis-ci.org/runtogether-tw/gdq.svg?branch=master)](https://travis-ci.org/runtogether-tw/gdq) 
+# GDQ Schedule ![status](https://github.com/runtogether-tw/gdq/workflows/Node.js%20CI/badge.svg)
 GDQ schedule for Taiwan viewers.  
 https://runtogether-tw.github.io/gdq/
 
@@ -28,6 +28,11 @@ https://runtogether-tw.github.io/gdq/
 - 新增主機平台icon、統一平台名稱
 - 新增twitch登入驗證、觀眾心得票選功能
 - 新增iCal格式、加入Google日曆教學
+
+### SGDQ2020
+- 更新dependencies
+- 修改表情符號列表
+- 將travis CI換成Github Actions
 
 ## Credits
 - Developer: [Crs](https://github.com/crs38c28)
