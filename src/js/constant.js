@@ -16,7 +16,7 @@ export const EVENT_LIST = {
 
 export const EMOTE_LIST = [
   78084, // tgm3AMON
-  88, // PogChamp
+  81273, // KomodoHype
   245, // ResidentSleeper
   28087, // WutFace
   425618, // LUL
