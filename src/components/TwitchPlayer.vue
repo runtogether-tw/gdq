@@ -16,7 +16,7 @@
         </iframe>
       </v-flex>
       <v-flex class="twitchchat">
-        <iframe id="twitchchat" frameborder="0" scrolling="no" src="https://www.twitch.tv/embed/tetristhegrandmaster3/chat?darkpopout" height="100%" width="340px">
+        <iframe id="twitchchat" frameborder="0" scrolling="no" src="https://www.twitch.tv/embed/tetristhegrandmaster3/chat?darkpopout&parent=runtogether-tw.github.io" height="100%" width="340px">
         </iframe>
       </v-flex>
     </v-layout>
