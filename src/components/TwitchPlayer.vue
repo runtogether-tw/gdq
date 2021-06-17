@@ -12,7 +12,7 @@
     </v-btn>
     <v-layout v-if="rendertwitch" class="twitchlayout" :class="{twitchshow: opentwitch}">
       <v-flex class="twitchvideo">
-        <iframe id="twitchvideo" width="100%" height="100%" frameborder="0" framespacing="0" src="https://player.twitch.tv/?channel=gamesdonequick&autoplay=false">
+        <iframe id="twitchvideo" width="100%" height="100%" frameborder="0" framespacing="0" src="https://player.twitch.tv/?channel=gamesdonequick&autoplay=false&parent=runtogether-tw.github.io">
         </iframe>
       </v-flex>
       <v-flex class="twitchchat">
