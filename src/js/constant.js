@@ -49,6 +49,7 @@ export const CONSOLE_LIST = {
   'Nintendo 64': 'N64',
   'Nintendo GameCube': 'NGC',
   'Nintendo Gamecube': 'NGC',
+  GameCube: 'NGC',
   Gamecube: 'NGC',
   GC: 'NGC',
   'Nintendo Wii': 'Wii',
