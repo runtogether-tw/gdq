@@ -6,7 +6,14 @@ module.exports = {
     ? './'
     : '/',
   pwa: {
-    iconPaths: {},
+    iconPaths: {
+      faviconSVG: null,
+      favicon32: 'pic/touch-icon-iphone.png',
+      favicon16: 'pic/touch-icon-iphone.png',
+      appleTouchIcon: 'pic/touch-icon-iphone.png',
+      maskIcon: null,
+      msTileImage: null,
+    },
     workboxPluginMode: 'InjectManifest',
     workboxOptions: {
       swSrc: './src/js/service-worker.js',
