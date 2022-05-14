@@ -1,10 +1,10 @@
-/* global workbox */
+/* eslint-disable */
 workbox.setConfig({
   debug: false,
 });
 
 if (workbox) {
-  workbox.precaching.precacheAndRoute(self.__precacheManifest);
+  workbox.precaching.precacheAndRoute(self.__WB_MANIFEST);
 }
 
 workbox.routing.registerRoute(

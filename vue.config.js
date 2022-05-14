@@ -9,7 +9,7 @@ module.exports = {
     iconPaths: {},
     workboxPluginMode: 'InjectManifest',
     workboxOptions: {
-      swSrc: 'src/js/service-worker.js',
+      swSrc: './src/js/service-worker.js',
       exclude: [/\.map$/, /^manifest.*\.js$/, /\.json$/, /\.txt$/],
     },
   },
