@@ -13,7 +13,7 @@ if (workbox) {
 
 workbox.routing.registerRoute(
   new RegExp('https://fonts.(?:googleapis|gstatic).com/(.*)'),
-  workbox.strategies.CacheFirst({
+  new workbox.strategies.CacheFirst({
     cacheName: 'googleapis',
     plugins: [
       new workbox.expiration.ExpirationPlugin({
