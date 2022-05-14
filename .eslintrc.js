@@ -11,12 +11,12 @@ module.exports = {
     'no-console': 'off',
     'no-debugger': 'off',
     'max-len': 0,
-    'indent': [
+    indent: [
       'error',
       2,
       {
-        'ignoredNodes': [
-          'TemplateLiteral'
+        ignoredNodes: [
+          'TemplateLiteral',
         ],
       },
     ],
@@ -25,6 +25,6 @@ module.exports = {
     ],
   },
   parserOptions: {
-    parser: 'babel-eslint',
+    parser: '@babel/eslint-parser',
   },
 };
