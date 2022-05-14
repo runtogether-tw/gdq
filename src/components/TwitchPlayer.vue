@@ -1,5 +1,5 @@
 <template>
-  <fragment>
+  <div v-frag>
     <v-btn
       dark
       fab
@@ -36,7 +36,7 @@
         </iframe>
       </v-flex>
     </v-layout>
-  </fragment>
+  </div>
 </template>
 
 <script>

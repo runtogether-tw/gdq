@@ -1,5 +1,5 @@
 import Vue from 'vue';
-import { Plugin } from 'vue-fragment';
+import frag from 'vue-frag';
 import vuetify from './plugins/vuetify';
 import './mixins/time';
 import App from './App.vue';
@@ -7,7 +7,7 @@ import './js/registerServiceWorker';
 
 Vue.config.productionTip = false;
 
-Vue.use(Plugin);
+Vue.directive('frag', frag);
 
 new Vue({
   vuetify,
