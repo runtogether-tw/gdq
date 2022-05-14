@@ -12,11 +12,27 @@
     </v-btn>
     <v-layout v-if="rendertwitch" class="twitchlayout" :class="{twitchshow: opentwitch}">
       <v-flex class="twitchvideo">
-        <iframe id="twitchvideo" width="100%" height="100%" frameborder="0" framespacing="0" src="https://player.twitch.tv/?channel=gamesdonequick&autoplay=false&parent=runtogether-tw.github.io">
+        <iframe
+          id="twitchvideo"
+          width="100%"
+          height="100%"
+          frameborder="0"
+          framespacing="0"
+          src="https://player.twitch.tv/?channel=gamesdonequick&autoplay=false&parent=runtogether-tw.github.io"
+          title="twitch player"
+        >
         </iframe>
       </v-flex>
       <v-flex class="twitchchat">
-        <iframe id="twitchchat" frameborder="0" scrolling="no" src="https://www.twitch.tv/embed/tetristhegrandmaster3/chat?darkpopout&parent=runtogether-tw.github.io" height="100%" width="340px">
+        <iframe
+          id="twitchchat"
+          frameborder="0"
+          scrolling="no"
+          src="https://www.twitch.tv/embed/tetristhegrandmaster3/chat?darkpopout&parent=runtogether-tw.github.io"
+          height="100%"
+          width="340px"
+          title="twitch chat"
+        >
         </iframe>
       </v-flex>
     </v-layout>

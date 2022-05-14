@@ -35,14 +35,10 @@ export default {
     },
   },
   created() {
-    document.addEventListener(
-      'swUpdated', this.showRefreshUI, { once: true },
-    );
-    navigator.serviceWorker.addEventListener(
-      'controllerchange', () => {
-        window.location.reload(true);
-      },
-    );
+    document.addEventListener('swUpdated', this.showRefreshUI, { once: true });
+    navigator.serviceWorker.addEventListener('controllerchange', () => {
+      window.location.reload(true);
+    });
   },
 };
 </script>

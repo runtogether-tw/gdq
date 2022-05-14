@@ -4,6 +4,7 @@
       <twitchPlayer></twitchPlayer>
       <v-container class="mb-4">
         <audio id="BaoAlert">
+          <track kind="captions" />
           <source :src="`https://raw.githubusercontent.com/runtogether-tw/gdq/gh-pages/sound/${alertselect}.mp3`" type="audio/mpeg">
         </audio>
         <v-tabs icons-and-text centered dark background-color="teal"
@@ -410,7 +411,7 @@
                           color="rgba(50, 50, 100, 0.5)"
                           :key="`${i.pk}-mobile-emote-${e}`"
                           @click.stop="">
-                          <img class="emote" :src="`https://static-cdn.jtvnw.net/emoticons/v1/${e}/1.0`">
+                          <img class="emote" alt="" :src="`https://static-cdn.jtvnw.net/emoticons/v1/${e}/1.0`">
                           <span class="emote__count">
                             {{ getEmoteCount(i.pk, e) }}
                           </span>
@@ -433,7 +434,7 @@
           </v-flex>
         </v-layout>
       </v-container>
-      <div class="scrollTop" @click.stop="scrollToTop()">
+      <div class="scrollTop" @click.stop="scrollToTop()" @keydown.enter="scrollToTop()">
         <v-icon style="color:#E0F2F1">fas fa-angle-up</v-icon>
       </div>
       <updateModal></updateModal>
