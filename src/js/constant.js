@@ -54,6 +54,7 @@ export const CONSOLE_LIST = {
   GameCube: 'NGC',
   Gamecube: 'NGC',
   GC: 'NGC',
+  GCN: 'NGC',
   'Nintendo Wii': 'Wii',
   'Wii U Virtual Console': 'Wii U (VC)',
   'Nintendo DS': 'NDS',
