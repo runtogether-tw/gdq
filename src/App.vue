@@ -39,7 +39,7 @@
                     'layout': $vuetify.breakpoint.xsOnly,
                   }">
                     <v-img
-                      :src="getPic(sdList[nowplaying].name)"
+                      :src="getPic(sdList[nowplaying].twitch_name)"
                       class="card__pic"
                     >
                       <v-container fill-height fluid>
@@ -92,7 +92,7 @@
                       'layout': $vuetify.breakpoint.xsOnly,
                     }">
                     <v-img
-                      :src="getPic(sdList[nowplaying+1].name)"
+                      :src="getPic(sdList[nowplaying+1].twitch_name)"
                       class="card__pic"
                     >
                       <v-container fill-height fluid>
@@ -307,17 +307,56 @@
                 </template>
                 <template v-slot:runner>
                   <div v-if="isLatestEvent" class="flex wrap">
-                    <v-btn v-for="e in emoteList" x-small
-                      role="button"
-                      depressed
-                      :color="(userEmoteObj[i.pk] && (userEmoteObj[i.pk] === e)) ? 'rgba(50, 50, 100, 0.5)' : 'rgba(50, 50, 60, 0.3)'"
-                      :key="`${i.pk}-emote-${e}`"
-                      @click.stop="vote(i.pk, e)">
-                      <img class="emote" :src="`https://static-cdn.jtvnw.net/emoticons/v1/${e}/1.0`" alt="twitch emote">
-                      <span class="emote__count">
-                        {{ getEmoteCount(i.pk, e) }}
-                      </span>
-                    </v-btn>
+                    <template v-for="e in emoteList" >
+                      <v-btn
+                        v-if="getEmoteCount(i.pk, e) !== 0"
+                        x-small
+                        role="button"
+                        depressed
+                        :color="(userEmoteObj[i.pk] && (userEmoteObj[i.pk] === e)) ? 'rgba(50, 50, 100, 0.5)' : 'rgba(50, 50, 60, 0.3)'"
+                        :key="`${i.pk}-emote-${e}`"
+                        @click.stop="vote(i.pk, e)">
+                        <img class="emote" :src="`https://static-cdn.jtvnw.net/emoticons/v1/${e}/1.0`" alt="twitch emote">
+                        <span class="emote__count">
+                          {{ getEmoteCount(i.pk, e) }}
+                        </span>
+                      </v-btn>
+                    </template>
+                    <v-menu v-if="authState !== null" offset-y left>
+                      <template v-slot:activator="{ on, attrs }">
+                        <v-btn
+                          x-small
+                          role="button"
+                          depressed
+                          color="rgba(50, 50, 60, 0.3)"
+                          v-bind="attrs"
+                          v-on="on"
+                        >
+                          <i class="fas fa-plus"></i>
+                        </v-btn>
+                      </template>
+                      <v-card
+                        class="mx-auto"
+                        max-width="344"
+                        outlined
+                      >
+                        <template v-for="e in emoteList" >
+                          <v-btn
+                            v-if="getEmoteCount(i.pk, e) === 0"
+                            x-small
+                            role="button"
+                            depressed
+                            :color="(userEmoteObj[i.pk] && (userEmoteObj[i.pk] === e)) ? 'rgba(50, 50, 100, 0.5)' : 'rgba(50, 50, 60, 0.3)'"
+                            :key="`${i.pk}-emote-${e}`"
+                            @click.stop="vote(i.pk, e)">
+                            <img class="emote" :src="`https://static-cdn.jtvnw.net/emoticons/v1/${e}/1.0`" alt="twitch emote">
+                            <span class="emote__count">
+                              {{ getEmoteCount(i.pk, e) }}
+                            </span>
+                          </v-btn>
+                        </template>
+                      </v-card>
+                    </v-menu>
                   </div>
                   <template v-else>
                     {{ i.runners }}
@@ -664,6 +703,7 @@ export default {
         this.sdList.push({
           pk: element.pk,
           name: element.fields.name,
+          twitch_name: element.fields.twitch_name || element.fields.name,
           console: CONSOLE_LIST[element.fields.console] ? CONSOLE_LIST[element.fields.console] : element.fields.console,
           category: element.fields.category.replace('any%', 'Any%'),
           setup_time: element.fields.setup_time,
