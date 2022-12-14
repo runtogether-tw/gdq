@@ -236,6 +236,7 @@
                 <v-btn color="teal" title="測試鬧鈴" v-on:click="test()">
                   <v-icon style="color:#E0F2F1">fas fa-volume-up</v-icon>
                 </v-btn>
+                <!--
                 <v-btn v-if="!authState" hidden-xs-only title="Twitch登入" color="#6441a5" href="https://crs-dlbot.herokuapp.com/auth/twitch/" target="_self">
                   <v-icon style="color:#E0F2F1">fab fa-twitch</v-icon>
                   <span style="margin-left:5px;color:#E0F2F1">連接Twitch帳號</span>
@@ -244,6 +245,7 @@
                   <v-icon style="color:#E0F2F1">fab fa-twitch</v-icon>
                   <span style="margin-left:5px;color:#E0F2F1">登出</span>
                 </v-btn>
+                -->
               </v-flex>
             </v-card>
           </v-tab-item>
@@ -766,16 +768,18 @@ export default {
       }
     },
     async getJSON() {
+      /*
       if (this.isLatestEvent) {
         this.getAuthandEmote();
       }
+      */
       // get list
       let RequestJSON;
       if (!this.eventID || !EVENT_LIST[this.eventID]) {
         this.eventID = LATEST_EVENT;
       }
       if (this.eventID === LATEST_EVENT) {
-        RequestJSON = await this.getRequest('//crs-dlbot.herokuapp.com/gdq');
+        RequestJSON = await this.getRequest('//crs-api-server.onrender.com/gdq');
       } else {
         RequestJSON = await this.getRequest(`./event/${this.eventID}.json`);
       }
