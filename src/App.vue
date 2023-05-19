@@ -308,6 +308,7 @@
                     </a>
                 </template>
                 <template v-slot:runner>
+                  <!--
                   <div v-if="isLatestEvent" class="flex wrap">
                     <template v-for="e in emoteList" >
                       <v-btn
@@ -363,6 +364,8 @@
                   <template v-else>
                     {{ i.runners }}
                   </template>
+                  -->
+                  {{ i.runners }}
                 </template>
                 <template v-slot:runTime>
                   {{i.run_time}}
