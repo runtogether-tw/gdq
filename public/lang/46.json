@@ -1,6 +1,6 @@
 {
     "5970": {
-        "tw": "AGDQ 2024 Pre-Show",
+        "tw": "AGDQ 2024 開場",
         "sr": "",
         "vod": "",
         "yt": "",
@@ -21,28 +21,28 @@
         "gm": ""
     },
     "5973": {
-        "tw": "超級大金剛",
+        "tw": "超級咚奇剛",
         "sr": "dkc",
         "vod": "",
         "yt": "",
         "gm": ""
     },
     "5974": {
-        "tw": "SpongeBob SquarePants: The Cosmic Shake",
+        "tw": "海綿寶寶: The Cosmic Shake",
         "sr": "",
         "vod": "",
         "yt": "",
         "gm": ""
     },
     "5975": {
-        "tw": "Tails Adventure",
+        "tw": "塔爾斯大冒險",
         "sr": "",
         "vod": "",
         "yt": "",
         "gm": ""
     },
     "5977": {
-        "tw": "Donkey Kong 64",
+        "tw": "咚奇剛64",
         "sr": "",
         "vod": "",
         "yt": "",
@@ -105,7 +105,7 @@
         "gm": ""
     },
     "5986": {
-        "tw": "Ganbare Goemon 2: Kiteretsu Shougun Magginesu",
+        "tw": "がんばれゴエモン2 奇天烈将軍マッギネス",
         "sr": "",
         "vod": "",
         "yt": "",
@@ -130,10 +130,10 @@
         "sr": "",
         "vod": "",
         "yt": "",
-        "gm": ""
+        "gm": "https://owch.itch.io/llta"
     },
     "5990": {
-        "tw": "A Bug's Life",
+        "tw": "蟲蟲危機",
         "sr": "",
         "vod": "",
         "yt": "",
@@ -161,7 +161,7 @@
         "gm": ""
     },
     "5994": {
-        "tw": "Manifold Garden",
+        "tw": "多重花園",
         "sr": "manifold_garden",
         "vod": "",
         "yt": "",
@@ -189,7 +189,7 @@
         "gm": "https://store.steampowered.com/app/363440/Mega_Man_Legacy_Collection/"
     },
     "5998": {
-        "tw": "Mega Man 8",
+        "tw": "洛克人8：金屬英雄們",
         "sr": "",
         "vod": "",
         "yt": "",
@@ -231,21 +231,21 @@
         "gm": ""
     },
     "6004": {
-        "tw": "BONUS GAME 1- Pokémon Diamond/Pearl",
+        "tw": "BONUS GAME 1 - 精靈寶可夢 鑽石/珍珠",
         "sr": "",
         "vod": "",
         "yt": "",
         "gm": ""
     },
     "6005": {
-        "tw": "Pikmin 4",
+        "tw": "皮克敏4",
         "sr": "",
         "vod": "",
         "yt": "",
         "gm": ""
     },
     "6007": {
-        "tw": "StarCraft: Brood War",
+        "tw": "星海爭霸：怒火燎原",
         "sr": "",
         "vod": "",
         "yt": "",
@@ -259,7 +259,7 @@
         "gm": "https://store.steampowered.com/app/460790/"
     },
     "6009": {
-        "tw": "Dead Space (2023)",
+        "tw": "絕命異次元 (2023)",
         "sr": "",
         "vod": "",
         "yt": "",
@@ -308,7 +308,7 @@
         "gm": ""
     },
     "6016": {
-        "tw": "Gimmick!",
+        "tw": "ギミック!",
         "sr": "",
         "vod": "",
         "yt": "",
@@ -357,7 +357,7 @@
         "gm": ""
     },
     "6024": {
-        "tw": "Mario Kart Wii",
+        "tw": "瑪利歐賽車 Wii",
         "sr": "",
         "vod": "",
         "yt": "",
@@ -378,14 +378,14 @@
         "gm": ""
     },
     "6027": {
-        "tw": "Octopath Traveler II",
+        "tw": "歧路旅人II",
         "sr": "",
         "vod": "",
         "yt": "",
         "gm": ""
     },
     "6028": {
-        "tw": "Bonus Game 2 - 黑帝斯",
+        "tw": "黑帝斯",
         "sr": "hades",
         "vod": "",
         "yt": "",
@@ -399,7 +399,7 @@
         "gm": ""
     },
     "6032": {
-        "tw": "Resident Evil 2 Remake",
+        "tw": "惡靈古堡2 重製版",
         "sr": "",
         "vod": "",
         "yt": "",
@@ -413,7 +413,7 @@
         "gm": "https://store.steampowered.com/app/692850/"
     },
     "6034": {
-        "tw": "Diablo (1996)",
+        "tw": "暗黑破壞神 (1996)",
         "sr": "",
         "vod": "",
         "yt": "",
@@ -441,7 +441,7 @@
         "gm": ""
     },
     "6039": {
-        "tw": "Teenage Mutant Ninja Turtles (Arcade)",
+        "tw": "忍者龜 (Arcade)",
         "sr": "",
         "vod": "",
         "yt": "",
@@ -455,7 +455,7 @@
         "gm": ""
     },
     "6041": {
-        "tw": "Super Mario Bros. 2 USA",
+        "tw": "超級瑪利歐兄弟USA",
         "sr": "",
         "vod": "",
         "yt": "",
@@ -658,7 +658,7 @@
         "gm": ""
     },
     "6075": {
-        "tw": "The Last of Us: Remastered",
+        "tw": "最後生還者 重製版",
         "sr": "",
         "vod": "",
         "yt": "",
@@ -707,7 +707,7 @@
         "gm": ""
     },
     "6082": {
-        "tw": "BONUS GAME 2- Super Mario 64",
+        "tw": "BONUS GAME 2 - 超級瑪利歐64",
         "sr": "",
         "vod": "",
         "yt": "",
@@ -735,7 +735,7 @@
         "gm": "https://store.steampowered.com/app/49520/Borderlands_2/"
     },
     "6087": {
-        "tw": "Resident Evil 4 (2023)",
+        "tw": "惡靈古堡4 (2023)",
         "sr": "",
         "vod": "",
         "yt": "",
@@ -812,21 +812,21 @@
         "gm": ""
     },
     "6101": {
-        "tw": "Super Mario Bros.: The Lost Levels",
+        "tw": "超級瑪利歐兄弟: The Lost Levels",
         "sr": "",
         "vod": "",
         "yt": "",
         "gm": ""
     },
     "6102": {
-        "tw": "Elden Ring vs Sekiro",
+        "tw": "艾爾登法環 vs 隻狼",
         "sr": "",
         "vod": "",
         "yt": "",
         "gm": ""
     },
     "6104": {
-        "tw": "The Legend of Zelda: Tears of the Kingdom",
+        "tw": "薩爾達傳說 王國之淚",
         "sr": "",
         "vod": "",
         "yt": "",
@@ -896,14 +896,14 @@
         "gm": ""
     },
     "6118": {
-        "tw": "Sonic Origins Plus",
+        "tw": "索尼克起源・PLUS",
         "sr": "",
         "vod": "",
         "yt": "",
         "gm": ""
     },
     "6119": {
-        "tw": "Starfield",
+        "tw": "星空",
         "sr": "",
         "vod": "",
         "yt": "",
@@ -938,7 +938,7 @@
         "gm": ""
     },
     "6124": {
-        "tw": "Armored Core VI: Fires of Rubicon",
+        "tw": "機戰傭兵VI 境界天火",
         "sr": "",
         "vod": "",
         "yt": "",
@@ -952,7 +952,7 @@
         "gm": ""
     },
     "6126": {
-        "tw": "BONUS GAME 3- Resident Evil 4 (2023) Separate Ways",
+        "tw": "BONUS GAME 3 - 惡靈古堡4 (2023) 逆命殊途",
         "sr": "",
         "vod": "",
         "yt": "",
@@ -966,7 +966,7 @@
         "gm": ""
     },
     "6128": {
-        "tw": "BONUS GAME 4- Baldur's Gate 3",
+        "tw": "BONUS GAME 4 - 柏德之門3",
         "sr": "",
         "vod": "",
         "yt": "",
@@ -980,7 +980,7 @@
         "gm": ""
     },
     "6130": {
-        "tw": "Super Mario Bros. Wonder",
+        "tw": "超級瑪利歐兄弟 驚奇",
         "sr": "",
         "vod": "",
         "yt": "",
