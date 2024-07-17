@@ -1,0 +1,993 @@
+{
+    "logo": "https://i.imgur.com/TlxyToJ.png",
+    "yetee_link": "agdq",
+    "gdq_link": "agdq2020",
+    "google_link": "",
+    "3960": {
+        "tw": "開幕",
+        "sr": "",
+        "vod": "531393351?t=00h22m59s",
+        "yt": "",
+        "gm": ""
+    },
+    "3961": {
+        "tw": "時光之帽",
+        "sr": "ahit",
+        "vod": "531393351?t=01h01m13s",
+        "yt": "mWXrh2OL4_Y",
+        "gm": "https://store.steampowered.com/app/253230/A_Hat_in_Time/"
+    },
+    "3962": {
+        "tw": "銀河戰士：零點任務",
+        "sr": "mzm",
+        "vod": "531393351?t=02h03m30s",
+        "yt": "xquJWHYruss",
+        "gm": ""
+    },
+    "3963": {
+        "tw": "洛克人7：宿命的對決！",
+        "sr": "mm7",
+        "vod": "531393351?t=03h01m22s",
+        "yt": "fVTFobXIjaw",
+        "gm": "https://store.steampowered.com/app/495050/Mega_Man_Legacy_Collection_2_____2/"
+    },
+    "3964": {
+        "tw": "拉捷特與克拉克 Future: Tools of Destruction",
+        "sr": "rac_tod",
+        "vod": "531393351?t=04h13m56s",
+        "yt": "zV65mC0fYCc",
+        "gm": ""
+    },
+    "3965": {
+        "tw": "星際大戰：絕地學院MOD - Escape from Yavin 4: The Lost Maps",
+        "sr": "ey4",
+        "vod": "531393351?t=05h34m21s",
+        "yt": "zBcM5NHwpVA",
+        "gm": "https://www.moddb.com/mods/escape-yavin-iv"
+    },
+    "3966": {
+        "tw": "The Binding Of Isaac Afterbirth+",
+        "sr": "afterbirthplus",
+        "vod": "531393351?t=06h46m29s",
+        "yt": "wVvBld8bVdc",
+        "gm": "https://store.steampowered.com/app/570660/The_Binding_of_Isaac_Afterbirth/"
+    },
+    "3967": {
+        "tw": "超級瑪利歐兄弟3",
+        "sr": "smb3",
+        "vod": "531393351?t=08h22m23s",
+        "yt": "k8x6huloNso",
+        "gm": ""
+    },
+    "3968": {
+        "tw": "薩爾達傳說：天空之劍",
+        "sr": "lozss",
+        "vod": "531393351?t=10h00m09s",
+        "yt": "Na_7rkcYWfo",
+        "gm": ""
+    },
+    "3969": {
+        "tw": "恐龍危機2",
+        "sr": "dino2",
+        "vod": "531393351?t=12h54m14s",
+        "yt": "uzGkbAjwoIg",
+        "gm": "https://abandonwaregames.net/game/dino-crisis-2"
+    },
+    "3970": {
+        "tw": "真•迷霧之島：Masterpiece Edition",
+        "sr": "realmyst",
+        "vod": "531393351?t=14h31m57s",
+        "yt": "mGZyRmBErmE",
+        "gm": "https://store.steampowered.com/app/244430/realMyst_Masterpiece_Edition/"
+    },
+    "3971": {
+        "tw": "Riven: 迷霧之島續作",
+        "sr": "riven",
+        "vod": "531393351?t=15h00m19s",
+        "yt": "yvwXr4gKWxg",
+        "gm": "https://store.steampowered.com/app/63610/Riven_The_Sequel_to_MYST/"
+    },
+    "3972": {
+        "tw": "迷霧之島III: Exile",
+        "sr": "myst_iii_exile",
+        "vod": "531393351?t=15h16m13s",
+        "yt": "AW5yvBEwLcc",
+        "gm": "https://store.steampowered.com/app/925930/Myst_III_Exile/"
+    },
+    "3973": {
+        "tw": "炸彈超人英雄",
+        "sr": "bhero",
+        "vod": "531393351?t=15h39m18s",
+        "yt": "9VgTODbZISI",
+        "gm": ""
+    },
+    "3974": {
+        "tw": "カメレオンツイスト2",
+        "sr": "ctwist2",
+        "vod": "531393351?t=16h34m07s",
+        "yt": "WH4HxWbSpt4",
+        "gm": ""
+    },
+    "3975": {
+        "tw": "Razor Freestyle Scooter",
+        "sr": "razor_freestyle_scooter",
+        "vod": "531393351?t=17h10m34s",
+        "yt": "ZeQuJVWmYgM",
+        "gm": ""
+    },
+    "3976": {
+        "tw": "Tetrisphere",
+        "sr": "tetrisphere",
+        "vod": "531393351?t=17h28m28s",
+        "yt": "oFWNhmDqiRs",
+        "gm": ""
+    },
+    "3977": {
+        "tw": "迦楼羅王",
+        "sr": "skyblazer",
+        "vod": "531393351?t=21h16m50s",
+        "yt": "lUJFKekNsxs",
+        "gm": ""
+    },
+    "3978": {
+        "tw": "大盜五右衛門〜雪姫救出絵巻〜",
+        "sr": "legend_of_the_mystical_ninja",
+        "vod": "531393351?t=21h58m50s",
+        "yt": "HT5H8k75r0s",
+        "gm": ""
+    },
+    "3979": {
+        "tw": "雷莎出擊",
+        "sr": "actraiser1",
+        "vod": "531393351?t=22h50m50s",
+        "yt": "HMjdA0UUHZA",
+        "gm": ""
+    },
+    "3980": {
+        "tw": "米奇與米妮的魔法冒險2",
+        "sr": "great_circus_mystery",
+        "vod": "531393351?t=24h11m10s",
+        "yt": "3VT3szpBpO8",
+        "gm": ""
+    },
+    "3981": {
+        "tw": "超級大金剛3",
+        "sr": "dkc3",
+        "vod": "531393351?t=24h54m35s",
+        "yt": "dfZ-UAQVtso",
+        "gm": ""
+    },
+    "3982": {
+        "tw": "音速小子：繽紛色彩",
+        "sr": "sonic_colors_wii",
+        "vod": "531393351?t=27h10m36s",
+        "yt": "wncYXk5QS4A",
+        "gm": ""
+    },
+    "3983": {
+        "tw": "音速小子CD (2011)",
+        "sr": "scd11",
+        "vod": "531393351?t=28h30m00s",
+        "yt": "ZH40oU_VxQU",
+        "gm": "https://store.steampowered.com/app/200940/Sonic_CD/"
+    },
+    "3984": {
+        "tw": "音速小子3 & Knuckles",
+        "sr": "s3k",
+        "vod": "531393351?t=29h16m25s",
+        "yt": "rvmrP-zEiyw",
+        "gm": "https://store.steampowered.com/app/71162/Sonic_3__Knuckles/"
+    },
+    "3985": {
+        "tw": "音速小子 (2006) ($36,000解禁)",
+        "sr": "sonic06",
+        "vod": "531393351?t=30h25m53s",
+        "yt": "6Yg57BeaIy4",
+        "gm": ""
+    },
+    "3986": {
+        "tw": "異塵餘生 五部曲",
+        "sr": "fallout_anthology",
+        "vod": "531393351?t=31h38m35s",
+        "yt": "T2SatL2mx3I",
+        "gm": "https://store.steampowered.com/sale/fallout/"
+    },
+    "3987": {
+        "tw": "毀滅戰士：SIGIL",
+        "sr": "",
+        "vod": "531393351?t=34h36m09s",
+        "yt": "31G8xeYKN7I",
+        "gm": "https://www.romerogames.ie/si6il"
+    },
+    "3988": {
+        "tw": "AMID EVIL",
+        "sr": "amid_evil",
+        "vod": "531393351?t=35h19m27s",
+        "yt": "yYJJ6hD1ZgU",
+        "gm": "https://store.steampowered.com/app/673130/AMID_EVIL/"
+    },
+    "3989": {
+        "tw": "毀滅戰士 (2016)",
+        "sr": "d2016",
+        "vod": "531393351?t=36h07m10s",
+        "yt": "oIC4tHc9_pc",
+        "gm": "https://store.steampowered.com/app/379720/DOOM/"
+    },
+    "3990": {
+        "tw": "魔兵驚天錄2",
+        "sr": "bayonetta2",
+        "vod": "532240714?t=00h24m39s",
+        "yt": "UGKcQg5zGM8",
+        "gm": ""
+    },
+    "3991": {
+        "tw": "俠盜獵車手：聖安地列斯",
+        "sr": "gtasa",
+        "vod": "532240714?t=02h36m00s",
+        "yt": "QK-uFdgsuSA",
+        "gm": "https://store.steampowered.com/app/12120/Grand_Theft_Auto_San_Andreas/"
+    },
+    "3992": {
+        "tw": "創：光速戰記",
+        "sr": "tronevolution",
+        "vod": "532240714?t=07h10m30s",
+        "yt": "6lz_oBkdDXA",
+        "gm": "https://www.microsoft.com/zh-tw/p/tron-evolution/btxjp4q6rkvt?activetab=pivot:overviewtab"
+    },
+    "3993": {
+        "tw": "Eagle Island",
+        "sr": "eagleisland",
+        "vod": "532240714?t=08h38m03s",
+        "yt": "0PWclyG_N3w",
+        "gm": "https://store.steampowered.com/app/681110/Eagle_Island/"
+    },
+    "3994": {
+        "tw": "神鬼傳奇 Demastered",
+        "sr": "the_mummy_demastered",
+        "vod": "532240714?t=09h45m48s",
+        "yt": "WlgsQZxVqOo",
+        "gm": "https://store.steampowered.com/app/630310/The_Mummy_Demastered/"
+    },
+    "3995": {
+        "tw": "火線邁阿密",
+        "sr": "hotline_miami",
+        "vod": "532240714?t=10h31m01s",
+        "yt": "DWf9Y90XjwE",
+        "gm": "https://store.steampowered.com/app/219150/Hotline_Miami/"
+    },
+    "3996": {
+        "tw": "Crowtel Renovations",
+        "sr": "crowtel_renovations",
+        "vod": "532240714?t=11h46m55s",
+        "yt": "HQL0YAHQNRQ",
+        "gm": "https://store.steampowered.com/app/573520/Crowtel_Renovations/"
+    },
+    "3997": {
+        "tw": "Chippy",
+        "sr": "chippy",
+        "vod": "532240714?t=11h08m38s",
+        "yt": "LuB2j4Kp86I",
+        "gm": "https://store.steampowered.com/app/602700/Chippy/"
+    },
+    "3998": {
+        "tw": "アドベンチャーズ オブ ロロ",
+        "sr": "lolo1",
+        "vod": "532240714?t=12h50m24s",
+        "yt": "VDW4BmdOVa4",
+        "gm": ""
+    },
+    "3999": {
+        "tw": "冒險島II",
+        "sr": "ai2",
+        "vod": "532240714?t=13h27m11s",
+        "yt": "x4-Jc6LG_jk",
+        "gm": ""
+    },
+    "4000": {
+        "tw": "へべれけ",
+        "sr": "hebereke",
+        "vod": "532240714?t=14h04m54s",
+        "yt": "cA6cNOwF2u0",
+        "gm": ""
+    },
+    "4001": {
+        "tw": "忍者龍劍傳II：暗黑的邪神劍",
+        "sr": "ng2nes",
+        "vod": "532240714?t=14h48m54s",
+        "yt": "NeSFctoGzyU",
+        "gm": ""
+    },
+    "4002": {
+        "tw": "超級惡魔城IV",
+        "sr": "scv4",
+        "vod": "532240714?t=15h17m34s",
+        "yt": "C-qr6wm3rVw",
+        "gm": ""
+    },
+    "4003": {
+        "tw": "精靈寶可夢：藍寶石",
+        "sr": "pkmnrubysapphire",
+        "vod": "532240714?t=16h09m36s",
+        "yt": "rqmCnitRXv0",
+        "gm": ""
+    },
+    "4004": {
+        "tw": "Mike Tyson's Punch-Out!! 蒙眼2P1C ($75,000解禁)",
+        "sr": "mtpo",
+        "vod": "532240714?t=18h44m20s",
+        "yt": "lLGY_BNYLx8",
+        "gm": ""
+    },
+    "4005": {
+        "tw": "Terraria",
+        "sr": "terraria",
+        "vod": "532240714?t=19h20m23s",
+        "yt": "588s3faDzvE",
+        "gm": "https://store.steampowered.com/app/105600/Terraria/"
+    },
+    "4006": {
+        "tw": "薩爾達傳說系列接力賽(1~3)",
+        "sr": "",
+        "vod": "532240714?t=20h52m19s",
+        "yt": "kLVv93SGit0",
+        "gm": ""
+    },
+    "4007": {
+        "tw": "太空戰士8",
+        "sr": "ff8",
+        "vod": "532240714?t=24h41m07s",
+        "yt": "sSF9-3KdauA",
+        "gm": "https://store.steampowered.com/app/1026680/FINAL_FANTASY_VIII__REMASTERED/"
+    },
+    "4008": {
+        "tw": "Vectorman 2",
+        "sr": "vman2",
+        "vod": "532240714?t=34h01m37s",
+        "yt": "wl--2TVioG8",
+        "gm": "https://store.steampowered.com/app/211208/VectorMan_2/"
+    },
+    "4009": {
+        "tw": "影武者",
+        "sr": "shadow_dancer",
+        "vod": "532240714?t=34h21m22s",
+        "yt": "j14pldedg8Y",
+        "gm": "https://store.steampowered.com/app/34282/Shadow_Dancer/"
+    },
+    "4010": {
+        "tw": "Shinobi III: Return of the Ninja Master",
+        "sr": "shinobi3",
+        "vod": "532240714?t=34h43m45s",
+        "yt": "-9hJUkRd-1c",
+        "gm": "https://store.steampowered.com/app/34277/Shinobi_III_Return_of_the_Ninja_Master/"
+    },
+    "4011": {
+        "tw": "孔雀王2 幻影城",
+        "sr": "mystic_defender",
+        "vod": "532240714?t=35h27m54s",
+        "yt": "dyWGuDJVEn8",
+        "gm": ""
+    },
+    "4012": {
+        "tw": "加菲貓：Caught in the Act",
+        "sr": "gcita",
+        "vod": "532240714?t=36h26m11s",
+        "yt": "LoapR3cluSI",
+        "gm": ""
+    },
+    "4013": {
+        "tw": "魂斗羅：鐵血兵團",
+        "sr": "contra_hard_corps",
+        "vod": "532240714?t=36h54m36s",
+        "yt": "n5zpRvCwkZ8",
+        "gm": ""
+    },
+    "4015": {
+        "tw": "Blazing Chrome",
+        "sr": "blazing_chrome",
+        "vod": "532240714?t=37h35m17s",
+        "yt": "n_c5tMhoiKY",
+        "gm": "https://store.steampowered.com/app/609110/Blazing_Chrome/"
+    },
+    "4016": {
+        "tw": "重装機兵ヴァルケン",
+        "sr": "cybernator",
+        "vod": "532240714?t=38h09m57s",
+        "yt": "PDbCwXFHysU",
+        "gm": ""
+    },
+    "4017": {
+        "tw": "超級猴子球",
+        "sr": "supermonkeyball",
+        "vod": "532240714?t=38h42m52s",
+        "yt": "g8asU52opro",
+        "gm": ""
+    },
+    "4018": {
+        "tw": "忍者龜 (Arcade)",
+        "sr": "tmnt1989arcade",
+        "vod": "532240714?t=39h35m24s",
+        "yt": "TKuOlbpP1dA",
+        "gm": ""
+    },
+    "4019": {
+        "tw": "虫姫さまふたり 1.01",
+        "sr": "mf",
+        "vod": "533026710?t=00h08m50s",
+        "yt": "7d76YdrGawE",
+        "gm": ""
+    },
+    "4020": {
+        "tw": "潛龍諜影3：食蛇者",
+        "sr": "mgs3",
+        "vod": "533026710?t=01h09m40s",
+        "yt": "jUMDBOasRbA",
+        "gm": ""
+    },
+    "4021": {
+        "tw": "薩爾達傳說：時之笛",
+        "sr": "oot",
+        "vod": "533026710?t=02h48m21s",
+        "yt": "K4DlqsxdOfY",
+        "gm": ""
+    },
+    "4022": {
+        "tw": "節奏海拉魯",
+        "sr": "coh",
+        "vod": "533026710?t=06h20m22s",
+        "yt": "IN3M3w0tTss",
+        "gm": ""
+    },
+    "4023": {
+        "tw": "Animorphs ($60,000解禁)",
+        "sr": "animorphs",
+        "vod": "533026710?t=09h11m02s",
+        "yt": "ctpIwDKSnNw",
+        "gm": ""
+    },
+    "4024": {
+        "tw": "Super Hydlide",
+        "sr": "super_hydlide",
+        "vod": "533026710?t=10h18m48s",
+        "yt": "DVPk6z1_J9Y",
+        "gm": ""
+    },
+    "4025": {
+        "tw": "星をみるひと",
+        "sr": "hoshi_wo_miru_hito",
+        "vod": "533026710?t=11h24m24s",
+        "yt": "f4dDL-UEId4",
+        "gm": ""
+    },
+    "4026": {
+        "tw": "Sword of the Black Stone",
+        "sr": "sotbs",
+        "vod": "533026710?t=12h20m31s",
+        "yt": "cGRG3Uju21Q",
+        "gm": "https://store.steampowered.com/app/847590/Sword_of_the_Black_Stone/"
+    },
+    "4027": {
+        "tw": "Castle of Dragon",
+        "sr": "castle_of_dragon",
+        "vod": "533026710?t=12h42m40s",
+        "yt": "W1DVfujDbCI",
+        "gm": ""
+    },
+    "4028": {
+        "tw": "野生動物運動會",
+        "sr": "wasd",
+        "vod": "533026710?t=13h01m18s",
+        "yt": "KY5YwRpWw0I",
+        "gm": "https://store.steampowered.com/app/741990/Wild_Animal_Sports_Day/"
+    },
+    "4029": {
+        "tw": "The Adventures of Rocky and Bullwinkle and Friends",
+        "sr": "rockyandbullwinklenes",
+        "vod": "533026710?t=13h15m35s",
+        "yt": "nosa29Tnb3s",
+        "gm": ""
+    },
+    "4030": {
+        "tw": "侏羅紀公園3：Dino Defender",
+        "sr": "jp3dd",
+        "vod": "533026710?t=13h26m55s",
+        "yt": "8iGlScVnIPk",
+        "gm": ""
+    },
+    "4031": {
+        "tw": "Cybergenic Ranger: Secret of the Seventh Planet",
+        "sr": "cybergenic_ranger_secret_of_the_seventh_planet",
+        "vod": "533026710?t=13h50m34s",
+        "yt": "XWjq_uWfITs",
+        "gm": "https://www.myabandonware.com/game/cybergenic-ranger-secret-of-the-seventh-planet-v7"
+    },
+    "4032": {
+        "tw": "洛克人3 (DOS)",
+        "sr": "mega_man_3_dos",
+        "vod": "533026710?t=14h25m14s",
+        "yt": "XoqL2GUA1Dk",
+        "gm": "https://www.myabandonware.com/game/mega-man-3-the-robots-are-revolting-12o"
+    },
+    "4033": {
+        "tw": "ミラクルロピット 〜2100年の大冒険〜",
+        "sr": "ropit",
+        "vod": "533026710?t=14h51m18s",
+        "yt": "keXL8rc1vFc",
+        "gm": ""
+    },
+    "4034": {
+        "tw": "Normy's BeachBabe-O-Rama",
+        "sr": "normys_beach_babe-o-rama",
+        "vod": "533026710?t=15h42m05s",
+        "yt": "1reZeyfR-PU",
+        "gm": ""
+    },
+    "4035": {
+        "tw": "ドクターハウザー",
+        "sr": "doctor_hauzer",
+        "vod": "533026710?t=16h07m47s",
+        "yt": "k42Gx1D74bQ",
+        "gm": ""
+    },
+    "4036": {
+        "tw": "夜啼",
+        "sr": "nightcry",
+        "vod": "533026710?t=16h35m25s",
+        "yt": "vYmSzlOtlSE",
+        "gm": "https://store.steampowered.com/app/427660/NightCry/"
+    },
+    "4037": {
+        "tw": "零〜zero〜",
+        "sr": "fatal_frame",
+        "vod": "533026710?t=17h41m36s",
+        "yt": "MiEkq0xOb40",
+        "gm": ""
+    },
+    "4038": {
+        "tw": "惡靈古堡4",
+        "sr": "re4steam",
+        "vod": "533026710?t=19h12m52s",
+        "yt": "DfKQ-GKi_CY",
+        "gm": "https://store.steampowered.com/agecheck/app/254700/"
+    },
+    "4039": {
+        "tw": "最後生還者：Left Behind (DLC)",
+        "sr": "tloulb",
+        "vod": "533026710?t=20h59m17s",
+        "yt": "JvE2mHDHYz4",
+        "gm": ""
+    },
+    "4040": {
+        "tw": "Jak 2",
+        "sr": "jak2",
+        "vod": "533026710?t=21h17m36s",
+        "yt": "6OCrJvWM6pk",
+        "gm": ""
+    },
+    "4041": {
+        "tw": "漫威蜘蛛人",
+        "sr": "sm2018",
+        "vod": "533026710?t=22h38m06s",
+        "yt": "vU_C06JfjWU",
+        "gm": ""
+    },
+    "4042": {
+        "tw": "惡魔獵人5",
+        "sr": "dmc5",
+        "vod": "533026710?t=24h39m11s",
+        "yt": "JhcoUEfJK90",
+        "gm": "https://store.steampowered.com/app/601150/Devil_May_Cry_5/"
+    },
+    "4043": {
+        "tw": "聖火降魔錄：風花雪月",
+        "sr": "fe3h",
+        "vod": "533026710?t=28h23m10s",
+        "yt": "FD-Rx3gToO8",
+        "gm": ""
+    },
+    "4044": {
+        "tw": "太空戰士6 ($100,000解禁)",
+        "sr": "ff6",
+        "vod": "533026710?t=26h31m49s",
+        "yt": "7XaFPrgDqn0",
+        "gm": "https://store.steampowered.com/app/382900/FINAL_FANTASY_VI/"
+    },
+    "4045": {
+        "tw": "生化奇兵",
+        "sr": "bs1",
+        "vod": "533026710?t=30h16m40s",
+        "yt": "5Av68w-c1ns",
+        "gm": "https://store.steampowered.com/app/7670/BioShock/"
+    },
+    "4046": {
+        "tw": "德軍總部：血氣方剛",
+        "sr": "youngblood",
+        "vod": "533026710?t=31h22m46s",
+        "yt": "YACwVdl5pwM",
+        "gm": "https://store.steampowered.com/app/1056960/Wolfenstein_Youngblood/"
+    },
+    "4047": {
+        "tw": "深海迷航",
+        "sr": "subnautica",
+        "vod": "533026710?t=32h32m24s",
+        "yt": "w2GfM_58Co8",
+        "gm": "https://store.steampowered.com/app/264710/Subnautica/"
+    },
+    "4049": {
+        "tw": "The Sun And Moon",
+        "sr": "tsam",
+        "vod": "533026710?t=33h39m50s",
+        "yt": "v6iGE-xPRaM",
+        "gm": "https://managore.itch.io/sunandmoon"
+    },
+    "4050": {
+        "tw": "140",
+        "sr": "140",
+        "vod": "533706108?t=00h06m05s",
+        "yt": "NlDycgkWeSw",
+        "gm": "https://store.steampowered.com/app/242820/140/"
+    },
+    "4051": {
+        "tw": "Action Henk",
+        "sr": "henk",
+        "vod": "533706108?t=00h52m25s",
+        "yt": "iBtRyXw6I3Q",
+        "gm": "https://store.steampowered.com/app/285820/Action_Henk/"
+    },
+    "4052": {
+        "tw": "Super Fancy Pants Adventure",
+        "sr": "sfpa",
+        "vod": "533706108?t=01h28m45s",
+        "yt": "CGsQ7EgIeRg",
+        "gm": "https://store.steampowered.com/app/668210/Super_Fancy_Pants_Adventure/"
+    },
+    "4053": {
+        "tw": "Vampire: The Masquerade - Bloodlines",
+        "sr": "vtmb",
+        "vod": "533706108?t=02h03m50s",
+        "yt": "Y6Wsp8YabEo",
+        "gm": "https://store.steampowered.com/app/2600/Vampire_The_Masquerade__Bloodlines/"
+    },
+    "4054": {
+        "tw": "Gato Roboto",
+        "sr": "gato_roboto",
+        "vod": "533706108?t=03h08m25s",
+        "yt": "pZe4K3hvQVA",
+        "gm": "https://store.steampowered.com/app/916730/Gato_Roboto/"
+    },
+    "4055": {
+        "tw": "Darkened Skye",
+        "sr": "darkenedskye",
+        "vod": "533706108?t=03h41m50s",
+        "yt": "QL-JG5-Z4NQ",
+        "gm": ""
+    },
+    "4056": {
+        "tw": "東方月神夜",
+        "sr": "tln",
+        "vod": "533706108?t=04h46m50s",
+        "yt": "mAYCVIbtEzI",
+        "gm": "https://store.steampowered.com/app/851100/Touhou_Luna_Nights/"
+    },
+    "4057": {
+        "tw": "VVVVVV",
+        "sr": "VVVVVV",
+        "vod": "533706108?t=05h29m30s",
+        "yt": "6WHtf2htzOI",
+        "gm": "https://store.steampowered.com/app/70300/VVVVVV/"
+    },
+    "4058": {
+        "tw": "吃豆人 Championship Edition DX+",
+        "sr": "pmcedx",
+        "vod": "533706108?t=06h42m25s",
+        "yt": "O6Wya7K4hNg",
+        "gm": "https://store.steampowered.com/app/236450/PACMAN_Championship_Edition_DX/"
+    },
+    "4059": {
+        "tw": "吃豆人 Arrangement",
+        "sr": "arrangement",
+        "vod": "533706108?t=07h33m55s",
+        "yt": "1zFS_caGrGA",
+        "gm": ""
+    },
+    "4060": {
+        "tw": "精靈寶可夢：X/Y",
+        "sr": "pkmnxy",
+        "vod": "533706108?t=08h01m50s",
+        "yt": "UAwOPVqBv6M",
+        "gm": ""
+    },
+    "4061": {
+        "tw": "洛克人X4",
+        "sr": "mmx4",
+        "vod": "533706108?t=12h26m45s",
+        "yt": "6zD8fWOtq4M",
+        "gm": "https://store.steampowered.com/app/743890/Mega_Man_X_Legacy_Collection__X/"
+    },
+    "4062": {
+        "tw": "洛克人X",
+        "sr": "mmx",
+        "vod": "533706108?t=14h20m42s",
+        "yt": "5KoHzh8LEnM",
+        "gm": "https://store.steampowered.com/app/743890/Mega_Man_X_Legacy_Collection__X/"
+    },
+    "4063": {
+        "tw": "薩爾達傳說：風之律動",
+        "sr": "tww",
+        "vod": "533706108?t=16h27m17s",
+        "yt": "7XBPrFYN1MU",
+        "gm": ""
+    },
+    "4064": {
+        "tw": "TASBot & 超級瑪利歐兄弟3",
+        "sr": "smb3",
+        "vod": "533706108?t=15h19m24s",
+        "yt": "sErxEeC_cBE",
+        "gm": "http://tasvideos.org/3922M.html"
+    },
+    "4065": {
+        "tw": "TASBot & 超級瑪利歐兄弟2",
+        "sr": "smb2",
+        "vod": "533706108?t=15h36m09s",
+        "yt": "guzxs0PzclM",
+        "gm": "http://tasvideos.org/1746M.html"
+    },
+    "4066": {
+        "tw": "超級瑪利歐64 Randomizer",
+        "sr": "sm64rando",
+        "vod": "533706108?t=18h10m49s",
+        "yt": "yLBTd2QobYk",
+        "gm": "https://andrelikesdogs.github.io/sm64-randomizer/"
+    },
+    "4067": {
+        "tw": "超級瑪利歐世界 (二位一體)",
+        "sr": "SMW_One_Mind",
+        "vod": "533706108?t=19h35m37s",
+        "yt": "MRmZSan5cj0",
+        "gm": "http://www.dotsarecool.com/twitch/hacks.html"
+    },
+    "4068": {
+        "tw": "黑暗靈魂",
+        "sr": "darksouls",
+        "vod": "533706108?t=20h13m02s",
+        "yt": "qubpr4XLy5g",
+        "gm": "https://store.steampowered.com/app/570940/DARK_SOULS_REMASTERED/"
+    },
+    "4069": {
+        "tw": "神使之杖：新血",
+        "sr": "tcnb",
+        "vod": "533706108?t=22h36m32s",
+        "yt": "ejamoW-E5zg",
+        "gm": ""
+    },
+    "4070": {
+        "tw": "Tony Hawk's Project 8",
+        "sr": "thp8",
+        "vod": "533706108?t=26h29m15s",
+        "yt": "mlim0hTU8pw",
+        "gm": ""
+    },
+    "4071": {
+        "tw": "跳閃！阿羅哈男爵驚恐大作戰之卷",
+        "sr": "jumping_flash",
+        "vod": "533706108?t=27h26m12s",
+        "yt": "-G3bHueET78",
+        "gm": ""
+    },
+    "4072": {
+        "tw": "滾滾歡樂球",
+        "sr": "kuru_kuru_kururin",
+        "vod": "533706108?t=28h14m30s",
+        "yt": "JPEHI0zsYzM",
+        "gm": ""
+    },
+    "4073": {
+        "tw": "超級貓兄弟",
+        "sr": "scbros",
+        "vod": "533706108?t=28h36m45s",
+        "yt": "MoYqG6qcP-Y",
+        "gm": ""
+    },
+    "4074": {
+        "tw": "忍者蛙",
+        "sr": "battletoads_gb",
+        "vod": "532240714?t=12h29m05s",
+        "yt": "bezlBdtIRnQ",
+        "gm": ""
+    },
+    "4075": {
+        "tw": "PC原人",
+        "sr": "bonksadventure",
+        "vod": "533706108?t=25h50m21s",
+        "yt": "eWS1x_WtDiE",
+        "gm": ""
+    },
+    "4076": {
+        "tw": "惡魔城：X年代記",
+        "sr": "dracxc",
+        "vod": "533706108?t=29h20m22s",
+        "yt": "vzD_9F83Oy8",
+        "gm": ""
+    },
+    "4077": {
+        "tw": "吉他英雄 (Clone Hero)",
+        "sr": "",
+        "vod": "533706108?t=32h54m38s",
+        "yt": "Os7FJgK__oE",
+        "gm": "https://clonehero.net/"
+    },
+    "4078": {
+        "tw": "王國之心：夢中降生 Final Mix HD",
+        "sr": "khbbsfmhd",
+        "vod": "533706108?t=29h56m40s",
+        "yt": "oABOzo_ofXU",
+        "gm": ""
+    },
+    "4079": {
+        "tw": "Katana ZERO",
+        "sr": "katana_zero",
+        "vod": "533706108?t=32h09m10s",
+        "yt": "yDM229t-9Ys",
+        "gm": "https://store.steampowered.com/app/460950/Katana_ZERO/"
+    },
+    "4080": {
+        "tw": "薩爾達傳說：眾神的三角神力 Randomizer (群眾控制)",
+        "sr": "",
+        "vod": "533706108?t=34h06m26s",
+        "yt": "w5SbnMaO1Vg",
+        "gm": "https://alttpr.com/en"
+    },
+    "4081": {
+        "tw": "超級瑪利歐創作家2初見接力賽",
+        "sr": "",
+        "vod": "533706108?t=40h35m11s",
+        "yt": "RgeE0VzWlJ8",
+        "gm": ""
+    },
+    "4082": {
+        "tw": "閉幕",
+        "sr": "",
+        "vod": "",
+        "yt": "",
+        "gm": ""
+    },
+    "4083": {
+        "tw": "瑪利歐與路易吉RPG",
+        "sr": "mlss",
+        "vod": "531393351?t=18h18m42s",
+        "yt": "4czlr635UZc",
+        "gm": ""
+    },
+    "4084": {
+        "tw": "洛克人4~6接力賽",
+        "sr": "",
+        "vod": "533026710?t=07h01m19s",
+        "yt": "svz6fJBBi8E",
+        "gm": "https://store.steampowered.com/app/363440/Mega_Man_Legacy_Collection/"
+    },
+    "4085": {
+        "tw": "天命2",
+        "sr": "destiny2",
+        "vod": "533026710?t=27h34m45s",
+        "yt": "j2_a7GqnAWk",
+        "gm": "https://store.steampowered.com/app/1085660/Destiny_2/"
+    },
+    "4086": {
+        "tw": "TASBot & 精靈寶可夢：藍 ($175,000解禁)",
+        "sr": "pkmnredblue",
+        "vod": "533706108?t=16h01m26s",
+        "yt": "curk3_Eqj54",
+        "gm": ""
+    },
+    "4087": {
+        "tw": "超級銀河戰士 Impossible (MOD)",
+        "sr": "supermetroidhacks/full_game#2006_Impossible",
+        "vod": "533706108?t=44h00m12s",
+        "yt": "Crlxv5EwkuE",
+        "gm": "https://www.romhacking.net/hacks/316/"
+    },
+    "4088": {
+        "tw": "芭比",
+        "sr": "barbienes",
+        "vod": "533026710?t=15h20m07s",
+        "yt": "HP4AiR8r3do",
+        "gm": ""
+    },
+    "4089": {
+        "tw": "大魔界村",
+        "sr": "ghouls_n_ghosts",
+        "vod": "532240714?t=35h57m42s",
+        "yt": "cLNYgfyITlA",
+        "gm": ""
+    },
+    "4090": {
+        "tw": "地球防衛軍5",
+        "sr": "edf5",
+        "vod": "533026710?t=23h35m11s",
+        "yt": "KMvmKGoqjsU",
+        "gm": "https://store.steampowered.com/agecheck/app/1007040/"
+    },
+    "4091": {
+        "tw": "Squidlit",
+        "sr": "squidlit",
+        "vod": "533706108?t=00h34m15s",
+        "yt": "Qrw7lfQh-XI",
+        "gm": "https://store.steampowered.com/app/799510/Squidlit/"
+    },
+    "4092": {
+        "tw": "忍者蛙與雙截龍",
+        "sr": "battletoads_and_double_dragon_snes",
+        "vod": "531393351?t=23h31m10s",
+        "yt": "enmSB0gj__4",
+        "gm": ""
+    },
+    "4094": {
+        "tw": "Celeste",
+        "sr": "Celeste",
+        "vod": "533706108?t=06h05m35s",
+        "yt": "HvUbyQ9AO4Q",
+        "gm": "https://store.steampowered.com/app/504230/Celeste/"
+    },
+    "4095": {
+        "tw": "控制",
+        "sr": "control",
+        "vod": "533706108?t=21h01m05s",
+        "yt": "ymSKf0FNANk",
+        "gm": "https://store.steampowered.com/app/870780/Control/"
+    },
+    "4096": {
+        "tw": "Manifold Garden",
+        "sr": "manifold_garden",
+        "vod": "532240714?t=12h08m12s",
+        "yt": "lNjTzjyLKFA",
+        "gm": "https://store.steampowered.com/app/473950/Manifold_Garden/"
+    },
+    "4097": {
+        "tw": "薩爾達傳說：織夢島 ($400,000解禁)",
+        "sr": "las",
+        "vod": "533706108?t=42h15m38s",
+        "yt": "xOtZlpEJVQU",
+        "gm": ""
+    },
+    "4098": {
+        "tw": "天外世界",
+        "sr": "the_outer_worlds",
+        "vod": "531393351?t=34h12m14s",
+        "yt": "Sui59Nn0NAw",
+        "gm": "https://www.microsoft.com/zh-tw/p/the-outer-worlds/bvtkn6cq8w5f?activetab=pivot:overviewtab"
+    },
+    "4099": {
+        "tw": "鵝鵝鵝鵝鵝",
+        "sr": "goose",
+        "vod": "533706108?t=39h51m52s",
+        "yt": "-ExTp5-WgC8",
+        "gm": "https://goose.game/"
+    },
+    "4100": {
+        "tw": "褻瀆神明",
+        "sr": "blasphemous",
+        "vod": "533706108?t=31h03m36s",
+        "yt": "nLqCWvd95AY",
+        "gm": "https://store.steampowered.com/app/774361/Blasphemous/"
+    },
+    "4101": {
+        "tw": "洛克人X3",
+        "sr": "mmx3",
+        "vod": "533706108?t=13h19m30s",
+        "yt": "AWlTgNFtKfY",
+        "gm": "https://store.steampowered.com/app/743890/Mega_Man_X_Legacy_Collection__X/"
+    },
+    "4102": {
+        "tw": "TASBOT NS Showcase ($2,300,000 milestone解禁)",
+        "sr": "",
+        "vod": "533706108?t=41h55m41s",
+        "yt": "q6CBT3oKEPI",
+        "gm": ""
+    },
+    "4103": {
+        "tw": "隻狼：暗影雙死",
+        "sr": "sekiro",
+        "vod": "533706108?t=38h05m15s",
+        "yt": "IH5WfO-J_Co",
+        "gm": ""
+    }
+}
