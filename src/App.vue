@@ -782,7 +782,12 @@ export default {
         this.eventID = LATEST_EVENT;
       }
       if (this.eventID === LATEST_EVENT) {
-        RequestJSON = await this.getRequest('//crs-api-server.onrender.com/gdq');
+        // RequestJSON = await this.getRequest('//crs-api-server.onrender.com/gdq');
+        const RequestRunJSON = await this.getRequest(`https://tracker.gamesdonequick.com/tracker/search/?type=run&event=${this.eventID}`);
+        const RequestRunnerJSON = await this.getRequest(`https://tracker.gamesdonequick.com/tracker/search/?type=runner&event=${this.eventID}`);
+        RequestJSON = {};
+        RequestJSON.run = RequestRunJSON;
+        RequestJSON.runner = RequestRunnerJSON;
       } else {
         RequestJSON = await this.getRequest(`./event/${this.eventID}.json`);
       }
