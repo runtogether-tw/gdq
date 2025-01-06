@@ -1,0 +1,4923 @@
+{
+    "run": [
+        {
+            "model": "tracker.speedrun",
+            "pk": 5049,
+            "fields": {
+                "event": 37,
+                "name": "Pre-Show",
+                "display_name": "Pre-Show",
+                "twitch_name": "",
+                "deprecated_runners": "JHobz, Keizaron, Kungfufruitcup, feasel, spikevegeta",
+                "console": "AGDQ",
+                "commentators": "",
+                "description": "",
+                "starttime": "2022-01-09T16:30:00Z",
+                "endtime": "2022-01-09T17:07:00Z",
+                "order": 1,
+                "run_time": "0:30:00",
+                "setup_time": "0:07:00",
+                "coop": false,
+                "category": "Get Hype",
+                "release_year": null,
+                "giantbomb_id": null,
+                "runners": [
+                    60,
+                    80,
+                    97,
+                    683,
+                    884
+                ],
+                "canonical_url": "https://gamesdonequick.com/tracker/run/5049",
+                "public": "Pre-Show Get Hype (event_id: 37)"
+            }
+        },
+        {
+            "model": "tracker.speedrun",
+            "pk": 5050,
+            "fields": {
+                "event": 37,
+                "name": "Nioh 2",
+                "display_name": "Nioh 2",
+                "twitch_name": "",
+                "deprecated_runners": "AxelSanGo",
+                "console": "PS5",
+                "commentators": "",
+                "description": "",
+                "starttime": "2022-01-09T17:07:00Z",
+                "endtime": "2022-01-09T18:53:00Z",
+                "order": 2,
+                "run_time": "1:27:15",
+                "setup_time": "0:18:45",
+                "coop": false,
+                "category": "Any% Featherless",
+                "release_year": 2021,
+                "giantbomb_id": null,
+                "runners": [
+                    1570
+                ],
+                "canonical_url": "https://gamesdonequick.com/tracker/run/5050",
+                "public": "Nioh 2 Any% Featherless (event_id: 37)"
+            }
+        },
+        {
+            "model": "tracker.speedrun",
+            "pk": 5051,
+            "fields": {
+                "event": 37,
+                "name": "Metroid Prime Hunters",
+                "display_name": "Metroid Prime Hunters",
+                "twitch_name": "",
+                "deprecated_runners": "Mr_Shasta",
+                "console": "DS",
+                "commentators": "",
+                "description": "",
+                "starttime": "2022-01-09T18:53:00Z",
+                "endtime": "2022-01-09T20:50:00Z",
+                "order": 3,
+                "run_time": "1:20:12",
+                "setup_time": "0:36:48",
+                "coop": false,
+                "category": "All Items",
+                "release_year": 2006,
+                "giantbomb_id": null,
+                "runners": [
+                    57
+                ],
+                "canonical_url": "https://gamesdonequick.com/tracker/run/5051",
+                "public": "Metroid Prime Hunters All Items (event_id: 37)"
+            }
+        },
+        {
+            "model": "tracker.speedrun",
+            "pk": 5052,
+            "fields": {
+                "event": 37,
+                "name": "Donkey Kong Country 2: Diddy's Kong Quest",
+                "display_name": "Donkey Kong Country 2: Diddy's Kong Quest",
+                "twitch_name": "",
+                "deprecated_runners": "Eazinn, SBDWolf, Tonkotsu, V0oid",
+                "console": "SNES",
+                "commentators": "",
+                "description": "",
+                "starttime": "2022-01-09T20:50:00Z",
+                "endtime": "2022-01-09T21:57:00Z",
+                "order": 4,
+                "run_time": "0:41:00",
+                "setup_time": "0:26:00",
+                "coop": false,
+                "category": "Any%",
+                "release_year": 1995,
+                "giantbomb_id": null,
+                "runners": [
+                    35,
+                    98,
+                    1188,
+                    1240
+                ],
+                "canonical_url": "https://gamesdonequick.com/tracker/run/5052",
+                "public": "Donkey Kong Country 2: Diddy's Kong Quest Any% (event_id: 37)"
+            }
+        },
+        {
+            "model": "tracker.speedrun",
+            "pk": 5053,
+            "fields": {
+                "event": 37,
+                "name": "DEATHLOOP",
+                "display_name": "DEATHLOOP",
+                "twitch_name": "",
+                "deprecated_runners": "CreeperHntr",
+                "console": "PC",
+                "commentators": "",
+                "description": "",
+                "starttime": "2022-01-09T21:57:00Z",
+                "endtime": "2022-01-09T22:32:00Z",
+                "order": 5,
+                "run_time": "0:26:46",
+                "setup_time": "0:08:14",
+                "coop": false,
+                "category": "Any%",
+                "release_year": 2021,
+                "giantbomb_id": null,
+                "runners": [
+                    581
+                ],
+                "canonical_url": "https://gamesdonequick.com/tracker/run/5053",
+                "public": "DEATHLOOP Any% (event_id: 37)"
+            }
+        },
+        {
+            "model": "tracker.speedrun",
+            "pk": 5054,
+            "fields": {
+                "event": 37,
+                "name": "Axiom Verge 2",
+                "display_name": "Axiom Verge 2",
+                "twitch_name": "",
+                "deprecated_runners": "SeraphinEveles",
+                "console": "PC",
+                "commentators": "",
+                "description": "",
+                "starttime": "2022-01-09T22:32:00Z",
+                "endtime": "2022-01-09T23:03:00Z",
+                "order": 6,
+                "run_time": "0:11:54",
+                "setup_time": "0:19:06",
+                "coop": false,
+                "category": "Any% Major Glitches",
+                "release_year": 2021,
+                "giantbomb_id": null,
+                "runners": [
+                    1617
+                ],
+                "canonical_url": "https://gamesdonequick.com/tracker/run/5054",
+                "public": "Axiom Verge 2 Any% Major Glitches (event_id: 37)"
+            }
+        },
+        {
+            "model": "tracker.speedrun",
+            "pk": 5055,
+            "fields": {
+                "event": 37,
+                "name": "Mega Man 2",
+                "display_name": "Mega Man 2",
+                "twitch_name": "",
+                "deprecated_runners": "coolkid",
+                "console": "NES",
+                "commentators": "",
+                "description": "",
+                "starttime": "2022-01-09T23:03:00Z",
+                "endtime": "2022-01-09T23:44:00Z",
+                "order": 7,
+                "run_time": "0:27:02",
+                "setup_time": "0:13:58",
+                "coop": false,
+                "category": "any% (difficult)",
+                "release_year": 1988,
+                "giantbomb_id": null,
+                "runners": [
+                    491
+                ],
+                "canonical_url": "https://gamesdonequick.com/tracker/run/5055",
+                "public": "Mega Man 2 any% (difficult) (event_id: 37)"
+            }
+        },
+        {
+            "model": "tracker.speedrun",
+            "pk": 5056,
+            "fields": {
+                "event": 37,
+                "name": "Bonus Game 1 - Metal Gear Solid 2: Substance",
+                "display_name": "Metal Gear Solid 2: Substance",
+                "twitch_name": "Metal Gear Solid 2: Substance",
+                "deprecated_runners": "ApacheSmash",
+                "console": "PC",
+                "commentators": "",
+                "description": "",
+                "starttime": "2022-01-09T23:44:00Z",
+                "endtime": "2022-01-10T00:15:00Z",
+                "order": 8,
+                "run_time": "0:10:26",
+                "setup_time": "0:20:34",
+                "coop": false,
+                "category": "Tanker Blindfolded",
+                "release_year": 2003,
+                "giantbomb_id": null,
+                "runners": [
+                    1478
+                ],
+                "canonical_url": "https://gamesdonequick.com/tracker/run/5056",
+                "public": "Bonus Game 1 - Metal Gear Solid 2: Substance Tanker Blindfolded (event_id: 37)"
+            }
+        },
+        {
+            "model": "tracker.speedrun",
+            "pk": 5057,
+            "fields": {
+                "event": 37,
+                "name": "Death's Door",
+                "display_name": "Death's Door",
+                "twitch_name": "",
+                "deprecated_runners": "Scrublord",
+                "console": "PC",
+                "commentators": "",
+                "description": "",
+                "starttime": "2022-01-10T00:15:00Z",
+                "endtime": "2022-01-10T01:38:00Z",
+                "order": 9,
+                "run_time": "1:01:33",
+                "setup_time": "0:21:27",
+                "coop": false,
+                "category": "Current Patch Any%",
+                "release_year": 2021,
+                "giantbomb_id": null,
+                "runners": [
+                    679
+                ],
+                "canonical_url": "https://gamesdonequick.com/tracker/run/5057",
+                "public": "Death's Door Current Patch Any% (event_id: 37)"
+            }
+        },
+        {
+            "model": "tracker.speedrun",
+            "pk": 5058,
+            "fields": {
+                "event": 37,
+                "name": "Marvel's Spider-Man Remastered",
+                "display_name": "Spider-Man Remastered",
+                "twitch_name": "",
+                "deprecated_runners": "Pessilist",
+                "console": "PS5",
+                "commentators": "",
+                "description": "",
+                "starttime": "2022-01-10T01:38:00Z",
+                "endtime": "2022-01-10T02:36:00Z",
+                "order": 10,
+                "run_time": "0:32:24",
+                "setup_time": "0:25:36",
+                "coop": false,
+                "category": "Silver Lining Any% Ultimate",
+                "release_year": 2018,
+                "giantbomb_id": null,
+                "runners": [
+                    1062
+                ],
+                "canonical_url": "https://gamesdonequick.com/tracker/run/5058",
+                "public": "Marvel's Spider-Man Remastered Silver Lining Any% Ultimate (event_id: 37)"
+            }
+        },
+        {
+            "model": "tracker.speedrun",
+            "pk": 5059,
+            "fields": {
+                "event": 37,
+                "name": "The Legend of Zelda: Oracle of Seasons",
+                "display_name": "The Legend of Zelda: Oracle of Seasons",
+                "twitch_name": "",
+                "deprecated_runners": "TGH",
+                "console": "GBC",
+                "commentators": "",
+                "description": "",
+                "starttime": "2022-01-10T02:36:00Z",
+                "endtime": "2022-01-10T04:28:00Z",
+                "order": 11,
+                "run_time": "1:42:04",
+                "setup_time": "0:09:56",
+                "coop": false,
+                "category": "All Essences",
+                "release_year": 2001,
+                "giantbomb_id": null,
+                "runners": [
+                    441
+                ],
+                "canonical_url": "https://gamesdonequick.com/tracker/run/5059",
+                "public": "The Legend of Zelda: Oracle of Seasons All Essences (event_id: 37)"
+            }
+        },
+        {
+            "model": "tracker.speedrun",
+            "pk": 5259,
+            "fields": {
+                "event": 37,
+                "name": "Daily Recap - Sunday",
+                "display_name": "Daily Recap - Sunday",
+                "twitch_name": "Talk Shows & Podcasts",
+                "deprecated_runners": "JHobz, Keizaron, feasel, spikevegeta",
+                "console": "Live",
+                "commentators": "",
+                "description": "",
+                "starttime": "2022-01-10T04:28:00Z",
+                "endtime": "2022-01-10T04:46:00Z",
+                "order": 12,
+                "run_time": "0:15:00",
+                "setup_time": "0:03:00",
+                "coop": false,
+                "category": "Recap%",
+                "release_year": 2022,
+                "giantbomb_id": null,
+                "runners": [
+                    60,
+                    80,
+                    97,
+                    683
+                ],
+                "canonical_url": "https://gamesdonequick.com/tracker/run/5259",
+                "public": "Daily Recap - Sunday Recap% (event_id: 37)"
+            }
+        },
+        {
+            "model": "tracker.speedrun",
+            "pk": 5060,
+            "fields": {
+                "event": 37,
+                "name": "Dead Space 2",
+                "display_name": "Dead Space 2",
+                "twitch_name": "",
+                "deprecated_runners": "sharkhat87",
+                "console": "PC",
+                "commentators": "",
+                "description": "",
+                "starttime": "2022-01-10T04:46:00Z",
+                "endtime": "2022-01-10T06:09:00Z",
+                "order": 13,
+                "run_time": "1:11:07",
+                "setup_time": "0:11:53",
+                "coop": false,
+                "category": "any%",
+                "release_year": 2011,
+                "giantbomb_id": null,
+                "runners": [
+                    1606
+                ],
+                "canonical_url": "https://gamesdonequick.com/tracker/run/5060",
+                "public": "Dead Space 2 any% (event_id: 37)"
+            }
+        },
+        {
+            "model": "tracker.speedrun",
+            "pk": 5061,
+            "fields": {
+                "event": 37,
+                "name": "Samurai Jack: Battle Through Time",
+                "display_name": "Samurai Jack: Battle Through Time",
+                "twitch_name": "",
+                "deprecated_runners": "A Flyin Coconut",
+                "console": "PC",
+                "commentators": "",
+                "description": "",
+                "starttime": "2022-01-10T06:09:00Z",
+                "endtime": "2022-01-10T06:49:00Z",
+                "order": 14,
+                "run_time": "0:32:03",
+                "setup_time": "0:07:57",
+                "coop": false,
+                "category": "Any% NG+",
+                "release_year": 2020,
+                "giantbomb_id": null,
+                "runners": [
+                    1559
+                ],
+                "canonical_url": "https://gamesdonequick.com/tracker/run/5061",
+                "public": "Samurai Jack: Battle Through Time Any% NG+ (event_id: 37)"
+            }
+        },
+        {
+            "model": "tracker.speedrun",
+            "pk": 5062,
+            "fields": {
+                "event": 37,
+                "name": "RITE",
+                "display_name": "RITE",
+                "twitch_name": "",
+                "deprecated_runners": "Lincher",
+                "console": "PC",
+                "commentators": "",
+                "description": "",
+                "starttime": "2022-01-10T06:49:00Z",
+                "endtime": "2022-01-10T07:25:00Z",
+                "order": 15,
+                "run_time": "0:27:33",
+                "setup_time": "0:08:27",
+                "coop": false,
+                "category": "Any%",
+                "release_year": 2020,
+                "giantbomb_id": null,
+                "runners": [
+                    1414
+                ],
+                "canonical_url": "https://gamesdonequick.com/tracker/run/5062",
+                "public": "RITE Any% (event_id: 37)"
+            }
+        },
+        {
+            "model": "tracker.speedrun",
+            "pk": 5063,
+            "fields": {
+                "event": 37,
+                "name": "Mail Mole",
+                "display_name": "Mail Mole",
+                "twitch_name": "",
+                "deprecated_runners": "headstrong1290",
+                "console": "PC",
+                "commentators": "",
+                "description": "",
+                "starttime": "2022-01-10T07:25:00Z",
+                "endtime": "2022-01-10T08:43:40Z",
+                "order": 16,
+                "run_time": "1:01:09",
+                "setup_time": "0:17:31",
+                "coop": false,
+                "category": "Any%",
+                "release_year": 2021,
+                "giantbomb_id": null,
+                "runners": [
+                    376
+                ],
+                "canonical_url": "https://gamesdonequick.com/tracker/run/5063",
+                "public": "Mail Mole Any% (event_id: 37)"
+            }
+        },
+        {
+            "model": "tracker.speedrun",
+            "pk": 5064,
+            "fields": {
+                "event": 37,
+                "name": "Antichamber",
+                "display_name": "Antichamber",
+                "twitch_name": "",
+                "deprecated_runners": "Ozmourn",
+                "console": "PC",
+                "commentators": "",
+                "description": "",
+                "starttime": "2022-01-10T08:43:40Z",
+                "endtime": "2022-01-10T09:16:13Z",
+                "order": 17,
+                "run_time": "0:21:43",
+                "setup_time": "0:10:50",
+                "coop": false,
+                "category": "100%",
+                "release_year": 2013,
+                "giantbomb_id": null,
+                "runners": [
+                    1618
+                ],
+                "canonical_url": "https://gamesdonequick.com/tracker/run/5064",
+                "public": "Antichamber 100% (event_id: 37)"
+            }
+        },
+        {
+            "model": "tracker.speedrun",
+            "pk": 5065,
+            "fields": {
+                "event": 37,
+                "name": "Judge Dredd",
+                "display_name": "Judge Dredd",
+                "twitch_name": "",
+                "deprecated_runners": "Traviktox",
+                "console": "SNES",
+                "commentators": "",
+                "description": "",
+                "starttime": "2022-01-10T09:16:13Z",
+                "endtime": "2022-01-10T09:52:37Z",
+                "order": 18,
+                "run_time": "0:26:05",
+                "setup_time": "0:10:19",
+                "coop": false,
+                "category": "any%",
+                "release_year": 1995,
+                "giantbomb_id": null,
+                "runners": [
+                    1585
+                ],
+                "canonical_url": "https://gamesdonequick.com/tracker/run/5065",
+                "public": "Judge Dredd any% (event_id: 37)"
+            }
+        },
+        {
+            "model": "tracker.speedrun",
+            "pk": 5066,
+            "fields": {
+                "event": 37,
+                "name": "Bust-A-Move 4",
+                "display_name": "Bust-A-Move 4",
+                "twitch_name": "Puzzle Bobble 4",
+                "deprecated_runners": "poshi",
+                "console": "PS1",
+                "commentators": "",
+                "description": "",
+                "starttime": "2022-01-10T09:52:37Z",
+                "endtime": "2022-01-10T10:28:23Z",
+                "order": 19,
+                "run_time": "0:17:22",
+                "setup_time": "0:18:24",
+                "coop": false,
+                "category": "Puzzle - Arcade (Normal)",
+                "release_year": 1998,
+                "giantbomb_id": null,
+                "runners": [
+                    1210
+                ],
+                "canonical_url": "https://gamesdonequick.com/tracker/run/5066",
+                "public": "Bust-A-Move 4 Puzzle - Arcade (Normal) (event_id: 37)"
+            }
+        },
+        {
+            "model": "tracker.speedrun",
+            "pk": 5187,
+            "fields": {
+                "event": 37,
+                "name": "ActRaiser",
+                "display_name": "ActRaiser",
+                "twitch_name": "",
+                "deprecated_runners": "Aquas, Teleo1",
+                "console": "SNES",
+                "commentators": "",
+                "description": "",
+                "starttime": "2022-01-10T10:28:23Z",
+                "endtime": "2022-01-10T11:22:08Z",
+                "order": 20,
+                "run_time": "0:22:15",
+                "setup_time": "0:31:30",
+                "coop": false,
+                "category": "Professional! Mode Race",
+                "release_year": 1991,
+                "giantbomb_id": null,
+                "runners": [
+                    313,
+                    1011
+                ],
+                "canonical_url": "https://gamesdonequick.com/tracker/run/5187",
+                "public": "ActRaiser Professional! Mode Race (event_id: 37)"
+            }
+        },
+        {
+            "model": "tracker.speedrun",
+            "pk": 5067,
+            "fields": {
+                "event": 37,
+                "name": "Beyond Oasis",
+                "display_name": "Beyond Oasis",
+                "twitch_name": "",
+                "deprecated_runners": "Delekates",
+                "console": "PC",
+                "commentators": "",
+                "description": "",
+                "starttime": "2022-01-10T11:22:08Z",
+                "endtime": "2022-01-10T12:19:00Z",
+                "order": 21,
+                "run_time": "0:44:08",
+                "setup_time": "0:12:44",
+                "coop": false,
+                "category": "any%",
+                "release_year": 1994,
+                "giantbomb_id": null,
+                "runners": [
+                    1616
+                ],
+                "canonical_url": "https://gamesdonequick.com/tracker/run/5067",
+                "public": "Beyond Oasis any% (event_id: 37)"
+            }
+        },
+        {
+            "model": "tracker.speedrun",
+            "pk": 5068,
+            "fields": {
+                "event": 37,
+                "name": "Gunstar Heroes",
+                "display_name": "Gunstar Heroes",
+                "twitch_name": "",
+                "deprecated_runners": "dagronSR",
+                "console": "Genesis",
+                "commentators": "",
+                "description": "",
+                "starttime": "2022-01-10T12:19:00Z",
+                "endtime": "2022-01-10T13:11:00Z",
+                "order": 22,
+                "run_time": "0:38:30",
+                "setup_time": "0:13:30",
+                "coop": false,
+                "category": "Any% Expert",
+                "release_year": 1993,
+                "giantbomb_id": null,
+                "runners": [
+                    1593
+                ],
+                "canonical_url": "https://gamesdonequick.com/tracker/run/5068",
+                "public": "Gunstar Heroes Any% Expert (event_id: 37)"
+            }
+        },
+        {
+            "model": "tracker.speedrun",
+            "pk": 5069,
+            "fields": {
+                "event": 37,
+                "name": "Environmental Station Alpha",
+                "display_name": "Environmental Station Alpha",
+                "twitch_name": "",
+                "deprecated_runners": "Vicas",
+                "console": "PC",
+                "commentators": "",
+                "description": "",
+                "starttime": "2022-01-10T13:11:00Z",
+                "endtime": "2022-01-10T13:46:00Z",
+                "order": 23,
+                "run_time": "0:25:53",
+                "setup_time": "0:09:07",
+                "coop": false,
+                "category": "Surface Ending",
+                "release_year": 2015,
+                "giantbomb_id": null,
+                "runners": [
+                    1600
+                ],
+                "canonical_url": "https://gamesdonequick.com/tracker/run/5069",
+                "public": "Environmental Station Alpha Surface Ending (event_id: 37)"
+            }
+        },
+        {
+            "model": "tracker.speedrun",
+            "pk": 5071,
+            "fields": {
+                "event": 37,
+                "name": "Spyro: Attack of the Rhynocs",
+                "display_name": "Spyro: Attack of the Rhynocs",
+                "twitch_name": "",
+                "deprecated_runners": "Breadghost",
+                "console": "GBA",
+                "commentators": "",
+                "description": "",
+                "starttime": "2022-01-10T13:46:00Z",
+                "endtime": "2022-01-10T14:17:00Z",
+                "order": 25,
+                "run_time": "0:20:41",
+                "setup_time": "0:10:19",
+                "coop": false,
+                "category": "any%",
+                "release_year": 2003,
+                "giantbomb_id": null,
+                "runners": [
+                    1550
+                ],
+                "canonical_url": "https://gamesdonequick.com/tracker/run/5071",
+                "public": "Spyro: Attack of the Rhynocs any% (event_id: 37)"
+            }
+        },
+        {
+            "model": "tracker.speedrun",
+            "pk": 5072,
+            "fields": {
+                "event": 37,
+                "name": "Part Time UFO",
+                "display_name": "Part Time UFO",
+                "twitch_name": "",
+                "deprecated_runners": "ykrin",
+                "console": "Switch",
+                "commentators": "",
+                "description": "",
+                "starttime": "2022-01-10T14:17:00Z",
+                "endtime": "2022-01-10T15:03:00Z",
+                "order": 26,
+                "run_time": "0:26:59",
+                "setup_time": "0:19:01",
+                "coop": false,
+                "category": "Any%",
+                "release_year": 2020,
+                "giantbomb_id": null,
+                "runners": [
+                    1568
+                ],
+                "canonical_url": "https://gamesdonequick.com/tracker/run/5072",
+                "public": "Part Time UFO Any% (event_id: 37)"
+            }
+        },
+        {
+            "model": "tracker.speedrun",
+            "pk": 5073,
+            "fields": {
+                "event": 37,
+                "name": "Kirby's Dream Land 3",
+                "display_name": "Kirby's Dream Land 3",
+                "twitch_name": "",
+                "deprecated_runners": "Darksol188",
+                "console": "Switch",
+                "commentators": "",
+                "description": "",
+                "starttime": "2022-01-10T15:03:00Z",
+                "endtime": "2022-01-10T16:25:00Z",
+                "order": 27,
+                "run_time": "1:05:35",
+                "setup_time": "0:16:25",
+                "coop": false,
+                "category": "Any% (No 2P)",
+                "release_year": 1997,
+                "giantbomb_id": null,
+                "runners": [
+                    1167
+                ],
+                "canonical_url": "https://gamesdonequick.com/tracker/run/5073",
+                "public": "Kirby's Dream Land 3 Any% (No 2P) (event_id: 37)"
+            }
+        },
+        {
+            "model": "tracker.speedrun",
+            "pk": 5074,
+            "fields": {
+                "event": 37,
+                "name": "Kena: Bridge of Spirits",
+                "display_name": "Kena: Bridge of Spirits",
+                "twitch_name": "",
+                "deprecated_runners": "InsertLogic",
+                "console": "PC",
+                "commentators": "",
+                "description": "",
+                "starttime": "2022-01-10T16:25:00Z",
+                "endtime": "2022-01-10T17:11:00Z",
+                "order": 28,
+                "run_time": "0:28:35",
+                "setup_time": "0:17:25",
+                "coop": false,
+                "category": "Any% NMG (Hard)",
+                "release_year": 2021,
+                "giantbomb_id": null,
+                "runners": [
+                    1583
+                ],
+                "canonical_url": "https://gamesdonequick.com/tracker/run/5074",
+                "public": "Kena: Bridge of Spirits Any% NMG (Hard) (event_id: 37)"
+            }
+        },
+        {
+            "model": "tracker.speedrun",
+            "pk": 5075,
+            "fields": {
+                "event": 37,
+                "name": "Chicory: A Colorful Tale",
+                "display_name": "Chicory: A Colorful Tale",
+                "twitch_name": "",
+                "deprecated_runners": "Punchy",
+                "console": "PC",
+                "commentators": "",
+                "description": "",
+                "starttime": "2022-01-10T17:11:00Z",
+                "endtime": "2022-01-10T18:04:00Z",
+                "order": 29,
+                "run_time": "0:33:13",
+                "setup_time": "0:19:47",
+                "coop": false,
+                "category": "All Bosses And Trials",
+                "release_year": 2021,
+                "giantbomb_id": null,
+                "runners": [
+                    544
+                ],
+                "canonical_url": "https://gamesdonequick.com/tracker/run/5075",
+                "public": "Chicory: A Colorful Tale All Bosses And Trials (event_id: 37)"
+            }
+        },
+        {
+            "model": "tracker.speedrun",
+            "pk": 5076,
+            "fields": {
+                "event": 37,
+                "name": "Crash Team Racing",
+                "display_name": "Crash Team Racing",
+                "twitch_name": "",
+                "deprecated_runners": "hypnoshark",
+                "console": "PS1",
+                "commentators": "",
+                "description": "",
+                "starttime": "2022-01-10T18:04:00Z",
+                "endtime": "2022-01-10T19:30:00Z",
+                "order": 30,
+                "run_time": "0:50:51",
+                "setup_time": "0:35:09",
+                "coop": false,
+                "category": "Any% (No Major Glitches)",
+                "release_year": 1999,
+                "giantbomb_id": null,
+                "runners": [
+                    1609
+                ],
+                "canonical_url": "https://gamesdonequick.com/tracker/run/5076",
+                "public": "Crash Team Racing Any% (No Major Glitches) (event_id: 37)"
+            }
+        },
+        {
+            "model": "tracker.speedrun",
+            "pk": 5077,
+            "fields": {
+                "event": 37,
+                "name": "Webbed",
+                "display_name": "Webbed",
+                "twitch_name": "",
+                "deprecated_runners": "ShadowthePast",
+                "console": "PC",
+                "commentators": "",
+                "description": "",
+                "starttime": "2022-01-10T19:30:00Z",
+                "endtime": "2022-01-10T20:03:00Z",
+                "order": 31,
+                "run_time": "0:17:21",
+                "setup_time": "0:15:39",
+                "coop": false,
+                "category": "Any%",
+                "release_year": 2021,
+                "giantbomb_id": null,
+                "runners": [
+                    1625
+                ],
+                "canonical_url": "https://gamesdonequick.com/tracker/run/5077",
+                "public": "Webbed Any% (event_id: 37)"
+            }
+        },
+        {
+            "model": "tracker.speedrun",
+            "pk": 5078,
+            "fields": {
+                "event": 37,
+                "name": "Mega Man X4",
+                "display_name": "Mega Man X4",
+                "twitch_name": "",
+                "deprecated_runners": "Luiz Miguel",
+                "console": "PS1",
+                "commentators": "",
+                "description": "",
+                "starttime": "2022-01-10T20:03:00Z",
+                "endtime": "2022-01-10T21:11:00Z",
+                "order": 32,
+                "run_time": "0:44:54",
+                "setup_time": "0:23:06",
+                "coop": false,
+                "category": "100% Zero vs X",
+                "release_year": 1997,
+                "giantbomb_id": null,
+                "runners": [
+                    839
+                ],
+                "canonical_url": "https://gamesdonequick.com/tracker/run/5078",
+                "public": "Mega Man X4 100% Zero vs X (event_id: 37)"
+            }
+        },
+        {
+            "model": "tracker.speedrun",
+            "pk": 5079,
+            "fields": {
+                "event": 37,
+                "name": "Psychonauts 2",
+                "display_name": "Psychonauts 2",
+                "twitch_name": "",
+                "deprecated_runners": "ItzBytez",
+                "console": "PC",
+                "commentators": "",
+                "description": "",
+                "starttime": "2022-01-10T21:11:00Z",
+                "endtime": "2022-01-10T23:13:00Z",
+                "order": 33,
+                "run_time": "1:30:56",
+                "setup_time": "0:31:04",
+                "coop": false,
+                "category": "Any%",
+                "release_year": 2021,
+                "giantbomb_id": null,
+                "runners": [
+                    1566
+                ],
+                "canonical_url": "https://gamesdonequick.com/tracker/run/5079",
+                "public": "Psychonauts 2 Any% (event_id: 37)"
+            }
+        },
+        {
+            "model": "tracker.speedrun",
+            "pk": 5080,
+            "fields": {
+                "event": 37,
+                "name": "Bonus Game 2 - Super Monkey Ball: Banana Mania",
+                "display_name": "Super Monkey Ball: Banana Mania",
+                "twitch_name": "Super Monkey Ball: Banana Mania",
+                "deprecated_runners": "Helix, PetresInc",
+                "console": "PC",
+                "commentators": "",
+                "description": "",
+                "starttime": "2022-01-10T23:13:00Z",
+                "endtime": "2022-01-11T00:10:00Z",
+                "order": 34,
+                "run_time": "0:39:20",
+                "setup_time": "0:17:40",
+                "coop": false,
+                "category": "Story Mode All Worlds Race",
+                "release_year": 2021,
+                "giantbomb_id": null,
+                "runners": [
+                    1023,
+                    1259
+                ],
+                "canonical_url": "https://gamesdonequick.com/tracker/run/5080",
+                "public": "Bonus Game 2 - Super Monkey Ball: Banana Mania Story Mode All Worlds Race (event_id: 37)"
+            }
+        },
+        {
+            "model": "tracker.speedrun",
+            "pk": 5081,
+            "fields": {
+                "event": 37,
+                "name": "Ori and the Blind Forest",
+                "display_name": "Ori and the Blind Forest",
+                "twitch_name": "",
+                "deprecated_runners": "rinSR",
+                "console": "PC",
+                "commentators": "",
+                "description": "",
+                "starttime": "2022-01-11T00:10:00Z",
+                "endtime": "2022-01-11T01:31:00Z",
+                "order": 35,
+                "run_time": "0:48:42",
+                "setup_time": "0:32:18",
+                "coop": false,
+                "category": "All Cells (No OOB/TA)",
+                "release_year": 2015,
+                "giantbomb_id": null,
+                "runners": [
+                    1569
+                ],
+                "canonical_url": "https://gamesdonequick.com/tracker/run/5081",
+                "public": "Ori and the Blind Forest All Cells (No OOB/TA) (event_id: 37)"
+            }
+        },
+        {
+            "model": "tracker.speedrun",
+            "pk": 5082,
+            "fields": {
+                "event": 37,
+                "name": "Super Mario Galaxy",
+                "display_name": "Super Mario Galaxy",
+                "twitch_name": "",
+                "deprecated_runners": "HardcoreGaming, Jhay, Mr. Cloud Kirby, Tibs",
+                "console": "Wii U",
+                "commentators": "",
+                "description": "",
+                "starttime": "2022-01-11T01:31:00Z",
+                "endtime": "2022-01-11T04:00:00Z",
+                "order": 36,
+                "run_time": "2:21:30",
+                "setup_time": "0:07:30",
+                "coop": false,
+                "category": "Any% Luigi Race",
+                "release_year": 2007,
+                "giantbomb_id": null,
+                "runners": [
+                    1545,
+                    1546,
+                    1547,
+                    1548
+                ],
+                "canonical_url": "https://gamesdonequick.com/tracker/run/5082",
+                "public": "Super Mario Galaxy Any% Luigi Race (event_id: 37)"
+            }
+        },
+        {
+            "model": "tracker.speedrun",
+            "pk": 5260,
+            "fields": {
+                "event": 37,
+                "name": "Daily Recap - Monday",
+                "display_name": "Daily Recap - Monday",
+                "twitch_name": "Talk Shows & Podcasts",
+                "deprecated_runners": "JHobz, Kungfufruitcup, feasel",
+                "console": "Live",
+                "commentators": "",
+                "description": "",
+                "starttime": "2022-01-11T04:00:00Z",
+                "endtime": "2022-01-11T04:28:00Z",
+                "order": 37,
+                "run_time": "0:15:00",
+                "setup_time": "0:13:00",
+                "coop": false,
+                "category": "Recap%",
+                "release_year": 2022,
+                "giantbomb_id": null,
+                "runners": [
+                    80,
+                    683,
+                    884
+                ],
+                "canonical_url": "https://gamesdonequick.com/tracker/run/5260",
+                "public": "Daily Recap - Monday Recap% (event_id: 37)"
+            }
+        },
+        {
+            "model": "tracker.speedrun",
+            "pk": 5083,
+            "fields": {
+                "event": 37,
+                "name": "Pumpkin Jack",
+                "display_name": "Pumpkin Jack",
+                "twitch_name": "",
+                "deprecated_runners": "Jaxler",
+                "console": "PC",
+                "commentators": "",
+                "description": "",
+                "starttime": "2022-01-11T04:28:00Z",
+                "endtime": "2022-01-11T05:46:00Z",
+                "order": 38,
+                "run_time": "0:53:17",
+                "setup_time": "0:24:43",
+                "coop": false,
+                "category": "NG+ No OOB",
+                "release_year": 2020,
+                "giantbomb_id": null,
+                "runners": [
+                    1390
+                ],
+                "canonical_url": "https://gamesdonequick.com/tracker/run/5083",
+                "public": "Pumpkin Jack NG+ No OOB (event_id: 37)"
+            }
+        },
+        {
+            "model": "tracker.speedrun",
+            "pk": 5084,
+            "fields": {
+                "event": 37,
+                "name": "Hitman: Codename 47",
+                "display_name": "Hitman: Codename 47",
+                "twitch_name": "",
+                "deprecated_runners": "valdemarka",
+                "console": "PC",
+                "commentators": "",
+                "description": "",
+                "starttime": "2022-01-11T05:46:00Z",
+                "endtime": "2022-01-11T06:38:00Z",
+                "order": 39,
+                "run_time": "0:39:49",
+                "setup_time": "0:12:11",
+                "coop": false,
+                "category": "All Missions",
+                "release_year": 2000,
+                "giantbomb_id": null,
+                "runners": [
+                    1589
+                ],
+                "canonical_url": "https://gamesdonequick.com/tracker/run/5084",
+                "public": "Hitman: Codename 47 All Missions (event_id: 37)"
+            }
+        },
+        {
+            "model": "tracker.speedrun",
+            "pk": 5085,
+            "fields": {
+                "event": 37,
+                "name": "Serious Sam 4",
+                "display_name": "Serious Sam 4",
+                "twitch_name": "",
+                "deprecated_runners": "Tezur0",
+                "console": "PC",
+                "commentators": "",
+                "description": "",
+                "starttime": "2022-01-11T06:38:00Z",
+                "endtime": "2022-01-11T08:11:32Z",
+                "order": 40,
+                "run_time": "1:06:40",
+                "setup_time": "0:26:52",
+                "coop": false,
+                "category": "All Levels",
+                "release_year": 2020,
+                "giantbomb_id": null,
+                "runners": [
+                    1558
+                ],
+                "canonical_url": "https://gamesdonequick.com/tracker/run/5085",
+                "public": "Serious Sam 4 All Levels (event_id: 37)"
+            }
+        },
+        {
+            "model": "tracker.speedrun",
+            "pk": 5086,
+            "fields": {
+                "event": 37,
+                "name": "Marathon 2: Durandal",
+                "display_name": "Marathon 2: Durandal",
+                "twitch_name": "Marathon 2: Durandal",
+                "deprecated_runners": "tbcr",
+                "console": "Xbox One",
+                "commentators": "",
+                "description": "",
+                "starttime": "2022-01-11T08:11:32Z",
+                "endtime": "2022-01-11T09:03:43Z",
+                "order": 41,
+                "run_time": "0:35:35",
+                "setup_time": "0:16:36",
+                "coop": false,
+                "category": "Kindergarten",
+                "release_year": 2007,
+                "giantbomb_id": null,
+                "runners": [
+                    903
+                ],
+                "canonical_url": "https://gamesdonequick.com/tracker/run/5086",
+                "public": "Marathon 2: Durandal Kindergarten (event_id: 37)"
+            }
+        },
+        {
+            "model": "tracker.speedrun",
+            "pk": 5087,
+            "fields": {
+                "event": 37,
+                "name": "Beast Wars: Transformers",
+                "display_name": "Beast Wars: Transformers",
+                "twitch_name": "",
+                "deprecated_runners": "AilisNoon",
+                "console": "PS1",
+                "commentators": "",
+                "description": "",
+                "starttime": "2022-01-11T09:03:43Z",
+                "endtime": "2022-01-11T09:38:40Z",
+                "order": 42,
+                "run_time": "0:24:38",
+                "setup_time": "0:10:19",
+                "coop": false,
+                "category": "Predacon Campaign",
+                "release_year": 1997,
+                "giantbomb_id": null,
+                "runners": [
+                    1145
+                ],
+                "canonical_url": "https://gamesdonequick.com/tracker/run/5087",
+                "public": "Beast Wars: Transformers Predacon Campaign (event_id: 37)"
+            }
+        },
+        {
+            "model": "tracker.speedrun",
+            "pk": 5088,
+            "fields": {
+                "event": 37,
+                "name": "Metal Warriors",
+                "display_name": "Metal Warriors",
+                "twitch_name": "",
+                "deprecated_runners": "Omnigamer",
+                "console": "SNES",
+                "commentators": "",
+                "description": "",
+                "starttime": "2022-01-11T09:38:40Z",
+                "endtime": "2022-01-11T10:04:38Z",
+                "order": 43,
+                "run_time": "0:16:00",
+                "setup_time": "0:09:58",
+                "coop": false,
+                "category": "Any%",
+                "release_year": 1995,
+                "giantbomb_id": null,
+                "runners": [
+                    333
+                ],
+                "canonical_url": "https://gamesdonequick.com/tracker/run/5088",
+                "public": "Metal Warriors Any% (event_id: 37)"
+            }
+        },
+        {
+            "model": "tracker.speedrun",
+            "pk": 5089,
+            "fields": {
+                "event": 37,
+                "name": "Astalon: Tears of the Earth",
+                "display_name": "Astalon: Tears of the Earth",
+                "twitch_name": "",
+                "deprecated_runners": "strizer86",
+                "console": "PC",
+                "commentators": "",
+                "description": "",
+                "starttime": "2022-01-11T10:04:38Z",
+                "endtime": "2022-01-11T11:10:09Z",
+                "order": 44,
+                "run_time": "0:52:31",
+                "setup_time": "0:13:00",
+                "coop": false,
+                "category": "Any%",
+                "release_year": 2021,
+                "giantbomb_id": null,
+                "runners": [
+                    856
+                ],
+                "canonical_url": "https://gamesdonequick.com/tracker/run/5089",
+                "public": "Astalon: Tears of the Earth Any% (event_id: 37)"
+            }
+        },
+        {
+            "model": "tracker.speedrun",
+            "pk": 5090,
+            "fields": {
+                "event": 37,
+                "name": "Willow",
+                "display_name": "Willow",
+                "twitch_name": "",
+                "deprecated_runners": "Sathdresh",
+                "console": "NES",
+                "commentators": "",
+                "description": "",
+                "starttime": "2022-01-11T11:10:09Z",
+                "endtime": "2022-01-11T12:42:00Z",
+                "order": 45,
+                "run_time": "1:03:19",
+                "setup_time": "0:28:32",
+                "coop": false,
+                "category": "any%",
+                "release_year": 1989,
+                "giantbomb_id": null,
+                "runners": [
+                    1401
+                ],
+                "canonical_url": "https://gamesdonequick.com/tracker/run/5090",
+                "public": "Willow any% (event_id: 37)"
+            }
+        },
+        {
+            "model": "tracker.speedrun",
+            "pk": 5091,
+            "fields": {
+                "event": 37,
+                "name": "Kyouryuu Sentai Zyuranger",
+                "display_name": "Kyouryuu Sentai Zyuranger",
+                "twitch_name": "Kyouryuu Sentai Zyuranger",
+                "deprecated_runners": "KLM1187",
+                "console": "NES",
+                "commentators": "",
+                "description": "",
+                "starttime": "2022-01-11T12:42:00Z",
+                "endtime": "2022-01-11T12:56:00Z",
+                "order": 46,
+                "run_time": "0:07:20",
+                "setup_time": "0:06:40",
+                "coop": false,
+                "category": "Easy Mode",
+                "release_year": 1992,
+                "giantbomb_id": null,
+                "runners": [
+                    631
+                ],
+                "canonical_url": "https://gamesdonequick.com/tracker/run/5091",
+                "public": "Kyouryuu Sentai Zyuranger Easy Mode (event_id: 37)"
+            }
+        },
+        {
+            "model": "tracker.speedrun",
+            "pk": 5092,
+            "fields": {
+                "event": 37,
+                "name": "Bucky O'Hare",
+                "display_name": "Bucky O'Hare",
+                "twitch_name": "",
+                "deprecated_runners": "KLM1187",
+                "console": "NES",
+                "commentators": "",
+                "description": "",
+                "starttime": "2022-01-11T12:56:00Z",
+                "endtime": "2022-01-11T13:39:00Z",
+                "order": 47,
+                "run_time": "0:26:21",
+                "setup_time": "0:16:39",
+                "coop": false,
+                "category": "Normal Mode",
+                "release_year": 1992,
+                "giantbomb_id": null,
+                "runners": [
+                    631
+                ],
+                "canonical_url": "https://gamesdonequick.com/tracker/run/5092",
+                "public": "Bucky O'Hare Normal Mode (event_id: 37)"
+            }
+        },
+        {
+            "model": "tracker.speedrun",
+            "pk": 5093,
+            "fields": {
+                "event": 37,
+                "name": "Gargoyle's Quest II",
+                "display_name": "Gargoyle's Quest II",
+                "twitch_name": "",
+                "deprecated_runners": "vanni_van",
+                "console": "NES",
+                "commentators": "",
+                "description": "",
+                "starttime": "2022-01-11T13:39:00Z",
+                "endtime": "2022-01-11T14:22:00Z",
+                "order": 48,
+                "run_time": "0:26:49",
+                "setup_time": "0:16:11",
+                "coop": false,
+                "category": "any%",
+                "release_year": 1992,
+                "giantbomb_id": null,
+                "runners": [
+                    1596
+                ],
+                "canonical_url": "https://gamesdonequick.com/tracker/run/5093",
+                "public": "Gargoyle's Quest II any% (event_id: 37)"
+            }
+        },
+        {
+            "model": "tracker.speedrun",
+            "pk": 5094,
+            "fields": {
+                "event": 37,
+                "name": "Spacegulls",
+                "display_name": "Spacegulls",
+                "twitch_name": "",
+                "deprecated_runners": "Oopla",
+                "console": "NES",
+                "commentators": "",
+                "description": "",
+                "starttime": "2022-01-11T14:22:00Z",
+                "endtime": "2022-01-11T14:36:00Z",
+                "order": 49,
+                "run_time": "0:08:16",
+                "setup_time": "0:05:44",
+                "coop": false,
+                "category": "100% v1.1",
+                "release_year": 2021,
+                "giantbomb_id": null,
+                "runners": [
+                    1553
+                ],
+                "canonical_url": "https://gamesdonequick.com/tracker/run/5094",
+                "public": "Spacegulls 100% v1.1 (event_id: 37)"
+            }
+        },
+        {
+            "model": "tracker.speedrun",
+            "pk": 5095,
+            "fields": {
+                "event": 37,
+                "name": "The Krion Conquest",
+                "display_name": "The Krion Conquest",
+                "twitch_name": "",
+                "deprecated_runners": "KLM1187, stone_clive",
+                "console": "NES",
+                "commentators": "",
+                "description": "",
+                "starttime": "2022-01-11T14:36:00Z",
+                "endtime": "2022-01-11T15:26:00Z",
+                "order": 50,
+                "run_time": "0:21:37",
+                "setup_time": "0:28:23",
+                "coop": false,
+                "category": "Any% Race (JP Version)",
+                "release_year": 1990,
+                "giantbomb_id": null,
+                "runners": [
+                    631,
+                    1481
+                ],
+                "canonical_url": "https://gamesdonequick.com/tracker/run/5095",
+                "public": "The Krion Conquest Any% Race (JP Version) (event_id: 37)"
+            }
+        },
+        {
+            "model": "tracker.speedrun",
+            "pk": 5096,
+            "fields": {
+                "event": 37,
+                "name": "Final Fantasy XIII",
+                "display_name": "Final Fantasy XIII",
+                "twitch_name": "",
+                "deprecated_runners": "Kayarune",
+                "console": "PC",
+                "commentators": "",
+                "description": "",
+                "starttime": "2022-01-11T15:26:00Z",
+                "endtime": "2022-01-11T20:36:00Z",
+                "order": 51,
+                "run_time": "4:42:37",
+                "setup_time": "0:27:23",
+                "coop": false,
+                "category": "Any%",
+                "release_year": 2014,
+                "giantbomb_id": null,
+                "runners": [
+                    1597
+                ],
+                "canonical_url": "https://gamesdonequick.com/tracker/run/5096",
+                "public": "Final Fantasy XIII Any% (event_id: 37)"
+            }
+        },
+        {
+            "model": "tracker.speedrun",
+            "pk": 5097,
+            "fields": {
+                "event": 37,
+                "name": "NieR: Automata",
+                "display_name": "NieR: Automata",
+                "twitch_name": "",
+                "deprecated_runners": "Ameiii, BlueMetal",
+                "console": "PC",
+                "commentators": "",
+                "description": "",
+                "starttime": "2022-01-11T20:36:00Z",
+                "endtime": "2022-01-11T22:22:00Z",
+                "order": 52,
+                "run_time": "1:25:26",
+                "setup_time": "0:20:34",
+                "coop": false,
+                "category": "[A]ny% VC3 Mod Race",
+                "release_year": 2017,
+                "giantbomb_id": null,
+                "runners": [
+                    493,
+                    1409
+                ],
+                "canonical_url": "https://gamesdonequick.com/tracker/run/5097",
+                "public": "NieR: Automata [A]ny% VC3 Mod Race (event_id: 37)"
+            }
+        },
+        {
+            "model": "tracker.speedrun",
+            "pk": 5098,
+            "fields": {
+                "event": 37,
+                "name": "Ratchet & Clank (2002)",
+                "display_name": "Ratchet & Clank (2002)",
+                "twitch_name": "Ratchet & Clank",
+                "deprecated_runners": "deltadoid",
+                "console": "PS3",
+                "commentators": "",
+                "description": "",
+                "starttime": "2022-01-11T22:22:00Z",
+                "endtime": "2022-01-11T23:07:00Z",
+                "order": 53,
+                "run_time": "0:22:10",
+                "setup_time": "0:22:50",
+                "coop": false,
+                "category": "New Game+",
+                "release_year": 2012,
+                "giantbomb_id": null,
+                "runners": [
+                    1565
+                ],
+                "canonical_url": "https://gamesdonequick.com/tracker/run/5098",
+                "public": "Ratchet & Clank (2002) New Game+ (event_id: 37)"
+            }
+        },
+        {
+            "model": "tracker.speedrun",
+            "pk": 5099,
+            "fields": {
+                "event": 37,
+                "name": "Ratchet & Clank: Rift Apart",
+                "display_name": "Ratchet & Clank: Rift Apart",
+                "twitch_name": "",
+                "deprecated_runners": "mobius",
+                "console": "PS5",
+                "commentators": "",
+                "description": "",
+                "starttime": "2022-01-11T23:07:00Z",
+                "endtime": "2022-01-12T01:09:00Z",
+                "order": 54,
+                "run_time": "1:30:43",
+                "setup_time": "0:31:17",
+                "coop": false,
+                "category": "NG+",
+                "release_year": 2021,
+                "giantbomb_id": null,
+                "runners": [
+                    1467
+                ],
+                "canonical_url": "https://gamesdonequick.com/tracker/run/5099",
+                "public": "Ratchet & Clank: Rift Apart NG+ (event_id: 37)"
+            }
+        },
+        {
+            "model": "tracker.speedrun",
+            "pk": 5188,
+            "fields": {
+                "event": 37,
+                "name": "Bonus Game 3 - Final Fantasy VII Remake Intergrade",
+                "display_name": "Bonus Game 3 - Final Fantasy VII Remake Intergrade",
+                "twitch_name": "Final Fantasy VII Remake",
+                "deprecated_runners": "DutchPotato , GenericallyNamed",
+                "console": "PS5",
+                "commentators": "",
+                "description": "",
+                "starttime": "2022-01-12T01:09:00Z",
+                "endtime": "2022-01-12T02:16:00Z",
+                "order": 55,
+                "run_time": "0:50:34",
+                "setup_time": "0:16:26",
+                "coop": false,
+                "category": "INTERmission Normal any%",
+                "release_year": 2021,
+                "giantbomb_id": null,
+                "runners": [
+                    1598,
+                    1641
+                ],
+                "canonical_url": "https://gamesdonequick.com/tracker/run/5188",
+                "public": "Bonus Game 3 - Final Fantasy VII Remake Intergrade INTERmission Normal any% (event_id: 37)"
+            }
+        },
+        {
+            "model": "tracker.speedrun",
+            "pk": 5100,
+            "fields": {
+                "event": 37,
+                "name": "Returnal",
+                "display_name": "Returnal",
+                "twitch_name": "",
+                "deprecated_runners": "cavecavecave",
+                "console": "PS5",
+                "commentators": "",
+                "description": "",
+                "starttime": "2022-01-12T02:16:00Z",
+                "endtime": "2022-01-12T03:21:00Z",
+                "order": 56,
+                "run_time": "0:46:04",
+                "setup_time": "0:18:56",
+                "coop": false,
+                "category": "Fresh File Any%",
+                "release_year": 2021,
+                "giantbomb_id": null,
+                "runners": [
+                    1564
+                ],
+                "canonical_url": "https://gamesdonequick.com/tracker/run/5100",
+                "public": "Returnal Fresh File Any% (event_id: 37)"
+            }
+        },
+        {
+            "model": "tracker.speedrun",
+            "pk": 5261,
+            "fields": {
+                "event": 37,
+                "name": "Daily Recap - Tuesday",
+                "display_name": "Daily Recap - Tuesday",
+                "twitch_name": "Talk Shows & Podcasts",
+                "deprecated_runners": "Kungfufruitcup, feasel, spikevegeta",
+                "console": "Live",
+                "commentators": "",
+                "description": "",
+                "starttime": "2022-01-12T03:21:00Z",
+                "endtime": "2022-01-12T03:36:00Z",
+                "order": 57,
+                "run_time": "0:15:00",
+                "setup_time": "0",
+                "coop": false,
+                "category": "Recap%",
+                "release_year": 2021,
+                "giantbomb_id": null,
+                "runners": [
+                    60,
+                    80,
+                    884
+                ],
+                "canonical_url": "https://gamesdonequick.com/tracker/run/5261",
+                "public": "Daily Recap - Tuesday Recap% (event_id: 37)"
+            }
+        },
+        {
+            "model": "tracker.speedrun",
+            "pk": 5101,
+            "fields": {
+                "event": 37,
+                "name": "Dead Rising",
+                "display_name": "Dead Rising",
+                "twitch_name": "",
+                "deprecated_runners": "Ecdycis",
+                "console": "PC",
+                "commentators": "",
+                "description": "",
+                "starttime": "2022-01-12T03:36:00Z",
+                "endtime": "2022-01-12T04:27:01Z",
+                "order": 58,
+                "run_time": "0:36:01",
+                "setup_time": "0:15:00",
+                "coop": false,
+                "category": "TimeSkip NG",
+                "release_year": 2016,
+                "giantbomb_id": null,
+                "runners": [
+                    796
+                ],
+                "canonical_url": "https://gamesdonequick.com/tracker/run/5101",
+                "public": "Dead Rising TimeSkip NG (event_id: 37)"
+            }
+        },
+        {
+            "model": "tracker.speedrun",
+            "pk": 5102,
+            "fields": {
+                "event": 37,
+                "name": "Tormented Souls",
+                "display_name": "Tormented Souls",
+                "twitch_name": "",
+                "deprecated_runners": "RebeccaRE",
+                "console": "PC",
+                "commentators": "",
+                "description": "",
+                "starttime": "2022-01-12T04:27:01Z",
+                "endtime": "2022-01-12T05:53:41Z",
+                "order": 59,
+                "run_time": "1:01:40",
+                "setup_time": "0:25:00",
+                "coop": false,
+                "category": "Full Game Any%",
+                "release_year": 2021,
+                "giantbomb_id": null,
+                "runners": [
+                    1628
+                ],
+                "canonical_url": "https://gamesdonequick.com/tracker/run/5102",
+                "public": "Tormented Souls Full Game Any% (event_id: 37)"
+            }
+        },
+        {
+            "model": "tracker.speedrun",
+            "pk": 5103,
+            "fields": {
+                "event": 37,
+                "name": "FAITH: Chapter II",
+                "display_name": "FAITH: Chapter II",
+                "twitch_name": "",
+                "deprecated_runners": "Vynn",
+                "console": "PC",
+                "commentators": "",
+                "description": "",
+                "starttime": "2022-01-12T05:53:41Z",
+                "endtime": "2022-01-12T06:28:23Z",
+                "order": 60,
+                "run_time": "0:21:42",
+                "setup_time": "0:13:00",
+                "coop": false,
+                "category": "Ending III: Initiation",
+                "release_year": 2019,
+                "giantbomb_id": null,
+                "runners": [
+                    1496
+                ],
+                "canonical_url": "https://gamesdonequick.com/tracker/run/5103",
+                "public": "FAITH: Chapter II Ending III: Initiation (event_id: 37)"
+            }
+        },
+        {
+            "model": "tracker.speedrun",
+            "pk": 5104,
+            "fields": {
+                "event": 37,
+                "name": "PAON-ぱおん- BEYOND THE PIEN",
+                "display_name": "PAON-ぱおん- BEYOND THE PIEN",
+                "twitch_name": "Paon: Beyond The Pien",
+                "deprecated_runners": "Swordfish4649",
+                "console": "PC",
+                "commentators": "",
+                "description": "",
+                "starttime": "2022-01-12T06:28:23Z",
+                "endtime": "2022-01-12T06:55:02Z",
+                "order": 61,
+                "run_time": "0:04:39",
+                "setup_time": "0:22:00",
+                "coop": false,
+                "category": "Any%",
+                "release_year": 2021,
+                "giantbomb_id": null,
+                "runners": [
+                    1394
+                ],
+                "canonical_url": "https://gamesdonequick.com/tracker/run/5104",
+                "public": "PAON-ぱおん- BEYOND THE PIEN Any% (event_id: 37)"
+            }
+        },
+        {
+            "model": "tracker.speedrun",
+            "pk": 5105,
+            "fields": {
+                "event": 37,
+                "name": "Eternal Darkness: Sanity's Requiem",
+                "display_name": "Eternal Darkness: Sanity's Requiem",
+                "twitch_name": "",
+                "deprecated_runners": "Pandora_jane",
+                "console": "Wii",
+                "commentators": "",
+                "description": "",
+                "starttime": "2022-01-12T06:55:02Z",
+                "endtime": "2022-01-12T08:48:48Z",
+                "order": 62,
+                "run_time": "1:29:03",
+                "setup_time": "0:24:43",
+                "coop": false,
+                "category": "Any% No Cutscene Storage",
+                "release_year": 2002,
+                "giantbomb_id": null,
+                "runners": [
+                    1599
+                ],
+                "canonical_url": "https://gamesdonequick.com/tracker/run/5105",
+                "public": "Eternal Darkness: Sanity's Requiem Any% No Cutscene Storage (event_id: 37)"
+            }
+        },
+        {
+            "model": "tracker.speedrun",
+            "pk": 5106,
+            "fields": {
+                "event": 37,
+                "name": "Kuon",
+                "display_name": "Kuon",
+                "twitch_name": "",
+                "deprecated_runners": "MissScarletTanager",
+                "console": "PS2",
+                "commentators": "",
+                "description": "",
+                "starttime": "2022-01-12T08:48:48Z",
+                "endtime": "2022-01-12T09:50:10Z",
+                "order": 63,
+                "run_time": "0:42:09",
+                "setup_time": "0:19:13",
+                "coop": false,
+                "category": "Yin Phase vs Yang Phase",
+                "release_year": 2004,
+                "giantbomb_id": null,
+                "runners": [
+                    1581
+                ],
+                "canonical_url": "https://gamesdonequick.com/tracker/run/5106",
+                "public": "Kuon Yin Phase vs Yang Phase (event_id: 37)"
+            }
+        },
+        {
+            "model": "tracker.speedrun",
+            "pk": 5107,
+            "fields": {
+                "event": 37,
+                "name": "Three Dirty Dwarves",
+                "display_name": "Three Dirty Dwarves",
+                "twitch_name": "",
+                "deprecated_runners": "Lizstar",
+                "console": "Saturn",
+                "commentators": "",
+                "description": "",
+                "starttime": "2022-01-12T09:50:10Z",
+                "endtime": "2022-01-12T10:55:00Z",
+                "order": 64,
+                "run_time": "0:46:54",
+                "setup_time": "0:17:56",
+                "coop": false,
+                "category": "Normal",
+                "release_year": 1997,
+                "giantbomb_id": null,
+                "runners": [
+                    814
+                ],
+                "canonical_url": "https://gamesdonequick.com/tracker/run/5107",
+                "public": "Three Dirty Dwarves Normal (event_id: 37)"
+            }
+        },
+        {
+            "model": "tracker.speedrun",
+            "pk": 5108,
+            "fields": {
+                "event": 37,
+                "name": "We Love Katamari",
+                "display_name": "We Love Katamari",
+                "twitch_name": "",
+                "deprecated_runners": "Harutomo",
+                "console": "PS2",
+                "commentators": "",
+                "description": "",
+                "starttime": "2022-01-12T10:55:00Z",
+                "endtime": "2022-01-12T12:04:00Z",
+                "order": 65,
+                "run_time": "0:57:18",
+                "setup_time": "0:11:42",
+                "coop": false,
+                "category": "Any%",
+                "release_year": 2005,
+                "giantbomb_id": null,
+                "runners": [
+                    1626
+                ],
+                "canonical_url": "https://gamesdonequick.com/tracker/run/5108",
+                "public": "We Love Katamari Any% (event_id: 37)"
+            }
+        },
+        {
+            "model": "tracker.speedrun",
+            "pk": 5115,
+            "fields": {
+                "event": 37,
+                "name": "The Typing of the Dead",
+                "display_name": "The Typing of the Dead",
+                "twitch_name": "",
+                "deprecated_runners": "teapartycthulu",
+                "console": "PC",
+                "commentators": "",
+                "description": "",
+                "starttime": "2022-01-12T12:04:00Z",
+                "endtime": "2022-01-12T12:44:00Z",
+                "order": 66,
+                "run_time": "0:30:16",
+                "setup_time": "0:09:44",
+                "coop": false,
+                "category": "Arcade%",
+                "release_year": 2001,
+                "giantbomb_id": null,
+                "runners": [
+                    1056
+                ],
+                "canonical_url": "https://gamesdonequick.com/tracker/run/5115",
+                "public": "The Typing of the Dead Arcade% (event_id: 37)"
+            }
+        },
+        {
+            "model": "tracker.speedrun",
+            "pk": 5109,
+            "fields": {
+                "event": 37,
+                "name": "Teenage Mutant Ninja Turtles: The Hyperstone Heist",
+                "display_name": "Teenage Mutant Ninja Turtles: The Hyperstone Heist",
+                "twitch_name": "",
+                "deprecated_runners": "Crunan",
+                "console": "Genesis",
+                "commentators": "",
+                "description": "",
+                "starttime": "2022-01-12T12:44:00Z",
+                "endtime": "2022-01-12T13:28:00Z",
+                "order": 67,
+                "run_time": "0:22:48",
+                "setup_time": "0:21:12",
+                "coop": false,
+                "category": "Hard%",
+                "release_year": 1992,
+                "giantbomb_id": null,
+                "runners": [
+                    1611
+                ],
+                "canonical_url": "https://gamesdonequick.com/tracker/run/5109",
+                "public": "Teenage Mutant Ninja Turtles: The Hyperstone Heist Hard% (event_id: 37)"
+            }
+        },
+        {
+            "model": "tracker.speedrun",
+            "pk": 5111,
+            "fields": {
+                "event": 37,
+                "name": "SNOLF 0",
+                "display_name": "SNOLF 0",
+                "twitch_name": "Sonic the Hedgehog",
+                "deprecated_runners": "dowolf",
+                "console": "Genesis",
+                "commentators": "",
+                "description": "",
+                "starttime": "2022-01-12T13:28:00Z",
+                "endtime": "2022-01-12T14:09:00Z",
+                "order": 68,
+                "run_time": "0:27:05",
+                "setup_time": "0:13:55",
+                "coop": false,
+                "category": "Any%",
+                "release_year": 2021,
+                "giantbomb_id": null,
+                "runners": [
+                    915
+                ],
+                "canonical_url": "https://gamesdonequick.com/tracker/run/5111",
+                "public": "SNOLF 0 Any% (event_id: 37)"
+            }
+        },
+        {
+            "model": "tracker.speedrun",
+            "pk": 5112,
+            "fields": {
+                "event": 37,
+                "name": "Sonic R",
+                "display_name": "Sonic R",
+                "twitch_name": "",
+                "deprecated_runners": "Risuruuu",
+                "console": "Wii",
+                "commentators": "",
+                "description": "",
+                "starttime": "2022-01-12T14:09:00Z",
+                "endtime": "2022-01-12T14:44:00Z",
+                "order": 69,
+                "run_time": "0:15:28",
+                "setup_time": "0:19:32",
+                "coop": false,
+                "category": "100% (No OoB)",
+                "release_year": 1997,
+                "giantbomb_id": null,
+                "runners": [
+                    1304
+                ],
+                "canonical_url": "https://gamesdonequick.com/tracker/run/5112",
+                "public": "Sonic R 100% (No OoB) (event_id: 37)"
+            }
+        },
+        {
+            "model": "tracker.speedrun",
+            "pk": 5113,
+            "fields": {
+                "event": 37,
+                "name": "Sonic Robo Blast 2",
+                "display_name": "Sonic Robo Blast 2",
+                "twitch_name": "",
+                "deprecated_runners": "Lemin",
+                "console": "PC",
+                "commentators": "",
+                "description": "",
+                "starttime": "2022-01-12T14:44:00Z",
+                "endtime": "2022-01-12T15:28:00Z",
+                "order": 70,
+                "run_time": "0:26:09",
+                "setup_time": "0:17:51",
+                "coop": false,
+                "category": "Sonic Any%",
+                "release_year": 1998,
+                "giantbomb_id": null,
+                "runners": [
+                    1554
+                ],
+                "canonical_url": "https://gamesdonequick.com/tracker/run/5113",
+                "public": "Sonic Robo Blast 2 Sonic Any% (event_id: 37)"
+            }
+        },
+        {
+            "model": "tracker.speedrun",
+            "pk": 5114,
+            "fields": {
+                "event": 37,
+                "name": "Sonic the Hedgehog 4: Episode II",
+                "display_name": "Sonic the Hedgehog 4: Episode II",
+                "twitch_name": "",
+                "deprecated_runners": "AmberCyprian, Argick",
+                "console": "PC",
+                "commentators": "",
+                "description": "",
+                "starttime": "2022-01-12T15:28:00Z",
+                "endtime": "2022-01-12T16:29:00Z",
+                "order": 71,
+                "run_time": "0:43:47",
+                "setup_time": "0:17:13",
+                "coop": true,
+                "category": "Any% Co-op",
+                "release_year": 2012,
+                "giantbomb_id": null,
+                "runners": [
+                    1157,
+                    1460
+                ],
+                "canonical_url": "https://gamesdonequick.com/tracker/run/5114",
+                "public": "Sonic the Hedgehog 4: Episode II Any% Co-op (event_id: 37)"
+            }
+        },
+        {
+            "model": "tracker.speedrun",
+            "pk": 5172,
+            "fields": {
+                "event": 37,
+                "name": "Sonic Adventure DX: Director's Cut",
+                "display_name": "Sonic Adventure DX: Director's Cut",
+                "twitch_name": "",
+                "deprecated_runners": "AFWagers",
+                "console": "PC",
+                "commentators": "",
+                "description": "",
+                "starttime": "2022-01-12T16:29:00Z",
+                "endtime": "2022-01-12T17:41:00Z",
+                "order": 72,
+                "run_time": "0:31:46",
+                "setup_time": "0:40:14",
+                "coop": false,
+                "category": "Sonic's Story",
+                "release_year": 2011,
+                "giantbomb_id": null,
+                "runners": [
+                    1555
+                ],
+                "canonical_url": "https://gamesdonequick.com/tracker/run/5172",
+                "public": "Sonic Adventure DX: Director's Cut Sonic's Story (event_id: 37)"
+            }
+        },
+        {
+            "model": "tracker.speedrun",
+            "pk": 5116,
+            "fields": {
+                "event": 37,
+                "name": "Pokémon Crystal Key Item Randomizer",
+                "display_name": "Pokémon Crystal Key Item Randomizer",
+                "twitch_name": "Pokémon Crystal",
+                "deprecated_runners": "360Chrism, Keizaron, Shenanagans",
+                "console": "GBC",
+                "commentators": "",
+                "description": "",
+                "starttime": "2022-01-12T17:41:00Z",
+                "endtime": "2022-01-12T20:36:00Z",
+                "order": 73,
+                "run_time": "2:34:41",
+                "setup_time": "0:20:19",
+                "coop": false,
+                "category": "Any% (beat Red)",
+                "release_year": 2001,
+                "giantbomb_id": null,
+                "runners": [
+                    97,
+                    145,
+                    191
+                ],
+                "canonical_url": "https://gamesdonequick.com/tracker/run/5116",
+                "public": "Pokémon Crystal Key Item Randomizer Any% (beat Red) (event_id: 37)"
+            }
+        },
+        {
+            "model": "tracker.speedrun",
+            "pk": 5117,
+            "fields": {
+                "event": 37,
+                "name": "Slay the Spire",
+                "display_name": "Slay the Spire",
+                "twitch_name": "",
+                "deprecated_runners": "SpeedFrog",
+                "console": "PC",
+                "commentators": "",
+                "description": "",
+                "starttime": "2022-01-12T20:36:00Z",
+                "endtime": "2022-01-12T21:43:00Z",
+                "order": 74,
+                "run_time": "0:38:04",
+                "setup_time": "0:28:56",
+                "coop": false,
+                "category": "4 Character Unseeded",
+                "release_year": 2019,
+                "giantbomb_id": null,
+                "runners": [
+                    1578
+                ],
+                "canonical_url": "https://gamesdonequick.com/tracker/run/5117",
+                "public": "Slay the Spire 4 Character Unseeded (event_id: 37)"
+            }
+        },
+        {
+            "model": "tracker.speedrun",
+            "pk": 5118,
+            "fields": {
+                "event": 37,
+                "name": "GeoGuessr",
+                "display_name": "GeoGuessr",
+                "twitch_name": "",
+                "deprecated_runners": "Janmumrik, havrd",
+                "console": "PC",
+                "commentators": "",
+                "description": "",
+                "starttime": "2022-01-12T21:43:00Z",
+                "endtime": "2022-01-12T22:41:00Z",
+                "order": 75,
+                "run_time": "0:40:19",
+                "setup_time": "0:17:41",
+                "coop": true,
+                "category": "Perfect Score / Co-op",
+                "release_year": 2013,
+                "giantbomb_id": null,
+                "runners": [
+                    1250,
+                    1594
+                ],
+                "canonical_url": "https://gamesdonequick.com/tracker/run/5118",
+                "public": "GeoGuessr Perfect Score / Co-op (event_id: 37)"
+            }
+        },
+        {
+            "model": "tracker.speedrun",
+            "pk": 5119,
+            "fields": {
+                "event": 37,
+                "name": "ShootMania Storm",
+                "display_name": "ShootMania Storm",
+                "twitch_name": "",
+                "deprecated_runners": "SBVille",
+                "console": "PC",
+                "commentators": "",
+                "description": "",
+                "starttime": "2022-01-12T22:41:00Z",
+                "endtime": "2022-01-12T23:26:00Z",
+                "order": 76,
+                "run_time": "0:25:47",
+                "setup_time": "0:19:13",
+                "coop": false,
+                "category": "Hard Map Showcase",
+                "release_year": 2013,
+                "giantbomb_id": null,
+                "runners": [
+                    1557
+                ],
+                "canonical_url": "https://gamesdonequick.com/tracker/run/5119",
+                "public": "ShootMania Storm Hard Map Showcase (event_id: 37)"
+            }
+        },
+        {
+            "model": "tracker.speedrun",
+            "pk": 5120,
+            "fields": {
+                "event": 37,
+                "name": "Trackmania",
+                "display_name": "Trackmania",
+                "twitch_name": "",
+                "deprecated_runners": "Rastats",
+                "console": "PC",
+                "commentators": "",
+                "description": "",
+                "starttime": "2022-01-12T23:26:00Z",
+                "endtime": "2022-01-13T00:54:00Z",
+                "order": 77,
+                "run_time": "0:55:55",
+                "setup_time": "0:32:05",
+                "coop": false,
+                "category": "Community Maps Showcase",
+                "release_year": 2008,
+                "giantbomb_id": null,
+                "runners": [
+                    1627
+                ],
+                "canonical_url": "https://gamesdonequick.com/tracker/run/5120",
+                "public": "Trackmania Community Maps Showcase (event_id: 37)"
+            }
+        },
+        {
+            "model": "tracker.speedrun",
+            "pk": 5121,
+            "fields": {
+                "event": 37,
+                "name": "Bonus Game 4 - Rocket League",
+                "display_name": "Bonus Game 4 - Rocket League",
+                "twitch_name": "Rocket League",
+                "deprecated_runners": "BoneyPlatypus, Jimingo, ThundaSurge, blaku",
+                "console": "PC",
+                "commentators": "",
+                "description": "",
+                "starttime": "2022-01-13T00:54:00Z",
+                "endtime": "2022-01-13T02:25:00Z",
+                "order": 78,
+                "run_time": "1:06:26",
+                "setup_time": "0:24:34",
+                "coop": true,
+                "category": "Workshop Showcase - Multiple Runners",
+                "release_year": 2015,
+                "giantbomb_id": null,
+                "runners": [
+                    1560,
+                    1561,
+                    1562,
+                    1639
+                ],
+                "canonical_url": "https://gamesdonequick.com/tracker/run/5121",
+                "public": "Bonus Game 4 - Rocket League Workshop Showcase - Multiple Runners (event_id: 37)"
+            }
+        },
+        {
+            "model": "tracker.speedrun",
+            "pk": 5122,
+            "fields": {
+                "event": 37,
+                "name": "Risk of Rain 2",
+                "display_name": "Risk of Rain 2",
+                "twitch_name": "",
+                "deprecated_runners": "Gothrand",
+                "console": "PC",
+                "commentators": "",
+                "description": "",
+                "starttime": "2022-01-13T02:25:00Z",
+                "endtime": "2022-01-13T02:53:00Z",
+                "order": 79,
+                "run_time": "0:10:00",
+                "setup_time": "0:18:00",
+                "coop": false,
+                "category": "Any%",
+                "release_year": 2020,
+                "giantbomb_id": null,
+                "runners": [
+                    1563
+                ],
+                "canonical_url": "https://gamesdonequick.com/tracker/run/5122",
+                "public": "Risk of Rain 2 Any% (event_id: 37)"
+            }
+        },
+        {
+            "model": "tracker.speedrun",
+            "pk": 5123,
+            "fields": {
+                "event": 37,
+                "name": "Halo 5: Guardians",
+                "display_name": "Halo 5: Guardians",
+                "twitch_name": "",
+                "deprecated_runners": "Distro",
+                "console": "Xbox One",
+                "commentators": "",
+                "description": "",
+                "starttime": "2022-01-13T02:53:00Z",
+                "endtime": "2022-01-13T04:39:00Z",
+                "order": 80,
+                "run_time": "1:32:54",
+                "setup_time": "0:13:06",
+                "coop": false,
+                "category": "Full Game Legendary",
+                "release_year": 2015,
+                "giantbomb_id": null,
+                "runners": [
+                    648
+                ],
+                "canonical_url": "https://gamesdonequick.com/tracker/run/5123",
+                "public": "Halo 5: Guardians Full Game Legendary (event_id: 37)"
+            }
+        },
+        {
+            "model": "tracker.speedrun",
+            "pk": 5262,
+            "fields": {
+                "event": 37,
+                "name": "Daily Recap - Wednesday",
+                "display_name": "Daily Recap - Wednesday",
+                "twitch_name": "Talk Shows & Podcasts",
+                "deprecated_runners": "Keizaron, adef, spikevegeta",
+                "console": "Live",
+                "commentators": "",
+                "description": "",
+                "starttime": "2022-01-13T04:39:00Z",
+                "endtime": "2022-01-13T04:59:00Z",
+                "order": 81,
+                "run_time": "0:15:00",
+                "setup_time": "0:05:00",
+                "coop": false,
+                "category": "Recap%",
+                "release_year": 2022,
+                "giantbomb_id": null,
+                "runners": [
+                    60,
+                    97,
+                    1029
+                ],
+                "canonical_url": "https://gamesdonequick.com/tracker/run/5262",
+                "public": "Daily Recap - Wednesday Recap% (event_id: 37)"
+            }
+        },
+        {
+            "model": "tracker.speedrun",
+            "pk": 5124,
+            "fields": {
+                "event": 37,
+                "name": "Diddy Kong Racing",
+                "display_name": "Diddy Kong Racing",
+                "twitch_name": "",
+                "deprecated_runners": "Obiyo, Sweenerdog, tridenttail",
+                "console": "N64",
+                "commentators": "",
+                "description": "",
+                "starttime": "2022-01-13T04:59:00Z",
+                "endtime": "2022-01-13T05:41:00Z",
+                "order": 82,
+                "run_time": "0:23:37",
+                "setup_time": "0:18:23",
+                "coop": false,
+                "category": "All Trophy Races 3-Way Race",
+                "release_year": 1997,
+                "giantbomb_id": null,
+                "runners": [
+                    1374,
+                    1604,
+                    1605
+                ],
+                "canonical_url": "https://gamesdonequick.com/tracker/run/5124",
+                "public": "Diddy Kong Racing All Trophy Races 3-Way Race (event_id: 37)"
+            }
+        },
+        {
+            "model": "tracker.speedrun",
+            "pk": 5189,
+            "fields": {
+                "event": 37,
+                "name": "Splatoon 2",
+                "display_name": "Splatoon 2",
+                "twitch_name": "",
+                "deprecated_runners": "talontrottinian ",
+                "console": "Switch",
+                "commentators": "",
+                "description": "",
+                "starttime": "2022-01-13T05:41:00Z",
+                "endtime": "2022-01-13T07:12:00Z",
+                "order": 83,
+                "run_time": "1:04:01",
+                "setup_time": "0:26:59",
+                "coop": false,
+                "category": "NG+",
+                "release_year": 2017,
+                "giantbomb_id": null,
+                "runners": [
+                    1551
+                ],
+                "canonical_url": "https://gamesdonequick.com/tracker/run/5189",
+                "public": "Splatoon 2 NG+ (event_id: 37)"
+            }
+        },
+        {
+            "model": "tracker.speedrun",
+            "pk": 5125,
+            "fields": {
+                "event": 37,
+                "name": "3DS Zelda Game Bidwar",
+                "display_name": "3DS Zelda Game Bidwar",
+                "twitch_name": "",
+                "deprecated_runners": "gymnast86",
+                "console": "3DS",
+                "commentators": "",
+                "description": "",
+                "starttime": "2022-01-13T07:12:00Z",
+                "endtime": "2022-01-13T08:06:53Z",
+                "order": 84,
+                "run_time": "0:38:50",
+                "setup_time": "0:16:03",
+                "coop": false,
+                "category": "Any% Majora's Mask 3D or Ocarina of Time 3D",
+                "release_year": null,
+                "giantbomb_id": null,
+                "runners": [
+                    711
+                ],
+                "canonical_url": "https://gamesdonequick.com/tracker/run/5125",
+                "public": "3DS Zelda Game Bidwar Any% Majora's Mask 3D or Ocarina of Time 3D (event_id: 37)"
+            }
+        },
+        {
+            "model": "tracker.speedrun",
+            "pk": 5126,
+            "fields": {
+                "event": 37,
+                "name": "Zelda's Adventure",
+                "display_name": "Zelda's Adventure",
+                "twitch_name": "",
+                "deprecated_runners": "Douggernaught",
+                "console": "CD-i",
+                "commentators": "",
+                "description": "",
+                "starttime": "2022-01-13T08:06:53Z",
+                "endtime": "2022-01-13T09:38:38Z",
+                "order": 85,
+                "run_time": "1:16:11",
+                "setup_time": "0:15:34",
+                "coop": false,
+                "category": "Any%",
+                "release_year": 1995,
+                "giantbomb_id": null,
+                "runners": [
+                    1623
+                ],
+                "canonical_url": "https://gamesdonequick.com/tracker/run/5126",
+                "public": "Zelda's Adventure Any% (event_id: 37)"
+            }
+        },
+        {
+            "model": "tracker.speedrun",
+            "pk": 5127,
+            "fields": {
+                "event": 37,
+                "name": "Garshasp: The Monster Slayer",
+                "display_name": "Garshasp: The Monster Slayer",
+                "twitch_name": "",
+                "deprecated_runners": "Stacky McBears",
+                "console": "PC",
+                "commentators": "",
+                "description": "",
+                "starttime": "2022-01-13T09:38:38Z",
+                "endtime": "2022-01-13T10:07:32Z",
+                "order": 86,
+                "run_time": "0:26:04",
+                "setup_time": "0:02:50",
+                "coop": false,
+                "category": "No Void Rolling",
+                "release_year": 2011,
+                "giantbomb_id": null,
+                "runners": [
+                    1595
+                ],
+                "canonical_url": "https://gamesdonequick.com/tracker/run/5127",
+                "public": "Garshasp: The Monster Slayer No Void Rolling (event_id: 37)"
+            }
+        },
+        {
+            "model": "tracker.speedrun",
+            "pk": 5128,
+            "fields": {
+                "event": 37,
+                "name": "Taz-Mania",
+                "display_name": "Taz-Mania",
+                "twitch_name": "",
+                "deprecated_runners": "Grumpmeister",
+                "console": "Game Gear",
+                "commentators": "",
+                "description": "",
+                "starttime": "2022-01-13T10:07:32Z",
+                "endtime": "2022-01-13T10:27:14Z",
+                "order": 87,
+                "run_time": "0:08:09",
+                "setup_time": "0:11:33",
+                "coop": false,
+                "category": "Any%",
+                "release_year": 1994,
+                "giantbomb_id": null,
+                "runners": [
+                    1423
+                ],
+                "canonical_url": "https://gamesdonequick.com/tracker/run/5128",
+                "public": "Taz-Mania Any% (event_id: 37)"
+            }
+        },
+        {
+            "model": "tracker.speedrun",
+            "pk": 5129,
+            "fields": {
+                "event": 37,
+                "name": "Meegah Mem II",
+                "display_name": "Meegah Mem II",
+                "twitch_name": "",
+                "deprecated_runners": "LV Creed",
+                "console": "PC",
+                "commentators": "",
+                "description": "",
+                "starttime": "2022-01-13T10:27:14Z",
+                "endtime": "2022-01-13T11:00:02Z",
+                "order": 88,
+                "run_time": "0:28:19",
+                "setup_time": "0:04:29",
+                "coop": false,
+                "category": "Any%",
+                "release_year": 2019,
+                "giantbomb_id": null,
+                "runners": [
+                    559
+                ],
+                "canonical_url": "https://gamesdonequick.com/tracker/run/5129",
+                "public": "Meegah Mem II Any% (event_id: 37)"
+            }
+        },
+        {
+            "model": "tracker.speedrun",
+            "pk": 5130,
+            "fields": {
+                "event": 37,
+                "name": "Captain Novolin",
+                "display_name": "Captain Novolin",
+                "twitch_name": "",
+                "deprecated_runners": "Asuka424",
+                "console": "SNES",
+                "commentators": "",
+                "description": "",
+                "starttime": "2022-01-13T11:00:02Z",
+                "endtime": "2022-01-13T11:17:24Z",
+                "order": 89,
+                "run_time": "0:07:44",
+                "setup_time": "0:09:38",
+                "coop": false,
+                "category": "Any%",
+                "release_year": 1992,
+                "giantbomb_id": null,
+                "runners": [
+                    1464
+                ],
+                "canonical_url": "https://gamesdonequick.com/tracker/run/5130",
+                "public": "Captain Novolin Any% (event_id: 37)"
+            }
+        },
+        {
+            "model": "tracker.speedrun",
+            "pk": 5131,
+            "fields": {
+                "event": 37,
+                "name": "The Simpsons: Bart's House of Weirdness",
+                "display_name": "The Simpsons: Bart's House of Weirdness",
+                "twitch_name": "",
+                "deprecated_runners": "Fyzzu",
+                "console": "PC",
+                "commentators": "",
+                "description": "",
+                "starttime": "2022-01-13T11:17:24Z",
+                "endtime": "2022-01-13T11:33:33Z",
+                "order": 90,
+                "run_time": "0:08:16",
+                "setup_time": "0:07:53",
+                "coop": false,
+                "category": "any%",
+                "release_year": 1992,
+                "giantbomb_id": null,
+                "runners": [
+                    1631
+                ],
+                "canonical_url": "https://gamesdonequick.com/tracker/run/5131",
+                "public": "The Simpsons: Bart's House of Weirdness any% (event_id: 37)"
+            }
+        },
+        {
+            "model": "tracker.speedrun",
+            "pk": 5133,
+            "fields": {
+                "event": 37,
+                "name": "Darkman",
+                "display_name": "Darkman",
+                "twitch_name": "",
+                "deprecated_runners": "Neetsel",
+                "console": "NES",
+                "commentators": "",
+                "description": "",
+                "starttime": "2022-01-13T11:33:33Z",
+                "endtime": "2022-01-13T11:57:00Z",
+                "order": 91,
+                "run_time": "0:12:43",
+                "setup_time": "0:10:44",
+                "coop": false,
+                "category": "any%",
+                "release_year": 1991,
+                "giantbomb_id": null,
+                "runners": [
+                    1607
+                ],
+                "canonical_url": "https://gamesdonequick.com/tracker/run/5133",
+                "public": "Darkman any% (event_id: 37)"
+            }
+        },
+        {
+            "model": "tracker.speedrun",
+            "pk": 5132,
+            "fields": {
+                "event": 37,
+                "name": "Sonic Jam (Game.com)",
+                "display_name": "Sonic Jam (Game.com)",
+                "twitch_name": "Sonic the Hedgehog",
+                "deprecated_runners": "Finalflame",
+                "console": "Game.Com",
+                "commentators": "",
+                "description": "",
+                "starttime": "2022-01-13T11:57:00Z",
+                "endtime": "2022-01-13T12:26:00Z",
+                "order": 92,
+                "run_time": "0:16:27",
+                "setup_time": "0:12:33",
+                "coop": false,
+                "category": "All Games",
+                "release_year": 1998,
+                "giantbomb_id": null,
+                "runners": [
+                    1010
+                ],
+                "canonical_url": "https://gamesdonequick.com/tracker/run/5132",
+                "public": "Sonic Jam (Game.com) All Games (event_id: 37)"
+            }
+        },
+        {
+            "model": "tracker.speedrun",
+            "pk": 5134,
+            "fields": {
+                "event": 37,
+                "name": "Zadette",
+                "display_name": "Zadette",
+                "twitch_name": "",
+                "deprecated_runners": "NPC, Neetsel, TenMicu, mooware",
+                "console": "PC",
+                "commentators": "",
+                "description": "",
+                "starttime": "2022-01-13T12:26:00Z",
+                "endtime": "2022-01-13T13:07:00Z",
+                "order": 93,
+                "run_time": "0:28:04",
+                "setup_time": "0:12:56",
+                "coop": false,
+                "category": "Gamer% Race",
+                "release_year": 2021,
+                "giantbomb_id": null,
+                "runners": [
+                    825,
+                    1607,
+                    1619,
+                    1624
+                ],
+                "canonical_url": "https://gamesdonequick.com/tracker/run/5134",
+                "public": "Zadette Gamer% Race (event_id: 37)"
+            }
+        },
+        {
+            "model": "tracker.speedrun",
+            "pk": 5135,
+            "fields": {
+                "event": 37,
+                "name": "Cranked Up",
+                "display_name": "Cranked Up",
+                "twitch_name": "",
+                "deprecated_runners": "Bullets",
+                "console": "PC",
+                "commentators": "",
+                "description": "",
+                "starttime": "2022-01-13T13:07:00Z",
+                "endtime": "2022-01-13T13:23:00Z",
+                "order": 94,
+                "run_time": "0:11:08",
+                "setup_time": "0:04:52",
+                "coop": false,
+                "category": "Floor is Lava",
+                "release_year": 2021,
+                "giantbomb_id": null,
+                "runners": [
+                    483
+                ],
+                "canonical_url": "https://gamesdonequick.com/tracker/run/5135",
+                "public": "Cranked Up Floor is Lava (event_id: 37)"
+            }
+        },
+        {
+            "model": "tracker.speedrun",
+            "pk": 5136,
+            "fields": {
+                "event": 37,
+                "name": "Discworld",
+                "display_name": "Discworld",
+                "twitch_name": "",
+                "deprecated_runners": "Mindez",
+                "console": "PC",
+                "commentators": "",
+                "description": "",
+                "starttime": "2022-01-13T13:23:00Z",
+                "endtime": "2022-01-13T13:56:00Z",
+                "order": 95,
+                "run_time": "0:19:00",
+                "setup_time": "0:14:00",
+                "coop": false,
+                "category": "any% ScummVM No Act Return",
+                "release_year": null,
+                "giantbomb_id": null,
+                "runners": [
+                    1603
+                ],
+                "canonical_url": "https://gamesdonequick.com/tracker/run/5136",
+                "public": "Discworld any% ScummVM No Act Return (event_id: 37)"
+            }
+        },
+        {
+            "model": "tracker.speedrun",
+            "pk": 5137,
+            "fields": {
+                "event": 37,
+                "name": "Castlevania: Lament of Innocence",
+                "display_name": "Castlevania: Lament of Innocence",
+                "twitch_name": "",
+                "deprecated_runners": "LonerHero",
+                "console": "PS3",
+                "commentators": "",
+                "description": "",
+                "starttime": "2022-01-13T13:56:00Z",
+                "endtime": "2022-01-13T14:56:00Z",
+                "order": 96,
+                "run_time": "0:46:51",
+                "setup_time": "0:13:09",
+                "coop": false,
+                "category": "Any% Leon",
+                "release_year": 2003,
+                "giantbomb_id": null,
+                "runners": [
+                    1610
+                ],
+                "canonical_url": "https://gamesdonequick.com/tracker/run/5137",
+                "public": "Castlevania: Lament of Innocence Any% Leon (event_id: 37)"
+            }
+        },
+        {
+            "model": "tracker.speedrun",
+            "pk": 5138,
+            "fields": {
+                "event": 37,
+                "name": "Castlevania: Dracula X",
+                "display_name": "Castlevania: Dracula X",
+                "twitch_name": "",
+                "deprecated_runners": "Crunan, SBDWolf",
+                "console": "SNES",
+                "commentators": "",
+                "description": "",
+                "starttime": "2022-01-13T14:56:00Z",
+                "endtime": "2022-01-13T15:27:00Z",
+                "order": 97,
+                "run_time": "0:15:37",
+                "setup_time": "0:15:23",
+                "coop": false,
+                "category": "Any% Bad Ending Race",
+                "release_year": 1995,
+                "giantbomb_id": null,
+                "runners": [
+                    1188,
+                    1611
+                ],
+                "canonical_url": "https://gamesdonequick.com/tracker/run/5138",
+                "public": "Castlevania: Dracula X Any% Bad Ending Race (event_id: 37)"
+            }
+        },
+        {
+            "model": "tracker.speedrun",
+            "pk": 5139,
+            "fields": {
+                "event": 37,
+                "name": "Castlevania: Circle of the Moon",
+                "display_name": "Castlevania: Circle of the Moon",
+                "twitch_name": "",
+                "deprecated_runners": "JupiterClimb",
+                "console": "PC",
+                "commentators": "",
+                "description": "",
+                "starttime": "2022-01-13T15:27:00Z",
+                "endtime": "2022-01-13T16:16:00Z",
+                "order": 98,
+                "run_time": "0:29:32",
+                "setup_time": "0:19:28",
+                "coop": false,
+                "category": "Vampire Killer All Bosses",
+                "release_year": 2001,
+                "giantbomb_id": null,
+                "runners": [
+                    1612
+                ],
+                "canonical_url": "https://gamesdonequick.com/tracker/run/5139",
+                "public": "Castlevania: Circle of the Moon Vampire Killer All Bosses (event_id: 37)"
+            }
+        },
+        {
+            "model": "tracker.speedrun",
+            "pk": 5140,
+            "fields": {
+                "event": 37,
+                "name": "Castlevania Chronicles",
+                "display_name": "Castlevania Chronicles",
+                "twitch_name": "",
+                "deprecated_runners": "strizer86",
+                "console": "PS1",
+                "commentators": "",
+                "description": "",
+                "starttime": "2022-01-13T16:16:00Z",
+                "endtime": "2022-01-13T16:57:00Z",
+                "order": 99,
+                "run_time": "0:25:56",
+                "setup_time": "0:15:04",
+                "coop": false,
+                "category": "Original Mode TAS",
+                "release_year": 2001,
+                "giantbomb_id": null,
+                "runners": [
+                    856
+                ],
+                "canonical_url": "https://gamesdonequick.com/tracker/run/5140",
+                "public": "Castlevania Chronicles Original Mode TAS (event_id: 37)"
+            }
+        },
+        {
+            "model": "tracker.speedrun",
+            "pk": 5141,
+            "fields": {
+                "event": 37,
+                "name": "Half-Life 2",
+                "display_name": "Half-Life 2",
+                "twitch_name": "",
+                "deprecated_runners": "Maltemller",
+                "console": "PC",
+                "commentators": "",
+                "description": "",
+                "starttime": "2022-01-13T16:57:00Z",
+                "endtime": "2022-01-13T18:16:00Z",
+                "order": 100,
+                "run_time": "0:52:07",
+                "setup_time": "0:26:53",
+                "coop": false,
+                "category": "Any% No Voidclip",
+                "release_year": 2004,
+                "giantbomb_id": null,
+                "runners": [
+                    1590
+                ],
+                "canonical_url": "https://gamesdonequick.com/tracker/run/5141",
+                "public": "Half-Life 2 Any% No Voidclip (event_id: 37)"
+            }
+        },
+        {
+            "model": "tracker.speedrun",
+            "pk": 5142,
+            "fields": {
+                "event": 37,
+                "name": "Keep Talking and Nobody Explodes",
+                "display_name": "Keep Talking and Nobody Explodes",
+                "twitch_name": "",
+                "deprecated_runners": "Procyon",
+                "console": "PC",
+                "commentators": "",
+                "description": "",
+                "starttime": "2022-01-13T18:16:00Z",
+                "endtime": "2022-01-13T19:37:00Z",
+                "order": 101,
+                "run_time": "0:53:30",
+                "setup_time": "0:27:30",
+                "coop": false,
+                "category": "The Centurion",
+                "release_year": 2015,
+                "giantbomb_id": null,
+                "runners": [
+                    1584
+                ],
+                "canonical_url": "https://gamesdonequick.com/tracker/run/5142",
+                "public": "Keep Talking and Nobody Explodes The Centurion (event_id: 37)"
+            }
+        },
+        {
+            "model": "tracker.speedrun",
+            "pk": 5143,
+            "fields": {
+                "event": 37,
+                "name": "Lost Judgment",
+                "display_name": "Lost Judgment",
+                "twitch_name": "",
+                "deprecated_runners": "Froob",
+                "console": "PS5",
+                "commentators": "",
+                "description": "",
+                "starttime": "2022-01-13T19:37:00Z",
+                "endtime": "2022-01-13T22:31:00Z",
+                "order": 102,
+                "run_time": "2:37:00",
+                "setup_time": "0:17:00",
+                "coop": false,
+                "category": "Any%",
+                "release_year": 2021,
+                "giantbomb_id": null,
+                "runners": [
+                    1252
+                ],
+                "canonical_url": "https://gamesdonequick.com/tracker/run/5143",
+                "public": "Lost Judgment Any% (event_id: 37)"
+            }
+        },
+        {
+            "model": "tracker.speedrun",
+            "pk": 5144,
+            "fields": {
+                "event": 37,
+                "name": "Kingdom Hearts II Final Mix HD",
+                "display_name": "Kingdom Hearts II Final Mix HD",
+                "twitch_name": "Kingdom Hearts II Final Mix",
+                "deprecated_runners": "JHobz, RoseCurel, Violin, spikevegeta",
+                "console": "PC",
+                "commentators": "",
+                "description": "",
+                "starttime": "2022-01-13T22:31:00Z",
+                "endtime": "2022-01-14T02:15:00Z",
+                "order": 103,
+                "run_time": "3:14:07",
+                "setup_time": "0:29:53",
+                "coop": false,
+                "category": "Co-op Randomizer Race",
+                "release_year": 2021,
+                "giantbomb_id": null,
+                "runners": [
+                    60,
+                    683,
+                    1620,
+                    1621
+                ],
+                "canonical_url": "https://gamesdonequick.com/tracker/run/5144",
+                "public": "Kingdom Hearts II Final Mix HD Co-op Randomizer Race (event_id: 37)"
+            }
+        },
+        {
+            "model": "tracker.speedrun",
+            "pk": 5145,
+            "fields": {
+                "event": 37,
+                "name": "Bonus Game 5 - Resident Evil Village",
+                "display_name": "Bonus Game 5 - Resident Evil Village",
+                "twitch_name": "resident evil village",
+                "deprecated_runners": "7rayD",
+                "console": "PC",
+                "commentators": "",
+                "description": "",
+                "starttime": "2022-01-14T02:15:00Z",
+                "endtime": "2022-01-14T04:21:00Z",
+                "order": 104,
+                "run_time": "1:55:54",
+                "setup_time": "0:10:06",
+                "coop": false,
+                "category": "Village of Shadows - Glitchless",
+                "release_year": 2021,
+                "giantbomb_id": null,
+                "runners": [
+                    1640
+                ],
+                "canonical_url": "https://gamesdonequick.com/tracker/run/5145",
+                "public": "Bonus Game 5 - Resident Evil Village Village of Shadows - Glitchless (event_id: 37)"
+            }
+        },
+        {
+            "model": "tracker.speedrun",
+            "pk": 5263,
+            "fields": {
+                "event": 37,
+                "name": "Daily Recap - Thursday",
+                "display_name": "Daily Recap - Thursday",
+                "twitch_name": "Talk Shows & Podcasts",
+                "deprecated_runners": "Kungfufruitcup, adef, feasel",
+                "console": "Live",
+                "commentators": "",
+                "description": "",
+                "starttime": "2022-01-14T04:21:00Z",
+                "endtime": "2022-01-14T04:36:00Z",
+                "order": 105,
+                "run_time": "0:15:00",
+                "setup_time": "0",
+                "coop": false,
+                "category": "Recap%",
+                "release_year": 2022,
+                "giantbomb_id": null,
+                "runners": [
+                    80,
+                    884,
+                    1029
+                ],
+                "canonical_url": "https://gamesdonequick.com/tracker/run/5263",
+                "public": "Daily Recap - Thursday Recap% (event_id: 37)"
+            }
+        },
+        {
+            "model": "tracker.speedrun",
+            "pk": 5146,
+            "fields": {
+                "event": 37,
+                "name": "crossbeats REV. Sunrise",
+                "display_name": "crossbeats REV. Sunrise",
+                "twitch_name": "",
+                "deprecated_runners": "jammitch!",
+                "console": "Arcade",
+                "commentators": "",
+                "description": "",
+                "starttime": "2022-01-14T04:36:00Z",
+                "endtime": "2022-01-14T06:11:00Z",
+                "order": 106,
+                "run_time": "1:17:34",
+                "setup_time": "0:17:26",
+                "coop": false,
+                "category": "Showcase",
+                "release_year": 2016,
+                "giantbomb_id": null,
+                "runners": [
+                    1608
+                ],
+                "canonical_url": "https://gamesdonequick.com/tracker/run/5146",
+                "public": "crossbeats REV. Sunrise Showcase (event_id: 37)"
+            }
+        },
+        {
+            "model": "tracker.speedrun",
+            "pk": 5147,
+            "fields": {
+                "event": 37,
+                "name": "Ynglet",
+                "display_name": "Ynglet",
+                "twitch_name": "",
+                "deprecated_runners": "warm_ham",
+                "console": "PC",
+                "commentators": "",
+                "description": "",
+                "starttime": "2022-01-14T06:11:00Z",
+                "endtime": "2022-01-14T06:42:00Z",
+                "order": 107,
+                "run_time": "0:18:53",
+                "setup_time": "0:12:07",
+                "coop": false,
+                "category": "100% (Challenging)",
+                "release_year": 2021,
+                "giantbomb_id": null,
+                "runners": [
+                    203
+                ],
+                "canonical_url": "https://gamesdonequick.com/tracker/run/5147",
+                "public": "Ynglet 100% (Challenging) (event_id: 37)"
+            }
+        },
+        {
+            "model": "tracker.speedrun",
+            "pk": 5148,
+            "fields": {
+                "event": 37,
+                "name": "It Takes Two",
+                "display_name": "It Takes Two",
+                "twitch_name": "",
+                "deprecated_runners": "ItzBytez, whoishyper",
+                "console": "PC",
+                "commentators": "",
+                "description": "",
+                "starttime": "2022-01-14T06:42:00Z",
+                "endtime": "2022-01-14T08:44:47Z",
+                "order": 108,
+                "run_time": "1:45:26",
+                "setup_time": "0:17:21",
+                "coop": true,
+                "category": "Any%",
+                "release_year": 2021,
+                "giantbomb_id": null,
+                "runners": [
+                    1566,
+                    1587
+                ],
+                "canonical_url": "https://gamesdonequick.com/tracker/run/5148",
+                "public": "It Takes Two Any% (event_id: 37)"
+            }
+        },
+        {
+            "model": "tracker.speedrun",
+            "pk": 5149,
+            "fields": {
+                "event": 37,
+                "name": "Marble It Up!",
+                "display_name": "Marble It Up!",
+                "twitch_name": "",
+                "deprecated_runners": "Hatchet302",
+                "console": "PC",
+                "commentators": "",
+                "description": "",
+                "starttime": "2022-01-14T08:44:47Z",
+                "endtime": "2022-01-14T09:27:34Z",
+                "order": 109,
+                "run_time": "0:34:25",
+                "setup_time": "0:08:22",
+                "coop": false,
+                "category": "Full Game Classic",
+                "release_year": 2018,
+                "giantbomb_id": null,
+                "runners": [
+                    1580
+                ],
+                "canonical_url": "https://gamesdonequick.com/tracker/run/5149",
+                "public": "Marble It Up! Full Game Classic (event_id: 37)"
+            }
+        },
+        {
+            "model": "tracker.speedrun",
+            "pk": 5150,
+            "fields": {
+                "event": 37,
+                "name": "The Elder Scrolls IV: Oblivion",
+                "display_name": "The Elder Scrolls IV: Oblivion",
+                "twitch_name": "",
+                "deprecated_runners": "DizzySplits",
+                "console": "PC",
+                "commentators": "",
+                "description": "",
+                "starttime": "2022-01-14T09:27:34Z",
+                "endtime": "2022-01-14T10:10:59Z",
+                "order": 110,
+                "run_time": "0:30:05",
+                "setup_time": "0:13:20",
+                "coop": false,
+                "category": "No DFS (No Dragonfire Skip)",
+                "release_year": 2007,
+                "giantbomb_id": null,
+                "runners": [
+                    1634
+                ],
+                "canonical_url": "https://gamesdonequick.com/tracker/run/5150",
+                "public": "The Elder Scrolls IV: Oblivion No DFS (No Dragonfire Skip) (event_id: 37)"
+            }
+        },
+        {
+            "model": "tracker.speedrun",
+            "pk": 5151,
+            "fields": {
+                "event": 37,
+                "name": "Stardew Valley",
+                "display_name": "Stardew Valley",
+                "twitch_name": "",
+                "deprecated_runners": "Olenoname",
+                "console": "PC",
+                "commentators": "",
+                "description": "",
+                "starttime": "2022-01-14T10:10:59Z",
+                "endtime": "2022-01-14T10:46:52Z",
+                "order": 111,
+                "run_time": "0:17:13",
+                "setup_time": "0:18:40",
+                "coop": false,
+                "category": "Glitched Community Center Restoration",
+                "release_year": 2016,
+                "giantbomb_id": null,
+                "runners": [
+                    1577
+                ],
+                "canonical_url": "https://gamesdonequick.com/tracker/run/5151",
+                "public": "Stardew Valley Glitched Community Center Restoration (event_id: 37)"
+            }
+        },
+        {
+            "model": "tracker.speedrun",
+            "pk": 5152,
+            "fields": {
+                "event": 37,
+                "name": "I Am Bread",
+                "display_name": "I Am Bread",
+                "twitch_name": "",
+                "deprecated_runners": "PootLoops",
+                "console": "PC",
+                "commentators": "",
+                "description": "",
+                "starttime": "2022-01-14T10:46:52Z",
+                "endtime": "2022-01-14T10:59:00Z",
+                "order": 112,
+                "run_time": "0:06:14",
+                "setup_time": "0:05:54",
+                "coop": false,
+                "category": "Any%",
+                "release_year": 2015,
+                "giantbomb_id": null,
+                "runners": [
+                    1588
+                ],
+                "canonical_url": "https://gamesdonequick.com/tracker/run/5152",
+                "public": "I Am Bread Any% (event_id: 37)"
+            }
+        },
+        {
+            "model": "tracker.speedrun",
+            "pk": 5153,
+            "fields": {
+                "event": 37,
+                "name": "Oatmeal",
+                "display_name": "Oatmeal",
+                "twitch_name": "",
+                "deprecated_runners": "Konasumi",
+                "console": "PC",
+                "commentators": "",
+                "description": "",
+                "starttime": "2022-01-14T10:59:00Z",
+                "endtime": "2022-01-14T11:19:04Z",
+                "order": 113,
+                "run_time": "0:04:28",
+                "setup_time": "0:15:36",
+                "coop": false,
+                "category": "50%",
+                "release_year": 2021,
+                "giantbomb_id": null,
+                "runners": [
+                    320
+                ],
+                "canonical_url": "https://gamesdonequick.com/tracker/run/5153",
+                "public": "Oatmeal 50% (event_id: 37)"
+            }
+        },
+        {
+            "model": "tracker.speedrun",
+            "pk": 5155,
+            "fields": {
+                "event": 37,
+                "name": "Wave Break",
+                "display_name": "Wave Break",
+                "twitch_name": "",
+                "deprecated_runners": "Biglaw",
+                "console": "PC",
+                "commentators": "",
+                "description": "",
+                "starttime": "2022-01-14T11:19:04Z",
+                "endtime": "2022-01-14T11:47:56Z",
+                "order": 114,
+                "run_time": "0:14:07",
+                "setup_time": "0:14:45",
+                "coop": false,
+                "category": "Any%",
+                "release_year": 2021,
+                "giantbomb_id": null,
+                "runners": [
+                    987
+                ],
+                "canonical_url": "https://gamesdonequick.com/tracker/run/5155",
+                "public": "Wave Break Any% (event_id: 37)"
+            }
+        },
+        {
+            "model": "tracker.speedrun",
+            "pk": 5154,
+            "fields": {
+                "event": 37,
+                "name": "Ultraman Ball",
+                "display_name": "Ultraman Ball",
+                "twitch_name": "",
+                "deprecated_runners": "giygasblues",
+                "console": "GB",
+                "commentators": "",
+                "description": "",
+                "starttime": "2022-01-14T11:47:56Z",
+                "endtime": "2022-01-14T12:14:00Z",
+                "order": 115,
+                "run_time": "0:08:30",
+                "setup_time": "0:17:34",
+                "coop": false,
+                "category": "any%",
+                "release_year": 1994,
+                "giantbomb_id": null,
+                "runners": [
+                    428
+                ],
+                "canonical_url": "https://gamesdonequick.com/tracker/run/5154",
+                "public": "Ultraman Ball any% (event_id: 37)"
+            }
+        },
+        {
+            "model": "tracker.speedrun",
+            "pk": 5156,
+            "fields": {
+                "event": 37,
+                "name": "SYNTHETIK: Legion Rising",
+                "display_name": "SYNTHETIK: Legion Rising",
+                "twitch_name": "",
+                "deprecated_runners": "PhoenyxBird, Will",
+                "console": "PC",
+                "commentators": "",
+                "description": "",
+                "starttime": "2022-01-14T12:14:00Z",
+                "endtime": "2022-01-14T12:38:00Z",
+                "order": 116,
+                "run_time": "0:09:50",
+                "setup_time": "0:14:10",
+                "coop": true,
+                "category": "220% coop (v26)",
+                "release_year": 2018,
+                "giantbomb_id": null,
+                "runners": [
+                    1637,
+                    1638
+                ],
+                "canonical_url": "https://gamesdonequick.com/tracker/run/5156",
+                "public": "SYNTHETIK: Legion Rising 220% coop (v26) (event_id: 37)"
+            }
+        },
+        {
+            "model": "tracker.speedrun",
+            "pk": 5157,
+            "fields": {
+                "event": 37,
+                "name": "Rockman & Forte",
+                "display_name": "Rockman & Forte",
+                "twitch_name": "Mega Man & Bass",
+                "deprecated_runners": "Amad",
+                "console": "SNES",
+                "commentators": "",
+                "description": "",
+                "starttime": "2022-01-14T12:38:00Z",
+                "endtime": "2022-01-14T13:32:00Z",
+                "order": 117,
+                "run_time": "0:36:07",
+                "setup_time": "0:17:53",
+                "coop": false,
+                "category": "Any% (Rockman)",
+                "release_year": 1998,
+                "giantbomb_id": null,
+                "runners": [
+                    1155
+                ],
+                "canonical_url": "https://gamesdonequick.com/tracker/run/5157",
+                "public": "Rockman & Forte Any% (Rockman) (event_id: 37)"
+            }
+        },
+        {
+            "model": "tracker.speedrun",
+            "pk": 5158,
+            "fields": {
+                "event": 37,
+                "name": "Journey",
+                "display_name": "Journey",
+                "twitch_name": "",
+                "deprecated_runners": "nathanj",
+                "console": "PC",
+                "commentators": "",
+                "description": "",
+                "starttime": "2022-01-14T13:32:00Z",
+                "endtime": "2022-01-14T14:19:00Z",
+                "order": 118,
+                "run_time": "0:18:09",
+                "setup_time": "0:28:51",
+                "coop": false,
+                "category": "Any% White Robe Glitched",
+                "release_year": 2020,
+                "giantbomb_id": null,
+                "runners": [
+                    1586
+                ],
+                "canonical_url": "https://gamesdonequick.com/tracker/run/5158",
+                "public": "Journey Any% White Robe Glitched (event_id: 37)"
+            }
+        },
+        {
+            "model": "tracker.speedrun",
+            "pk": 5159,
+            "fields": {
+                "event": 37,
+                "name": "Yu-Gi-Oh! Forbidden Memories",
+                "display_name": "Yu-Gi-Oh! Forbidden Memories",
+                "twitch_name": "",
+                "deprecated_runners": "Keizaron, skybilz",
+                "console": "PSX",
+                "commentators": "",
+                "description": "",
+                "starttime": "2022-01-14T14:19:00Z",
+                "endtime": "2022-01-14T17:42:00Z",
+                "order": 119,
+                "run_time": "2:45:43",
+                "setup_time": "0:37:17",
+                "coop": false,
+                "category": "Any% Race w/ 15 Card Drop Mod",
+                "release_year": 2002,
+                "giantbomb_id": null,
+                "runners": [
+                    97,
+                    1136
+                ],
+                "canonical_url": "https://gamesdonequick.com/tracker/run/5159",
+                "public": "Yu-Gi-Oh! Forbidden Memories Any% Race w/ 15 Card Drop Mod (event_id: 37)"
+            }
+        },
+        {
+            "model": "tracker.speedrun",
+            "pk": 5160,
+            "fields": {
+                "event": 37,
+                "name": "Portal Reloaded",
+                "display_name": "Portal Reloaded",
+                "twitch_name": "Portal 2",
+                "deprecated_runners": "Msushi",
+                "console": "PC",
+                "commentators": "",
+                "description": "",
+                "starttime": "2022-01-14T17:42:00Z",
+                "endtime": "2022-01-14T18:19:00Z",
+                "order": 120,
+                "run_time": "0:18:48",
+                "setup_time": "0:18:12",
+                "coop": false,
+                "category": "No SLA",
+                "release_year": 2021,
+                "giantbomb_id": null,
+                "runners": [
+                    924
+                ],
+                "canonical_url": "https://gamesdonequick.com/tracker/run/5160",
+                "public": "Portal Reloaded No SLA (event_id: 37)"
+            }
+        },
+        {
+            "model": "tracker.speedrun",
+            "pk": 5161,
+            "fields": {
+                "event": 37,
+                "name": "Dark Souls",
+                "display_name": "Dark Souls",
+                "twitch_name": "",
+                "deprecated_runners": "Danflesh, Regole",
+                "console": "PC",
+                "commentators": "",
+                "description": "",
+                "starttime": "2022-01-14T18:19:00Z",
+                "endtime": "2022-01-14T20:01:00Z",
+                "order": 121,
+                "run_time": "1:20:02",
+                "setup_time": "0:21:58",
+                "coop": false,
+                "category": "All Bosses Race",
+                "release_year": 2011,
+                "giantbomb_id": null,
+                "runners": [
+                    1007,
+                    1164
+                ],
+                "canonical_url": "https://gamesdonequick.com/tracker/run/5161",
+                "public": "Dark Souls All Bosses Race (event_id: 37)"
+            }
+        },
+        {
+            "model": "tracker.speedrun",
+            "pk": 5162,
+            "fields": {
+                "event": 37,
+                "name": "Super Mario 3D Land",
+                "display_name": "Super Mario 3D Land",
+                "twitch_name": "",
+                "deprecated_runners": "zeldacubed1",
+                "console": "3DS",
+                "commentators": "",
+                "description": "",
+                "starttime": "2022-01-14T20:01:00Z",
+                "endtime": "2022-01-14T21:27:00Z",
+                "order": 122,
+                "run_time": "1:03:14",
+                "setup_time": "0:22:46",
+                "coop": false,
+                "category": "Warpless",
+                "release_year": 2011,
+                "giantbomb_id": null,
+                "runners": [
+                    784
+                ],
+                "canonical_url": "https://gamesdonequick.com/tracker/run/5162",
+                "public": "Super Mario 3D Land Warpless (event_id: 37)"
+            }
+        },
+        {
+            "model": "tracker.speedrun",
+            "pk": 5163,
+            "fields": {
+                "event": 37,
+                "name": "Pokémon Omega Ruby/Alpha Sapphire",
+                "display_name": "Pokémon Omega Ruby/Alpha Sapphire",
+                "twitch_name": "",
+                "deprecated_runners": "truely, wartab",
+                "console": "3DS",
+                "commentators": "",
+                "description": "",
+                "starttime": "2022-01-14T21:27:00Z",
+                "endtime": "2022-01-15T00:59:00Z",
+                "order": 123,
+                "run_time": "3:08:10",
+                "setup_time": "0:23:50",
+                "coop": false,
+                "category": "Any% race (OR vs. AS)",
+                "release_year": 2014,
+                "giantbomb_id": null,
+                "runners": [
+                    1024,
+                    1567
+                ],
+                "canonical_url": "https://gamesdonequick.com/tracker/run/5163",
+                "public": "Pokémon Omega Ruby/Alpha Sapphire Any% race (OR vs. AS) (event_id: 37)"
+            }
+        },
+        {
+            "model": "tracker.speedrun",
+            "pk": 5164,
+            "fields": {
+                "event": 37,
+                "name": "Bonus Game 6 - StepMania/NotITG",
+                "display_name": "Bonus Game 6 - StepMania/NotITG",
+                "twitch_name": "StepMania",
+                "deprecated_runners": "SpootyBiscuit",
+                "console": "PC",
+                "commentators": "",
+                "description": "",
+                "starttime": "2022-01-15T00:59:00Z",
+                "endtime": "2022-01-15T03:02:00Z",
+                "order": 124,
+                "run_time": "1:50:00",
+                "setup_time": "0:13:00",
+                "coop": false,
+                "category": "Mods Boot Camp 3 Exhibition",
+                "release_year": 2016,
+                "giantbomb_id": null,
+                "runners": [
+                    184
+                ],
+                "canonical_url": "https://gamesdonequick.com/tracker/run/5164",
+                "public": "Bonus Game 6 - StepMania/NotITG Mods Boot Camp 3 Exhibition (event_id: 37)"
+            }
+        },
+        {
+            "model": "tracker.speedrun",
+            "pk": 5264,
+            "fields": {
+                "event": 37,
+                "name": "Daily Recap - Friday",
+                "display_name": "Daily Recap - Friday",
+                "twitch_name": "Talk Shows & Podcasts",
+                "deprecated_runners": "JHobz, Keizaron, adef",
+                "console": "Live",
+                "commentators": "",
+                "description": "",
+                "starttime": "2022-01-15T03:02:00Z",
+                "endtime": "2022-01-15T03:21:00Z",
+                "order": 125,
+                "run_time": "0:13:12",
+                "setup_time": "0:05:48",
+                "coop": false,
+                "category": "Recap%",
+                "release_year": 2022,
+                "giantbomb_id": null,
+                "runners": [
+                    97,
+                    683,
+                    1029
+                ],
+                "canonical_url": "https://gamesdonequick.com/tracker/run/5264",
+                "public": "Daily Recap - Friday Recap% (event_id: 37)"
+            }
+        },
+        {
+            "model": "tracker.speedrun",
+            "pk": 5165,
+            "fields": {
+                "event": 37,
+                "name": "Hades",
+                "display_name": "Hades",
+                "twitch_name": "",
+                "deprecated_runners": "cgull, tounis",
+                "console": "PC",
+                "commentators": "",
+                "description": "",
+                "starttime": "2022-01-15T03:21:00Z",
+                "endtime": "2022-01-15T05:36:00Z",
+                "order": 126,
+                "run_time": "1:38:43",
+                "setup_time": "0:36:17",
+                "coop": false,
+                "category": "All Weapons Race",
+                "release_year": 2020,
+                "giantbomb_id": null,
+                "runners": [
+                    1591,
+                    1592
+                ],
+                "canonical_url": "https://gamesdonequick.com/tracker/run/5165",
+                "public": "Hades All Weapons Race (event_id: 37)"
+            }
+        },
+        {
+            "model": "tracker.speedrun",
+            "pk": 5166,
+            "fields": {
+                "event": 37,
+                "name": "Uncharted 2: Among Thieves",
+                "display_name": "Uncharted 2: Among Thieves",
+                "twitch_name": "",
+                "deprecated_runners": "Mattmatt",
+                "console": "PS5",
+                "commentators": "",
+                "description": "",
+                "starttime": "2022-01-15T05:36:00Z",
+                "endtime": "2022-01-15T07:16:00Z",
+                "order": 127,
+                "run_time": "1:22:20",
+                "setup_time": "0:17:40",
+                "coop": false,
+                "category": "Any%",
+                "release_year": 2016,
+                "giantbomb_id": null,
+                "runners": [
+                    1486
+                ],
+                "canonical_url": "https://gamesdonequick.com/tracker/run/5166",
+                "public": "Uncharted 2: Among Thieves Any% (event_id: 37)"
+            }
+        },
+        {
+            "model": "tracker.speedrun",
+            "pk": 5167,
+            "fields": {
+                "event": 37,
+                "name": "Wario Land: Shake It!",
+                "display_name": "Wario Land: Shake It!",
+                "twitch_name": "",
+                "deprecated_runners": "Kirbymastah",
+                "console": "Wii-U",
+                "commentators": "",
+                "description": "",
+                "starttime": "2022-01-15T07:16:00Z",
+                "endtime": "2022-01-15T08:56:07Z",
+                "order": 128,
+                "run_time": "1:23:43",
+                "setup_time": "0:16:24",
+                "coop": false,
+                "category": "Beat the Game",
+                "release_year": 2008,
+                "giantbomb_id": null,
+                "runners": [
+                    101
+                ],
+                "canonical_url": "https://gamesdonequick.com/tracker/run/5167",
+                "public": "Wario Land: Shake It! Beat the Game (event_id: 37)"
+            }
+        },
+        {
+            "model": "tracker.speedrun",
+            "pk": 5168,
+            "fields": {
+                "event": 37,
+                "name": "Spider-Man 2",
+                "display_name": "Spider-Man 2",
+                "twitch_name": "",
+                "deprecated_runners": "Slyfincleton",
+                "console": "Xbox",
+                "commentators": "",
+                "description": "",
+                "starttime": "2022-01-15T08:56:07Z",
+                "endtime": "2022-01-15T10:03:35Z",
+                "order": 129,
+                "run_time": "0:57:23",
+                "setup_time": "0:10:05",
+                "coop": false,
+                "category": "any%",
+                "release_year": 2004,
+                "giantbomb_id": null,
+                "runners": [
+                    1552
+                ],
+                "canonical_url": "https://gamesdonequick.com/tracker/run/5168",
+                "public": "Spider-Man 2 any% (event_id: 37)"
+            }
+        },
+        {
+            "model": "tracker.speedrun",
+            "pk": 5169,
+            "fields": {
+                "event": 37,
+                "name": "Donut County",
+                "display_name": "Donut County",
+                "twitch_name": "",
+                "deprecated_runners": "GreenSnowDog",
+                "console": "PC",
+                "commentators": "",
+                "description": "",
+                "starttime": "2022-01-15T10:03:35Z",
+                "endtime": "2022-01-15T10:48:36Z",
+                "order": 130,
+                "run_time": "0:34:07",
+                "setup_time": "0:10:54",
+                "coop": false,
+                "category": "Beat The Game",
+                "release_year": 2018,
+                "giantbomb_id": null,
+                "runners": [
+                    1602
+                ],
+                "canonical_url": "https://gamesdonequick.com/tracker/run/5169",
+                "public": "Donut County Beat The Game (event_id: 37)"
+            }
+        },
+        {
+            "model": "tracker.speedrun",
+            "pk": 5170,
+            "fields": {
+                "event": 37,
+                "name": "Tetris Attack",
+                "display_name": "Tetris Attack",
+                "twitch_name": "",
+                "deprecated_runners": "FFR Pro 21",
+                "console": "SNES",
+                "commentators": "",
+                "description": "",
+                "starttime": "2022-01-15T10:48:36Z",
+                "endtime": "2022-01-15T11:12:26Z",
+                "order": 131,
+                "run_time": "0:09:45",
+                "setup_time": "0:14:05",
+                "coop": false,
+                "category": "VS Mode (Very Hard)",
+                "release_year": 1996,
+                "giantbomb_id": null,
+                "runners": [
+                    301
+                ],
+                "canonical_url": "https://gamesdonequick.com/tracker/run/5170",
+                "public": "Tetris Attack VS Mode (Very Hard) (event_id: 37)"
+            }
+        },
+        {
+            "model": "tracker.speedrun",
+            "pk": 5171,
+            "fields": {
+                "event": 37,
+                "name": "Blazing Chrome",
+                "display_name": "Blazing Chrome",
+                "twitch_name": "",
+                "deprecated_runners": "Kirthar",
+                "console": "PC",
+                "commentators": "",
+                "description": "",
+                "starttime": "2022-01-15T11:12:26Z",
+                "endtime": "2022-01-15T11:51:00Z",
+                "order": 132,
+                "run_time": "0:27:14",
+                "setup_time": "0:11:20",
+                "coop": false,
+                "category": "Arcade Mode (Normal) - Gun",
+                "release_year": 2019,
+                "giantbomb_id": null,
+                "runners": [
+                    1614
+                ],
+                "canonical_url": "https://gamesdonequick.com/tracker/run/5171",
+                "public": "Blazing Chrome Arcade Mode (Normal) - Gun (event_id: 37)"
+            }
+        },
+        {
+            "model": "tracker.speedrun",
+            "pk": 5110,
+            "fields": {
+                "event": 37,
+                "name": "Bishoujo Senshi Sailor Moon R",
+                "display_name": "Bishoujo Senshi Sailor Moon R",
+                "twitch_name": "",
+                "deprecated_runners": "Norishige710",
+                "console": "SNES",
+                "commentators": "",
+                "description": "",
+                "starttime": "2022-01-15T11:51:00Z",
+                "endtime": "2022-01-15T12:28:00Z",
+                "order": 133,
+                "run_time": "0:21:00",
+                "setup_time": "0:16:00",
+                "coop": false,
+                "category": "Chibi% normal",
+                "release_year": 1993,
+                "giantbomb_id": null,
+                "runners": [
+                    1615
+                ],
+                "canonical_url": "https://gamesdonequick.com/tracker/run/5110",
+                "public": "Bishoujo Senshi Sailor Moon R Chibi% normal (event_id: 37)"
+            }
+        },
+        {
+            "model": "tracker.speedrun",
+            "pk": 5173,
+            "fields": {
+                "event": 37,
+                "name": "Teenage Mutant Ninja Turtles: Out of the Shadows",
+                "display_name": "Teenage Mutant Ninja Turtles: Out of the Shadows",
+                "twitch_name": "",
+                "deprecated_runners": "Kainalo, Timopy, epicdudeguy, havrd",
+                "console": "PC",
+                "commentators": "",
+                "description": "",
+                "starttime": "2022-01-15T12:28:00Z",
+                "endtime": "2022-01-15T13:35:00Z",
+                "order": 134,
+                "run_time": "0:54:06",
+                "setup_time": "0:12:54",
+                "coop": true,
+                "category": "Co-op NG+",
+                "release_year": 2013,
+                "giantbomb_id": null,
+                "runners": [
+                    1250,
+                    1489,
+                    1629,
+                    1630
+                ],
+                "canonical_url": "https://gamesdonequick.com/tracker/run/5173",
+                "public": "Teenage Mutant Ninja Turtles: Out of the Shadows Co-op NG+ (event_id: 37)"
+            }
+        },
+        {
+            "model": "tracker.speedrun",
+            "pk": 5174,
+            "fields": {
+                "event": 37,
+                "name": "The Legend of Spyro: The Eternal Night",
+                "display_name": "The Legend of Spyro: The Eternal Night",
+                "twitch_name": "",
+                "deprecated_runners": "CDRomatron",
+                "console": "GBA",
+                "commentators": "",
+                "description": "",
+                "starttime": "2022-01-15T13:35:00Z",
+                "endtime": "2022-01-15T14:17:00Z",
+                "order": 135,
+                "run_time": "0:27:55",
+                "setup_time": "0:14:05",
+                "coop": false,
+                "category": "Any% (Dark)",
+                "release_year": 2007,
+                "giantbomb_id": null,
+                "runners": [
+                    1633
+                ],
+                "canonical_url": "https://gamesdonequick.com/tracker/run/5174",
+                "public": "The Legend of Spyro: The Eternal Night Any% (Dark) (event_id: 37)"
+            }
+        },
+        {
+            "model": "tracker.speedrun",
+            "pk": 5175,
+            "fields": {
+                "event": 37,
+                "name": "Casio Mario World",
+                "display_name": "Casio Mario World",
+                "twitch_name": "Super Mario World",
+                "deprecated_runners": "kezcade",
+                "console": "SNES",
+                "commentators": "",
+                "description": "",
+                "starttime": "2022-01-15T14:17:00Z",
+                "endtime": "2022-01-15T15:06:00Z",
+                "order": 136,
+                "run_time": "0:35:59",
+                "setup_time": "0:13:01",
+                "coop": false,
+                "category": "any%",
+                "release_year": 2020,
+                "giantbomb_id": null,
+                "runners": [
+                    1613
+                ],
+                "canonical_url": "https://gamesdonequick.com/tracker/run/5175",
+                "public": "Casio Mario World any% (event_id: 37)"
+            }
+        },
+        {
+            "model": "tracker.speedrun",
+            "pk": 5176,
+            "fields": {
+                "event": 37,
+                "name": "SpongeBob SquarePants: Battle for Bikini Bottom",
+                "display_name": "SpongeBob SquarePants: Battle for Bikini Bottom",
+                "twitch_name": "",
+                "deprecated_runners": "SHiFT",
+                "console": "Xbox",
+                "commentators": "",
+                "description": "",
+                "starttime": "2022-01-15T15:06:00Z",
+                "endtime": "2022-01-15T16:12:00Z",
+                "order": 137,
+                "run_time": "0:47:31",
+                "setup_time": "0:18:29",
+                "coop": false,
+                "category": "Any%",
+                "release_year": 2003,
+                "giantbomb_id": null,
+                "runners": [
+                    466
+                ],
+                "canonical_url": "https://gamesdonequick.com/tracker/run/5176",
+                "public": "SpongeBob SquarePants: Battle for Bikini Bottom Any% (event_id: 37)"
+            }
+        },
+        {
+            "model": "tracker.speedrun",
+            "pk": 5177,
+            "fields": {
+                "event": 37,
+                "name": "Subnautica",
+                "display_name": "Subnautica",
+                "twitch_name": "",
+                "deprecated_runners": "salvner",
+                "console": "PC",
+                "commentators": "",
+                "description": "",
+                "starttime": "2022-01-15T16:12:00Z",
+                "endtime": "2022-01-15T17:12:00Z",
+                "order": 138,
+                "run_time": "0:42:23",
+                "setup_time": "0:17:37",
+                "coop": false,
+                "category": "Survival Any%",
+                "release_year": 2018,
+                "giantbomb_id": null,
+                "runners": [
+                    1015
+                ],
+                "canonical_url": "https://gamesdonequick.com/tracker/run/5177",
+                "public": "Subnautica Survival Any% (event_id: 37)"
+            }
+        },
+        {
+            "model": "tracker.speedrun",
+            "pk": 5178,
+            "fields": {
+                "event": 37,
+                "name": "EarthBound",
+                "display_name": "EarthBound",
+                "twitch_name": "",
+                "deprecated_runners": "octopuscal",
+                "console": "SNES",
+                "commentators": "",
+                "description": "",
+                "starttime": "2022-01-15T17:12:00Z",
+                "endtime": "2022-01-15T18:23:00Z",
+                "order": 139,
+                "run_time": "0:48:58",
+                "setup_time": "0:22:02",
+                "coop": false,
+                "category": "Any%",
+                "release_year": 1995,
+                "giantbomb_id": null,
+                "runners": [
+                    1601
+                ],
+                "canonical_url": "https://gamesdonequick.com/tracker/run/5178",
+                "public": "EarthBound Any% (event_id: 37)"
+            }
+        },
+        {
+            "model": "tracker.speedrun",
+            "pk": 5179,
+            "fields": {
+                "event": 37,
+                "name": "Fallout: New Vegas",
+                "display_name": "Fallout: New Vegas",
+                "twitch_name": "",
+                "deprecated_runners": "BananaPegasus",
+                "console": "PC",
+                "commentators": "",
+                "description": "",
+                "starttime": "2022-01-15T18:23:00Z",
+                "endtime": "2022-01-15T19:44:00Z",
+                "order": 140,
+                "run_time": "0:56:06",
+                "setup_time": "0:24:54",
+                "coop": false,
+                "category": "All Unique Weapons",
+                "release_year": 2010,
+                "giantbomb_id": null,
+                "runners": [
+                    1663
+                ],
+                "canonical_url": "https://gamesdonequick.com/tracker/run/5179",
+                "public": "Fallout: New Vegas All Unique Weapons (event_id: 37)"
+            }
+        },
+        {
+            "model": "tracker.speedrun",
+            "pk": 5180,
+            "fields": {
+                "event": 37,
+                "name": "Halo: Combat Evolved",
+                "display_name": "Halo: Combat Evolved",
+                "twitch_name": "",
+                "deprecated_runners": "Chronos_R",
+                "console": "PC",
+                "commentators": "",
+                "description": "",
+                "starttime": "2022-01-15T19:44:00Z",
+                "endtime": "2022-01-15T21:31:00Z",
+                "order": 141,
+                "run_time": "1:17:38",
+                "setup_time": "0:29:22",
+                "coop": false,
+                "category": "Legendary",
+                "release_year": 2020,
+                "giantbomb_id": null,
+                "runners": [
+                    957
+                ],
+                "canonical_url": "https://gamesdonequick.com/tracker/run/5180",
+                "public": "Halo: Combat Evolved Legendary (event_id: 37)"
+            }
+        },
+        {
+            "model": "tracker.speedrun",
+            "pk": 5181,
+            "fields": {
+                "event": 37,
+                "name": "The Legend of Zelda: A Link to the Past",
+                "display_name": "The Legend of Zelda: A Link to the Past",
+                "twitch_name": "",
+                "deprecated_runners": "hotarubi_ta",
+                "console": "SNES",
+                "commentators": "",
+                "description": "",
+                "starttime": "2022-01-15T21:31:00Z",
+                "endtime": "2022-01-15T23:01:00Z",
+                "order": 142,
+                "run_time": "0:54:02",
+                "setup_time": "0:35:58",
+                "coop": false,
+                "category": "All Bosses (No Exploration Glitch)",
+                "release_year": 1991,
+                "giantbomb_id": null,
+                "runners": [
+                    1632
+                ],
+                "canonical_url": "https://gamesdonequick.com/tracker/run/5181",
+                "public": "The Legend of Zelda: A Link to the Past All Bosses (No Exploration Glitch) (event_id: 37)"
+            }
+        },
+        {
+            "model": "tracker.speedrun",
+            "pk": 5182,
+            "fields": {
+                "event": 37,
+                "name": "Tetris: The Grand Master",
+                "display_name": "Tetris: The Grand Master",
+                "twitch_name": "",
+                "deprecated_runners": "JBroms, PARTY MAN X, PiePusher11, spc",
+                "console": "Arcade",
+                "commentators": "",
+                "description": "",
+                "starttime": "2022-01-15T23:01:00Z",
+                "endtime": "2022-01-15T23:40:00Z",
+                "order": 143,
+                "run_time": "0:11:53",
+                "setup_time": "0:27:07",
+                "coop": false,
+                "category": "GM Race",
+                "release_year": 1998,
+                "giantbomb_id": null,
+                "runners": [
+                    503,
+                    520,
+                    1635,
+                    1636
+                ],
+                "canonical_url": "https://gamesdonequick.com/tracker/run/5182",
+                "public": "Tetris: The Grand Master GM Race (event_id: 37)"
+            }
+        },
+        {
+            "model": "tracker.speedrun",
+            "pk": 5183,
+            "fields": {
+                "event": 37,
+                "name": "Sekiro: Shadows Die Twice",
+                "display_name": "Sekiro: Shadows Die Twice",
+                "twitch_name": "",
+                "deprecated_runners": "Mitchriz",
+                "console": "PC",
+                "commentators": "",
+                "description": "",
+                "starttime": "2022-01-15T23:40:00Z",
+                "endtime": "2022-01-16T01:58:00Z",
+                "order": 144,
+                "run_time": "2:00:35",
+                "setup_time": "0:17:25",
+                "coop": false,
+                "category": "Blindfolded Any%",
+                "release_year": 2019,
+                "giantbomb_id": null,
+                "runners": [
+                    1355
+                ],
+                "canonical_url": "https://gamesdonequick.com/tracker/run/5183",
+                "public": "Sekiro: Shadows Die Twice Blindfolded Any% (event_id: 37)"
+            }
+        },
+        {
+            "model": "tracker.speedrun",
+            "pk": 5266,
+            "fields": {
+                "event": 37,
+                "name": "Portal 2",
+                "display_name": "Portal 2",
+                "twitch_name": "Portal 2",
+                "deprecated_runners": "Msushi",
+                "console": "PC",
+                "commentators": "",
+                "description": "",
+                "starttime": "2022-01-16T01:58:00Z",
+                "endtime": "2022-01-16T03:38:00Z",
+                "order": 145,
+                "run_time": "1:01:20",
+                "setup_time": "0:38:40",
+                "coop": false,
+                "category": "Inbounds",
+                "release_year": 2011,
+                "giantbomb_id": null,
+                "runners": [
+                    924
+                ],
+                "canonical_url": "https://gamesdonequick.com/tracker/run/5266",
+                "public": "Portal 2 Inbounds (event_id: 37)"
+            }
+        },
+        {
+            "model": "tracker.speedrun",
+            "pk": 5184,
+            "fields": {
+                "event": 37,
+                "name": "Bonus Game 7 - Deltarune",
+                "display_name": "Bonus Game 7 - Deltarune",
+                "twitch_name": "Deltarune",
+                "deprecated_runners": "Shayy",
+                "console": "PC",
+                "commentators": "",
+                "description": "",
+                "starttime": "2022-01-16T03:38:00Z",
+                "endtime": "2022-01-16T04:17:37Z",
+                "order": 146,
+                "run_time": "0:30:37",
+                "setup_time": "0:09:00",
+                "coop": false,
+                "category": "Chapter 2 Main Route",
+                "release_year": 2021,
+                "giantbomb_id": null,
+                "runners": [
+                    893
+                ],
+                "canonical_url": "https://gamesdonequick.com/tracker/run/5184",
+                "public": "Bonus Game 7 - Deltarune Chapter 2 Main Route (event_id: 37)"
+            }
+        },
+        {
+            "model": "tracker.speedrun",
+            "pk": 5265,
+            "fields": {
+                "event": 37,
+                "name": "Event Recap",
+                "display_name": "Event Recap",
+                "twitch_name": "Talk Shows & Podcasts",
+                "deprecated_runners": "JHobz, Sent, darkman78, sumichu",
+                "console": "Live",
+                "commentators": "",
+                "description": "",
+                "starttime": "2022-01-16T04:17:37Z",
+                "endtime": "2022-01-16T04:44:37Z",
+                "order": 147,
+                "run_time": "0:22:00",
+                "setup_time": "0:05:00",
+                "coop": false,
+                "category": "Recap 100%",
+                "release_year": 2022,
+                "giantbomb_id": null,
+                "runners": [
+                    351,
+                    629,
+                    683,
+                    883
+                ],
+                "canonical_url": "https://gamesdonequick.com/tracker/run/5265",
+                "public": "Event Recap Recap 100% (event_id: 37)"
+            }
+        },
+        {
+            "model": "tracker.speedrun",
+            "pk": 5267,
+            "fields": {
+                "event": 37,
+                "name": "3 Million Milestone  - Deltarune",
+                "display_name": "Deltarune",
+                "twitch_name": "Deltarune",
+                "deprecated_runners": "Shayy",
+                "console": "PC",
+                "commentators": "",
+                "description": "",
+                "starttime": "2022-01-16T04:44:37Z",
+                "endtime": "2022-01-16T05:27:03Z",
+                "order": 148,
+                "run_time": "0:32:26",
+                "setup_time": "0:10:00",
+                "coop": false,
+                "category": "Chapter 2 Snowgrave Glitched",
+                "release_year": 2021,
+                "giantbomb_id": null,
+                "runners": [
+                    893
+                ],
+                "canonical_url": "https://gamesdonequick.com/tracker/run/5267",
+                "public": "3 Million Milestone  - Deltarune Chapter 2 Snowgrave Glitched (event_id: 37)"
+            }
+        },
+        {
+            "model": "tracker.speedrun",
+            "pk": 5185,
+            "fields": {
+                "event": 37,
+                "name": "Metal Gear Solid",
+                "display_name": "Metal Gear Solid",
+                "twitch_name": "",
+                "deprecated_runners": "dlimes13",
+                "console": "PSTV",
+                "commentators": "",
+                "description": "",
+                "starttime": "2022-01-16T05:27:03Z",
+                "endtime": "2022-01-16T06:51:23Z",
+                "order": 149,
+                "run_time": "1:21:20",
+                "setup_time": "0:03:00",
+                "coop": false,
+                "category": "Console, All Bosses, Extreme",
+                "release_year": 1998,
+                "giantbomb_id": null,
+                "runners": [
+                    1579
+                ],
+                "canonical_url": "https://gamesdonequick.com/tracker/run/5185",
+                "public": "Metal Gear Solid Console, All Bosses, Extreme (event_id: 37)"
+            }
+        },
+        {
+            "model": "tracker.speedrun",
+            "pk": 5186,
+            "fields": {
+                "event": 37,
+                "name": "Finale",
+                "display_name": "Finale",
+                "twitch_name": "",
+                "deprecated_runners": "Tech Crew",
+                "console": "AGDQ",
+                "commentators": "",
+                "description": "",
+                "starttime": "2022-01-16T06:51:23Z",
+                "endtime": "2022-01-16T07:11:23Z",
+                "order": 150,
+                "run_time": "0:10:00",
+                "setup_time": "0:10:00",
+                "coop": false,
+                "category": "The End",
+                "release_year": 2022,
+                "giantbomb_id": null,
+                "runners": [
+                    367
+                ],
+                "canonical_url": "https://gamesdonequick.com/tracker/run/5186",
+                "public": "Finale The End (event_id: 37)"
+            }
+        }
+    ],
+    "runner": [
+        {
+            "model": "tracker.runner",
+            "pk": 1489,
+            "fields": {
+                "name": "Timopy",
+                "stream": "https://www.twitch.tv/timopy",
+                "twitter": "PONTTOS",
+                "youtube": "",
+                "platform": "TWITCH",
+                "pronouns": "",
+                "donor": null,
+                "public": "Timopy"
+            }
+        },
+        {
+            "model": "tracker.runner",
+            "pk": 1601,
+            "fields": {
+                "name": "octopuscal",
+                "stream": "https://www.twitch.tv/octopuscal",
+                "twitter": "",
+                "youtube": "",
+                "platform": "TWITCH",
+                "pronouns": "octopuscal",
+                "donor": null,
+                "public": "octopuscal"
+            }
+        },
+        {
+            "model": "tracker.runner",
+            "pk": 1590,
+            "fields": {
+                "name": "Maltemller",
+                "stream": "https://www.twitch.tv/maltemller",
+                "twitter": "maltemller123",
+                "youtube": "",
+                "platform": "TWITCH",
+                "pronouns": "He/Him",
+                "donor": null,
+                "public": "Maltemller"
+            }
+        },
+        {
+            "model": "tracker.runner",
+            "pk": 1467,
+            "fields": {
+                "name": "mobius",
+                "stream": "https://www.twitch.tv/suibom",
+                "twitter": "",
+                "youtube": "",
+                "platform": "TWITCH",
+                "pronouns": "",
+                "donor": null,
+                "public": "mobius"
+            }
+        },
+        {
+            "model": "tracker.runner",
+            "pk": 1605,
+            "fields": {
+                "name": "tridenttail",
+                "stream": "https://www.twitch.tv/tridenttail",
+                "twitter": "tridentail",
+                "youtube": "",
+                "platform": "TWITCH",
+                "pronouns": "",
+                "donor": null,
+                "public": "tridenttail"
+            }
+        },
+        {
+            "model": "tracker.runner",
+            "pk": 1007,
+            "fields": {
+                "name": "Regole",
+                "stream": "https://www.twitch.tv/regole",
+                "twitter": "RegoleSlayer",
+                "youtube": "",
+                "platform": "TWITCH",
+                "pronouns": "",
+                "donor": null,
+                "public": "Regole"
+            }
+        },
+        {
+            "model": "tracker.runner",
+            "pk": 1547,
+            "fields": {
+                "name": "Jhay",
+                "stream": "https://www.twitch.tv/Jhay",
+                "twitter": "",
+                "youtube": "",
+                "platform": "TWITCH",
+                "pronouns": "",
+                "donor": null,
+                "public": "Jhay"
+            }
+        },
+        {
+            "model": "tracker.runner",
+            "pk": 1552,
+            "fields": {
+                "name": "Slyfincleton",
+                "stream": "https://www.youtube.com/c/Slyfincleton/live",
+                "twitter": "slyfincleton",
+                "youtube": "",
+                "platform": "TWITCH",
+                "pronouns": "He/Him",
+                "donor": null,
+                "public": "Slyfincleton"
+            }
+        },
+        {
+            "model": "tracker.runner",
+            "pk": 1595,
+            "fields": {
+                "name": "Stacky McBears",
+                "stream": "https://www.twitch.tv/stackymcbears",
+                "twitter": "stackofbears",
+                "youtube": "",
+                "platform": "TWITCH",
+                "pronouns": "he/him",
+                "donor": null,
+                "public": "Stacky McBears"
+            }
+        },
+        {
+            "model": "tracker.runner",
+            "pk": 1579,
+            "fields": {
+                "name": "dlimes13",
+                "stream": "https://www.twitch.tv/dlimes13",
+                "twitter": "dlimes13",
+                "youtube": "",
+                "platform": "TWITCH",
+                "pronouns": "",
+                "donor": null,
+                "public": "dlimes13"
+            }
+        },
+        {
+            "model": "tracker.runner",
+            "pk": 493,
+            "fields": {
+                "name": "BlueMetal",
+                "stream": "https://www.twitch.tv/bluemetal",
+                "twitter": "BlueM3tal",
+                "youtube": "",
+                "platform": "TWITCH",
+                "pronouns": "",
+                "donor": null,
+                "public": "BlueMetal"
+            }
+        },
+        {
+            "model": "tracker.runner",
+            "pk": 145,
+            "fields": {
+                "name": "360Chrism",
+                "stream": "https://www.twitch.tv/360chrism/",
+                "twitter": "360Chrism",
+                "youtube": "360chrism",
+                "platform": "TWITCH",
+                "pronouns": "",
+                "donor": 21520,
+                "public": "360Chrism"
+            }
+        },
+        {
+            "model": "tracker.runner",
+            "pk": 1024,
+            "fields": {
+                "name": "wartab",
+                "stream": "https://www.twitch.tv/wartab",
+                "twitter": "wartabPSR",
+                "youtube": "",
+                "platform": "TWITCH",
+                "pronouns": "",
+                "donor": null,
+                "public": "wartab"
+            }
+        },
+        {
+            "model": "tracker.runner",
+            "pk": 97,
+            "fields": {
+                "name": "Keizaron",
+                "stream": "https://www.twitch.tv/keizaron",
+                "twitter": "Keizaron",
+                "youtube": "KeizaronGaming",
+                "platform": "TWITCH",
+                "pronouns": "",
+                "donor": null,
+                "public": "Keizaron"
+            }
+        },
+        {
+            "model": "tracker.runner",
+            "pk": 1608,
+            "fields": {
+                "name": "jammitch!",
+                "stream": "https://twitch.tv/jammitch",
+                "twitter": "jammitchDX",
+                "youtube": "",
+                "platform": "TWITCH",
+                "pronouns": "he/him",
+                "donor": null,
+                "public": "jammitch!"
+            }
+        },
+        {
+            "model": "tracker.runner",
+            "pk": 1023,
+            "fields": {
+                "name": "Helix",
+                "stream": "https://twitch.tv/helix13_",
+                "twitter": "Helix13_",
+                "youtube": "",
+                "platform": "TWITCH",
+                "pronouns": "they/them",
+                "donor": null,
+                "public": "Helix"
+            }
+        },
+        {
+            "model": "tracker.runner",
+            "pk": 1588,
+            "fields": {
+                "name": "PootLoops",
+                "stream": "https://www.twitch.tv/pootloops",
+                "twitter": "PootLoops",
+                "youtube": "",
+                "platform": "TWITCH",
+                "pronouns": "",
+                "donor": null,
+                "public": "PootLoops"
+            }
+        },
+        {
+            "model": "tracker.runner",
+            "pk": 1564,
+            "fields": {
+                "name": "cavecavecave",
+                "stream": "https://twitch.tv/cavewastaken",
+                "twitter": "coltwastaken",
+                "youtube": "",
+                "platform": "TWITCH",
+                "pronouns": "He/Him",
+                "donor": null,
+                "public": "cavecavecave"
+            }
+        },
+        {
+            "model": "tracker.runner",
+            "pk": 559,
+            "fields": {
+                "name": "LV Creed",
+                "stream": "https://www.twitch.tv/lvcreed",
+                "twitter": "",
+                "youtube": "",
+                "platform": "TWITCH",
+                "pronouns": "",
+                "donor": null,
+                "public": "LV Creed"
+            }
+        },
+        {
+            "model": "tracker.runner",
+            "pk": 1557,
+            "fields": {
+                "name": "SBVille",
+                "stream": "https://www.twitch.tv/sbville",
+                "twitter": "sbv_sm",
+                "youtube": "",
+                "platform": "TWITCH",
+                "pronouns": "he/him",
+                "donor": null,
+                "public": "SBVille"
+            }
+        },
+        {
+            "model": "tracker.runner",
+            "pk": 1632,
+            "fields": {
+                "name": "hotarubi_ta",
+                "stream": "https://www.twitch.tv/hotarubi_ta/",
+                "twitter": "htrb_ta",
+                "youtube": "",
+                "platform": "TWITCH",
+                "pronouns": "",
+                "donor": null,
+                "public": "hotarubi_ta"
+            }
+        },
+        {
+            "model": "tracker.runner",
+            "pk": 1633,
+            "fields": {
+                "name": "CDRomatron",
+                "stream": "https://twitch.tv/CDRomatron",
+                "twitter": "CDRomatron",
+                "youtube": "",
+                "platform": "TWITCH",
+                "pronouns": "He/Him",
+                "donor": null,
+                "public": "CDRomatron"
+            }
+        },
+        {
+            "model": "tracker.runner",
+            "pk": 1636,
+            "fields": {
+                "name": "spc",
+                "stream": "https://www.twitch.tv/switchpalacecorner",
+                "twitter": "switchpcorner",
+                "youtube": "",
+                "platform": "TWITCH",
+                "pronouns": "",
+                "donor": null,
+                "public": "spc"
+            }
+        },
+        {
+            "model": "tracker.runner",
+            "pk": 1597,
+            "fields": {
+                "name": "Kayarune",
+                "stream": "https://www.twitch.tv/kayarune",
+                "twitter": "Kayarune",
+                "youtube": "",
+                "platform": "TWITCH",
+                "pronouns": "",
+                "donor": null,
+                "public": "Kayarune"
+            }
+        },
+        {
+            "model": "tracker.runner",
+            "pk": 1618,
+            "fields": {
+                "name": "Ozmourn",
+                "stream": "https://www.twitch.tv/ozmourn",
+                "twitter": "Ozmourn",
+                "youtube": "",
+                "platform": "TWITCH",
+                "pronouns": "he/him",
+                "donor": null,
+                "public": "Ozmourn"
+            }
+        },
+        {
+            "model": "tracker.runner",
+            "pk": 1603,
+            "fields": {
+                "name": "Mindez",
+                "stream": "https://www.twitch.tv/mindezzy",
+                "twitter": "Mindez",
+                "youtube": "",
+                "platform": "TWITCH",
+                "pronouns": "they/them",
+                "donor": null,
+                "public": "Mindez"
+            }
+        },
+        {
+            "model": "tracker.runner",
+            "pk": 57,
+            "fields": {
+                "name": "Mr_Shasta",
+                "stream": "https://twitch.tv/Mr_Shasta",
+                "twitter": "Mr_Shasta",
+                "youtube": "xshastamcnasty",
+                "platform": "TWITCH",
+                "pronouns": "He/Him",
+                "donor": null,
+                "public": "Mr_Shasta"
+            }
+        },
+        {
+            "model": "tracker.runner",
+            "pk": 1304,
+            "fields": {
+                "name": "Risuruuu",
+                "stream": "https://twitch.tv/Risuruuu",
+                "twitter": "Risuruuu",
+                "youtube": "",
+                "platform": "TWITCH",
+                "pronouns": "She/Her",
+                "donor": null,
+                "public": "Risuruuu"
+            }
+        },
+        {
+            "model": "tracker.runner",
+            "pk": 351,
+            "fields": {
+                "name": "Sent",
+                "stream": "https://www.twitch.tv/dragonsentinal",
+                "twitter": "DragonSentinal",
+                "youtube": "",
+                "platform": "TWITCH",
+                "pronouns": "",
+                "donor": null,
+                "public": "Sent"
+            }
+        },
+        {
+            "model": "tracker.runner",
+            "pk": 1577,
+            "fields": {
+                "name": "Olenoname",
+                "stream": "https://www.twitch.tv/olenoname01",
+                "twitter": "",
+                "youtube": "",
+                "platform": "TWITCH",
+                "pronouns": "",
+                "donor": null,
+                "public": "Olenoname"
+            }
+        },
+        {
+            "model": "tracker.runner",
+            "pk": 301,
+            "fields": {
+                "name": "FFR Pro 21",
+                "stream": "https://twitch.tv/ffrpro21",
+                "twitter": "FFRPro21",
+                "youtube": "",
+                "platform": "TWITCH",
+                "pronouns": "",
+                "donor": null,
+                "public": "FFR Pro 21"
+            }
+        },
+        {
+            "model": "tracker.runner",
+            "pk": 1401,
+            "fields": {
+                "name": "Sathdresh",
+                "stream": "https://www.twitch.tv/sathdresh",
+                "twitter": "sathdresh",
+                "youtube": "",
+                "platform": "TWITCH",
+                "pronouns": "",
+                "donor": null,
+                "public": "Sathdresh"
+            }
+        },
+        {
+            "model": "tracker.runner",
+            "pk": 428,
+            "fields": {
+                "name": "giygasblues",
+                "stream": "https://twitch.tv/giygasblues",
+                "twitter": "giygasblues",
+                "youtube": "",
+                "platform": "TWITCH",
+                "pronouns": "",
+                "donor": null,
+                "public": "giygasblues"
+            }
+        },
+        {
+            "model": "tracker.runner",
+            "pk": 683,
+            "fields": {
+                "name": "JHobz",
+                "stream": "https://twitch.tv/jhobz296",
+                "twitter": "J_Hobz",
+                "youtube": "",
+                "platform": "TWITCH",
+                "pronouns": "",
+                "donor": null,
+                "public": "JHobz"
+            }
+        },
+        {
+            "model": "tracker.runner",
+            "pk": 1481,
+            "fields": {
+                "name": "stone_clive",
+                "stream": "https://www.twitch.tv/stone_clive",
+                "twitter": "stone_clive2",
+                "youtube": "",
+                "platform": "TWITCH",
+                "pronouns": "stone-clive",
+                "donor": null,
+                "public": "stone_clive"
+            }
+        },
+        {
+            "model": "tracker.runner",
+            "pk": 503,
+            "fields": {
+                "name": "JBroms",
+                "stream": "http://twitch.tv/jbroms",
+                "twitter": "JBroms",
+                "youtube": "",
+                "platform": "TWITCH",
+                "pronouns": "",
+                "donor": null,
+                "public": "JBroms"
+            }
+        },
+        {
+            "model": "tracker.runner",
+            "pk": 814,
+            "fields": {
+                "name": "Lizstar",
+                "stream": "http://www.Twitch.tv/Lizstar",
+                "twitter": "_Lizstar_",
+                "youtube": "",
+                "platform": "TWITCH",
+                "pronouns": "She/Her",
+                "donor": null,
+                "public": "Lizstar"
+            }
+        },
+        {
+            "model": "tracker.runner",
+            "pk": 1584,
+            "fields": {
+                "name": "Procyon",
+                "stream": "https://www.twitch.tv/procyonyx",
+                "twitter": "",
+                "youtube": "",
+                "platform": "TWITCH",
+                "pronouns": "",
+                "donor": null,
+                "public": "Procyon"
+            }
+        },
+        {
+            "model": "tracker.runner",
+            "pk": 441,
+            "fields": {
+                "name": "TGH",
+                "stream": "https://www.twitch.tv/tgh_sr",
+                "twitter": "tgh_sr",
+                "youtube": "",
+                "platform": "TWITCH",
+                "pronouns": "He/Him",
+                "donor": null,
+                "public": "TGH"
+            }
+        },
+        {
+            "model": "tracker.runner",
+            "pk": 711,
+            "fields": {
+                "name": "gymnast86",
+                "stream": "https://www.twitch.tv/gymnast86/",
+                "twitter": "MrGymnast86",
+                "youtube": "",
+                "platform": "TWITCH",
+                "pronouns": "He/Him",
+                "donor": null,
+                "public": "gymnast86"
+            }
+        },
+        {
+            "model": "tracker.runner",
+            "pk": 629,
+            "fields": {
+                "name": "darkman78",
+                "stream": "https://www.twitch.tv/thadarkman78",
+                "twitter": "thadarkman78",
+                "youtube": "",
+                "platform": "TWITCH",
+                "pronouns": "",
+                "donor": null,
+                "public": "darkman78"
+            }
+        },
+        {
+            "model": "tracker.runner",
+            "pk": 491,
+            "fields": {
+                "name": "coolkid",
+                "stream": "https://www.twitch.tv/coolkid",
+                "twitter": "coolkidbigboy",
+                "youtube": "",
+                "platform": "TWITCH",
+                "pronouns": "",
+                "donor": null,
+                "public": "coolkid"
+            }
+        },
+        {
+            "model": "tracker.runner",
+            "pk": 101,
+            "fields": {
+                "name": "Kirbymastah",
+                "stream": "https://www.twitch.tv/kirbymastah",
+                "twitter": "kirbymastah",
+                "youtube": "kirbymastah1991",
+                "platform": "TWITCH",
+                "pronouns": "He/him",
+                "donor": null,
+                "public": "Kirbymastah"
+            }
+        },
+        {
+            "model": "tracker.runner",
+            "pk": 320,
+            "fields": {
+                "name": "Konasumi",
+                "stream": "http://www.twitch.tv/konasumi",
+                "twitter": "konasumisr",
+                "youtube": "",
+                "platform": "TWITCH",
+                "pronouns": "He/Him",
+                "donor": null,
+                "public": "Konasumi"
+            }
+        },
+        {
+            "model": "tracker.runner",
+            "pk": 203,
+            "fields": {
+                "name": "warm_ham",
+                "stream": "https://twitch.tv/warm_ham",
+                "twitter": "",
+                "youtube": "",
+                "platform": "TWITCH",
+                "pronouns": "",
+                "donor": null,
+                "public": "warm_ham"
+            }
+        },
+        {
+            "model": "tracker.runner",
+            "pk": 915,
+            "fields": {
+                "name": "dowolf",
+                "stream": "https://twitch.tv/dowolff",
+                "twitter": "dowoIf",
+                "youtube": "",
+                "platform": "TWITCH",
+                "pronouns": "",
+                "donor": null,
+                "public": "dowolf"
+            }
+        },
+        {
+            "model": "tracker.runner",
+            "pk": 1374,
+            "fields": {
+                "name": "Obiyo",
+                "stream": "https://www.twitch.tv/obiyosrl",
+                "twitter": "ObiyoQC",
+                "youtube": "",
+                "platform": "TWITCH",
+                "pronouns": "",
+                "donor": null,
+                "public": "Obiyo"
+            }
+        },
+        {
+            "model": "tracker.runner",
+            "pk": 1609,
+            "fields": {
+                "name": "hypnoshark",
+                "stream": "https://www.twitch.tv/hypnoshark",
+                "twitter": "HypnosharkSR",
+                "youtube": "",
+                "platform": "TWITCH",
+                "pronouns": "He/Male",
+                "donor": null,
+                "public": "hypnoshark"
+            }
+        },
+        {
+            "model": "tracker.runner",
+            "pk": 1616,
+            "fields": {
+                "name": "Delekates",
+                "stream": "https://www.twitch.tv/delekates",
+                "twitter": "",
+                "youtube": "",
+                "platform": "TWITCH",
+                "pronouns": "",
+                "donor": null,
+                "public": "Delekates"
+            }
+        }
+    ]
+}
