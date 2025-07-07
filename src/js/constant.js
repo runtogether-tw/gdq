@@ -1,4 +1,4 @@
-export const LATEST_EVENT = 52;
+export const LATEST_EVENT = 56;
 export const EVENT_LIST = {
   18: 'SGDQ2016',
   19: 'AGDQ2017',
@@ -20,6 +20,7 @@ export const EVENT_LIST = {
   46: 'AGDQ2024',
   48: 'SGDQ2024',
   52: 'AGDQ2025',
+  56: 'SGDQ2025',
 };
 
 export const EMOTE_LIST = [

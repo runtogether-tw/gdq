@@ -783,11 +783,68 @@ export default {
       }
       if (this.eventID === LATEST_EVENT) {
         // RequestJSON = await this.getRequest('//crs-api-server.onrender.com/gdq');
-        const RequestRunJSON = await this.getRequest(`https://tracker.gamesdonequick.com/tracker/search/?type=run&event=${this.eventID}`);
-        const RequestRunnerJSON = await this.getRequest(`https://tracker.gamesdonequick.com/tracker/search/?type=runner&event=${this.eventID}`);
+        // const RequestRunJSON = await this.getRequest(`https://tracker.gamesdonequick.com/tracker/search/?type=run&event=${this.eventID}`);
+        // const RequestRunnerJSON = await this.getRequest(`https://tracker.gamesdonequick.com/tracker/search/?type=runner&event=${this.eventID}`);
+        const RequestData = await this.getRequest(`https://gamesdonequick.com/api/schedule/${this.eventID}`);
+        const runnerMap = new Map();
+
         RequestJSON = {};
-        RequestJSON.run = RequestRunJSON;
-        RequestJSON.runner = RequestRunnerJSON;
+        RequestJSON.run = RequestData.schedule.filter((e) => (e.type === 'speedrun')).map((e) => ({
+          model: 'tracker.speedrun',
+          pk: e.id,
+          fields: {
+            event: RequestData.event.id,
+            name: e.name,
+            display_name: e.display_name,
+            twitch_name: e.twitch_name,
+            deprecated_runners: (e.runners || []).map((r) => (r.name)).join(', '),
+            console: e.console,
+            description: e.description,
+            starttime: e.starttime,
+            endtime: e.endtime,
+            order: e.order,
+            anchor_time: e.anchor_time,
+            run_time: e.run_time,
+            setup_time: e.setup_time,
+            coop: e.coop,
+            onsite: e.onsite,
+            category: e.category || '',
+            release_year: e.release_year,
+            giantbomb_id: null,
+            runners: (e.runners || []).map((r) => (r.id)),
+            hosts: (e.hosts || []).map((r) => (r.id)),
+            commentators: (e.commentators || []).map((r) => (r.id)),
+            canonical_url: '',
+            public: '',
+          },
+        }));
+
+        RequestData.schedule.filter((e) => (e.type === 'speedrun')).forEach((e) => {
+          [
+            ...(e.runners || []),
+            ...(e.hosts || []),
+            ...(e.commentators || []),
+          ].forEach((i) => {
+            if (i.id) {
+              runnerMap.set(i.id, i);
+            }
+          });
+        });
+        RequestJSON.runner = Array.from(runnerMap.values()).map((e) => ({
+          model: 'tracker.runner',
+          pk: e.id,
+          fields: {
+            name: e.name,
+            stream: e.stream,
+            twitter: e.twitter,
+            youtube: e.youtube,
+            platform: e.platform,
+            pronouns: e.pronouns,
+            donor: null,
+            public: e.name,
+          },
+        }));
+        console.log(RequestJSON);
       } else {
         RequestJSON = await this.getRequest(`./event/${this.eventID}.json`);
       }
