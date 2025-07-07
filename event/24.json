@@ -1,0 +1,1923 @@
+{
+    "run": [
+        {
+            "pk": 3121,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "Any%",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "",
+                "name": "Pre-Show",
+                "setup_time": "0",
+                "event": 24,
+                "order": 1,
+                "public": "Pre-Show Any% (Games Done Quick Express 2018)",
+                "release_year": null,
+                "run_time": "0:14:00",
+                "starttime": "2018-10-26T17:55:00Z",
+                "display_name": "Pre-Show",
+                "commentators": "",
+                "endtime": "2018-10-26T18:09:00Z",
+                "deprecated_runners": "Tech Crew",
+                "runners": [
+                    367
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 3122,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "any% tails",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "PC",
+                "name": "Sonic Mania",
+                "setup_time": "0:10:51",
+                "event": 24,
+                "order": 2,
+                "public": "Sonic Mania any% tails (Games Done Quick Express 2018)",
+                "release_year": 2017,
+                "run_time": "0:57:09",
+                "starttime": "2018-10-26T18:09:00Z",
+                "display_name": "Sonic Mania",
+                "commentators": "",
+                "endtime": "2018-10-26T19:17:00Z",
+                "deprecated_runners": "FunkMastaDre",
+                "runners": [
+                    805
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 3123,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "Master",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "Gamecube",
+                "name": "Super Monkey Ball 1",
+                "setup_time": "0:06:59",
+                "event": 24,
+                "order": 3,
+                "public": "Super Monkey Ball 1 Master (Games Done Quick Express 2018)",
+                "release_year": 2001,
+                "run_time": "0:20:01",
+                "starttime": "2018-10-26T19:17:00Z",
+                "display_name": "Super Monkey Ball 1",
+                "commentators": "",
+                "endtime": "2018-10-26T19:44:00Z",
+                "deprecated_runners": "Zela1",
+                "runners": [
+                    627
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 3125,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "any%",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "NES",
+                "name": "Mike Tyson's Punch-Out!!",
+                "setup_time": "0:09:04",
+                "event": 24,
+                "order": 4,
+                "public": "Mike Tyson's Punch-Out!! any% (Games Done Quick Express 2018)",
+                "release_year": 1987,
+                "run_time": "0:19:56",
+                "starttime": "2018-10-26T19:44:00Z",
+                "display_name": "Mike Tyson's Punch-Out!!",
+                "commentators": "",
+                "endtime": "2018-10-26T20:13:00Z",
+                "deprecated_runners": "zallard1",
+                "runners": [
+                    146
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 3126,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "any%",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "Wii",
+                "name": "Mega Man 9 vs Mega Man 10",
+                "setup_time": "0:17:18",
+                "event": 24,
+                "order": 5,
+                "public": "Mega Man 9 vs Mega Man 10 any% (Games Done Quick Express 2018)",
+                "release_year": 2008,
+                "run_time": "0:34:42",
+                "starttime": "2018-10-26T20:13:00Z",
+                "display_name": "Mega Man 9 vs Mega Man 10",
+                "commentators": "",
+                "endtime": "2018-10-26T21:05:00Z",
+                "deprecated_runners": "usedpizza",
+                "runners": [
+                    286
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 3127,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "MST",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "3DS",
+                "name": "The Legend of Zelda: Ocarina of Time 3D",
+                "setup_time": "0:19:24",
+                "event": 24,
+                "order": 6,
+                "public": "The Legend of Zelda: Ocarina of Time 3D MST (Games Done Quick Express 2018)",
+                "release_year": 2011,
+                "run_time": "2:16:36",
+                "starttime": "2018-10-26T21:05:00Z",
+                "display_name": "The Legend of Zelda: Ocarina of Time 3D",
+                "commentators": "",
+                "endtime": "2018-10-26T23:41:00Z",
+                "deprecated_runners": "gymnast86",
+                "runners": [
+                    711
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 3128,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "any% race",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "Switch",
+                "name": "Super Mario Odyssey",
+                "setup_time": "0:20:58",
+                "event": 24,
+                "order": 7,
+                "public": "Super Mario Odyssey any% race (Games Done Quick Express 2018)",
+                "release_year": 2017,
+                "run_time": "1:03:02",
+                "starttime": "2018-10-26T23:41:00Z",
+                "display_name": "Super Mario Odyssey",
+                "commentators": "",
+                "endtime": "2018-10-27T01:05:00Z",
+                "deprecated_runners": "NicroVeda, fir_",
+                "runners": [
+                    752,
+                    803
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 3129,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "Any%",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "PC",
+                "name": "Grand Theft Auto III vs Grand Theft Auto: Vice City",
+                "setup_time": "0:13:23",
+                "event": 24,
+                "order": 8,
+                "public": "Grand Theft Auto III vs Grand Theft Auto: Vice City Any% (Games Done Quick Express 2018)",
+                "release_year": 2001,
+                "run_time": "0:56:37",
+                "starttime": "2018-10-27T01:05:00Z",
+                "display_name": "Grand Theft Auto III vs Grand Theft Auto: Vice City",
+                "commentators": "",
+                "endtime": "2018-10-27T02:15:00Z",
+                "deprecated_runners": "KZ_FREW",
+                "runners": [
+                    410
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 3130,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "All Tracks (Snaking)",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "Gamecube",
+                "name": "F-Zero GX",
+                "setup_time": "0:20:11",
+                "event": 24,
+                "order": 9,
+                "public": "F-Zero GX All Tracks (Snaking) (Games Done Quick Express 2018)",
+                "release_year": 2003,
+                "run_time": "1:13:49",
+                "starttime": "2018-10-27T02:15:00Z",
+                "display_name": "F-Zero GX",
+                "commentators": "",
+                "endtime": "2018-10-27T03:49:00Z",
+                "deprecated_runners": "1davidj",
+                "runners": [
+                    797
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 3131,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "Normal",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "PC",
+                "name": "Silent Hill 2",
+                "setup_time": "0:27:31",
+                "event": 24,
+                "order": 10,
+                "public": "Silent Hill 2 Normal (Games Done Quick Express 2018)",
+                "release_year": 2001,
+                "run_time": "0:53:29",
+                "starttime": "2018-10-27T03:49:00Z",
+                "display_name": "Silent Hill 2",
+                "commentators": "",
+                "endtime": "2018-10-27T05:10:00Z",
+                "deprecated_runners": "Ecdycis",
+                "runners": [
+                    796
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 3132,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "Any%",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "PS3",
+                "name": "Ratchet & Clank Future: A Crack in Time",
+                "setup_time": "0:14:00",
+                "event": 24,
+                "order": 11,
+                "public": "Ratchet & Clank Future: A Crack in Time Any% (Games Done Quick Express 2018)",
+                "release_year": 2009,
+                "run_time": "1:55:06",
+                "starttime": "2018-10-27T05:10:00Z",
+                "display_name": "Ratchet & Clank Future: A Crack in Time",
+                "commentators": "",
+                "endtime": "2018-10-27T07:19:06Z",
+                "deprecated_runners": "Lombax999",
+                "runners": [
+                    793
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 3133,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "Any%",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "PC",
+                "name": "Turok: Dinosaur Hunter",
+                "setup_time": "0:11:30",
+                "event": 24,
+                "order": 12,
+                "public": "Turok: Dinosaur Hunter Any% (Games Done Quick Express 2018)",
+                "release_year": 1997,
+                "run_time": "0:40:08",
+                "starttime": "2018-10-27T07:19:06Z",
+                "display_name": "Turok: Dinosaur Hunter",
+                "commentators": "",
+                "endtime": "2018-10-27T08:10:44Z",
+                "deprecated_runners": "Bawkbasoup",
+                "runners": [
+                    234
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 3134,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "Any%",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "GBA",
+                "name": "BeyBlade VForce: Ultimate Blader Jam",
+                "setup_time": "0:14:00",
+                "event": 24,
+                "order": 13,
+                "public": "BeyBlade VForce: Ultimate Blader Jam Any% (Games Done Quick Express 2018)",
+                "release_year": 2003,
+                "run_time": "0:21:23",
+                "starttime": "2018-10-27T08:10:44Z",
+                "display_name": "BeyBlade VForce: Ultimate Blader Jam",
+                "commentators": "",
+                "endtime": "2018-10-27T08:46:07Z",
+                "deprecated_runners": "360Chrism",
+                "runners": [
+                    145
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 3135,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "any%",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "NES",
+                "name": "Star Wars NES",
+                "setup_time": "0:08:00",
+                "event": 24,
+                "order": 14,
+                "public": "Star Wars NES any% (Games Done Quick Express 2018)",
+                "release_year": 1991,
+                "run_time": "0:11:30",
+                "starttime": "2018-10-27T08:46:07Z",
+                "display_name": "Star Wars NES",
+                "commentators": "",
+                "endtime": "2018-10-27T09:05:37Z",
+                "deprecated_runners": "Indy",
+                "runners": [
+                    780
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 3136,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "Any%",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "NES",
+                "name": "Chip 'N Dale: Rescue Rangers",
+                "setup_time": "0:10:00",
+                "event": 24,
+                "order": 15,
+                "public": "Chip 'N Dale: Rescue Rangers Any% (Games Done Quick Express 2018)",
+                "release_year": 1990,
+                "run_time": "0:10:38",
+                "starttime": "2018-10-27T09:05:37Z",
+                "display_name": "Chip 'N Dale: Rescue Rangers",
+                "commentators": "",
+                "endtime": "2018-10-27T09:26:15Z",
+                "deprecated_runners": "philosoraptor42",
+                "runners": [
+                    804
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 3137,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "First Loop",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "NES",
+                "name": "Metal Storm",
+                "setup_time": "0:11:00",
+                "event": 24,
+                "order": 16,
+                "public": "Metal Storm First Loop (Games Done Quick Express 2018)",
+                "release_year": 1991,
+                "run_time": "0:12:34",
+                "starttime": "2018-10-27T09:26:15Z",
+                "display_name": "Metal Storm",
+                "commentators": "",
+                "endtime": "2018-10-27T09:49:49Z",
+                "deprecated_runners": "UraniumAnchor",
+                "runners": [
+                    93
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 3139,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "any% Easy",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "NES",
+                "name": "The Cowlitz Gamers' 2nd Adventure",
+                "setup_time": "0:09:00",
+                "event": 24,
+                "order": 18,
+                "public": "The Cowlitz Gamers' 2nd Adventure any% Easy (Games Done Quick Express 2018)",
+                "release_year": 2017,
+                "run_time": "0:11:58",
+                "starttime": "2018-10-27T09:49:49Z",
+                "display_name": "The Cowlitz Gamers' 2nd Adventure",
+                "commentators": "",
+                "endtime": "2018-10-27T10:10:47Z",
+                "deprecated_runners": "The_Kov",
+                "runners": [
+                    770
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 3140,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "Any%",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "SNES",
+                "name": "Super Adventure Island",
+                "setup_time": "0:15:00",
+                "event": 24,
+                "order": 19,
+                "public": "Super Adventure Island Any% (Games Done Quick Express 2018)",
+                "release_year": 1992,
+                "run_time": "0:19:33",
+                "starttime": "2018-10-27T10:10:47Z",
+                "display_name": "Super Adventure Island",
+                "commentators": "",
+                "endtime": "2018-10-27T10:45:20Z",
+                "deprecated_runners": "giygasblues",
+                "runners": [
+                    428
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 3141,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "Any%",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "GBC",
+                "name": "Donkey Kong 5: The Journey of Over Time and Space",
+                "setup_time": "0:10:00",
+                "event": 24,
+                "order": 20,
+                "public": "Donkey Kong 5: The Journey of Over Time and Space Any% (Games Done Quick Express 2018)",
+                "release_year": 2001,
+                "run_time": "0:07:02",
+                "starttime": "2018-10-27T10:45:20Z",
+                "display_name": "Donkey Kong 5: The Journey of Over Time and Space",
+                "commentators": "",
+                "endtime": "2018-10-27T11:02:22Z",
+                "deprecated_runners": "theboyks",
+                "runners": [
+                    260
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 3142,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "Second Run Any%",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "PC",
+                "name": "Minit",
+                "setup_time": "0:10:00",
+                "event": 24,
+                "order": 21,
+                "public": "Minit Second Run Any% (Games Done Quick Express 2018)",
+                "release_year": 2018,
+                "run_time": "0:05:00",
+                "starttime": "2018-10-27T11:02:22Z",
+                "display_name": "Minit",
+                "commentators": "",
+                "endtime": "2018-10-27T11:17:22Z",
+                "deprecated_runners": "RogueLink",
+                "runners": [
+                    310
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 3143,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "Current Patch",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "PC",
+                "name": "The Girl and The Robot",
+                "setup_time": "0:14:00",
+                "event": 24,
+                "order": 22,
+                "public": "The Girl and The Robot Current Patch (Games Done Quick Express 2018)",
+                "release_year": 2013,
+                "run_time": "0:19:10",
+                "starttime": "2018-10-27T11:17:22Z",
+                "display_name": "The Girl and The Robot",
+                "commentators": "",
+                "endtime": "2018-10-27T11:50:32Z",
+                "deprecated_runners": "Protomagicalgirl",
+                "runners": [
+                    243
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 3144,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "Any% Inbounds",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "PC",
+                "name": "Environmental Station Alpha",
+                "setup_time": "0:07:30",
+                "event": 24,
+                "order": 23,
+                "public": "Environmental Station Alpha Any% Inbounds (Games Done Quick Express 2018)",
+                "release_year": 2015,
+                "run_time": "0:24:38",
+                "starttime": "2018-10-27T11:50:32Z",
+                "display_name": "Environmental Station Alpha",
+                "commentators": "",
+                "endtime": "2018-10-27T12:22:40Z",
+                "deprecated_runners": "Escheria",
+                "runners": [
+                    802
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 3145,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "All Shortcuts + Olmec",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "PC",
+                "name": "Spelunky HD",
+                "setup_time": "0:15:00",
+                "event": 24,
+                "order": 24,
+                "public": "Spelunky HD All Shortcuts + Olmec (Games Done Quick Express 2018)",
+                "release_year": 2013,
+                "run_time": "0:21:41",
+                "starttime": "2018-10-27T12:22:40Z",
+                "display_name": "Spelunky HD",
+                "commentators": "",
+                "endtime": "2018-10-27T12:59:21Z",
+                "deprecated_runners": "meowmixmix",
+                "runners": [
+                    799
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 3146,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "Any%",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "GBC",
+                "name": "Shantae",
+                "setup_time": "0:40:00",
+                "event": 24,
+                "order": 25,
+                "public": "Shantae Any% (Games Done Quick Express 2018)",
+                "release_year": 2002,
+                "run_time": "1:08:28",
+                "starttime": "2018-10-27T12:59:21Z",
+                "display_name": "Shantae",
+                "commentators": "",
+                "endtime": "2018-10-27T14:47:49Z",
+                "deprecated_runners": "WinnerBit",
+                "runners": [
+                    791
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 3147,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "Any% Seeded",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "PC",
+                "name": "STRAFE: Millennium Edition",
+                "setup_time": "0:27:00",
+                "event": 24,
+                "order": 26,
+                "public": "STRAFE: Millennium Edition Any% Seeded (Games Done Quick Express 2018)",
+                "release_year": 2017,
+                "run_time": "0:13:19",
+                "starttime": "2018-10-27T14:47:49Z",
+                "display_name": "STRAFE: Millennium Edition",
+                "commentators": "",
+                "endtime": "2018-10-27T15:28:08Z",
+                "deprecated_runners": "Hupfen",
+                "runners": [
+                    798
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 3124,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "any% Funky Mode",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "Switch",
+                "name": "Donkey Kong Country: Tropical Freeze",
+                "setup_time": "0:18:56",
+                "event": 24,
+                "order": 27,
+                "public": "Donkey Kong Country: Tropical Freeze any% Funky Mode (Games Done Quick Express 2018)",
+                "release_year": 2018,
+                "run_time": "1:28:56",
+                "starttime": "2018-10-27T15:28:08Z",
+                "display_name": "Donkey Kong Country: Tropical Freeze",
+                "commentators": "",
+                "endtime": "2018-10-27T17:16:00Z",
+                "deprecated_runners": "spikevegeta2",
+                "runners": [
+                    806
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 3148,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "Any%",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "PC",
+                "name": "Titanfall 2",
+                "setup_time": "0:22:28",
+                "event": 24,
+                "order": 28,
+                "public": "Titanfall 2 Any% (Games Done Quick Express 2018)",
+                "release_year": 2016,
+                "run_time": "1:26:32",
+                "starttime": "2018-10-27T17:16:00Z",
+                "display_name": "Titanfall 2",
+                "commentators": "",
+                "endtime": "2018-10-27T19:05:00Z",
+                "deprecated_runners": "Bryonato",
+                "runners": [
+                    795
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 3149,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "100%",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "SNES",
+                "name": "Kirby Super Star",
+                "setup_time": "0:11:03",
+                "event": 24,
+                "order": 29,
+                "public": "Kirby Super Star 100% (Games Done Quick Express 2018)",
+                "release_year": 1996,
+                "run_time": "1:17:57",
+                "starttime": "2018-10-27T19:05:00Z",
+                "display_name": "Kirby Super Star",
+                "commentators": "",
+                "endtime": "2018-10-27T20:34:00Z",
+                "deprecated_runners": "usedpizza",
+                "runners": [
+                    286
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 3150,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "Character Bid War",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "GBA",
+                "name": "Sonic Advance",
+                "setup_time": "0:19:40",
+                "event": 24,
+                "order": 30,
+                "public": "Sonic Advance Character Bid War (Games Done Quick Express 2018)",
+                "release_year": 2001,
+                "run_time": "0:20:20",
+                "starttime": "2018-10-27T20:34:00Z",
+                "display_name": "Sonic Advance",
+                "commentators": "",
+                "endtime": "2018-10-27T21:14:00Z",
+                "deprecated_runners": "Kirbymastah",
+                "runners": [
+                    101
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 3151,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "any% Race",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "NES",
+                "name": "Mega Man 5",
+                "setup_time": "0:10:01",
+                "event": 24,
+                "order": 31,
+                "public": "Mega Man 5 any% Race (Games Done Quick Express 2018)",
+                "release_year": 1992,
+                "run_time": "0:34:59",
+                "starttime": "2018-10-27T21:14:00Z",
+                "display_name": "Mega Man 5",
+                "commentators": "",
+                "endtime": "2018-10-27T21:59:00Z",
+                "deprecated_runners": "darkman78, FeralPigMan",
+                "runners": [
+                    629,
+                    638
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 3152,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "any%",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "SNES",
+                "name": "Mega Man X",
+                "setup_time": "0:08:49",
+                "event": 24,
+                "order": 32,
+                "public": "Mega Man X any% (Games Done Quick Express 2018)",
+                "release_year": 1993,
+                "run_time": "0:38:11",
+                "starttime": "2018-10-27T21:59:00Z",
+                "display_name": "Mega Man X",
+                "commentators": "",
+                "endtime": "2018-10-27T22:46:00Z",
+                "deprecated_runners": "Walrus_Prime",
+                "runners": [
+                    577
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 3153,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "any% race",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "SNES",
+                "name": "Mega Man X2",
+                "setup_time": "0:37:10",
+                "event": 24,
+                "order": 33,
+                "public": "Mega Man X2 any% race (Games Done Quick Express 2018)",
+                "release_year": 1994,
+                "run_time": "0:33:50",
+                "starttime": "2018-10-27T22:46:00Z",
+                "display_name": "Mega Man X2",
+                "commentators": "",
+                "endtime": "2018-10-27T23:57:00Z",
+                "deprecated_runners": "Tiki, Tokyo90",
+                "runners": [
+                    158,
+                    546
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 3154,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "Any%",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "3DS",
+                "name": "The Legend of Zelda: A Link Between Worlds",
+                "setup_time": "0:18:37",
+                "event": 24,
+                "order": 34,
+                "public": "The Legend of Zelda: A Link Between Worlds Any% (Games Done Quick Express 2018)",
+                "release_year": 2013,
+                "run_time": "1:25:23",
+                "starttime": "2018-10-27T23:57:00Z",
+                "display_name": "The Legend of Zelda: A Link Between Worlds",
+                "commentators": "",
+                "endtime": "2018-10-28T01:41:00Z",
+                "deprecated_runners": "TheLegendofZaheer",
+                "runners": [
+                    801
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 3155,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "Any% Blindfolded",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "Xbox 360",
+                "name": "Castlevania: Symphony of the Night",
+                "setup_time": "0:17:05",
+                "event": 24,
+                "order": 35,
+                "public": "Castlevania: Symphony of the Night Any% Blindfolded (Games Done Quick Express 2018)",
+                "release_year": 1997,
+                "run_time": "1:23:55",
+                "starttime": "2018-10-28T01:41:00Z",
+                "display_name": "Castlevania: Symphony of the Night",
+                "commentators": "",
+                "endtime": "2018-10-28T03:22:00Z",
+                "deprecated_runners": "romscout",
+                "runners": [
+                    338
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 3156,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "All Bosses",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "PC",
+                "name": "Dark Souls III",
+                "setup_time": "0:24:22",
+                "event": 24,
+                "order": 36,
+                "public": "Dark Souls III All Bosses (Games Done Quick Express 2018)",
+                "release_year": 2016,
+                "run_time": "1:38:38",
+                "starttime": "2018-10-28T03:22:00Z",
+                "display_name": "Dark Souls III",
+                "commentators": "",
+                "endtime": "2018-10-28T05:25:00Z",
+                "deprecated_runners": "COLTrane45",
+                "runners": [
+                    794
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 3157,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "Sorceress Any% Normal",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "PC",
+                "name": "Diablo 2: Lord of Destruction",
+                "setup_time": "0:24:05",
+                "event": 24,
+                "order": 37,
+                "public": "Diablo 2: Lord of Destruction Sorceress Any% Normal (Games Done Quick Express 2018)",
+                "release_year": 2001,
+                "run_time": "1:33:55",
+                "starttime": "2018-10-28T05:25:00Z",
+                "display_name": "Diablo 2: Lord of Destruction",
+                "commentators": "",
+                "endtime": "2018-10-28T07:23:00Z",
+                "deprecated_runners": "MrLlamaSC",
+                "runners": [
+                    77
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 3158,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "Claire A vs Leon A",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "Gamecube",
+                "name": "Resident Evil 2",
+                "setup_time": "0:15:21",
+                "event": 24,
+                "order": 38,
+                "public": "Resident Evil 2 Claire A vs Leon A (Games Done Quick Express 2018)",
+                "release_year": 1998,
+                "run_time": "0:53:39",
+                "starttime": "2018-10-28T07:23:00Z",
+                "display_name": "Resident Evil 2",
+                "commentators": "",
+                "endtime": "2018-10-28T08:32:00Z",
+                "deprecated_runners": "Bawkbasoup",
+                "runners": [
+                    234
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 3159,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "Campaign Speedrun Mode",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "Switch",
+                "name": "RIVE",
+                "setup_time": "0:15:35",
+                "event": 24,
+                "order": 39,
+                "public": "RIVE Campaign Speedrun Mode (Games Done Quick Express 2018)",
+                "release_year": 2016,
+                "run_time": "1:25:25",
+                "starttime": "2018-10-28T08:32:00Z",
+                "display_name": "RIVE",
+                "commentators": "",
+                "endtime": "2018-10-28T10:13:00Z",
+                "deprecated_runners": "Omnigamer",
+                "runners": [
+                    333
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 3160,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "any% (Critical)",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "PS4",
+                "name": "Kingdom Hearts 0.2 Birth by Sleep",
+                "setup_time": "0:07:27",
+                "event": 24,
+                "order": 40,
+                "public": "Kingdom Hearts 0.2 Birth by Sleep any% (Critical) (Games Done Quick Express 2018)",
+                "release_year": 2017,
+                "run_time": "0:23:33",
+                "starttime": "2018-10-28T10:13:00Z",
+                "display_name": "Kingdom Hearts 0.2 Birth by Sleep",
+                "commentators": "",
+                "endtime": "2018-10-28T10:44:00Z",
+                "deprecated_runners": "ViolinGamer",
+                "runners": [
+                    792
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 3161,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "120%",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "PSX",
+                "name": "Spyro the Dragon",
+                "setup_time": "0:08:45",
+                "event": 24,
+                "order": 41,
+                "public": "Spyro the Dragon 120% (Games Done Quick Express 2018)",
+                "release_year": 1998,
+                "run_time": "1:28:15",
+                "starttime": "2018-10-28T10:44:00Z",
+                "display_name": "Spyro the Dragon",
+                "commentators": "",
+                "endtime": "2018-10-28T12:21:00Z",
+                "deprecated_runners": "ChrisLBC",
+                "runners": [
+                    90
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 3162,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "Photo%",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "SNES",
+                "name": "EarthBound",
+                "setup_time": "0:16:03",
+                "event": 24,
+                "order": 42,
+                "public": "EarthBound Photo% (Games Done Quick Express 2018)",
+                "release_year": 1994,
+                "run_time": "2:15:57",
+                "starttime": "2018-10-28T12:21:00Z",
+                "display_name": "EarthBound",
+                "commentators": "",
+                "endtime": "2018-10-28T14:53:00Z",
+                "deprecated_runners": "UltimoIce",
+                "runners": [
+                    540
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 3163,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "2p Randomizer",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "SNES",
+                "name": "Super Metroid/A Link to the Past Combo Randomizer",
+                "setup_time": "0:20:38",
+                "event": 24,
+                "order": 43,
+                "public": "Super Metroid/A Link to the Past Combo Randomizer 2p Randomizer (Games Done Quick Express 2018)",
+                "release_year": 2017,
+                "run_time": "3:16:22",
+                "starttime": "2018-10-28T14:53:00Z",
+                "display_name": "Super Metroid/A Link to the Past Combo Randomizer",
+                "commentators": "",
+                "endtime": "2018-10-28T18:30:00Z",
+                "deprecated_runners": "Andy, Oatsngoats",
+                "runners": [
+                    46,
+                    233
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 3164,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "1-Key",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "N64",
+                "name": "TASBot plays Super Mario 64",
+                "setup_time": "0:08:39",
+                "event": 24,
+                "order": 44,
+                "public": "TASBot plays Super Mario 64 1-Key (Games Done Quick Express 2018)",
+                "release_year": 1996,
+                "run_time": "0:04:21",
+                "starttime": "2018-10-28T18:30:00Z",
+                "display_name": "TASBot plays Super Mario 64",
+                "commentators": "",
+                "endtime": "2018-10-28T18:43:00Z",
+                "deprecated_runners": "dwangoAC",
+                "runners": [
+                    127
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 3165,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "Reallyjoel's Mom difficulty, best ending",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "PC",
+                "name": "TASBot plays Hyper Princess Pitch by Tseralith",
+                "setup_time": "0:08:52",
+                "event": 24,
+                "order": 45,
+                "public": "TASBot plays Hyper Princess Pitch by Tseralith Reallyjoel's Mom difficulty, best ending (Games Done Quick Express 2018)",
+                "release_year": 2011,
+                "run_time": "0:05:08",
+                "starttime": "2018-10-28T18:43:00Z",
+                "display_name": "TASBot plays Hyper Princess Pitch by Tseralith",
+                "commentators": "",
+                "endtime": "2018-10-28T18:57:00Z",
+                "deprecated_runners": "dwangoAC",
+                "runners": [
+                    127
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 3166,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "No Save Corruption any% by TiKevin83",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "GB",
+                "name": "TASBot plays Pokemon Yellow",
+                "setup_time": "0:19:45",
+                "event": 24,
+                "order": 46,
+                "public": "TASBot plays Pokemon Yellow No Save Corruption any% by TiKevin83 (Games Done Quick Express 2018)",
+                "release_year": 1998,
+                "run_time": "0:10:15",
+                "starttime": "2018-10-28T18:57:00Z",
+                "display_name": "TASBot plays Pokemon Yellow",
+                "commentators": "",
+                "endtime": "2018-10-28T19:27:00Z",
+                "deprecated_runners": "dwangoAC",
+                "runners": [
+                    127
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 3167,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "any% by ISM & Mister",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "SNES",
+                "name": "TASBot plays Kaizo Mario World 3",
+                "setup_time": "0:02:45",
+                "event": 24,
+                "order": 47,
+                "public": "TASBot plays Kaizo Mario World 3 any% by ISM & Mister (Games Done Quick Express 2018)",
+                "release_year": 2012,
+                "run_time": "0:17:15",
+                "starttime": "2018-10-28T19:27:00Z",
+                "display_name": "TASBot plays Kaizo Mario World 3",
+                "commentators": "",
+                "endtime": "2018-10-28T19:47:00Z",
+                "deprecated_runners": "dwangoAC",
+                "runners": [
+                    127
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 3168,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "TASBot%",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "SNES",
+                "name": "TASBot plays Item Abuse 3 by PangaeaPanga",
+                "setup_time": "0:07:01",
+                "event": 24,
+                "order": 48,
+                "public": "TASBot plays Item Abuse 3 by PangaeaPanga TASBot% (Games Done Quick Express 2018)",
+                "release_year": 2015,
+                "run_time": "0:05:59",
+                "starttime": "2018-10-28T19:47:00Z",
+                "display_name": "TASBot plays Item Abuse 3 by PangaeaPanga",
+                "commentators": "",
+                "endtime": "2018-10-28T20:00:00Z",
+                "deprecated_runners": "dwangoAC",
+                "runners": [
+                    127
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 3169,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "Any % D-4 Luigi Solo",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "SNES",
+                "name": "Super Mario Bros.: The Lost Levels",
+                "setup_time": "0:17:47",
+                "event": 24,
+                "order": 49,
+                "public": "Super Mario Bros.: The Lost Levels Any % D-4 Luigi Solo (Games Done Quick Express 2018)",
+                "release_year": 1993,
+                "run_time": "0:19:13",
+                "starttime": "2018-10-28T20:00:00Z",
+                "display_name": "Super Mario Bros.: The Lost Levels",
+                "commentators": "",
+                "endtime": "2018-10-28T20:37:00Z",
+                "deprecated_runners": "Big Jon",
+                "runners": [
+                    800
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 3170,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "Any% Warpless Co-op",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "NES",
+                "name": "Super Mario Bros. 3",
+                "setup_time": "0:24:27",
+                "event": 24,
+                "order": 50,
+                "public": "Super Mario Bros. 3 Any% Warpless Co-op (Games Done Quick Express 2018)",
+                "release_year": 1990,
+                "run_time": "1:05:33",
+                "starttime": "2018-10-28T20:37:00Z",
+                "display_name": "Super Mario Bros. 3",
+                "commentators": "",
+                "endtime": "2018-10-28T22:07:00Z",
+                "deprecated_runners": "mitchflowerpower, grandpoobear",
+                "runners": [
+                    37,
+                    349
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 3171,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "120 Star",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "N64",
+                "name": "Super Mario 64",
+                "setup_time": "0:14:41",
+                "event": 24,
+                "order": 51,
+                "public": "Super Mario 64 120 Star (Games Done Quick Express 2018)",
+                "release_year": 1996,
+                "run_time": "1:45:19",
+                "starttime": "2018-10-28T22:07:00Z",
+                "display_name": "Super Mario 64",
+                "commentators": "",
+                "endtime": "2018-10-29T00:07:00Z",
+                "deprecated_runners": "cheese05",
+                "runners": [
+                    294
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 3172,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "The End",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "",
+                "name": "Finale",
+                "setup_time": "0:10:00",
+                "event": 24,
+                "order": 52,
+                "public": "Finale The End (Games Done Quick Express 2018)",
+                "release_year": null,
+                "run_time": "0:10:00",
+                "starttime": "2018-10-29T00:07:00Z",
+                "display_name": "Finale",
+                "commentators": "",
+                "endtime": "2018-10-29T00:27:00Z",
+                "deprecated_runners": "",
+                "runners": [],
+                "description": ""
+            }
+        }
+    ],
+    "runner": [
+        {
+            "pk": 37,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "mitchflowerpower",
+                "stream": "http://www.twitch.tv/mitchflowerpower",
+                "twitter": "Mitchflowerpwer",
+                "youtube": "",
+                "donor": null,
+                "public": "mitchflowerpower"
+            }
+        },
+        {
+            "pk": 77,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "MrLlamaSC",
+                "stream": "http://twitch.tv/mrllamasc",
+                "twitter": "MrLlamaSC",
+                "youtube": "MrLlamaSC",
+                "donor": null,
+                "public": "MrLlamaSC"
+            }
+        },
+        {
+            "pk": 46,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "Andy",
+                "stream": "http://twitch.tv/andy",
+                "twitter": "andylaso",
+                "youtube": "",
+                "donor": 46319,
+                "public": "Andy"
+            }
+        },
+        {
+            "pk": 101,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "Kirbymastah",
+                "stream": "https://twitch.tv/kirbymastah",
+                "twitter": "kirbymastah",
+                "youtube": "kirbymastah1991",
+                "donor": null,
+                "public": "Kirbymastah"
+            }
+        },
+        {
+            "pk": 90,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "ChrisLBC",
+                "stream": "htttp://www.twitch.tv/superiorwarbringer",
+                "twitter": "ChrisLBC1432",
+                "youtube": "ChrisLBCSpeedruns",
+                "donor": 14602,
+                "public": "ChrisLBC"
+            }
+        },
+        {
+            "pk": 93,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "UraniumAnchor",
+                "stream": "http://twitch.tv/uraniumanchor",
+                "twitter": "uraniumanchor",
+                "youtube": "uraniumanchor",
+                "donor": 36,
+                "public": "UraniumAnchor"
+            }
+        },
+        {
+            "pk": 145,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "360Chrism",
+                "stream": "http://www.twitch.tv/360chrism",
+                "twitter": "360Chrism",
+                "youtube": "360chrism",
+                "donor": 21520,
+                "public": "360Chrism"
+            }
+        },
+        {
+            "pk": 146,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "zallard1",
+                "stream": "http://www.twitch.tv/zallard1",
+                "twitter": "zallard1sda",
+                "youtube": "zallard1",
+                "donor": 2981,
+                "public": "zallard1"
+            }
+        },
+        {
+            "pk": 158,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "Tiki",
+                "stream": "http://www.twitch.tv/tiki77747",
+                "twitter": "tiki77747",
+                "youtube": "Tiki656",
+                "donor": 11891,
+                "public": "Tiki"
+            }
+        },
+        {
+            "pk": 127,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "dwangoAC",
+                "stream": "https://twitch.tv/dwangoac",
+                "twitter": "MRTasBot",
+                "youtube": "dwangoAC",
+                "donor": null,
+                "public": "dwangoAC"
+            }
+        },
+        {
+            "pk": 233,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "Oatsngoats",
+                "stream": "http://www.twitch.tv/oatsngoats",
+                "twitter": "oatsngoats",
+                "youtube": "",
+                "donor": null,
+                "public": "Oatsngoats"
+            }
+        },
+        {
+            "pk": 234,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "Bawkbasoup",
+                "stream": "http://www.twitch.tv/bawkbasoup",
+                "twitter": "bawkbasoup",
+                "youtube": "",
+                "donor": null,
+                "public": "Bawkbasoup"
+            }
+        },
+        {
+            "pk": 243,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "Protomagicalgirl",
+                "stream": "http://www.twitch.tv/protomagicalgirl",
+                "twitter": "princessproto",
+                "youtube": "",
+                "donor": null,
+                "public": "Protomagicalgirl"
+            }
+        },
+        {
+            "pk": 260,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "theboyks",
+                "stream": "http://www.twitch.tv/theboyks",
+                "twitter": "hunkyflunkie",
+                "youtube": "",
+                "donor": null,
+                "public": "theboyks"
+            }
+        },
+        {
+            "pk": 286,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "usedpizza",
+                "stream": "http://twitch.tv/usedpizza",
+                "twitter": "usedpizza",
+                "youtube": "",
+                "donor": null,
+                "public": "usedpizza"
+            }
+        },
+        {
+            "pk": 294,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "cheese05",
+                "stream": "https://www.twitch.tv/cheese05",
+                "twitter": "cheese051",
+                "youtube": "",
+                "donor": null,
+                "public": "cheese05"
+            }
+        },
+        {
+            "pk": 310,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "RogueLink",
+                "stream": "https://www.twitch.tv/roguelink",
+                "twitter": "Rogue_Link",
+                "youtube": "",
+                "donor": null,
+                "public": "RogueLink"
+            }
+        },
+        {
+            "pk": 333,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "Omnigamer",
+                "stream": "http://twitch.tv/omnigamer",
+                "twitter": "TheOmnigamer",
+                "youtube": "",
+                "donor": null,
+                "public": "Omnigamer"
+            }
+        },
+        {
+            "pk": 338,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "romscout",
+                "stream": "https://www.twitch.tv/romscout",
+                "twitter": "romscoutSDA",
+                "youtube": "",
+                "donor": null,
+                "public": "romscout"
+            }
+        },
+        {
+            "pk": 349,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "grandpoobear",
+                "stream": "https://www.twitch.tv/grand_poobear",
+                "twitter": "grandpoobear",
+                "youtube": "",
+                "donor": null,
+                "public": "grandpoobear"
+            }
+        },
+        {
+            "pk": 367,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "Tech Crew",
+                "stream": "",
+                "twitter": "",
+                "youtube": "",
+                "donor": null,
+                "public": "Tech Crew"
+            }
+        },
+        {
+            "pk": 410,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "KZ_FREW",
+                "stream": "https://twitch.tv/kz_frew",
+                "twitter": "kz_frew",
+                "youtube": "",
+                "donor": null,
+                "public": "KZ_FREW"
+            }
+        },
+        {
+            "pk": 428,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "giygasblues",
+                "stream": "http://twitch.tv/giygasblues",
+                "twitter": "giygasblues",
+                "youtube": "",
+                "donor": null,
+                "public": "giygasblues"
+            }
+        },
+        {
+            "pk": 540,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "UltimoIce",
+                "stream": "https://www.twitch.tv/ultimoice",
+                "twitter": "entrepreneurdy",
+                "youtube": "",
+                "donor": null,
+                "public": "UltimoIce"
+            }
+        },
+        {
+            "pk": 546,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "Tokyo90",
+                "stream": "http://www.twitch.tv/tokyo90",
+                "twitter": "TokyoDC2",
+                "youtube": "",
+                "donor": null,
+                "public": "Tokyo90"
+            }
+        },
+        {
+            "pk": 577,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "Walrus_Prime",
+                "stream": "https://www.twitch.tv/walrus_prime",
+                "twitter": "",
+                "youtube": "",
+                "donor": null,
+                "public": "Walrus_Prime"
+            }
+        },
+        {
+            "pk": 627,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "Zela1",
+                "stream": "https://www.twitch.tv/zela1",
+                "twitter": "",
+                "youtube": "",
+                "donor": null,
+                "public": "Zela1"
+            }
+        },
+        {
+            "pk": 629,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "darkman78",
+                "stream": "https://www.twitch.tv/thadarkman78",
+                "twitter": "thadarkman78",
+                "youtube": "",
+                "donor": null,
+                "public": "darkman78"
+            }
+        },
+        {
+            "pk": 638,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "FeralPigMan",
+                "stream": "https://twitch.tv/feralpigman",
+                "twitter": "feralpigman",
+                "youtube": "",
+                "donor": null,
+                "public": "FeralPigMan"
+            }
+        },
+        {
+            "pk": 711,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "gymnast86",
+                "stream": "https://www.twitch.tv/gymnast86",
+                "twitter": "MrGymnast86",
+                "youtube": "",
+                "donor": null,
+                "public": "gymnast86"
+            }
+        },
+        {
+            "pk": 752,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "NicroVeda",
+                "stream": "https://www.twitch.tv/nicroveda",
+                "twitter": "nicroveda",
+                "youtube": "",
+                "donor": null,
+                "public": "NicroVeda"
+            }
+        },
+        {
+            "pk": 770,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "The_Kov",
+                "stream": "https://www.twitch.tv/the_kov",
+                "twitter": "thekovinc",
+                "youtube": "",
+                "donor": null,
+                "public": "The_Kov"
+            }
+        },
+        {
+            "pk": 780,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "Indy",
+                "stream": "http://twitch.tv/JordanIndiana",
+                "twitter": "jordanindiana",
+                "youtube": "",
+                "donor": null,
+                "public": "Indy"
+            }
+        },
+        {
+            "pk": 791,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "WinnerBit",
+                "stream": "https://www.twitch.tv/winnerbit",
+                "twitter": "TwisterOfBits",
+                "youtube": "",
+                "donor": null,
+                "public": "WinnerBit"
+            }
+        },
+        {
+            "pk": 792,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "ViolinGamer",
+                "stream": "http://twitch.tv/ViolinGamer_",
+                "twitter": "ViolinGamer",
+                "youtube": "",
+                "donor": null,
+                "public": "ViolinGamer"
+            }
+        },
+        {
+            "pk": 793,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "Lombax999",
+                "stream": "https://www.twitch.tv/lombax999",
+                "twitter": "Lmbx9",
+                "youtube": "",
+                "donor": null,
+                "public": "Lombax999"
+            }
+        },
+        {
+            "pk": 794,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "COLTrane45",
+                "stream": "https://www.twitch.tv/coltrane45",
+                "twitter": "",
+                "youtube": "",
+                "donor": null,
+                "public": "COLTrane45"
+            }
+        },
+        {
+            "pk": 795,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "Bryonato",
+                "stream": "https://www.twitch.tv/bryonato/",
+                "twitter": "bryonato",
+                "youtube": "",
+                "donor": null,
+                "public": "Bryonato"
+            }
+        },
+        {
+            "pk": 796,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "Ecdycis",
+                "stream": "https://www.twitch.tv/ecdycis",
+                "twitter": "ecdycis_twitch",
+                "youtube": "",
+                "donor": null,
+                "public": "Ecdycis"
+            }
+        },
+        {
+            "pk": 797,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "1davidj",
+                "stream": "https://www.twitch.tv/1davidj",
+                "twitter": "1davidj_",
+                "youtube": "",
+                "donor": null,
+                "public": "1davidj"
+            }
+        },
+        {
+            "pk": 798,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "Hupfen",
+                "stream": "https://twitch.tv/radiohupfen",
+                "twitter": "hupfen",
+                "youtube": "",
+                "donor": null,
+                "public": "Hupfen"
+            }
+        },
+        {
+            "pk": 799,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "meowmixmix",
+                "stream": "https://www.twitch.tv/meowmixmixgames",
+                "twitter": "",
+                "youtube": "",
+                "donor": null,
+                "public": "meowmixmix"
+            }
+        },
+        {
+            "pk": 800,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "Big Jon",
+                "stream": "http://twitch.tv/gamej06",
+                "twitter": "BigJon06",
+                "youtube": "",
+                "donor": null,
+                "public": "Big Jon"
+            }
+        },
+        {
+            "pk": 801,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "TheLegendofZaheer",
+                "stream": "https://www.twitch.tv/thelegendofzaheer",
+                "twitter": "TheLegendofZAH",
+                "youtube": "",
+                "donor": null,
+                "public": "TheLegendofZaheer"
+            }
+        },
+        {
+            "pk": 802,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "Escheria",
+                "stream": "https://www.twitch.tv/escheria",
+                "twitter": "escheria",
+                "youtube": "",
+                "donor": null,
+                "public": "Escheria"
+            }
+        },
+        {
+            "pk": 803,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "fir_",
+                "stream": "https://www.twitch.tv/fir_",
+                "twitter": "SimplyFir",
+                "youtube": "",
+                "donor": null,
+                "public": "fir_"
+            }
+        },
+        {
+            "pk": 804,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "philosoraptor42",
+                "stream": "https://twitch.tv/philosoraptor42",
+                "twitter": "philosorapt0r42",
+                "youtube": "",
+                "donor": null,
+                "public": "philosoraptor42"
+            }
+        },
+        {
+            "pk": 805,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "FunkMastaDre",
+                "stream": "https://www.twitch.tv/funkmastadre",
+                "twitter": "FunkMastaDre",
+                "youtube": "",
+                "donor": null,
+                "public": "FunkMastaDre"
+            }
+        },
+        {
+            "pk": 806,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "spikevegeta2",
+                "stream": "http://twitch.tv/spikevegeta",
+                "twitter": "spikevegeta",
+                "youtube": "",
+                "donor": null,
+                "public": "spikevegeta2"
+            }
+        }
+    ]
+}

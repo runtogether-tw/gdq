@@ -1,0 +1,5498 @@
+{
+    "run": [
+        {
+            "pk": 2274,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "Talk%",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "Commodore 64",
+                "name": "Pre-Show",
+                "setup_time": "0",
+                "event": 20,
+                "order": 1,
+                "public": "Pre-Show Talk% (Summer Games Done Quick 2017)",
+                "release_year": 2017,
+                "run_time": "0:28:00",
+                "starttime": "2017-07-02T16:30:00Z",
+                "display_name": "Pre-Show",
+                "commentators": "",
+                "endtime": "2017-07-02T16:58:00Z",
+                "deprecated_runners": "SpikeVegeta, feasel, Golden, Protomagicalgirl, Hobz",
+                "runners": [
+                    60,
+                    80,
+                    119,
+                    243,
+                    575
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 2131,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "Ending A Normal (1-handed)",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "PC",
+                "name": "NieR: Automata",
+                "setup_time": "0:26:55",
+                "event": 20,
+                "order": 2,
+                "public": "NieR: Automata Ending A Normal (1-handed) (Summer Games Done Quick 2017)",
+                "release_year": 2017,
+                "run_time": "1:43:05",
+                "starttime": "2017-07-02T16:58:00Z",
+                "display_name": "NieR: Automata",
+                "commentators": "",
+                "endtime": "2017-07-02T19:08:00Z",
+                "deprecated_runners": "Halfcoordinated",
+                "runners": [
+                    42
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 2132,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "Legendary",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "PC",
+                "name": "Halo: Combat Evolved",
+                "setup_time": "0:21:09",
+                "event": 20,
+                "order": 3,
+                "public": "Halo: Combat Evolved Legendary (Summer Games Done Quick 2017)",
+                "release_year": 2001,
+                "run_time": "1:24:51",
+                "starttime": "2017-07-02T19:08:00Z",
+                "display_name": "Halo: Combat Evolved",
+                "commentators": "",
+                "endtime": "2017-07-02T20:54:00Z",
+                "deprecated_runners": "Garish",
+                "runners": [
+                    573
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 2134,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "Any% Gunvolt",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "3DS",
+                "name": "Azure Striker Gunvolt 2",
+                "setup_time": "0:32:12",
+                "event": 20,
+                "order": 4,
+                "public": "Azure Striker Gunvolt 2 Any% Gunvolt (Summer Games Done Quick 2017)",
+                "release_year": 2016,
+                "run_time": "0:52:48",
+                "starttime": "2017-07-02T20:54:00Z",
+                "display_name": "Azure Striker Gunvolt 2",
+                "commentators": "",
+                "endtime": "2017-07-02T22:19:00Z",
+                "deprecated_runners": "johncarls",
+                "runners": [
+                    224
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 2135,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "Any% Normal",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "NES",
+                "name": "Battle Kid: Fortress of Peril",
+                "setup_time": "0:13:14",
+                "event": 20,
+                "order": 5,
+                "public": "Battle Kid: Fortress of Peril Any% Normal (Summer Games Done Quick 2017)",
+                "release_year": 2010,
+                "run_time": "0:41:46",
+                "starttime": "2017-07-02T22:19:00Z",
+                "display_name": "Battle Kid: Fortress of Peril",
+                "commentators": "",
+                "endtime": "2017-07-02T23:14:00Z",
+                "deprecated_runners": "InfestedRiche",
+                "runners": [
+                    156
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 2136,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "Any%",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "N64",
+                "name": "Diddy Kong Racing",
+                "setup_time": "0:13:01",
+                "event": 20,
+                "order": 6,
+                "public": "Diddy Kong Racing Any% (Summer Games Done Quick 2017)",
+                "release_year": 1997,
+                "run_time": "0:44:59",
+                "starttime": "2017-07-02T23:14:00Z",
+                "display_name": "Diddy Kong Racing",
+                "commentators": "",
+                "endtime": "2017-07-03T00:12:00Z",
+                "deprecated_runners": "MrsGizamaluke",
+                "runners": [
+                    3
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 2137,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "Any% (No OOB)",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "Gamecube",
+                "name": "Luigi's Mansion",
+                "setup_time": "0:16:35",
+                "event": 20,
+                "order": 7,
+                "public": "Luigi's Mansion Any% (No OOB) (Summer Games Done Quick 2017)",
+                "release_year": 2001,
+                "run_time": "0:57:25",
+                "starttime": "2017-07-03T00:12:00Z",
+                "display_name": "Luigi's Mansion",
+                "commentators": "",
+                "endtime": "2017-07-03T01:26:00Z",
+                "deprecated_runners": "HDlax1",
+                "runners": [
+                    537
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 2133,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "100%",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "Gamecube",
+                "name": "Metroid Prime",
+                "setup_time": "0:17:44",
+                "event": 20,
+                "order": 8,
+                "public": "Metroid Prime 100% (Summer Games Done Quick 2017)",
+                "release_year": 2002,
+                "run_time": "1:42:16",
+                "starttime": "2017-07-03T01:26:00Z",
+                "display_name": "Metroid Prime",
+                "commentators": "",
+                "endtime": "2017-07-03T03:26:00Z",
+                "deprecated_runners": "JustinDM",
+                "runners": [
+                    328
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 2138,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "Any% Glitchless",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "PSX",
+                "name": "Castlevania: Symphony of the Night",
+                "setup_time": "0:18:01",
+                "event": 20,
+                "order": 9,
+                "public": "Castlevania: Symphony of the Night Any% Glitchless (Summer Games Done Quick 2017)",
+                "release_year": 1997,
+                "run_time": "0:32:59",
+                "starttime": "2017-07-03T03:26:00Z",
+                "display_name": "Castlevania:\\nSymphony of the Night",
+                "commentators": "",
+                "endtime": "2017-07-03T04:17:00Z",
+                "deprecated_runners": "Dr4gonBlitz",
+                "runners": [
+                    548
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 2139,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "100%",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "PC",
+                "name": "Guacamelee! Gold Edition",
+                "setup_time": "0:12:27",
+                "event": 20,
+                "order": 10,
+                "public": "Guacamelee! Gold Edition 100% (Summer Games Done Quick 2017)",
+                "release_year": 2013,
+                "run_time": "1:15:33",
+                "starttime": "2017-07-03T04:17:00Z",
+                "display_name": "Guacamelee! Gold Edition",
+                "commentators": "",
+                "endtime": "2017-07-03T05:45:00Z",
+                "deprecated_runners": "Grimelios",
+                "runners": [
+                    95
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 2140,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "NG+ Any%",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "PS3",
+                "name": "Okami HD",
+                "setup_time": "0:13:32",
+                "event": 20,
+                "order": 11,
+                "public": "Okami HD NG+ Any% (Summer Games Done Quick 2017)",
+                "release_year": 2012,
+                "run_time": "1:25:28",
+                "starttime": "2017-07-03T05:45:00Z",
+                "display_name": "Okami HD",
+                "commentators": "",
+                "endtime": "2017-07-03T07:24:00Z",
+                "deprecated_runners": "Kinnin11",
+                "runners": [
+                    498
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 2141,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "Any%",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "PC",
+                "name": "Strider (2014)",
+                "setup_time": "0:14:48",
+                "event": 20,
+                "order": 12,
+                "public": "Strider (2014) Any% (Summer Games Done Quick 2017)",
+                "release_year": 2014,
+                "run_time": "0:31:12",
+                "starttime": "2017-07-03T07:24:00Z",
+                "display_name": "Strider (2014)",
+                "commentators": "",
+                "endtime": "2017-07-03T08:10:00Z",
+                "deprecated_runners": "Theguesst",
+                "runners": [
+                    380
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 2142,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "2P Co-op Campaign",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "PC",
+                "name": "Assault Android Cactus",
+                "setup_time": "0:12:41",
+                "event": 20,
+                "order": 13,
+                "public": "Assault Android Cactus 2P Co-op Campaign (Summer Games Done Quick 2017)",
+                "release_year": 2015,
+                "run_time": "0:50:19",
+                "starttime": "2017-07-03T08:10:00Z",
+                "display_name": "Assault Android Cactus",
+                "commentators": "",
+                "endtime": "2017-07-03T09:13:00Z",
+                "deprecated_runners": "MrBond, TucanSam",
+                "runners": [
+                    511,
+                    557
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 2143,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "Any%",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "PC",
+                "name": "MDK",
+                "setup_time": "0:14:31",
+                "event": 20,
+                "order": 14,
+                "public": "MDK Any% (Summer Games Done Quick 2017)",
+                "release_year": 1997,
+                "run_time": "0:38:29",
+                "starttime": "2017-07-03T09:13:00Z",
+                "display_name": "MDK",
+                "commentators": "",
+                "endtime": "2017-07-03T10:06:00Z",
+                "deprecated_runners": "psychoripper",
+                "runners": [
+                    254
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 2145,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "The Machine 100%",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "PC",
+                "name": "Knytt Stories",
+                "setup_time": "0:11:12",
+                "event": 20,
+                "order": 15,
+                "public": "Knytt Stories The Machine 100% (Summer Games Done Quick 2017)",
+                "release_year": 2007,
+                "run_time": "0:16:48",
+                "starttime": "2017-07-03T10:06:00Z",
+                "display_name": "Knytt Stories",
+                "commentators": "",
+                "endtime": "2017-07-03T10:34:00Z",
+                "deprecated_runners": "_VB",
+                "runners": [
+                    226
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 2147,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "Any%",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "SNES",
+                "name": "Super Adventure Island 2",
+                "setup_time": "0:11:13",
+                "event": 20,
+                "order": 17,
+                "public": "Super Adventure Island 2 Any% (Summer Games Done Quick 2017)",
+                "release_year": 1994,
+                "run_time": "0:48:47",
+                "starttime": "2017-07-03T10:34:00Z",
+                "display_name": "Super Adventure\\nIsland 2",
+                "commentators": "",
+                "endtime": "2017-07-03T11:34:00Z",
+                "deprecated_runners": "Ppotdot1",
+                "runners": [
+                    450
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 2148,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "Any%",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "SNES",
+                "name": "ActRaiser",
+                "setup_time": "0:09:48",
+                "event": 20,
+                "order": 18,
+                "public": "ActRaiser Any% (Summer Games Done Quick 2017)",
+                "release_year": 1990,
+                "run_time": "1:01:12",
+                "starttime": "2017-07-03T11:34:00Z",
+                "display_name": "ActRaiser",
+                "commentators": "",
+                "endtime": "2017-07-03T12:45:00Z",
+                "deprecated_runners": "Straevaras",
+                "runners": [
+                    99
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 2149,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "Any%",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "SNES",
+                "name": "E.V.O.: Search for Eden",
+                "setup_time": "0:06:54",
+                "event": 20,
+                "order": 19,
+                "public": "E.V.O.: Search for Eden Any% (Summer Games Done Quick 2017)",
+                "release_year": 1992,
+                "run_time": "0:51:06",
+                "starttime": "2017-07-03T12:45:00Z",
+                "display_name": "E.V.O.:\\nSearch for Eden",
+                "commentators": "",
+                "endtime": "2017-07-03T13:43:00Z",
+                "deprecated_runners": "Darkwing Duck",
+                "runners": [
+                    202
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 2151,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "Difficult",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "SNES",
+                "name": "The Lion King",
+                "setup_time": "0:12:57",
+                "event": 20,
+                "order": 20,
+                "public": "The Lion King Difficult (Summer Games Done Quick 2017)",
+                "release_year": 1994,
+                "run_time": "0:15:03",
+                "starttime": "2017-07-03T13:43:00Z",
+                "display_name": "The Lion King",
+                "commentators": "",
+                "endtime": "2017-07-03T14:11:00Z",
+                "deprecated_runners": "Akiteru",
+                "runners": [
+                    570
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 2152,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "Any%",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "Genesis",
+                "name": "Castle of Illusion Starring Mickey Mouse",
+                "setup_time": "0:11:08",
+                "event": 20,
+                "order": 21,
+                "public": "Castle of Illusion Starring Mickey Mouse Any% (Summer Games Done Quick 2017)",
+                "release_year": 1990,
+                "run_time": "0:18:52",
+                "starttime": "2017-07-03T14:11:00Z",
+                "display_name": "Castle of Illusion\\nStarring Mickey Mouse",
+                "commentators": "",
+                "endtime": "2017-07-03T14:41:00Z",
+                "deprecated_runners": "darbian",
+                "runners": [
+                    153
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 2153,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "Any%",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "PSX",
+                "name": "Crash Bandicoot",
+                "setup_time": "0:26:02",
+                "event": 20,
+                "order": 22,
+                "public": "Crash Bandicoot Any% (Summer Games Done Quick 2017)",
+                "release_year": 1996,
+                "run_time": "0:41:58",
+                "starttime": "2017-07-03T14:41:00Z",
+                "display_name": "Crash Bandicoot",
+                "commentators": "",
+                "endtime": "2017-07-03T15:49:00Z",
+                "deprecated_runners": "WhitePaaws",
+                "runners": [
+                    556
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 2154,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "100 Egg",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "PSX",
+                "name": "Spyro: Year of the Dragon",
+                "setup_time": "0:11:42",
+                "event": 20,
+                "order": 23,
+                "public": "Spyro: Year of the Dragon 100 Egg (Summer Games Done Quick 2017)",
+                "release_year": 1998,
+                "run_time": "0:56:18",
+                "starttime": "2017-07-03T15:49:00Z",
+                "display_name": "Spyro:\\nYear of the Dragon",
+                "commentators": "",
+                "endtime": "2017-07-03T16:57:00Z",
+                "deprecated_runners": "Dactyly",
+                "runners": [
+                    528
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 2155,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "All Monkeys",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "PSX",
+                "name": "Ape Escape",
+                "setup_time": "0:10:30",
+                "event": 20,
+                "order": 24,
+                "public": "Ape Escape All Monkeys (Summer Games Done Quick 2017)",
+                "release_year": 1999,
+                "run_time": "1:28:30",
+                "starttime": "2017-07-03T16:57:00Z",
+                "display_name": "Ape Escape",
+                "commentators": "",
+                "endtime": "2017-07-03T18:36:00Z",
+                "deprecated_runners": "Eednob",
+                "runners": [
+                    563
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 2156,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "Ultimate",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "XBox",
+                "name": "Super Monkey Ball Deluxe",
+                "setup_time": "0:17:38",
+                "event": 20,
+                "order": 25,
+                "public": "Super Monkey Ball Deluxe Ultimate (Summer Games Done Quick 2017)",
+                "release_year": 2005,
+                "run_time": "1:26:22",
+                "starttime": "2017-07-03T18:36:00Z",
+                "display_name": "Super Monkey Ball\\nDeluxe",
+                "commentators": "",
+                "endtime": "2017-07-03T20:20:00Z",
+                "deprecated_runners": "Jcool114",
+                "runners": [
+                    552
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 2157,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "Lilac Any%",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "PC",
+                "name": "Freedom Planet",
+                "setup_time": "0:12:41",
+                "event": 20,
+                "order": 26,
+                "public": "Freedom Planet Lilac Any% (Summer Games Done Quick 2017)",
+                "release_year": 2014,
+                "run_time": "0:44:19",
+                "starttime": "2017-07-03T20:20:00Z",
+                "display_name": "Freedom Planet",
+                "commentators": "",
+                "endtime": "2017-07-03T21:17:00Z",
+                "deprecated_runners": "Fladervy",
+                "runners": [
+                    326
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 2158,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "Tails Any%",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "PC",
+                "name": "Sonic CD 2011",
+                "setup_time": "0:14:12",
+                "event": 20,
+                "order": 27,
+                "public": "Sonic CD 2011 Tails Any% (Summer Games Done Quick 2017)",
+                "release_year": 2011,
+                "run_time": "0:23:48",
+                "starttime": "2017-07-03T21:17:00Z",
+                "display_name": "Sonic CD 2011",
+                "commentators": "",
+                "endtime": "2017-07-03T21:55:00Z",
+                "deprecated_runners": "flying fox",
+                "runners": [
+                    530
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 2159,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "Any%",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "PC",
+                "name": "Sonic Generations",
+                "setup_time": "0:25:56",
+                "event": 20,
+                "order": 28,
+                "public": "Sonic Generations Any% (Summer Games Done Quick 2017)",
+                "release_year": 2011,
+                "run_time": "0:59:04",
+                "starttime": "2017-07-03T21:55:00Z",
+                "display_name": "Sonic Generations",
+                "commentators": "",
+                "endtime": "2017-07-03T23:20:00Z",
+                "deprecated_runners": "Frokenok",
+                "runners": [
+                    565
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 2160,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "Egg Shuttle",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "Wii",
+                "name": "Sonic Colours",
+                "setup_time": "0:14:50",
+                "event": 20,
+                "order": 29,
+                "public": "Sonic Colours Egg Shuttle (Summer Games Done Quick 2017)",
+                "release_year": 2010,
+                "run_time": "0:50:10",
+                "starttime": "2017-07-03T23:20:00Z",
+                "display_name": "Sonic Colours",
+                "commentators": "",
+                "endtime": "2017-07-04T00:25:00Z",
+                "deprecated_runners": "CriticalCyd",
+                "runners": [
+                    560
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 2161,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "Any% Glitchless",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "PC",
+                "name": "Mirror's Edge",
+                "setup_time": "0:18:09",
+                "event": 20,
+                "order": 30,
+                "public": "Mirror's Edge Any% Glitchless (Summer Games Done Quick 2017)",
+                "release_year": 2010,
+                "run_time": "0:50:51",
+                "starttime": "2017-07-04T00:25:00Z",
+                "display_name": "Mirror's Edge",
+                "commentators": "",
+                "endtime": "2017-07-04T01:34:00Z",
+                "deprecated_runners": "Blackbeltginganinja",
+                "runners": [
+                    507
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 2162,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "New Game +",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "PC",
+                "name": "Mirror's Edge Catalyst",
+                "setup_time": "0:18:11",
+                "event": 20,
+                "order": 31,
+                "public": "Mirror's Edge Catalyst New Game + (Summer Games Done Quick 2017)",
+                "release_year": 2016,
+                "run_time": "1:03:49",
+                "starttime": "2017-07-04T01:34:00Z",
+                "display_name": "Mirror's Edge Catalyst",
+                "commentators": "",
+                "endtime": "2017-07-04T02:56:00Z",
+                "deprecated_runners": "matchboxmatt",
+                "runners": [
+                    501
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 2163,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "No Levels Early",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "WiiU VC",
+                "name": "Donkey Kong 64",
+                "setup_time": "0:21:19",
+                "event": 20,
+                "order": 32,
+                "public": "Donkey Kong 64 No Levels Early (Summer Games Done Quick 2017)",
+                "release_year": 1999,
+                "run_time": "2:10:41",
+                "starttime": "2017-07-04T02:56:00Z",
+                "display_name": "Donkey Kong 64",
+                "commentators": "",
+                "endtime": "2017-07-04T05:28:00Z",
+                "deprecated_runners": "Kiwikiller67",
+                "runners": [
+                    555
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 2164,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "Carrie Any%",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "N64",
+                "name": "Castlevania: Legacy of Darkness",
+                "setup_time": "0:32:53",
+                "event": 20,
+                "order": 33,
+                "public": "Castlevania: Legacy of Darkness Carrie Any% (Summer Games Done Quick 2017)",
+                "release_year": 1999,
+                "run_time": "0:43:07",
+                "starttime": "2017-07-04T05:28:00Z",
+                "display_name": "Castlevania:\\nLegacy of Darkness",
+                "commentators": "",
+                "endtime": "2017-07-04T06:44:00Z",
+                "deprecated_runners": "SluckySeven",
+                "runners": [
+                    526
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 2165,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "Any%",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "XBox",
+                "name": "JSRF: Jet Set Radio Future",
+                "setup_time": "0:10:54",
+                "event": 20,
+                "order": 34,
+                "public": "JSRF: Jet Set Radio Future Any% (Summer Games Done Quick 2017)",
+                "release_year": 2002,
+                "run_time": "1:53:06",
+                "starttime": "2017-07-04T06:44:00Z",
+                "display_name": "JSRF: Jet Set Radio Future",
+                "commentators": "",
+                "endtime": "2017-07-04T08:48:00Z",
+                "deprecated_runners": "FingerQuick",
+                "runners": [
+                    504
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 2166,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "Any%",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "Saturn",
+                "name": "Astal",
+                "setup_time": "0:06:40",
+                "event": 20,
+                "order": 35,
+                "public": "Astal Any% (Summer Games Done Quick 2017)",
+                "release_year": 1995,
+                "run_time": "0:23:20",
+                "starttime": "2017-07-04T08:48:00Z",
+                "display_name": "Astal",
+                "commentators": "",
+                "endtime": "2017-07-04T09:18:00Z",
+                "deprecated_runners": "Gyre",
+                "runners": [
+                    190
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 2167,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "Any%",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "Saturn",
+                "name": "Tryrush Deppy",
+                "setup_time": "0:17:22",
+                "event": 20,
+                "order": 36,
+                "public": "Tryrush Deppy Any% (Summer Games Done Quick 2017)",
+                "release_year": 1996,
+                "run_time": "0:30:38",
+                "starttime": "2017-07-04T09:18:00Z",
+                "display_name": "Tryrush Deppy",
+                "commentators": "",
+                "endtime": "2017-07-04T10:06:00Z",
+                "deprecated_runners": "EggmaniMN",
+                "runners": [
+                    527
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 2168,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "Any%",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "PC",
+                "name": "Clustertruck",
+                "setup_time": "0:11:17",
+                "event": 20,
+                "order": 37,
+                "public": "Clustertruck Any% (Summer Games Done Quick 2017)",
+                "release_year": 2016,
+                "run_time": "0:26:43",
+                "starttime": "2017-07-04T10:06:00Z",
+                "display_name": "Clustertruck",
+                "commentators": "",
+                "endtime": "2017-07-04T10:44:00Z",
+                "deprecated_runners": "097Aceofspades",
+                "runners": [
+                    492
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 2169,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "All Collectibles Race",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "PC",
+                "name": "Defunct",
+                "setup_time": "0:10:09",
+                "event": 20,
+                "order": 38,
+                "public": "Defunct All Collectibles Race (Summer Games Done Quick 2017)",
+                "release_year": 2016,
+                "run_time": "0:18:51",
+                "starttime": "2017-07-04T10:44:00Z",
+                "display_name": "Defunct",
+                "commentators": "",
+                "endtime": "2017-07-04T11:13:00Z",
+                "deprecated_runners": "Grimelios, Celestics",
+                "runners": [
+                    95,
+                    357
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 2170,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "Any%",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "PC",
+                "name": "OmniBus",
+                "setup_time": "0:21:30",
+                "event": 20,
+                "order": 39,
+                "public": "OmniBus Any% (Summer Games Done Quick 2017)",
+                "release_year": 2016,
+                "run_time": "0:19:30",
+                "starttime": "2017-07-04T11:13:00Z",
+                "display_name": "OmniBus",
+                "commentators": "",
+                "endtime": "2017-07-04T11:54:00Z",
+                "deprecated_runners": "Konasumi",
+                "runners": [
+                    320
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 2171,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "Any%",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "PC",
+                "name": "Poi",
+                "setup_time": "0:23:51",
+                "event": 20,
+                "order": 40,
+                "public": "Poi Any% (Summer Games Done Quick 2017)",
+                "release_year": 2017,
+                "run_time": "0:54:09",
+                "starttime": "2017-07-04T11:54:00Z",
+                "display_name": "Poi",
+                "commentators": "",
+                "endtime": "2017-07-04T13:12:00Z",
+                "deprecated_runners": "097Aceofspades",
+                "runners": [
+                    492
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 2172,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "All Goals and Golds",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "PC",
+                "name": "Tony Hawk's Pro Skater 2",
+                "setup_time": "0:14:34",
+                "event": 20,
+                "order": 41,
+                "public": "Tony Hawk's Pro Skater 2 All Goals and Golds (Summer Games Done Quick 2017)",
+                "release_year": 2000,
+                "run_time": "0:16:26",
+                "starttime": "2017-07-04T13:12:00Z",
+                "display_name": "Tony Hawk's Pro Skater 2",
+                "commentators": "",
+                "endtime": "2017-07-04T13:43:00Z",
+                "deprecated_runners": "guished",
+                "runners": [
+                    154
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 2173,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "Any%",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "PC",
+                "name": "Tony Hawks Pro Skater 4",
+                "setup_time": "0:10:22",
+                "event": 20,
+                "order": 42,
+                "public": "Tony Hawks Pro Skater 4 Any% (Summer Games Done Quick 2017)",
+                "release_year": 2002,
+                "run_time": "0:37:38",
+                "starttime": "2017-07-04T13:43:00Z",
+                "display_name": "Tony Hawks Pro Skater 4",
+                "commentators": "",
+                "endtime": "2017-07-04T14:31:00Z",
+                "deprecated_runners": "TkMala",
+                "runners": [
+                    521
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 2174,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "Any%",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "PC",
+                "name": "I Am Bread",
+                "setup_time": "0:10:10",
+                "event": 20,
+                "order": 43,
+                "public": "I Am Bread Any% (Summer Games Done Quick 2017)",
+                "release_year": 2015,
+                "run_time": "0:20:50",
+                "starttime": "2017-07-04T14:31:00Z",
+                "display_name": "I Am Bread",
+                "commentators": "",
+                "endtime": "2017-07-04T15:02:00Z",
+                "deprecated_runners": "Blood_Thunder",
+                "runners": [
+                    72
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 2175,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "Any% Glitchless",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "PC",
+                "name": "Hollow Knight",
+                "setup_time": "0:16:29",
+                "event": 20,
+                "order": 44,
+                "public": "Hollow Knight Any% Glitchless (Summer Games Done Quick 2017)",
+                "release_year": 2017,
+                "run_time": "0:53:31",
+                "starttime": "2017-07-04T15:02:00Z",
+                "display_name": "Hollow Knight",
+                "commentators": "",
+                "endtime": "2017-07-04T16:12:00Z",
+                "deprecated_runners": "Ourolen",
+                "runners": [
+                    554
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 2176,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "Any%",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "PC",
+                "name": "Shovel Knight: Specter of Torment",
+                "setup_time": "0:18:58",
+                "event": 20,
+                "order": 45,
+                "public": "Shovel Knight: Specter of Torment Any% (Summer Games Done Quick 2017)",
+                "release_year": 2017,
+                "run_time": "0:45:02",
+                "starttime": "2017-07-04T16:12:00Z",
+                "display_name": "Shovel Knight: Specter of Torment",
+                "commentators": "",
+                "endtime": "2017-07-04T17:16:00Z",
+                "deprecated_runners": "MunchaKoopas",
+                "runners": [
+                    487
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 2181,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "Any%",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "PC",
+                "name": "The Wheel of Time",
+                "setup_time": "0:09:00",
+                "event": 20,
+                "order": 46,
+                "public": "The Wheel of Time Any% (Summer Games Done Quick 2017)",
+                "release_year": 1999,
+                "run_time": "0:19:20",
+                "starttime": "2017-07-04T17:16:00Z",
+                "display_name": "The Wheel of Time",
+                "commentators": "",
+                "endtime": "2017-07-04T17:44:20Z",
+                "deprecated_runners": "Shaddex",
+                "runners": [
+                    81
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 2177,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "Any%",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "PC",
+                "name": "Brothers: A Tale of Two Sons",
+                "setup_time": "0:15:00",
+                "event": 20,
+                "order": 47,
+                "public": "Brothers: A Tale of Two Sons Any% (Summer Games Done Quick 2017)",
+                "release_year": 2013,
+                "run_time": "1:16:22",
+                "starttime": "2017-07-04T17:44:20Z",
+                "display_name": "Brothers: A Tale of Two Sons",
+                "commentators": "",
+                "endtime": "2017-07-04T19:15:42Z",
+                "deprecated_runners": "otdq",
+                "runners": [
+                    569
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 2178,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "100%",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "N64",
+                "name": "Banjo-Kazooie",
+                "setup_time": "0:12:00",
+                "event": 20,
+                "order": 48,
+                "public": "Banjo-Kazooie 100% (Summer Games Done Quick 2017)",
+                "release_year": 1998,
+                "run_time": "2:04:51",
+                "starttime": "2017-07-04T19:15:42Z",
+                "display_name": "Banjo-Kazooie",
+                "commentators": "",
+                "endtime": "2017-07-04T21:32:33Z",
+                "deprecated_runners": "Stivitybobo",
+                "runners": [
+                    155
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 2179,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "1P Stadium (Super Hard)",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "N64",
+                "name": "Pokemon Puzzle League",
+                "setup_time": "0:17:00",
+                "event": 20,
+                "order": 49,
+                "public": "Pokemon Puzzle League 1P Stadium (Super Hard) (Summer Games Done Quick 2017)",
+                "release_year": 2000,
+                "run_time": "0:32:29",
+                "starttime": "2017-07-04T21:32:33Z",
+                "display_name": "Pokemon\\nPuzzle League",
+                "commentators": "",
+                "endtime": "2017-07-04T22:22:02Z",
+                "deprecated_runners": "FFR Pro 21",
+                "runners": [
+                    301
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 2180,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "Any%",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "DS",
+                "name": "Pokémon HeartGold/SoulSilver",
+                "setup_time": "0:23:00",
+                "event": 20,
+                "order": 50,
+                "public": "Pokémon HeartGold/SoulSilver Any% (Summer Games Done Quick 2017)",
+                "release_year": 2009,
+                "run_time": "2:36:24",
+                "starttime": "2017-07-04T22:22:02Z",
+                "display_name": "Pokémon HeartGold/\\nSoulSilver",
+                "commentators": "",
+                "endtime": "2017-07-05T01:21:26Z",
+                "deprecated_runners": "Keizaron",
+                "runners": [
+                    97
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 2182,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "Any%",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "PC",
+                "name": "Half-Life",
+                "setup_time": "0:12:00",
+                "event": 20,
+                "order": 51,
+                "public": "Half-Life Any% (Summer Games Done Quick 2017)",
+                "release_year": 1998,
+                "run_time": "0:36:08",
+                "starttime": "2017-07-05T01:21:26Z",
+                "display_name": "Half-Life",
+                "commentators": "",
+                "endtime": "2017-07-05T02:09:34Z",
+                "deprecated_runners": "alexh0we",
+                "runners": [
+                    518
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 2184,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "Any% Emily",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "PC",
+                "name": "Dishonored 2",
+                "setup_time": "0:21:47",
+                "event": 20,
+                "order": 52,
+                "public": "Dishonored 2 Any% Emily (Summer Games Done Quick 2017)",
+                "release_year": 2016,
+                "run_time": "0:35:14",
+                "starttime": "2017-07-05T02:09:34Z",
+                "display_name": "Dishonored 2",
+                "commentators": "",
+                "endtime": "2017-07-05T03:06:35Z",
+                "deprecated_runners": "Blood_Thunder",
+                "runners": [
+                    72
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 2185,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "All Secrets",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "PC",
+                "name": "Doom (2016)",
+                "setup_time": "0:24:25",
+                "event": 20,
+                "order": 53,
+                "public": "Doom (2016) All Secrets (Summer Games Done Quick 2017)",
+                "release_year": 2016,
+                "run_time": "1:18:35",
+                "starttime": "2017-07-05T03:06:35Z",
+                "display_name": "Doom (2016)",
+                "commentators": "",
+                "endtime": "2017-07-05T04:49:35Z",
+                "deprecated_runners": "TheFuncannon",
+                "runners": [
+                    375
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 2183,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "Any% (no scripts, new engine)",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "PC",
+                "name": "Half-Life 2",
+                "setup_time": "0:26:43",
+                "event": 20,
+                "order": 54,
+                "public": "Half-Life 2 Any% (no scripts, new engine) (Summer Games Done Quick 2017)",
+                "release_year": 2004,
+                "run_time": "1:42:17",
+                "starttime": "2017-07-05T04:49:35Z",
+                "display_name": "Half-Life 2",
+                "commentators": "",
+                "endtime": "2017-07-05T06:58:35Z",
+                "deprecated_runners": "Woobly",
+                "runners": [
+                    536
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 2186,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "Any%",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "PC",
+                "name": "Silent Hill 2",
+                "setup_time": "0:51:15",
+                "event": 20,
+                "order": 55,
+                "public": "Silent Hill 2 Any% (Summer Games Done Quick 2017)",
+                "release_year": 2001,
+                "run_time": "0:52:10",
+                "starttime": "2017-07-05T06:58:35Z",
+                "display_name": "Silent Hill 2",
+                "commentators": "",
+                "endtime": "2017-07-05T08:42:00Z",
+                "deprecated_runners": "tekkie",
+                "runners": [
+                    525
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 2187,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "Any% (Jill or Chris)",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "PC",
+                "name": "Resident Evil",
+                "setup_time": "0:22:16",
+                "event": 20,
+                "order": 56,
+                "public": "Resident Evil Any% (Jill or Chris) (Summer Games Done Quick 2017)",
+                "release_year": 2001,
+                "run_time": "0:41:44",
+                "starttime": "2017-07-05T08:42:00Z",
+                "display_name": "Resident Evil",
+                "commentators": "",
+                "endtime": "2017-07-05T09:46:00Z",
+                "deprecated_runners": "RawDerps",
+                "runners": [
+                    561
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 2188,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "Glitched",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "Xbox 360",
+                "name": "Resident Evil: Code: Veronica X",
+                "setup_time": "0:18:54",
+                "event": 20,
+                "order": 57,
+                "public": "Resident Evil: Code: Veronica X Glitched (Summer Games Done Quick 2017)",
+                "release_year": 2001,
+                "run_time": "1:43:06",
+                "starttime": "2017-07-05T09:46:00Z",
+                "display_name": "Resident Evil Code: Veronica X",
+                "commentators": "",
+                "endtime": "2017-07-05T11:48:00Z",
+                "deprecated_runners": "Pessimism",
+                "runners": [
+                    486
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 2189,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "Any%",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "PS2",
+                "name": "Onimusha: Warlords",
+                "setup_time": "0:16:15",
+                "event": 20,
+                "order": 58,
+                "public": "Onimusha: Warlords Any% (Summer Games Done Quick 2017)",
+                "release_year": 2001,
+                "run_time": "1:16:45",
+                "starttime": "2017-07-05T11:48:00Z",
+                "display_name": "Onimusha: Warlords",
+                "commentators": "",
+                "endtime": "2017-07-05T13:21:00Z",
+                "deprecated_runners": "BOWIEtheHERO",
+                "runners": [
+                    515
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 2190,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "Normal",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "PC",
+                "name": "Shuriken",
+                "setup_time": "0:15:33",
+                "event": 20,
+                "order": 59,
+                "public": "Shuriken Normal (Summer Games Done Quick 2017)",
+                "release_year": 2016,
+                "run_time": "0:06:27",
+                "starttime": "2017-07-05T13:21:00Z",
+                "display_name": "Shuriken",
+                "commentators": "",
+                "endtime": "2017-07-05T13:43:00Z",
+                "deprecated_runners": "SuccinctAndPunchy",
+                "runners": [
+                    544
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 2191,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "Any%",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "Sega Master",
+                "name": "Alex Kidd in Shinobi World",
+                "setup_time": "0:04:18",
+                "event": 20,
+                "order": 60,
+                "public": "Alex Kidd in Shinobi World Any% (Summer Games Done Quick 2017)",
+                "release_year": 1986,
+                "run_time": "0:07:42",
+                "starttime": "2017-07-05T13:43:00Z",
+                "display_name": "Alex Kidd\\nin Shinobi World",
+                "commentators": "",
+                "endtime": "2017-07-05T13:55:00Z",
+                "deprecated_runners": "berlindude1",
+                "runners": [
+                    547
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 2192,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "Any%",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "Sega Master",
+                "name": "Ninja Gaiden (Sega Master System)",
+                "setup_time": "0:07:38",
+                "event": 20,
+                "order": 61,
+                "public": "Ninja Gaiden (Sega Master System) Any% (Summer Games Done Quick 2017)",
+                "release_year": 1988,
+                "run_time": "0:18:22",
+                "starttime": "2017-07-05T13:55:00Z",
+                "display_name": "Ninja Gaiden\\n(Sega Master System)",
+                "commentators": "",
+                "endtime": "2017-07-05T14:21:00Z",
+                "deprecated_runners": "soothingplumtea",
+                "runners": [
+                    264
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 2193,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "Any%",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "NES",
+                "name": "Ninja Gaiden 3",
+                "setup_time": "0:07:41",
+                "event": 20,
+                "order": 62,
+                "public": "Ninja Gaiden 3 Any% (Summer Games Done Quick 2017)",
+                "release_year": 1991,
+                "run_time": "0:13:19",
+                "starttime": "2017-07-05T14:21:00Z",
+                "display_name": "Ninja Gaiden III",
+                "commentators": "",
+                "endtime": "2017-07-05T14:42:00Z",
+                "deprecated_runners": "InfestedRiche",
+                "runners": [
+                    156
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 2194,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "Beat the Game",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "Famicom",
+                "name": "Kyatto Ninden Teyandee",
+                "setup_time": "0:05:31",
+                "event": 20,
+                "order": 63,
+                "public": "Kyatto Ninden Teyandee Beat the Game (Summer Games Done Quick 2017)",
+                "release_year": 1991,
+                "run_time": "0:11:29",
+                "starttime": "2017-07-05T14:42:00Z",
+                "display_name": "Kyatto Ninden\\nTeyandee",
+                "commentators": "",
+                "endtime": "2017-07-05T14:59:00Z",
+                "deprecated_runners": "usedpizza",
+                "runners": [
+                    286
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 2195,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "Any%",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "NES",
+                "name": "Marble Madness",
+                "setup_time": "0:05:04",
+                "event": 20,
+                "order": 64,
+                "public": "Marble Madness Any% (Summer Games Done Quick 2017)",
+                "release_year": 1989,
+                "run_time": "0:02:56",
+                "starttime": "2017-07-05T14:59:00Z",
+                "display_name": "Marble Madness",
+                "commentators": "",
+                "endtime": "2017-07-05T15:07:00Z",
+                "deprecated_runners": "Elipsis",
+                "runners": [
+                    524
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 2196,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "Any% Hard Mode",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "NES",
+                "name": "Bucky O'Hare",
+                "setup_time": "0:04:34",
+                "event": 20,
+                "order": 65,
+                "public": "Bucky O'Hare Any% Hard Mode (Summer Games Done Quick 2017)",
+                "release_year": 1992,
+                "run_time": "0:28:26",
+                "starttime": "2017-07-05T15:07:00Z",
+                "display_name": "Bucky O'Hare",
+                "commentators": "",
+                "endtime": "2017-07-05T15:40:00Z",
+                "deprecated_runners": "Garrison",
+                "runners": [
+                    529
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 2197,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "Any%",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "NES",
+                "name": "Jackal",
+                "setup_time": "0:02:39",
+                "event": 20,
+                "order": 66,
+                "public": "Jackal Any% (Summer Games Done Quick 2017)",
+                "release_year": 1986,
+                "run_time": "0:08:21",
+                "starttime": "2017-07-05T15:40:00Z",
+                "display_name": "Jackal",
+                "commentators": "",
+                "endtime": "2017-07-05T15:51:00Z",
+                "deprecated_runners": "Toad22484",
+                "runners": [
+                    418
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 2198,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "Any%",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "NES",
+                "name": "G.I. Joe: The Atlantis Factor",
+                "setup_time": "0:07:08",
+                "event": 20,
+                "order": 67,
+                "public": "G.I. Joe: The Atlantis Factor Any% (Summer Games Done Quick 2017)",
+                "release_year": 1992,
+                "run_time": "0:09:52",
+                "starttime": "2017-07-05T15:51:00Z",
+                "display_name": "G.I. Joe:\\nThe Atlantis Factor",
+                "commentators": "",
+                "endtime": "2017-07-05T16:08:00Z",
+                "deprecated_runners": "Toad22484",
+                "runners": [
+                    418
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 2200,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "Trevor Only",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "NES",
+                "name": "Castlevania III: Dracula's Curse",
+                "setup_time": "0:17:06",
+                "event": 20,
+                "order": 68,
+                "public": "Castlevania III: Dracula's Curse Trevor Only (Summer Games Done Quick 2017)",
+                "release_year": 1989,
+                "run_time": "0:31:54",
+                "starttime": "2017-07-05T16:08:00Z",
+                "display_name": "Castlevania III:\\nDracula's Curse",
+                "commentators": "",
+                "endtime": "2017-07-05T16:57:00Z",
+                "deprecated_runners": "Chelney",
+                "runners": [
+                    324
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 2201,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "Richter Any%",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "Wii VC",
+                "name": "Castlevania: Rondo of Blood",
+                "setup_time": "0:10:59",
+                "event": 20,
+                "order": 69,
+                "public": "Castlevania: Rondo of Blood Richter Any% (Summer Games Done Quick 2017)",
+                "release_year": 1993,
+                "run_time": "0:23:01",
+                "starttime": "2017-07-05T16:57:00Z",
+                "display_name": "Castlevania:\\nRondo of Blood",
+                "commentators": "",
+                "endtime": "2017-07-05T17:31:00Z",
+                "deprecated_runners": "Just_defend",
+                "runners": [
+                    55
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 2202,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "Any% Ukampa",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "PC",
+                "name": "1001 Spikes",
+                "setup_time": "0:16:20",
+                "event": 20,
+                "order": 70,
+                "public": "1001 Spikes Any% Ukampa (Summer Games Done Quick 2017)",
+                "release_year": 2014,
+                "run_time": "0:23:40",
+                "starttime": "2017-07-05T17:31:00Z",
+                "display_name": "1001 Spikes",
+                "commentators": "",
+                "endtime": "2017-07-05T18:11:00Z",
+                "deprecated_runners": "doubletaco",
+                "runners": [
+                    362
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 2203,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "Any% Race",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "PC",
+                "name": "Super Meat Boy",
+                "setup_time": "0:14:46",
+                "event": 20,
+                "order": 71,
+                "public": "Super Meat Boy Any% Race (Summer Games Done Quick 2017)",
+                "release_year": 2010,
+                "run_time": "0:21:14",
+                "starttime": "2017-07-05T18:11:00Z",
+                "display_name": "Super Meat Boy",
+                "commentators": "",
+                "endtime": "2017-07-05T18:47:00Z",
+                "deprecated_runners": "warm_ham, Fimbz",
+                "runners": [
+                    203,
+                    551
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 2204,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "100% Race",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "PC",
+                "name": "VVVVVV",
+                "setup_time": "0:12:18",
+                "event": 20,
+                "order": 72,
+                "public": "VVVVVV 100% Race (Summer Games Done Quick 2017)",
+                "release_year": 2010,
+                "run_time": "0:17:42",
+                "starttime": "2017-07-05T18:47:00Z",
+                "display_name": "VVVVVV",
+                "commentators": "",
+                "endtime": "2017-07-05T19:17:00Z",
+                "deprecated_runners": "FieryBlizzard, Chadwelli",
+                "runners": [
+                    514,
+                    543
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 2199,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "Any%",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "NES",
+                "name": "Startropics",
+                "setup_time": "0:07:48",
+                "event": 20,
+                "order": 73,
+                "public": "Startropics Any% (Summer Games Done Quick 2017)",
+                "release_year": 1990,
+                "run_time": "1:07:12",
+                "starttime": "2017-07-05T19:17:00Z",
+                "display_name": "Startropics",
+                "commentators": "",
+                "endtime": "2017-07-05T20:32:00Z",
+                "deprecated_runners": "thetantalus",
+                "runners": [
+                    545
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 2205,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "Best Ending",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "Game Boy",
+                "name": "Kirby's Dream Land 2",
+                "setup_time": "0:13:26",
+                "event": 20,
+                "order": 74,
+                "public": "Kirby's Dream Land 2 Best Ending (Summer Games Done Quick 2017)",
+                "release_year": 1995,
+                "run_time": "0:48:34",
+                "starttime": "2017-07-05T20:32:00Z",
+                "display_name": "Kirby's Dream Land 2",
+                "commentators": "",
+                "endtime": "2017-07-05T21:34:00Z",
+                "deprecated_runners": "zorlaxseven",
+                "runners": [
+                    277
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 2206,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "Meta Knightmare Returns",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "3DS",
+                "name": "Kirby: Planet Robobot",
+                "setup_time": "0:11:34",
+                "event": 20,
+                "order": 75,
+                "public": "Kirby: Planet Robobot Meta Knightmare Returns (Summer Games Done Quick 2017)",
+                "release_year": 2016,
+                "run_time": "1:06:26",
+                "starttime": "2017-07-05T21:34:00Z",
+                "display_name": "Kirby: Planet Robobot",
+                "commentators": "",
+                "endtime": "2017-07-05T22:52:00Z",
+                "deprecated_runners": "Theguesst",
+                "runners": [
+                    380
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 2207,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "All Stages (Normal)",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "PS2",
+                "name": "Mega Man X6",
+                "setup_time": "0:10:21",
+                "event": 20,
+                "order": 76,
+                "public": "Mega Man X6 All Stages (Normal) (Summer Games Done Quick 2017)",
+                "release_year": 2001,
+                "run_time": "0:52:39",
+                "starttime": "2017-07-05T22:52:00Z",
+                "display_name": "Mega Man X6",
+                "commentators": "",
+                "endtime": "2017-07-05T23:55:00Z",
+                "deprecated_runners": "orsa",
+                "runners": [
+                    302
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 2208,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "Any% Buster Only",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "SNES",
+                "name": "Mega Man X",
+                "setup_time": "0:23:55",
+                "event": 20,
+                "order": 77,
+                "public": "Mega Man X Any% Buster Only (Summer Games Done Quick 2017)",
+                "release_year": 1993,
+                "run_time": "0:41:05",
+                "starttime": "2017-07-05T23:55:00Z",
+                "display_name": "Mega Man X",
+                "commentators": "",
+                "endtime": "2017-07-06T01:00:00Z",
+                "deprecated_runners": "ColonelFatso",
+                "runners": [
+                    541
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 2209,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "Any% Race",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "SNES",
+                "name": "Mega Man X2",
+                "setup_time": "0:10:00",
+                "event": 20,
+                "order": 78,
+                "public": "Mega Man X2 Any% Race (Summer Games Done Quick 2017)",
+                "release_year": 1994,
+                "run_time": "0:36:07",
+                "starttime": "2017-07-06T01:00:00Z",
+                "display_name": "Mega Man X2",
+                "commentators": "",
+                "endtime": "2017-07-06T01:46:07Z",
+                "deprecated_runners": "Trogdor, calebhart42, ColonelFatso, Tokyo90",
+                "runners": [
+                    241,
+                    541,
+                    292,
+                    546
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 2210,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "Any% Race",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "SNES",
+                "name": "Mega Man X3",
+                "setup_time": "0:14:00",
+                "event": 20,
+                "order": 79,
+                "public": "Mega Man X3 Any% Race (Summer Games Done Quick 2017)",
+                "release_year": 1995,
+                "run_time": "0:41:27",
+                "starttime": "2017-07-06T01:46:07Z",
+                "display_name": "Mega Man X3",
+                "commentators": "",
+                "endtime": "2017-07-06T02:41:34Z",
+                "deprecated_runners": "Trogdor, Nu_",
+                "runners": [
+                    241,
+                    506
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 2211,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "Any%",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "Wii U",
+                "name": "The Legend of Zelda: Twilight Princess HD",
+                "setup_time": "0:15:54",
+                "event": 20,
+                "order": 80,
+                "public": "The Legend of Zelda: Twilight Princess HD Any% (Summer Games Done Quick 2017)",
+                "release_year": 2016,
+                "run_time": "3:46:32",
+                "starttime": "2017-07-06T02:41:34Z",
+                "display_name": "The Legend of Zelda: Twilight Princess HD",
+                "commentators": "",
+                "endtime": "2017-07-06T06:44:00Z",
+                "deprecated_runners": "Pheenoh",
+                "runners": [
+                    531
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 2212,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "Any% No-Out of Bounds",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "PC",
+                "name": "The Elder Scrolls IV: Oblivion",
+                "setup_time": "0:12:57",
+                "event": 20,
+                "order": 81,
+                "public": "The Elder Scrolls IV: Oblivion Any% No-Out of Bounds (Summer Games Done Quick 2017)",
+                "release_year": 2006,
+                "run_time": "0:37:03",
+                "starttime": "2017-07-06T06:44:00Z",
+                "display_name": "The Elder Scrolls IV: Oblivion",
+                "commentators": "",
+                "endtime": "2017-07-06T07:34:00Z",
+                "deprecated_runners": "Garish",
+                "runners": [
+                    573
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 2213,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "Any% (Co-Op)",
+                "giantbomb_id": null,
+                "coop": true,
+                "console": "PC",
+                "name": "Divinity: Original Sin",
+                "setup_time": "0:07:13",
+                "event": 20,
+                "order": 82,
+                "public": "Divinity: Original Sin Any% (Co-Op) (Summer Games Done Quick 2017)",
+                "release_year": 2014,
+                "run_time": "0:23:47",
+                "starttime": "2017-07-06T07:34:00Z",
+                "display_name": "Divinity:\\nOriginal Sin",
+                "commentators": "",
+                "endtime": "2017-07-06T08:05:00Z",
+                "deprecated_runners": "Shaddex, DrTChops",
+                "runners": [
+                    81,
+                    336
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 2214,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "Good Ending",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "PC",
+                "name": "Might and Magic VI: The Mandate of Heaven",
+                "setup_time": "0:12:10",
+                "event": 20,
+                "order": 83,
+                "public": "Might and Magic VI: The Mandate of Heaven Good Ending (Summer Games Done Quick 2017)",
+                "release_year": 1998,
+                "run_time": "0:27:50",
+                "starttime": "2017-07-06T08:05:00Z",
+                "display_name": "Might and Magic VI:\\nThe Mandate of Heaven",
+                "commentators": "",
+                "endtime": "2017-07-06T08:45:00Z",
+                "deprecated_runners": "CapnClever",
+                "runners": [
+                    20
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 2215,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "Any% Toal EX",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "PC",
+                "name": "Ys Origin",
+                "setup_time": "0:10:11",
+                "event": 20,
+                "order": 84,
+                "public": "Ys Origin Any% Toal EX (Summer Games Done Quick 2017)",
+                "release_year": 2006,
+                "run_time": "1:23:49",
+                "starttime": "2017-07-06T08:45:00Z",
+                "display_name": "Ys Origin",
+                "commentators": "",
+                "endtime": "2017-07-06T10:19:00Z",
+                "deprecated_runners": "Ghost King",
+                "runners": [
+                    505
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 2216,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "Any%",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "PC",
+                "name": "Ghosts'n Demons",
+                "setup_time": "0:08:50",
+                "event": 20,
+                "order": 85,
+                "public": "Ghosts'n Demons Any% (Summer Games Done Quick 2017)",
+                "release_year": 2015,
+                "run_time": "0:21:10",
+                "starttime": "2017-07-06T10:19:00Z",
+                "display_name": "Ghosts 'n Demons",
+                "commentators": "",
+                "endtime": "2017-07-06T10:49:00Z",
+                "deprecated_runners": "Aquas",
+                "runners": [
+                    313
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 2217,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "Zangyou",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "PC",
+                "name": "Kero Blaster",
+                "setup_time": "0:09:28",
+                "event": 20,
+                "order": 86,
+                "public": "Kero Blaster Zangyou (Summer Games Done Quick 2017)",
+                "release_year": 2014,
+                "run_time": "0:34:32",
+                "starttime": "2017-07-06T10:49:00Z",
+                "display_name": "Kero Blaster",
+                "commentators": "",
+                "endtime": "2017-07-06T11:33:00Z",
+                "deprecated_runners": "Metallama",
+                "runners": [
+                    533
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 2218,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "Single-Life Very Hard",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "PC",
+                "name": "Bleed 2",
+                "setup_time": "0:10:40",
+                "event": 20,
+                "order": 87,
+                "public": "Bleed 2 Single-Life Very Hard (Summer Games Done Quick 2017)",
+                "release_year": 2017,
+                "run_time": "0:29:20",
+                "starttime": "2017-07-06T11:33:00Z",
+                "display_name": "Bleed 2",
+                "commentators": "",
+                "endtime": "2017-07-06T12:13:00Z",
+                "deprecated_runners": "Studio",
+                "runners": [
+                    17
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 2150,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "Any% Normal",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "SNES",
+                "name": "Tiny Toon Adventures: Buster Busts Loose!",
+                "setup_time": "0:08:04",
+                "event": 20,
+                "order": 88,
+                "public": "Tiny Toon Adventures: Buster Busts Loose! Any% Normal (Summer Games Done Quick 2017)",
+                "release_year": 1992,
+                "run_time": "0:21:56",
+                "starttime": "2017-07-06T12:13:00Z",
+                "display_name": "Tiny Toon Adventures:\\nBuster Busts Loose!",
+                "commentators": "",
+                "endtime": "2017-07-06T12:43:00Z",
+                "deprecated_runners": "namux",
+                "runners": [
+                    508
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 2219,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "Beat the Game",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "SNES",
+                "name": "The Addams Family: Pugsley's Scavenger Hunt",
+                "setup_time": "0:06:07",
+                "event": 20,
+                "order": 89,
+                "public": "The Addams Family: Pugsley's Scavenger Hunt Beat the Game (Summer Games Done Quick 2017)",
+                "release_year": 1992,
+                "run_time": "0:16:53",
+                "starttime": "2017-07-06T12:43:00Z",
+                "display_name": "The Addams Family:\\nPugsley's Scavenger Hunt",
+                "commentators": "",
+                "endtime": "2017-07-06T13:06:00Z",
+                "deprecated_runners": "ColonelFatso",
+                "runners": [
+                    541
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 2220,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "Deathless",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "SNES",
+                "name": "The Firemen",
+                "setup_time": "0:07:46",
+                "event": 20,
+                "order": 90,
+                "public": "The Firemen Deathless (Summer Games Done Quick 2017)",
+                "release_year": 1994,
+                "run_time": "0:18:14",
+                "starttime": "2017-07-06T13:06:00Z",
+                "display_name": "The Firemen",
+                "commentators": "",
+                "endtime": "2017-07-06T13:32:00Z",
+                "deprecated_runners": "Omnigamer",
+                "runners": [
+                    333
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 2221,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "Any%",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "SNES",
+                "name": "Plok",
+                "setup_time": "0:14:52",
+                "event": 20,
+                "order": 91,
+                "public": "Plok Any% (Summer Games Done Quick 2017)",
+                "release_year": 1993,
+                "run_time": "0:31:08",
+                "starttime": "2017-07-06T13:32:00Z",
+                "display_name": "Plok",
+                "commentators": "",
+                "endtime": "2017-07-06T14:18:00Z",
+                "deprecated_runners": "Countdown42",
+                "runners": [
+                    247
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 2222,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "All Gold Bolts",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "PS3",
+                "name": "Ratchet & Clank",
+                "setup_time": "0:17:55",
+                "event": 20,
+                "order": 92,
+                "public": "Ratchet & Clank All Gold Bolts (Summer Games Done Quick 2017)",
+                "release_year": 2002,
+                "run_time": "1:07:05",
+                "starttime": "2017-07-06T14:18:00Z",
+                "display_name": "Ratchet & Clank",
+                "commentators": "",
+                "endtime": "2017-07-06T15:43:00Z",
+                "deprecated_runners": "Xem",
+                "runners": [
+                    165
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 2223,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "Any%",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "PS2",
+                "name": "Jak II",
+                "setup_time": "0:15:00",
+                "event": 20,
+                "order": 93,
+                "public": "Jak II Any% (Summer Games Done Quick 2017)",
+                "release_year": 2003,
+                "run_time": "1:02:59",
+                "starttime": "2017-07-06T15:43:00Z",
+                "display_name": "Jak II",
+                "commentators": "",
+                "endtime": "2017-07-06T17:00:59Z",
+                "deprecated_runners": "sickynar",
+                "runners": [
+                    512
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 2224,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "NTA",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "PS3",
+                "name": "Shadow of The Colossus",
+                "setup_time": "0:07:00",
+                "event": 20,
+                "order": 94,
+                "public": "Shadow of The Colossus NTA (Summer Games Done Quick 2017)",
+                "release_year": 2005,
+                "run_time": "0:46:39",
+                "starttime": "2017-07-06T17:00:59Z",
+                "display_name": "Shadow of The Colossus",
+                "commentators": "",
+                "endtime": "2017-07-06T17:54:38Z",
+                "deprecated_runners": "Plush",
+                "runners": [
+                    509
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 2144,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "Total Carnage",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "PC",
+                "name": "Marathon Infinity",
+                "setup_time": "0:11:00",
+                "event": 20,
+                "order": 95,
+                "public": "Marathon Infinity Total Carnage (Summer Games Done Quick 2017)",
+                "release_year": 1996,
+                "run_time": "0:22:21",
+                "starttime": "2017-07-06T17:54:38Z",
+                "display_name": "Marathon Infinity",
+                "commentators": "",
+                "endtime": "2017-07-06T18:27:59Z",
+                "deprecated_runners": "aperturegrillz",
+                "runners": [
+                    245
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 2225,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "Any% Zipless",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "PC",
+                "name": "Prince of Persia: The Sands of Time",
+                "setup_time": "0:12:55",
+                "event": 20,
+                "order": 96,
+                "public": "Prince of Persia: The Sands of Time Any% Zipless (Summer Games Done Quick 2017)",
+                "release_year": 2003,
+                "run_time": "1:25:05",
+                "starttime": "2017-07-06T18:27:59Z",
+                "display_name": "Prince of Persia: The Sands of Time",
+                "commentators": "",
+                "endtime": "2017-07-06T20:05:59Z",
+                "deprecated_runners": "Hennejoe",
+                "runners": [
+                    568
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 2226,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "All Sigils",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "PC",
+                "name": "The Talos Principle",
+                "setup_time": "0:17:56",
+                "event": 20,
+                "order": 97,
+                "public": "The Talos Principle All Sigils (Summer Games Done Quick 2017)",
+                "release_year": 2014,
+                "run_time": "0:50:04",
+                "starttime": "2017-07-06T20:05:59Z",
+                "display_name": "The Talos Principle",
+                "commentators": "",
+                "endtime": "2017-07-06T21:13:59Z",
+                "deprecated_runners": "Azorae",
+                "runners": [
+                    103
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 2227,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "Inbounds",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "PC",
+                "name": "Portal",
+                "setup_time": "0:10:32",
+                "event": 20,
+                "order": 98,
+                "public": "Portal Inbounds (Summer Games Done Quick 2017)",
+                "release_year": 2007,
+                "run_time": "0:13:28",
+                "starttime": "2017-07-06T21:13:59Z",
+                "display_name": "Portal",
+                "commentators": "",
+                "endtime": "2017-07-06T21:37:59Z",
+                "deprecated_runners": "alexh0we",
+                "runners": [
+                    518
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 2229,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "100%",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "PC",
+                "name": "Bionic Commando Rearmed",
+                "setup_time": "0:16:39",
+                "event": 20,
+                "order": 100,
+                "public": "Bionic Commando Rearmed 100% (Summer Games Done Quick 2017)",
+                "release_year": 2008,
+                "run_time": "0:39:21",
+                "starttime": "2017-07-06T21:37:59Z",
+                "display_name": "Bionic Commando Rearmed",
+                "commentators": "",
+                "endtime": "2017-07-06T22:33:59Z",
+                "deprecated_runners": "PJ",
+                "runners": [
+                    56
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 2230,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "Any% No Wrong Warp",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "SNES",
+                "name": "Chrono Trigger",
+                "setup_time": "0:18:25",
+                "event": 20,
+                "order": 101,
+                "public": "Chrono Trigger Any% No Wrong Warp (Summer Games Done Quick 2017)",
+                "release_year": 1995,
+                "run_time": "3:03:35",
+                "starttime": "2017-07-06T22:33:59Z",
+                "display_name": "Chrono Trigger",
+                "commentators": "",
+                "endtime": "2017-07-07T01:55:59Z",
+                "deprecated_runners": "puwexil",
+                "runners": [
+                    374
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 2231,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "150cc All Cups (Skips)",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "N64",
+                "name": "Mario Kart 64",
+                "setup_time": "0:09:51",
+                "event": 20,
+                "order": 102,
+                "public": "Mario Kart 64 150cc All Cups (Skips) (Summer Games Done Quick 2017)",
+                "release_year": 1996,
+                "run_time": "0:28:09",
+                "starttime": "2017-07-07T01:55:59Z",
+                "display_name": "Mario Kart 64",
+                "commentators": "",
+                "endtime": "2017-07-07T02:33:59Z",
+                "deprecated_runners": "abney317",
+                "runners": [
+                    522
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 2232,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "Nitro Tracks (No Skips)",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "Wii",
+                "name": "Mario Kart Wii",
+                "setup_time": "1:21:10",
+                "event": 20,
+                "order": 103,
+                "public": "Mario Kart Wii Nitro Tracks (No Skips) (Summer Games Done Quick 2017)",
+                "release_year": 2008,
+                "run_time": "0:38:51",
+                "starttime": "2017-07-07T02:33:59Z",
+                "display_name": "Mario Kart Wii",
+                "commentators": "",
+                "endtime": "2017-07-07T04:34:00Z",
+                "deprecated_runners": "Jcool114",
+                "runners": [
+                    552
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 2233,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "8-way 100% race",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "Arcade",
+                "name": "Tetris: The Grand Master",
+                "setup_time": "0:14:58",
+                "event": 20,
+                "order": 104,
+                "public": "Tetris: The Grand Master 8-way 100% race (Summer Games Done Quick 2017)",
+                "release_year": 1998,
+                "run_time": "0:12:02",
+                "starttime": "2017-07-07T04:34:00Z",
+                "display_name": "Tetris: The Grand Master",
+                "commentators": "",
+                "endtime": "2017-07-07T05:01:00Z",
+                "deprecated_runners": "aperturegrillz, Poochy.EXE, KevinDDR, EnchantressOfNumbers, JBroms, MxKai3, PARTY MAN X, eihoppe",
+                "runners": [
+                    245,
+                    535,
+                    520,
+                    299,
+                    269,
+                    503,
+                    359,
+                    516
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 2234,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "2-players 1-controller race",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "Arcade",
+                "name": "Tetris: The Grand Master",
+                "setup_time": "0:48:20",
+                "event": 20,
+                "order": 105,
+                "public": "Tetris: The Grand Master 2-players 1-controller race (Summer Games Done Quick 2017)",
+                "release_year": 1998,
+                "run_time": "0:10:40",
+                "starttime": "2017-07-07T05:01:00Z",
+                "display_name": "Tetris: The Grand Master",
+                "commentators": "",
+                "endtime": "2017-07-07T06:00:00Z",
+                "deprecated_runners": "Protomagicalgirl, aperturegrillz, KevinDDR, MxKai3",
+                "runners": [
+                    245,
+                    299,
+                    243,
+                    516
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 2235,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "Shirase",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "Arcade",
+                "name": "Tetris The Grand Master 3: Terror Instinct",
+                "setup_time": "0:20:27",
+                "event": 20,
+                "order": 106,
+                "public": "Tetris The Grand Master 3: Terror Instinct Shirase (Summer Games Done Quick 2017)",
+                "release_year": 2005,
+                "run_time": "0:05:33",
+                "starttime": "2017-07-07T06:00:00Z",
+                "display_name": "Tetris TGM3:\\nTerror Instinct",
+                "commentators": "",
+                "endtime": "2017-07-07T06:26:00Z",
+                "deprecated_runners": "KevinDDR",
+                "runners": [
+                    299
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 2236,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "All Dungeons (Swordless)",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "SNES",
+                "name": "The Legend of Zelda: A Link to the Past",
+                "setup_time": "0:08:02",
+                "event": 20,
+                "order": 107,
+                "public": "The Legend of Zelda: A Link to the Past All Dungeons (Swordless) (Summer Games Done Quick 2017)",
+                "release_year": 1991,
+                "run_time": "1:14:58",
+                "starttime": "2017-07-07T06:26:00Z",
+                "display_name": "The Legend of Zelda: A Link to the Past",
+                "commentators": "",
+                "endtime": "2017-07-07T07:49:00Z",
+                "deprecated_runners": "Andy",
+                "runners": [
+                    46
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 2237,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "Any% No Scroll Lock (NSL)",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "NES",
+                "name": "Zelda 2: The Adventure of Link",
+                "setup_time": "0:15:29",
+                "event": 20,
+                "order": 108,
+                "public": "Zelda 2: The Adventure of Link Any% No Scroll Lock (NSL) (Summer Games Done Quick 2017)",
+                "release_year": 1987,
+                "run_time": "0:49:31",
+                "starttime": "2017-07-07T07:49:00Z",
+                "display_name": "Zelda 2: The Adventure of Link",
+                "commentators": "",
+                "endtime": "2017-07-07T08:54:00Z",
+                "deprecated_runners": "ERROR72",
+                "runners": [
+                    542
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 2238,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "Any% No WW/OOB (No S+Q) Race",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "Game Boy",
+                "name": "The Legend of Zelda: Link's Awakening DX",
+                "setup_time": "0:22:26",
+                "event": 20,
+                "order": 109,
+                "public": "The Legend of Zelda: Link's Awakening DX Any% No WW/OOB (No S+Q) Race (Summer Games Done Quick 2017)",
+                "release_year": 1998,
+                "run_time": "0:54:34",
+                "starttime": "2017-07-07T08:54:00Z",
+                "display_name": "The Legend of Zelda: Link's Awakening DX",
+                "commentators": "",
+                "endtime": "2017-07-07T10:11:00Z",
+                "deprecated_runners": "TGH, BambooShadow",
+                "runners": [
+                    441,
+                    523
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 2239,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "Nocturna All Zones Race",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "PC",
+                "name": "Crypt of the NecroDancer: AMPLIFIED",
+                "setup_time": "0:21:31",
+                "event": 20,
+                "order": 110,
+                "public": "Crypt of the NecroDancer: AMPLIFIED Nocturna All Zones Race (Summer Games Done Quick 2017)",
+                "release_year": 2017,
+                "run_time": "0:06:29",
+                "starttime": "2017-07-07T10:11:00Z",
+                "display_name": "Crypt of the NecroDancer: AMPLIFIED",
+                "commentators": "",
+                "endtime": "2017-07-07T10:39:00Z",
+                "deprecated_runners": "SpootyBiscuit, mudjoe2",
+                "runners": [
+                    184,
+                    285
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 2240,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "Any% Out of Bounds v1.0",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "PC",
+                "name": "Shantae: Half-Genie Hero",
+                "setup_time": "0:09:38",
+                "event": 20,
+                "order": 111,
+                "public": "Shantae: Half-Genie Hero Any% Out of Bounds v1.0 (Summer Games Done Quick 2017)",
+                "release_year": 2016,
+                "run_time": "1:02:22",
+                "starttime": "2017-07-07T10:39:00Z",
+                "display_name": "Shantae: Half-Genie Hero",
+                "commentators": "",
+                "endtime": "2017-07-07T11:51:00Z",
+                "deprecated_runners": "skateman222",
+                "runners": [
+                    517
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 2241,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "Any%",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "PC",
+                "name": "Alwa's Awakening",
+                "setup_time": "0:07:58",
+                "event": 20,
+                "order": 112,
+                "public": "Alwa's Awakening Any% (Summer Games Done Quick 2017)",
+                "release_year": 2017,
+                "run_time": "0:41:12",
+                "starttime": "2017-07-07T11:51:00Z",
+                "display_name": "Alwa's Awakening",
+                "commentators": "",
+                "endtime": "2017-07-07T12:40:10Z",
+                "deprecated_runners": "InfestedRiche",
+                "runners": [
+                    156
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 2242,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "Speedrun Selfish",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "PC",
+                "name": "Splasher",
+                "setup_time": "0:06:59",
+                "event": 20,
+                "order": 113,
+                "public": "Splasher Speedrun Selfish (Summer Games Done Quick 2017)",
+                "release_year": 2017,
+                "run_time": "0:47:01",
+                "starttime": "2017-07-07T12:40:10Z",
+                "display_name": "Splasher",
+                "commentators": "",
+                "endtime": "2017-07-07T13:34:10Z",
+                "deprecated_runners": "Gyoo",
+                "runners": [
+                    567
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 2243,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "Any% Current Patch",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "PC",
+                "name": "Super Win The Game",
+                "setup_time": "0:05:59",
+                "event": 20,
+                "order": 114,
+                "public": "Super Win The Game Any% Current Patch (Summer Games Done Quick 2017)",
+                "release_year": 2014,
+                "run_time": "0:12:01",
+                "starttime": "2017-07-07T13:34:10Z",
+                "display_name": "Super Win The Game",
+                "commentators": "",
+                "endtime": "2017-07-07T13:52:10Z",
+                "deprecated_runners": "GamerDomey",
+                "runners": [
+                    534
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 2244,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "NG+ No Major Glitches",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "PC",
+                "name": "Shadow Complex Remastered",
+                "setup_time": "0:19:57",
+                "event": 20,
+                "order": 115,
+                "public": "Shadow Complex Remastered NG+ No Major Glitches (Summer Games Done Quick 2017)",
+                "release_year": 2015,
+                "run_time": "0:17:03",
+                "starttime": "2017-07-07T13:52:10Z",
+                "display_name": "Shadow Complex Remastered",
+                "commentators": "",
+                "endtime": "2017-07-07T14:29:10Z",
+                "deprecated_runners": "ajfirecracker",
+                "runners": [
+                    532
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 2245,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "Any% Freudia Race",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "PC",
+                "name": "Rosenkreuzstilette Freudenstachel",
+                "setup_time": "0:08:33",
+                "event": 20,
+                "order": 116,
+                "public": "Rosenkreuzstilette Freudenstachel Any% Freudia Race (Summer Games Done Quick 2017)",
+                "release_year": 2012,
+                "run_time": "0:32:27",
+                "starttime": "2017-07-07T14:29:10Z",
+                "display_name": "Rosenkreuzstilette Freudenstachel",
+                "commentators": "",
+                "endtime": "2017-07-07T15:10:10Z",
+                "deprecated_runners": "bjw, LV Creed",
+                "runners": [
+                    89,
+                    559
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 2246,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "Any%",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "NES",
+                "name": "Hammerin' Harry",
+                "setup_time": "0:04:42",
+                "event": 20,
+                "order": 117,
+                "public": "Hammerin' Harry Any% (Summer Games Done Quick 2017)",
+                "release_year": 1990,
+                "run_time": "0:07:18",
+                "starttime": "2017-07-07T15:10:10Z",
+                "display_name": "Hammerin' Harry",
+                "commentators": "",
+                "endtime": "2017-07-07T15:22:10Z",
+                "deprecated_runners": "pip_johnson",
+                "runners": [
+                    553
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 2247,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "Any%",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "NES",
+                "name": "Mega Man 4",
+                "setup_time": "0:10:39",
+                "event": 20,
+                "order": 118,
+                "public": "Mega Man 4 Any% (Summer Games Done Quick 2017)",
+                "release_year": 1991,
+                "run_time": "0:40:19",
+                "starttime": "2017-07-07T15:22:10Z",
+                "display_name": "Mega Man 4",
+                "commentators": "",
+                "endtime": "2017-07-07T16:13:08Z",
+                "deprecated_runners": "Chelney",
+                "runners": [
+                    324
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 2248,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "Any%",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "Game Boy",
+                "name": "Avenging Spirit",
+                "setup_time": "0:11:00",
+                "event": 20,
+                "order": 119,
+                "public": "Avenging Spirit Any% (Summer Games Done Quick 2017)",
+                "release_year": 1992,
+                "run_time": "0:09:27",
+                "starttime": "2017-07-07T16:13:08Z",
+                "display_name": "Avenging Spirit",
+                "commentators": "",
+                "endtime": "2017-07-07T16:33:35Z",
+                "deprecated_runners": "johncarls",
+                "runners": [
+                    224
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 2250,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "100%",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "Game Boy",
+                "name": "Teenage Mutant Ninja Turtles III: Radical Rescue",
+                "setup_time": "0:08:00",
+                "event": 20,
+                "order": 121,
+                "public": "Teenage Mutant Ninja Turtles III: Radical Rescue 100% (Summer Games Done Quick 2017)",
+                "release_year": 1993,
+                "run_time": "0:28:46",
+                "starttime": "2017-07-07T16:33:35Z",
+                "display_name": "Teenage Mutant Ninja Turtles III: Radical Rescue",
+                "commentators": "",
+                "endtime": "2017-07-07T17:10:21Z",
+                "deprecated_runners": "ZorlaxSeven",
+                "runners": [
+                    571
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 2251,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "Any%",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "SNES",
+                "name": "X-Men: Mutant Apocalypse",
+                "setup_time": "0:09:00",
+                "event": 20,
+                "order": 122,
+                "public": "X-Men: Mutant Apocalypse Any% (Summer Games Done Quick 2017)",
+                "release_year": 1994,
+                "run_time": "0:18:09",
+                "starttime": "2017-07-07T17:10:21Z",
+                "display_name": "X-Men: Mutant Apocalypse",
+                "commentators": "",
+                "endtime": "2017-07-07T17:37:30Z",
+                "deprecated_runners": "LRock",
+                "runners": [
+                    497
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 2252,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "Any%",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "PC",
+                "name": "Star Wars Jedi Knight II: Jedi Outcast",
+                "setup_time": "0:11:00",
+                "event": 20,
+                "order": 123,
+                "public": "Star Wars Jedi Knight II: Jedi Outcast Any% (Summer Games Done Quick 2017)",
+                "release_year": 2002,
+                "run_time": "0:48:07",
+                "starttime": "2017-07-07T17:37:30Z",
+                "display_name": "Star Wars Jedi Knight II: Jedi Outcast",
+                "commentators": "",
+                "endtime": "2017-07-07T18:36:37Z",
+                "deprecated_runners": "CovertMuffin",
+                "runners": [
+                    345
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 2253,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "Any% (Critical Mode)",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "PS2",
+                "name": "Kingdom Hearts II Final Mix",
+                "setup_time": "0:02:00",
+                "event": 20,
+                "order": 124,
+                "public": "Kingdom Hearts II Final Mix Any% (Critical Mode) (Summer Games Done Quick 2017)",
+                "release_year": 2007,
+                "run_time": "3:02:00",
+                "starttime": "2017-07-07T18:36:37Z",
+                "display_name": "Kingdom Hearts II Final Mix",
+                "commentators": "",
+                "endtime": "2017-07-07T21:40:37Z",
+                "deprecated_runners": "Bl00dyBizkitz",
+                "runners": [
+                    519
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 2254,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "LV1 Data Org RTA",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "PS2",
+                "name": "Kingdom Hearts II Final Mix",
+                "setup_time": "0:43:00",
+                "event": 20,
+                "order": 125,
+                "public": "Kingdom Hearts II Final Mix LV1 Data Org RTA (Summer Games Done Quick 2017)",
+                "release_year": 2007,
+                "run_time": "0:25:59",
+                "starttime": "2017-07-07T21:40:37Z",
+                "display_name": "Kingdom Hearts II Final Mix",
+                "commentators": "",
+                "endtime": "2017-07-07T22:49:36Z",
+                "deprecated_runners": "Bl00dyBizkitz",
+                "runners": [
+                    519
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 2255,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "Warpless Relay",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "Nintendo",
+                "name": "Super Mario Series Warpless Relay Race",
+                "setup_time": "0:18:12",
+                "event": 20,
+                "order": 126,
+                "public": "Super Mario Series Warpless Relay Race Warpless Relay (Summer Games Done Quick 2017)",
+                "release_year": 1985,
+                "run_time": "2:47:12",
+                "starttime": "2017-07-07T22:49:36Z",
+                "display_name": "Super Mario Series",
+                "commentators": "",
+                "endtime": "2017-07-08T01:55:00Z",
+                "deprecated_runners": "Just_defend, bjw, Svenne, darbian, Dotsarecool, xsvArea51, truman, LackAttack24, grandpoobear, Kosmicd12, MrCab, Kirua, SuperSonic71087, Aweglib, RaikouRider",
+                "runners": [
+                    153,
+                    342,
+                    55,
+                    576,
+                    566,
+                    258,
+                    89,
+                    401,
+                    100,
+                    510,
+                    513,
+                    549,
+                    166,
+                    349,
+                    162
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 2256,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "0% or 100%",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "GBA",
+                "name": "Metroid Fusion",
+                "setup_time": "0:23:14",
+                "event": 20,
+                "order": 127,
+                "public": "Metroid Fusion 0% or 100% (Summer Games Done Quick 2017)",
+                "release_year": 2002,
+                "run_time": "1:31:46",
+                "starttime": "2017-07-08T01:55:00Z",
+                "display_name": "Metroid Fusion",
+                "commentators": "",
+                "endtime": "2017-07-08T03:50:00Z",
+                "deprecated_runners": "JRP2234",
+                "runners": [
+                    32
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 2257,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "Low% Ice Race",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "SNES",
+                "name": "Super Metroid",
+                "setup_time": "0:17:11",
+                "event": 20,
+                "order": 128,
+                "public": "Super Metroid Low% Ice Race (Summer Games Done Quick 2017)",
+                "release_year": 1994,
+                "run_time": "0:52:49",
+                "starttime": "2017-07-08T03:50:00Z",
+                "display_name": "Super Metroid",
+                "commentators": "",
+                "endtime": "2017-07-08T05:00:00Z",
+                "deprecated_runners": "oatsngoats, zoast, Overfiendvip",
+                "runners": [
+                    209,
+                    424,
+                    185
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 2258,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "Any% No Slots",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "PSX",
+                "name": "Final Fantasy VII",
+                "setup_time": "0:07:56",
+                "event": 20,
+                "order": 129,
+                "public": "Final Fantasy VII Any% No Slots (Summer Games Done Quick 2017)",
+                "release_year": 1997,
+                "run_time": "7:48:04",
+                "starttime": "2017-07-08T05:00:00Z",
+                "display_name": "Final Fantasy VII",
+                "commentators": "",
+                "endtime": "2017-07-08T12:56:00Z",
+                "deprecated_runners": "ajneb174",
+                "runners": [
+                    558
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 2259,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "Any%",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "PC",
+                "name": "The Maitre D",
+                "setup_time": "0:12:13",
+                "event": 20,
+                "order": 130,
+                "public": "The Maitre D Any% (Summer Games Done Quick 2017)",
+                "release_year": 2016,
+                "run_time": "0:05:47",
+                "starttime": "2017-07-08T12:56:00Z",
+                "display_name": "The Maitre D",
+                "commentators": "",
+                "endtime": "2017-07-08T13:14:00Z",
+                "deprecated_runners": "Nerd_Squared",
+                "runners": [
+                    562
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 2260,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "Any%",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "PC",
+                "name": "Rise of The Triad",
+                "setup_time": "0:07:52",
+                "event": 20,
+                "order": 131,
+                "public": "Rise of The Triad Any% (Summer Games Done Quick 2017)",
+                "release_year": 1994,
+                "run_time": "0:26:08",
+                "starttime": "2017-07-08T13:14:00Z",
+                "display_name": "Rise of The Triad",
+                "commentators": "",
+                "endtime": "2017-07-08T13:48:00Z",
+                "deprecated_runners": "psychoripper",
+                "runners": [
+                    254
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 2261,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "Any%",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "PC",
+                "name": "SUPERHOT",
+                "setup_time": "0:09:23",
+                "event": 20,
+                "order": 132,
+                "public": "SUPERHOT Any% (Summer Games Done Quick 2017)",
+                "release_year": 2016,
+                "run_time": "0:20:37",
+                "starttime": "2017-07-08T13:48:00Z",
+                "display_name": "SUPERHOT",
+                "commentators": "",
+                "endtime": "2017-07-08T14:18:00Z",
+                "deprecated_runners": "Bullets",
+                "runners": [
+                    483
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 2262,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "Any%",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "PC",
+                "name": "Titanfall 2",
+                "setup_time": "0:08:27",
+                "event": 20,
+                "order": 133,
+                "public": "Titanfall 2 Any% (Summer Games Done Quick 2017)",
+                "release_year": 2016,
+                "run_time": "1:35:33",
+                "starttime": "2017-07-08T14:18:00Z",
+                "display_name": "Titanfall 2",
+                "commentators": "",
+                "endtime": "2017-07-08T16:02:00Z",
+                "deprecated_runners": "An Angry Albino",
+                "runners": [
+                    500
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 2263,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "Any% Normal Assassin",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "",
+                "name": "Diablo 2: Lord of Destruction",
+                "setup_time": "0:23:38",
+                "event": 20,
+                "order": 134,
+                "public": "Diablo 2: Lord of Destruction Any% Normal Assassin (Summer Games Done Quick 2017)",
+                "release_year": null,
+                "run_time": "1:42:22",
+                "starttime": "2017-07-08T16:02:00Z",
+                "display_name": "Diablo 2:\\nLord of Destruction",
+                "commentators": "",
+                "endtime": "2017-07-08T18:08:00Z",
+                "deprecated_runners": "MrLlamaSC",
+                "runners": [
+                    77
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 2264,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "All Bosses /w DLC1",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "PC",
+                "name": "Dark Souls III",
+                "setup_time": "0:21:13",
+                "event": 20,
+                "order": 135,
+                "public": "Dark Souls III All Bosses /w DLC1 (Summer Games Done Quick 2017)",
+                "release_year": 2016,
+                "run_time": "1:27:47",
+                "starttime": "2017-07-08T18:08:00Z",
+                "display_name": "Dark Souls III",
+                "commentators": "",
+                "endtime": "2017-07-08T19:57:00Z",
+                "deprecated_runners": "ThorW",
+                "runners": [
+                    574
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 2265,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "Any% Kiln Skip",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "PC",
+                "name": "Dark Souls",
+                "setup_time": "0:13:55",
+                "event": 20,
+                "order": 136,
+                "public": "Dark Souls Any% Kiln Skip (Summer Games Done Quick 2017)",
+                "release_year": 2011,
+                "run_time": "0:29:05",
+                "starttime": "2017-07-08T19:57:00Z",
+                "display_name": "Dark Souls",
+                "commentators": "",
+                "endtime": "2017-07-08T20:40:00Z",
+                "deprecated_runners": "BubblesDelFuego",
+                "runners": [
+                    296
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 2266,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "Any%",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "SNES",
+                "name": "Super Panga World",
+                "setup_time": "0:16:37",
+                "event": 20,
+                "order": 137,
+                "public": "Super Panga World Any% (Summer Games Done Quick 2017)",
+                "release_year": 2015,
+                "run_time": "0:33:23",
+                "starttime": "2017-07-08T20:40:00Z",
+                "display_name": "Super Panga World",
+                "commentators": "",
+                "endtime": "2017-07-08T21:30:00Z",
+                "deprecated_runners": "DoDeChehedron",
+                "runners": [
+                    478
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 2267,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "120 Star",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "N64",
+                "name": "Super Mario 64",
+                "setup_time": "0:17:20",
+                "event": 20,
+                "order": 138,
+                "public": "Super Mario 64 120 Star (Summer Games Done Quick 2017)",
+                "release_year": 1996,
+                "run_time": "1:41:40",
+                "starttime": "2017-07-08T21:30:00Z",
+                "display_name": "Super Mario 64",
+                "commentators": "",
+                "endtime": "2017-07-08T23:29:00Z",
+                "deprecated_runners": "cheese05",
+                "runners": [
+                    294
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 2268,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "All Masks",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "N64",
+                "name": "The Legend of Zelda: Majora's Mask",
+                "setup_time": "0:33:09",
+                "event": 20,
+                "order": 139,
+                "public": "The Legend of Zelda: Majora's Mask All Masks (Summer Games Done Quick 2017)",
+                "release_year": 2000,
+                "run_time": "2:39:51",
+                "starttime": "2017-07-08T23:29:00Z",
+                "display_name": "Legend of Zelda:\\nMajora's Mask",
+                "commentators": "",
+                "endtime": "2017-07-09T02:42:00Z",
+                "deprecated_runners": "TrevPerson",
+                "runners": [
+                    572
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 2269,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "Any%",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "Wii U",
+                "name": "The Legend of Zelda: Breath of the Wild",
+                "setup_time": "0:15:01",
+                "event": 20,
+                "order": 140,
+                "public": "The Legend of Zelda: Breath of the Wild Any% (Summer Games Done Quick 2017)",
+                "release_year": 2017,
+                "run_time": "0:45:59",
+                "starttime": "2017-07-09T02:42:00Z",
+                "display_name": "Legend of Zelda:\\nBreath of the Wild",
+                "commentators": "",
+                "endtime": "2017-07-09T03:43:00Z",
+                "deprecated_runners": "Orcastraw",
+                "runners": [
+                    538
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 2275,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "Solo Coop",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "PC",
+                "name": "Portal 2",
+                "setup_time": "0:33:00",
+                "event": 20,
+                "order": 141,
+                "public": "Portal 2 Solo Coop (Summer Games Done Quick 2017)",
+                "release_year": 2011,
+                "run_time": "0:45:19",
+                "starttime": "2017-07-09T03:43:00Z",
+                "display_name": "Portal 2",
+                "commentators": "",
+                "endtime": "2017-07-09T05:01:19Z",
+                "deprecated_runners": "Azorae",
+                "runners": [
+                    103
+                ],
+                "description": ""
+            }
+        },
+        {
+            "pk": 2270,
+            "model": "tracker.speedrun",
+            "fields": {
+                "category": "Any% Glitchless",
+                "giantbomb_id": null,
+                "coop": false,
+                "console": "SNES",
+                "name": "EarthBound",
+                "setup_time": "0",
+                "event": 20,
+                "order": 142,
+                "public": "EarthBound Any% Glitchless (Summer Games Done Quick 2017)",
+                "release_year": 1994,
+                "run_time": "4:27:53",
+                "starttime": "2017-07-09T05:01:19Z",
+                "display_name": "EarthBound",
+                "commentators": "",
+                "endtime": "2017-07-09T09:29:12Z",
+                "deprecated_runners": "UltimoIce",
+                "runners": [
+                    540
+                ],
+                "description": ""
+            }
+        }
+    ],
+    "runner": [
+        {
+            "pk": 3,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "MrsGizamaluke",
+                "stream": "http://www.twitch.tv/mrsgizamaluke",
+                "twitter": "MrsGizamaluke",
+                "youtube": "",
+                "donor": null,
+                "public": "MrsGizamaluke"
+            }
+        },
+        {
+            "pk": 42,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "Halfcoordinated",
+                "stream": "http://twitch.tv/halfcoordinated",
+                "twitter": "halfcoordinated",
+                "youtube": "halfcoordinated",
+                "donor": null,
+                "public": "Halfcoordinated"
+            }
+        },
+        {
+            "pk": 55,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "Just_defend",
+                "stream": "http://twitch.tv/just_defend",
+                "twitter": "ghiblineko",
+                "youtube": "GhibliNeko",
+                "donor": null,
+                "public": "Just_defend"
+            }
+        },
+        {
+            "pk": 72,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "Blood_Thunder",
+                "stream": "http://www.twitch.tv/bl00d_thunder",
+                "twitter": "Bl00dThunder",
+                "youtube": "BTSpeedRuns",
+                "donor": null,
+                "public": "Blood_Thunder"
+            }
+        },
+        {
+            "pk": 77,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "MrLlamaSC",
+                "stream": "http://twitch.tv/mrllamasc",
+                "twitter": "MrLlamaSC",
+                "youtube": "MrLlamaSC",
+                "donor": null,
+                "public": "MrLlamaSC"
+            }
+        },
+        {
+            "pk": 20,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "CapnClever",
+                "stream": "http://twitch.tv/capnclever",
+                "twitter": "",
+                "youtube": "UberGameHunter",
+                "donor": 8119,
+                "public": "CapnClever"
+            }
+        },
+        {
+            "pk": 32,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "JRP2234",
+                "stream": "http://www.twitch.tv/jrp2234gaming",
+                "twitter": "Joel_da_poneh",
+                "youtube": "lobber234",
+                "donor": 17426,
+                "public": "JRP2234"
+            }
+        },
+        {
+            "pk": 46,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "Andy",
+                "stream": "http://twitch.tv/andy",
+                "twitter": "andylaso",
+                "youtube": "",
+                "donor": 46319,
+                "public": "Andy"
+            }
+        },
+        {
+            "pk": 60,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "SpikeVegeta",
+                "stream": "http://twitch.tv/spikevegeta",
+                "twitter": "spikevegeta",
+                "youtube": "",
+                "donor": 3538,
+                "public": "SpikeVegeta"
+            }
+        },
+        {
+            "pk": 80,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "feasel",
+                "stream": "http://twitch.tv/feasel",
+                "twitter": "feasel0",
+                "youtube": "feasel0",
+                "donor": 41716,
+                "public": "feasel"
+            }
+        },
+        {
+            "pk": 81,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "Shaddex",
+                "stream": "http://www.twitch.tv/shaddex",
+                "twitter": "Shaddex",
+                "youtube": "ximatthewix",
+                "donor": 50049,
+                "public": "Shaddex"
+            }
+        },
+        {
+            "pk": 56,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "PJ",
+                "stream": "http://www.twitch.tv/pjdicesare",
+                "twitter": "TheSuperSNES",
+                "youtube": "TheSuperSNES",
+                "donor": 1444,
+                "public": "PJ"
+            }
+        },
+        {
+            "pk": 97,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "Keizaron",
+                "stream": "http://twitch.tv/keizaron",
+                "twitter": "Keizaron",
+                "youtube": "KeizaronGaming",
+                "donor": null,
+                "public": "Keizaron"
+            }
+        },
+        {
+            "pk": 17,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "BIGHONKINBURGER",
+                "stream": "http://twitch.tv/bighonkinburger",
+                "twitter": "",
+                "youtube": "",
+                "donor": null,
+                "public": "BIGHONKINBURGER"
+            }
+        },
+        {
+            "pk": 162,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "Dotsarecool",
+                "stream": "http://twitch.tv/dotsarecoolp",
+                "twitter": "dotsarecool",
+                "youtube": "dotsarecool",
+                "donor": null,
+                "public": "Dotsarecool"
+            }
+        },
+        {
+            "pk": 165,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "Xem",
+                "stream": "http://www.twitch.tv/xem92",
+                "twitter": "xemmypoo",
+                "youtube": "xemhanort",
+                "donor": null,
+                "public": "Xem"
+            }
+        },
+        {
+            "pk": 166,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "xsvArea51",
+                "stream": "http://twitch.tv/straevaras",
+                "twitter": "Straevaras",
+                "youtube": "",
+                "donor": null,
+                "public": "xsvArea51"
+            }
+        },
+        {
+            "pk": 95,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "Grimelios",
+                "stream": "http://twitch.tv/grimelios",
+                "twitter": "grimelios",
+                "youtube": "grimelios",
+                "donor": 48416,
+                "public": "Grimelios"
+            }
+        },
+        {
+            "pk": 99,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "Straevaras",
+                "stream": "http://twitch.tv/straevaras",
+                "twitter": "Straevaras",
+                "youtube": "",
+                "donor": 26722,
+                "public": "Straevaras"
+            }
+        },
+        {
+            "pk": 100,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "Svenne",
+                "stream": "http://www.twitch.tv/svenne1138",
+                "twitter": "DonSvenne",
+                "youtube": "",
+                "donor": 1816,
+                "public": "Svenne"
+            }
+        },
+        {
+            "pk": 103,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "Azorae",
+                "stream": "http://twitch.tv/Azorae",
+                "twitter": "AzoraeSpeedruns",
+                "youtube": "xazoraex",
+                "donor": 16312,
+                "public": "Azorae"
+            }
+        },
+        {
+            "pk": 119,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "Golden",
+                "stream": "http://twitch.tv/go1den",
+                "twitter": "GoldenSRL",
+                "youtube": "goldensrl",
+                "donor": 5240,
+                "public": "Golden"
+            }
+        },
+        {
+            "pk": 153,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "darbian",
+                "stream": "http://www.twitch.tv/darbian",
+                "twitter": "darbianSRL",
+                "youtube": "darbianSRL",
+                "donor": 9548,
+                "public": "darbian"
+            }
+        },
+        {
+            "pk": 154,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "guished",
+                "stream": "http://twitch.tv/guished",
+                "twitter": "guished",
+                "youtube": "",
+                "donor": 37045,
+                "public": "guished"
+            }
+        },
+        {
+            "pk": 155,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "Stivitybobo",
+                "stream": "http://twitch.tv/stivitybobo",
+                "twitter": "stivitybobo",
+                "youtube": "stivitybobo31",
+                "donor": 38537,
+                "public": "Stivitybobo"
+            }
+        },
+        {
+            "pk": 156,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "InfestedRiche",
+                "stream": "http://twitch.tv/InfestedRiche",
+                "twitter": "infestedriche",
+                "youtube": "",
+                "donor": 13844,
+                "public": "InfestedRiche"
+            }
+        },
+        {
+            "pk": 89,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "bjw",
+                "stream": "http://www.twitch.tv/bjw",
+                "twitter": "shoepercent",
+                "youtube": "",
+                "donor": 5753,
+                "public": "bjw"
+            }
+        },
+        {
+            "pk": 184,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "SpootyBiscuit",
+                "stream": "http://www.twitch.tv/spootybiscuit",
+                "twitter": "",
+                "youtube": "",
+                "donor": null,
+                "public": "SpootyBiscuit"
+            }
+        },
+        {
+            "pk": 185,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "oatsngoats",
+                "stream": "http://www.twitch.tv/oatsngoats",
+                "twitter": "Oatsngoats",
+                "youtube": "",
+                "donor": null,
+                "public": "oatsngoats"
+            }
+        },
+        {
+            "pk": 202,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "Darkwing Duck",
+                "stream": "https://www.twitch.tv/darkwing_duck_sda",
+                "twitter": "",
+                "youtube": "",
+                "donor": null,
+                "public": "Darkwing Duck"
+            }
+        },
+        {
+            "pk": 203,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "warm_ham",
+                "stream": "http://twitch.tv/warm_ham",
+                "twitter": "",
+                "youtube": "",
+                "donor": null,
+                "public": "warm_ham"
+            }
+        },
+        {
+            "pk": 224,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "johncarls",
+                "stream": "http://twitch.tv/johncarls",
+                "twitter": "johncarls",
+                "youtube": "",
+                "donor": null,
+                "public": "johncarls"
+            }
+        },
+        {
+            "pk": 226,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "_VB",
+                "stream": "http://twitch.tv/vb_srl",
+                "twitter": "vb_srl",
+                "youtube": "",
+                "donor": null,
+                "public": "_VB"
+            }
+        },
+        {
+            "pk": 241,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "Trogdor",
+                "stream": "http://www.twitch.tv/trogdor",
+                "twitter": "TrogdorSRL",
+                "youtube": "",
+                "donor": null,
+                "public": "Trogdor"
+            }
+        },
+        {
+            "pk": 243,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "Protomagicalgirl",
+                "stream": "http://www.twitch.tv/protomagicalgirl",
+                "twitter": "princessproto",
+                "youtube": "",
+                "donor": null,
+                "public": "Protomagicalgirl"
+            }
+        },
+        {
+            "pk": 245,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "aperturegrillz",
+                "stream": "http://twitch.tv/aperturegrillz",
+                "twitter": "aperturegrillz",
+                "youtube": "",
+                "donor": null,
+                "public": "aperturegrillz"
+            }
+        },
+        {
+            "pk": 247,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "Countdown42",
+                "stream": "http://twitch.tv/countdown69",
+                "twitter": "cuduimaginetho",
+                "youtube": "",
+                "donor": null,
+                "public": "Countdown42"
+            }
+        },
+        {
+            "pk": 254,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "psychoripper",
+                "stream": "http://www.twitch.tv/thepsychoripper",
+                "twitter": "psychoripper_",
+                "youtube": "",
+                "donor": null,
+                "public": "psychoripper"
+            }
+        },
+        {
+            "pk": 258,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "truman",
+                "stream": "http://twitch.tv/truman",
+                "twitter": "trumezsmw",
+                "youtube": "",
+                "donor": null,
+                "public": "truman"
+            }
+        },
+        {
+            "pk": 269,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "Poochy.EXE",
+                "stream": "https://www.twitch.tv/poochyexe",
+                "twitter": "PoochyEXE",
+                "youtube": "",
+                "donor": null,
+                "public": "Poochy.EXE"
+            }
+        },
+        {
+            "pk": 209,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "zoast",
+                "stream": "http://twitch.tv/zoasty",
+                "twitter": "",
+                "youtube": "",
+                "donor": null,
+                "public": "zoast"
+            }
+        },
+        {
+            "pk": 190,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "Gyre",
+                "stream": "http://twitch.tv/gyre_",
+                "twitter": "",
+                "youtube": "",
+                "donor": null,
+                "public": "Gyre"
+            }
+        },
+        {
+            "pk": 264,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "soothingplumtea",
+                "stream": "",
+                "twitter": "soothingplumtea",
+                "youtube": "",
+                "donor": null,
+                "public": "soothingplumtea"
+            }
+        },
+        {
+            "pk": 277,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "zorlaxseven",
+                "stream": "https://www.twitch.tv/zorlaxseven",
+                "twitter": "",
+                "youtube": "",
+                "donor": null,
+                "public": "zorlaxseven"
+            }
+        },
+        {
+            "pk": 285,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "mudjoe2",
+                "stream": "http://www.twitch.tv/mudjoe2",
+                "twitter": "mudjoe2",
+                "youtube": "",
+                "donor": null,
+                "public": "mudjoe2"
+            }
+        },
+        {
+            "pk": 286,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "usedpizza",
+                "stream": "http://twitch.tv/usedpizza",
+                "twitter": "usedpizza",
+                "youtube": "",
+                "donor": null,
+                "public": "usedpizza"
+            }
+        },
+        {
+            "pk": 294,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "cheese05",
+                "stream": "https://www.twitch.tv/cheese05",
+                "twitter": "cheese051",
+                "youtube": "",
+                "donor": null,
+                "public": "cheese05"
+            }
+        },
+        {
+            "pk": 296,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "BubblesDelFuego",
+                "stream": "https://www.twitch.tv/bubblesdelfuego",
+                "twitter": "bubblesdelfuego",
+                "youtube": "",
+                "donor": null,
+                "public": "BubblesDelFuego"
+            }
+        },
+        {
+            "pk": 299,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "KevinDDR",
+                "stream": "http://twitch.tv/kevinddr",
+                "twitter": "kevinddr",
+                "youtube": "",
+                "donor": null,
+                "public": "KevinDDR"
+            }
+        },
+        {
+            "pk": 301,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "FFR Pro 21",
+                "stream": "https://www.twitch.tv/ffrpro21",
+                "twitter": "FFRPro21",
+                "youtube": "",
+                "donor": null,
+                "public": "FFR Pro 21"
+            }
+        },
+        {
+            "pk": 302,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "orsa",
+                "stream": "http://twitch.tv/orsa_numbers",
+                "twitter": "orrrsa",
+                "youtube": "",
+                "donor": null,
+                "public": "orsa"
+            }
+        },
+        {
+            "pk": 320,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "Konasumi",
+                "stream": "http://www.twitch.tv/konasumi",
+                "twitter": "konasumitv",
+                "youtube": "",
+                "donor": null,
+                "public": "Konasumi"
+            }
+        },
+        {
+            "pk": 326,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "Fladervy",
+                "stream": "https://www.twitch.tv/fladervy",
+                "twitter": "fladervy",
+                "youtube": "",
+                "donor": null,
+                "public": "Fladervy"
+            }
+        },
+        {
+            "pk": 333,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "Omnigamer",
+                "stream": "http://twitch.tv/omnigamer",
+                "twitter": "TheOmnigamer",
+                "youtube": "",
+                "donor": null,
+                "public": "Omnigamer"
+            }
+        },
+        {
+            "pk": 336,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "DrTChops",
+                "stream": "https://www.twitch.tv/drtchops",
+                "twitter": "DrTChops",
+                "youtube": "",
+                "donor": null,
+                "public": "DrTChops"
+            }
+        },
+        {
+            "pk": 342,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "LackAttack24",
+                "stream": "https://twitch.tv/lackattack24",
+                "twitter": "lackattack24",
+                "youtube": "",
+                "donor": null,
+                "public": "LackAttack24"
+            }
+        },
+        {
+            "pk": 345,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "CovertMuffin",
+                "stream": "https://www.twitch.tv/Covert_Muffin",
+                "twitter": "CovertMuffin",
+                "youtube": "",
+                "donor": null,
+                "public": "CovertMuffin"
+            }
+        },
+        {
+            "pk": 349,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "grandpoobear",
+                "stream": "https://www.twitch.tv/grand_poobear",
+                "twitter": "grandpoobear",
+                "youtube": "",
+                "donor": null,
+                "public": "grandpoobear"
+            }
+        },
+        {
+            "pk": 357,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "Celestics",
+                "stream": "http://twitch.tv/celestics",
+                "twitter": "Celestics782",
+                "youtube": "",
+                "donor": null,
+                "public": "Celestics"
+            }
+        },
+        {
+            "pk": 359,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "EnchantressOfNumbers",
+                "stream": "https://www.twitch.tv/enchantressofnumbers",
+                "twitter": "EON_Tweets",
+                "youtube": "",
+                "donor": null,
+                "public": "EnchantressOfNumbers"
+            }
+        },
+        {
+            "pk": 362,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "doubletaco",
+                "stream": "http://twitch.tv/doubletaco",
+                "twitter": "765dago",
+                "youtube": "",
+                "donor": null,
+                "public": "doubletaco"
+            }
+        },
+        {
+            "pk": 328,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "JustinDM",
+                "stream": "http://twitch.tv/justindm_speedruns",
+                "twitter": "JDM_Speedruns",
+                "youtube": "",
+                "donor": null,
+                "public": "JustinDM"
+            }
+        },
+        {
+            "pk": 292,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "calebhart42",
+                "stream": "http://twitch.tv/calebhart42",
+                "twitter": "calebhart42",
+                "youtube": "",
+                "donor": null,
+                "public": "calebhart42"
+            }
+        },
+        {
+            "pk": 313,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "Aquas",
+                "stream": "http://www.twitch.tv/Aquas",
+                "twitter": "Aqy",
+                "youtube": "",
+                "donor": null,
+                "public": "Aquas"
+            }
+        },
+        {
+            "pk": 324,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "Chelney",
+                "stream": "https://www.twitch.tv/chelney1",
+                "twitter": "chelney1",
+                "youtube": "",
+                "donor": null,
+                "public": "Chelney"
+            }
+        },
+        {
+            "pk": 375,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "TheFuncannon",
+                "stream": "https://twitch.tv/thefuncannon",
+                "twitter": "TheFuncannon",
+                "youtube": "",
+                "donor": 35820,
+                "public": "TheFuncannon"
+            }
+        },
+        {
+            "pk": 380,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "Theguesst",
+                "stream": "http://twitch.tv/theguesst",
+                "twitter": "zeguesst",
+                "youtube": "",
+                "donor": null,
+                "public": "Theguesst"
+            }
+        },
+        {
+            "pk": 401,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "Kosmicd12",
+                "stream": "http://www.twitch.tv/kosmicd12",
+                "twitter": "kosmicd12",
+                "youtube": "",
+                "donor": null,
+                "public": "Kosmicd12"
+            }
+        },
+        {
+            "pk": 418,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "Toad22484",
+                "stream": "http://twitch.tv/toad22484",
+                "twitter": "toad22484",
+                "youtube": "",
+                "donor": null,
+                "public": "Toad22484"
+            }
+        },
+        {
+            "pk": 424,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "Overfiendvip",
+                "stream": "http://twitch.tv/overfiendvip",
+                "twitter": "overfiendvip",
+                "youtube": "",
+                "donor": null,
+                "public": "Overfiendvip"
+            }
+        },
+        {
+            "pk": 441,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "TGH",
+                "stream": "http://www.twitch.tv/tgh_plays",
+                "twitter": "TGH_srl",
+                "youtube": "",
+                "donor": null,
+                "public": "TGH"
+            }
+        },
+        {
+            "pk": 450,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "Ppotdot1",
+                "stream": "http://twitch.tv/ppotdot1",
+                "twitter": "",
+                "youtube": "",
+                "donor": null,
+                "public": "Ppotdot1"
+            }
+        },
+        {
+            "pk": 374,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "puwexil",
+                "stream": "https://www.twitch.tv/puwexil",
+                "twitter": "puwexil",
+                "youtube": "",
+                "donor": null,
+                "public": "puwexil"
+            }
+        },
+        {
+            "pk": 478,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "DoDeChehedron",
+                "stream": "http://twitch.tv/dodechehedron",
+                "twitter": "DoDeChehedron",
+                "youtube": "",
+                "donor": null,
+                "public": "DoDeChehedron"
+            }
+        },
+        {
+            "pk": 483,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "Bullets",
+                "stream": "https://www.twitch.tv/isbullets",
+                "twitter": "isBullets",
+                "youtube": "",
+                "donor": null,
+                "public": "Bullets"
+            }
+        },
+        {
+            "pk": 486,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "Pessimism",
+                "stream": "https://www.twitch.tv/xpessimism",
+                "twitter": "xPessimism",
+                "youtube": "",
+                "donor": null,
+                "public": "Pessimism"
+            }
+        },
+        {
+            "pk": 487,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "MunchaKoopas",
+                "stream": "https://www.twitch.tv/munchakoopas",
+                "twitter": "MunchaKoopasSK",
+                "youtube": "",
+                "donor": null,
+                "public": "MunchaKoopas"
+            }
+        },
+        {
+            "pk": 492,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "097Aceofspades",
+                "stream": "https://www.twitch.tv/097aceofspades",
+                "twitter": "ConnorA2112",
+                "youtube": "",
+                "donor": null,
+                "public": "097Aceofspades"
+            }
+        },
+        {
+            "pk": 497,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "LRock",
+                "stream": "https://www.twitch.tv/lrock617",
+                "twitter": "LRock617",
+                "youtube": "",
+                "donor": null,
+                "public": "LRock"
+            }
+        },
+        {
+            "pk": 498,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "Kinnin11",
+                "stream": "http://www.twitch.tv/kinnin11",
+                "twitter": "kinnin11",
+                "youtube": "",
+                "donor": null,
+                "public": "Kinnin11"
+            }
+        },
+        {
+            "pk": 500,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "An Angry Albino",
+                "stream": "HTTPS://www.YouTube.com/c/AnAngryAlbino",
+                "twitter": "",
+                "youtube": "",
+                "donor": null,
+                "public": "An Angry Albino"
+            }
+        },
+        {
+            "pk": 501,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "matchboxmatt",
+                "stream": "http://www.twitch.tv/matchboxmatt",
+                "twitter": "matchboxmatt",
+                "youtube": "",
+                "donor": null,
+                "public": "matchboxmatt"
+            }
+        },
+        {
+            "pk": 503,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "JBroms",
+                "stream": "http://twitch.tv/jbroms",
+                "twitter": "JBroms",
+                "youtube": "",
+                "donor": null,
+                "public": "JBroms"
+            }
+        },
+        {
+            "pk": 504,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "FingerQuick",
+                "stream": "https://www.twitch.tv/fingerquick",
+                "twitter": "FingerQuick",
+                "youtube": "",
+                "donor": null,
+                "public": "FingerQuick"
+            }
+        },
+        {
+            "pk": 505,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "Ghost King",
+                "stream": "https://twitch.tv/ghostkingg1",
+                "twitter": "Ghost_King_G1",
+                "youtube": "",
+                "donor": null,
+                "public": "Ghost King"
+            }
+        },
+        {
+            "pk": 507,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "Blackbeltginganinja",
+                "stream": "http://www.twitch.tv/blackbeltginganinja",
+                "twitter": "BBGingaNinja",
+                "youtube": "",
+                "donor": null,
+                "public": "Blackbeltginganinja"
+            }
+        },
+        {
+            "pk": 508,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "namux",
+                "stream": "https://www.twitch.tv/namux",
+                "twitter": "namux_",
+                "youtube": "",
+                "donor": null,
+                "public": "namux"
+            }
+        },
+        {
+            "pk": 509,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "Plush",
+                "stream": "https://www.twitch.tv/plushsoj",
+                "twitter": "",
+                "youtube": "",
+                "donor": null,
+                "public": "Plush"
+            }
+        },
+        {
+            "pk": 510,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "MrCab",
+                "stream": "http://twitch.tv/mrcab55",
+                "twitter": "mrcab_SRL",
+                "youtube": "",
+                "donor": null,
+                "public": "MrCab"
+            }
+        },
+        {
+            "pk": 511,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "MrBond",
+                "stream": "https://www.twitch.tv/questforsemiglory",
+                "twitter": "Quest4SemiGlory",
+                "youtube": "",
+                "donor": null,
+                "public": "MrBond"
+            }
+        },
+        {
+            "pk": 512,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "sickynar",
+                "stream": "http://twitch.tv/sickynar",
+                "twitter": "sickynar",
+                "youtube": "",
+                "donor": null,
+                "public": "sickynar"
+            }
+        },
+        {
+            "pk": 513,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "Kirua",
+                "stream": "https://www.twitch.tv/kirua",
+                "twitter": "wanpakugraffiti",
+                "youtube": "",
+                "donor": null,
+                "public": "Kirua"
+            }
+        },
+        {
+            "pk": 514,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "FieryBlizzard",
+                "stream": "http://www.twitch.tv/fieryblizzard",
+                "twitter": "FieryBlizzard",
+                "youtube": "",
+                "donor": null,
+                "public": "FieryBlizzard"
+            }
+        },
+        {
+            "pk": 515,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "BOWIEtheHERO",
+                "stream": "https://www.twitch.tv/bowiethehero",
+                "twitter": "Bowie_Alexander",
+                "youtube": "",
+                "donor": null,
+                "public": "BOWIEtheHERO"
+            }
+        },
+        {
+            "pk": 516,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "MxKai3",
+                "stream": "http://www.twitch.tv/mxkai3",
+                "twitter": "mxkai3",
+                "youtube": "",
+                "donor": null,
+                "public": "MxKai3"
+            }
+        },
+        {
+            "pk": 517,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "skateman222",
+                "stream": "https://www.twitch.tv/skateman222",
+                "twitter": "skateman222",
+                "youtube": "",
+                "donor": null,
+                "public": "skateman222"
+            }
+        },
+        {
+            "pk": 519,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "Bl00dyBizkitz",
+                "stream": "http://www.twitch.tv/bl00dybizkitz",
+                "twitter": "bl00dybizkitz",
+                "youtube": "",
+                "donor": null,
+                "public": "Bl00dyBizkitz"
+            }
+        },
+        {
+            "pk": 520,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "PARTY MAN X",
+                "stream": "http://twitch.tv/partymanx",
+                "twitter": "partyman_x",
+                "youtube": "",
+                "donor": null,
+                "public": "PARTY MAN X"
+            }
+        },
+        {
+            "pk": 521,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "TkMala",
+                "stream": "https://www.twitch.tv/tkmala",
+                "twitter": "frannyyyy_12",
+                "youtube": "",
+                "donor": null,
+                "public": "TkMala"
+            }
+        },
+        {
+            "pk": 522,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "abney317",
+                "stream": "http://twitch.tv/abney317",
+                "twitter": "abney317",
+                "youtube": "",
+                "donor": null,
+                "public": "abney317"
+            }
+        },
+        {
+            "pk": 523,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "BambooShadow",
+                "stream": "https://www.twitch.tv/bambooshadow",
+                "twitter": "BambooShadow",
+                "youtube": "",
+                "donor": null,
+                "public": "BambooShadow"
+            }
+        },
+        {
+            "pk": 524,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "Elipsis",
+                "stream": "Http://twitch.tv/elipsys",
+                "twitter": "finalelipsis",
+                "youtube": "",
+                "donor": null,
+                "public": "Elipsis"
+            }
+        },
+        {
+            "pk": 525,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "tekkie",
+                "stream": "https://www.twitch.tv/ufotekkie",
+                "twitter": "ufotekkie",
+                "youtube": "",
+                "donor": null,
+                "public": "tekkie"
+            }
+        },
+        {
+            "pk": 526,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "SluckySeven",
+                "stream": "https://www.twitch.tv/sluckyseven",
+                "twitter": "sluckyseven",
+                "youtube": "",
+                "donor": null,
+                "public": "SluckySeven"
+            }
+        },
+        {
+            "pk": 527,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "EggmaniMN",
+                "stream": "http://twitch.tv/eggmanimn",
+                "twitter": "eggmanimn",
+                "youtube": "",
+                "donor": null,
+                "public": "EggmaniMN"
+            }
+        },
+        {
+            "pk": 528,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "Dactyly",
+                "stream": "http://twitch.tv/dactyly",
+                "twitter": "dactyly",
+                "youtube": "",
+                "donor": null,
+                "public": "Dactyly"
+            }
+        },
+        {
+            "pk": 529,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "Garrison",
+                "stream": "http://twitch.tv/garrison_tt",
+                "twitter": "GarrisonSRL",
+                "youtube": "",
+                "donor": null,
+                "public": "Garrison"
+            }
+        },
+        {
+            "pk": 530,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "flying fox",
+                "stream": "https://www.twitch.tv/flyingfoxtsc",
+                "twitter": "flyingfoxtsc",
+                "youtube": "",
+                "donor": null,
+                "public": "flying fox"
+            }
+        },
+        {
+            "pk": 531,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "Pheenoh",
+                "stream": "http://www.twitch.tv/Pheenoh",
+                "twitter": "Pheenoh",
+                "youtube": "",
+                "donor": null,
+                "public": "Pheenoh"
+            }
+        },
+        {
+            "pk": 532,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "ajfirecracker",
+                "stream": "http://twitch.tv/ajfirecracker",
+                "twitter": "ajfirecracker",
+                "youtube": "",
+                "donor": null,
+                "public": "ajfirecracker"
+            }
+        },
+        {
+            "pk": 533,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "Metallama",
+                "stream": "http://twitch.tv/metallama",
+                "twitter": "metallama",
+                "youtube": "",
+                "donor": null,
+                "public": "Metallama"
+            }
+        },
+        {
+            "pk": 534,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "GamerDomey",
+                "stream": "https://www.twitch.tv/gamerdomey",
+                "twitter": "",
+                "youtube": "",
+                "donor": null,
+                "public": "GamerDomey"
+            }
+        },
+        {
+            "pk": 535,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "eihoppe",
+                "stream": "http://twitch.tv/eihoppe",
+                "twitter": "",
+                "youtube": "",
+                "donor": null,
+                "public": "eihoppe"
+            }
+        },
+        {
+            "pk": 536,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "Woobly",
+                "stream": "http://www.twitch.tv/woobly",
+                "twitter": "",
+                "youtube": "",
+                "donor": null,
+                "public": "Woobly"
+            }
+        },
+        {
+            "pk": 538,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "Orcastraw",
+                "stream": "https://www.twitch.tv/orcastraw",
+                "twitter": "orcastraw",
+                "youtube": "",
+                "donor": null,
+                "public": "Orcastraw"
+            }
+        },
+        {
+            "pk": 540,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "UltimoIce",
+                "stream": "https://www.twitch.tv/ultimoice",
+                "twitter": "entrepreneurdy",
+                "youtube": "",
+                "donor": null,
+                "public": "UltimoIce"
+            }
+        },
+        {
+            "pk": 541,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "ColonelFatso",
+                "stream": "https://www.twitch.tv/colonelfatso",
+                "twitter": "",
+                "youtube": "",
+                "donor": null,
+                "public": "ColonelFatso"
+            }
+        },
+        {
+            "pk": 542,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "ERROR72",
+                "stream": "https://www.twitch.tv/error72",
+                "twitter": "error7272",
+                "youtube": "",
+                "donor": null,
+                "public": "ERROR72"
+            }
+        },
+        {
+            "pk": 543,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "Chadwelli",
+                "stream": "https://www.twitch.tv/chadwelli",
+                "twitter": "Chadwelli",
+                "youtube": "",
+                "donor": null,
+                "public": "Chadwelli"
+            }
+        },
+        {
+            "pk": 545,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "thetantalus",
+                "stream": "http://www.twitch.tv/thetantalus",
+                "twitter": "Thetantalus",
+                "youtube": "",
+                "donor": null,
+                "public": "thetantalus"
+            }
+        },
+        {
+            "pk": 546,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "Tokyo90",
+                "stream": "http://www.twitch.tv/tokyo90",
+                "twitter": "TokyoDC2",
+                "youtube": "",
+                "donor": null,
+                "public": "Tokyo90"
+            }
+        },
+        {
+            "pk": 547,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "berlindude1",
+                "stream": "https://www.twitch.tv/berlindude1",
+                "twitter": "berlindude1",
+                "youtube": "",
+                "donor": null,
+                "public": "berlindude1"
+            }
+        },
+        {
+            "pk": 548,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "Dr4gonBlitz",
+                "stream": "https://www.twitch.tv/dr4gonblitz",
+                "twitter": "dr4gonBlitz",
+                "youtube": "",
+                "donor": null,
+                "public": "Dr4gonBlitz"
+            }
+        },
+        {
+            "pk": 549,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "SuperSonic71087",
+                "stream": "https://www.twitch.tv/supersonic71087_",
+                "twitter": "supersonic71087",
+                "youtube": "",
+                "donor": null,
+                "public": "SuperSonic71087"
+            }
+        },
+        {
+            "pk": 551,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "Fimbz",
+                "stream": "https://www.twitch.tv/fimbz",
+                "twitter": "Fimbz",
+                "youtube": "",
+                "donor": null,
+                "public": "Fimbz"
+            }
+        },
+        {
+            "pk": 552,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "Jcool114",
+                "stream": "https://www.twitch.tv/jcool114",
+                "twitter": "Jcool115",
+                "youtube": "",
+                "donor": null,
+                "public": "Jcool114"
+            }
+        },
+        {
+            "pk": 553,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "pip_johnson",
+                "stream": "https://www.twitch.tv/pip_johnson",
+                "twitter": "",
+                "youtube": "",
+                "donor": null,
+                "public": "pip_johnson"
+            }
+        },
+        {
+            "pk": 554,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "Ourolen",
+                "stream": "https://www.twitch.tv/ourolen",
+                "twitter": "Ourolen",
+                "youtube": "",
+                "donor": null,
+                "public": "Ourolen"
+            }
+        },
+        {
+            "pk": 555,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "Kiwikiller67",
+                "stream": "https://www.twitch.tv/kiwikiller67",
+                "twitter": "kiwikiller67",
+                "youtube": "",
+                "donor": null,
+                "public": "Kiwikiller67"
+            }
+        },
+        {
+            "pk": 556,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "WhitePaaws",
+                "stream": "https://www.twitch.tv/whitepaaws",
+                "twitter": "WhitePaaws",
+                "youtube": "",
+                "donor": null,
+                "public": "WhitePaaws"
+            }
+        },
+        {
+            "pk": 544,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "Punchy",
+                "stream": "https://www.twitch.tv/punchi",
+                "twitter": "succinct_punchy",
+                "youtube": "",
+                "donor": null,
+                "public": "Punchy"
+            }
+        },
+        {
+            "pk": 506,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "Nu_",
+                "stream": "https://www.twitch.tv/nuuu",
+                "twitter": "nuuyei",
+                "youtube": "",
+                "donor": null,
+                "public": "Nu_"
+            }
+        },
+        {
+            "pk": 518,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "alex_sr",
+                "stream": "http://twitch.tv/alex_sr",
+                "twitter": "_alexx_sr",
+                "youtube": "",
+                "donor": null,
+                "public": "alex_sr"
+            }
+        },
+        {
+            "pk": 557,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "TucanSam",
+                "stream": "https://www.twitch.tv/tucansam2",
+                "twitter": "CEdwardsSam",
+                "youtube": "",
+                "donor": null,
+                "public": "TucanSam"
+            }
+        },
+        {
+            "pk": 558,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "ajneb174",
+                "stream": "http://twitch.tv/ajneb174",
+                "twitter": "ajneb174",
+                "youtube": "",
+                "donor": null,
+                "public": "ajneb174"
+            }
+        },
+        {
+            "pk": 559,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "LV Creed",
+                "stream": "https://www.twitch.tv/lvcreed",
+                "twitter": "",
+                "youtube": "",
+                "donor": null,
+                "public": "LV Creed"
+            }
+        },
+        {
+            "pk": 560,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "CriticalCyd",
+                "stream": "https://www.twitch.tv/criticalcyd",
+                "twitter": "CriticalCyd",
+                "youtube": "",
+                "donor": null,
+                "public": "CriticalCyd"
+            }
+        },
+        {
+            "pk": 561,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "RawDerps",
+                "stream": "https://www.twitch.tv/rawderps",
+                "twitter": "RawDerps",
+                "youtube": "",
+                "donor": null,
+                "public": "RawDerps"
+            }
+        },
+        {
+            "pk": 562,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "Nerd_Squared",
+                "stream": "https://twitch.tv/n3rd_squared",
+                "twitter": "",
+                "youtube": "",
+                "donor": null,
+                "public": "Nerd_Squared"
+            }
+        },
+        {
+            "pk": 563,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "Eednob",
+                "stream": "https://www.twitch.tv/eednob",
+                "twitter": "eednob",
+                "youtube": "",
+                "donor": null,
+                "public": "Eednob"
+            }
+        },
+        {
+            "pk": 565,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "Frokenok",
+                "stream": "https://www.twitch.tv/frokenok",
+                "twitter": "frokenok3",
+                "youtube": "",
+                "donor": null,
+                "public": "Frokenok"
+            }
+        },
+        {
+            "pk": 566,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "Aweglib",
+                "stream": "http://www.twitch.tv/aweglib",
+                "twitter": "Aweglib",
+                "youtube": "",
+                "donor": null,
+                "public": "Aweglib"
+            }
+        },
+        {
+            "pk": 567,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "Gyoo",
+                "stream": "http://twitch.tv/gyoo_",
+                "twitter": "GyooRunsStuff",
+                "youtube": "",
+                "donor": null,
+                "public": "Gyoo"
+            }
+        },
+        {
+            "pk": 570,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "Akiteru",
+                "stream": "http://www.twitch.tv/akiteru",
+                "twitter": "AkiteruSDA",
+                "youtube": "",
+                "donor": null,
+                "public": "Akiteru"
+            }
+        },
+        {
+            "pk": 571,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "ZorlaxSeven",
+                "stream": "http://www.twitch.tv/zorlaxseven/",
+                "twitter": "",
+                "youtube": "",
+                "donor": null,
+                "public": "ZorlaxSeven"
+            }
+        },
+        {
+            "pk": 572,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "TrevPerson",
+                "stream": "https://www.twitch.tv/trevperson",
+                "twitter": "TrevPerson",
+                "youtube": "",
+                "donor": null,
+                "public": "TrevPerson"
+            }
+        },
+        {
+            "pk": 573,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "Garish",
+                "stream": "https://www.twitch.tv/garishgoblin",
+                "twitter": "",
+                "youtube": "",
+                "donor": null,
+                "public": "Garish"
+            }
+        },
+        {
+            "pk": 574,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "ThorW",
+                "stream": "http://www.twitch.tv/thorw",
+                "twitter": "",
+                "youtube": "",
+                "donor": null,
+                "public": "ThorW"
+            }
+        },
+        {
+            "pk": 575,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "Hobz",
+                "stream": "http://www.twitch.tv/jhobz296",
+                "twitter": "J_Hobz",
+                "youtube": "",
+                "donor": null,
+                "public": "Hobz"
+            }
+        },
+        {
+            "pk": 537,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "HDlax1",
+                "stream": "https://www.twitch.tv/hdlax1",
+                "twitter": "HDlaxbm",
+                "youtube": "",
+                "donor": null,
+                "public": "HDlax1"
+            }
+        },
+        {
+            "pk": 576,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "RaikouRider",
+                "stream": "https://www.twitch.tv/raikourider",
+                "twitter": "raikourider",
+                "youtube": "raikourider",
+                "donor": null,
+                "public": "RaikouRider"
+            }
+        },
+        {
+            "pk": 569,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "otdq",
+                "stream": "http://twitch.tv/otdq",
+                "twitter": "regameyk",
+                "youtube": "",
+                "donor": null,
+                "public": "otdq"
+            }
+        },
+        {
+            "pk": 568,
+            "model": "tracker.runner",
+            "fields": {
+                "name": "Hennejoe",
+                "stream": "https://www.twitch.tv/hennejoe",
+                "twitter": "hennejoe",
+                "youtube": "",
+                "donor": null,
+                "public": "Hennejoe"
+            }
+        }
+    ]
+}
